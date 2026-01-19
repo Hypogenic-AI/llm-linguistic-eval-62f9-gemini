@@ -11,16 +11,16 @@
         "datasets_dir": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/datasets",
         "code_dir": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/code"
       },
-      "log_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/resource_finder_claude.log",
-      "transcript_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/resource_finder_claude_transcript.jsonl",
-      "elapsed_time": 553.441107749939
+      "log_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/resource_finder_gemini.log",
+      "transcript_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/resource_finder_gemini_transcript.jsonl",
+      "elapsed_time": 255.69912767410278
     },
     "experiment_runner": {
       "success": false,
       "return_code": 1,
-      "elapsed_time": 2108.222271680832,
-      "log_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/execution_claude.log",
-      "transcript_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/execution_claude_transcript.jsonl"
+      "elapsed_time": 433.88177728652954,
+      "log_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/execution_gemini.log",
+      "transcript_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/execution_gemini_transcript.jsonl"
     }
   },
   "work_dir": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini"

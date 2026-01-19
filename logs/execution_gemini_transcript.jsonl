@@ -1,0 +1,13 @@
+YOLO mode is enabled. All tool calls will be automatically approved.
+Loaded cached credentials.
+An unexpected critical error occurred:Error: request to https://cloudcode-pa.googleapis.com/v1internal:loadCodeAssist failed, reason: read ECONNRESET
+    at Gaxios._request (/home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/gaxios/build/src/gaxios.js:149:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async OAuth2Client.requestAsync (/home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/google-auth-library/build/src/auth/oauth2client.js:429:18)
+    at async CodeAssistServer.requestPost (file:///home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:133:21)
+    at async CodeAssistServer.loadCodeAssist (file:///home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/server.js:64:20)
+    at async setupUser (file:///home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/setup.js:28:21)
+    at async createCodeAssistContentGenerator (file:///home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/code_assist/codeAssist.js:15:26)
+    at async file:///home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/contentGenerator.js:76:48
+    at async createContentGenerator (file:///home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/core/contentGenerator.js:53:23)
+    at async Config.refreshAuth (file:///home/haokunliu/.nvm/versions/node/v22.21.1/lib/node_modules/@google/gemini-cli/node_modules/@google/gemini-cli-core/dist/src/config/config.js:512:33)
