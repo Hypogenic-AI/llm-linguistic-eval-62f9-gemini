@@ -1,0 +1,24 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-01-18T21:50:00Z
+Papers downloaded: 5
+Datasets downloaded: 2 (MuBench MMLU, Belebele - 15 languages each)
+Repositories cloned: 2 (multilingual_analysis, GlotEval)
+
+Summary:
+- literature_review.md: Comprehensive synthesis of 5 key papers on multilingual LLM evaluation
+- resources.md: Complete catalog of all gathered resources with usage instructions
+- papers/: 5 PDFs covering linguistic discrimination, internal mechanisms, benchmarks, and surveys
+- datasets/: Samples from MuBench (61 languages) and Belebele (122 languages) benchmarks
+- code/: GlotEval (evaluation framework) and multilingual_analysis (PLND for mechanism analysis)
+
+Key Findings from Literature:
+1. LLMs show significant performance gaps between high and low-resource languages
+2. Models internally convert non-English queries to English for processing (MWork hypothesis)
+3. Training data imbalance (92% English in ChatGPT) is the root cause
+4. Performance gap does not consistently narrow with increased model size
+
+Recommended Datasets for Experimentation:
+- Primary: MuBench MMLU (aialt/MuBench on HuggingFace)
+- Secondary: Belebele (facebook/belebele on HuggingFace)
+
+Ready for experiment runner phase.

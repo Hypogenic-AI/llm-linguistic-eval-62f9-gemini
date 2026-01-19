@@ -1,0 +1,811 @@
+{
+  "model": "gpt-4o",
+  "language": "id",
+  "resource_level": "mid",
+  "total_questions": 100,
+  "correct": 81,
+  "accuracy": 0.81,
+  "responses": [
+    {
+      "question_id": "test_6861",
+      "prompt": "Question: Estimasi MLE seringkali tidak diinginkan karena\nChoice A: mereka bias\nChoice B: mereka memiliki varians tinggi\nChoice C: mereka bukan estimator yang konsisten\nChoice D: Tidak ada yang di ata...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12952",
+      "prompt": "Question: Ketika seseorang menggunakan desain deret waktu untuk mengevaluasi sebuah program, fluktuasi dalam kemiringan hasil dapat dijelaskan oleh berbagai hipotesis alternatif. Menurut Campbell dan ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2550",
+      "prompt": "Question: Pilih terjemahan terbaik ke dalam logika predikat: Tidak semua lobster berwarna merah.\nChoice A: ~(\u2200x)(Lx \u2283 Rx)\nChoice B: ~(\u2203x)(Lx \u2283 Rx)\nChoice C: ~(\u2203x)(Lx \u2022 Rx)\nChoice D: ~(\u2200x)(Lx \u2022 Rx)\nAns...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13164",
+      "prompt": "Question: Masalah potensial apa yang muncul untuk kebijakan dalam institusionalisasi interaksi akademisi-kebijakan?\nChoice A: Konteks disiplin utama untuk teori studi keamanan adalah pergeseran dari d...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3604",
+      "prompt": "Question: Manakah dari pernyataan berikut yang TIDAK dengan benar menggambarkan perusahaan transnasional (TNC)?\nChoice A: Banyak TNC beroperasi di bidang elektronik, bahan kimia, farmasi, dan minyak b...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1064",
+      "prompt": "Question: Dua workstation pengguna tunggal terhubung ke jaringan area lokal yang sama. Pada salah satu workstation ini, halaman file diakses melalui jaringan dari server file; waktu akses rata-rata pe...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_7390",
+      "prompt": "Question: Apa itu varicella?\nChoice A: pasta mewah\nChoice B: jenis opera\nChoice C: virus cacar air\nChoice D: puisi Romawi kuno\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7269",
+      "prompt": "Question: Telah diklaim bahwa tiga hasil utama dari pengembangan kepercayaan hubungan adalah kepuasan, ___________, dan kontinuitas (Pavlou, 2002).\nChoice A: Risiko yang dirasakan berkurang.\nChoice B:...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5868",
+      "prompt": "Question: Pertanyaan ini mengacu pada informasi berikut.\n\"Keluhan nyata dari pekerja adalah ketidakamanan dalam kehidupannya; dia tidak yakin bahwa dia akan selalu memiliki pekerjaan, dia tidak yakin ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9979",
+      "prompt": "Question: Anscombe mengkritik sebagai absurd gagasan Kant tentang:\nChoice A: hal itu sendiri.\nChoice B: imperatif kategoris.\nChoice C: diri fenomenal.\nChoice D: membuat undang-undang untuk diri sendir...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_8401",
+      "prompt": "Question: Menurut Sinnott-Armstrong, jika kita tidak dapat menemukan prinsip moral apa pun untuk mendukung intuisi kita bahwa mengemudi yang boros (seperti yang disebutkan dalam artikelnya) adalah sal...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7406",
+      "prompt": "Question: Apa yang Anda sebut tiga strike berturut-turut dalam bowling?\nChoice A: yahtzee\nChoice B: mulligan\nChoice C: turkey\nChoice D: ace\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1032",
+      "prompt": "Question: Dari algoritma pengurutan berikut, yang mana memiliki waktu berjalan yang PALING tidak bergantung pada urutan awal dari input?\nChoice A: Pengurutan sisipan\nChoice B: Quicksort\nChoice C: Peng...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3469",
+      "prompt": "Question: Pasangan agama mana yang keduanya merupakan agama universal?\nChoice A: Islam dan Yudaisme\nChoice B: Yudaisme dan Buddhisme\nChoice C: Hinduisme dan Buddhisme\nChoice D: Kristen dan Buddhisme\nA...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7492",
+      "prompt": "Question: Dari siapa Gereja Lutheran mendapatkan namanya?\nChoice A: Martin Luther King Jr\nChoice B: Martin Luther\nChoice C: Luther Vandross\nChoice D: Lex Luthor\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6967",
+      "prompt": "Question: Apa istilah untuk organisasi yang beradaptasi dengan perubahan lingkungan dengan cepat merespons perubahan kondisi penawaran dan permintaan?\nChoice A: Organisasi oportunistik\nChoice B: Organ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10739",
+      "prompt": "Question: Pada hari Selasa, seorang pemilik rumah membeli mesin pemotong rumput baru dari sebuah toko serba ada. Keesokan harinya, dia sedang memotong rumput di halaman belakangnya dengan mesin pemoto...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12979",
+      "prompt": "Question: Dari berikut ini, cara terbaik untuk meningkatkan jumlah perilaku membantu dalam komunitas adalah\nChoice A: mengurangi anonimitas individu dalam komunitas\nChoice B: memulai program untuk men...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_323",
+      "prompt": "Question: Jika Anda tinggal di Venus, fase-fase Bumi apa yang akan Anda lihat? (Asumsikan teleskop Anda dapat melihat melalui awan tebal Venus\u2026)\nChoice A: Baru kuartal pertama penuh kuartal ketiga\nCho...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10564",
+      "prompt": "Question: Sebuah perusahaan memiliki sebidang tanah yang akan digunakan untuk fasilitas produksi di masa depan. Perusahaan menerapkan model revaluasi berdasarkan IFRS untuk kelas aset ini. Pada tahun ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6818",
+      "prompt": "Question: Manakah dari kekeliruan berikut yang terjadi ketika seseorang menyimpulkan bahwa generalisasi yang sah pasti berlaku untuk kasus tertentu?\nChoice A: Dilema palsu\nChoice B: Penalaran melingka...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8646",
+      "prompt": "Question: Untuk skenario mana dari dua skenario ini karakter utama (yang menggunakan saya/aku) melakukan sesuatu yang jelas secara moral salah, menurut standar moral biasa di AS pada tahun 2020? Skena...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_96",
+      "prompt": "Question: Temukan semua nol dalam bidang hingga yang ditentukan dari polinomial yang diberikan dengan koefisien dalam bidang tersebut. x^2 + 1 di Z_2\nChoice A: 0\nChoice B: 1\nChoice C: 0,1\nChoice D: 2\n...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6290",
+      "prompt": "Question: Dalam pandangan senior di bab ini, Tolly Kleckley mengatakan kepada kami bahwa kepribadian\nChoice A: Banyak berubah setelah usia 50\nChoice B: Tidak berubah setelah usia 50\nChoice C: Hampir t...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_5199",
+      "prompt": "Question: Presiden sebuah perusahaan membawa seorang konsultan luar untuk tidak setuju dengannya tentang keputusan penting yang akan dibahas dalam pertemuan eksekutif tingkat atasnya untuk menghindari...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6975",
+      "prompt": "Question: Bagaimana Anda menggambarkan kelompok kerja yang terdiri dari pekerja dengan tugas yang ditentukan dan manajer lini yang jauh?\nChoice A: Bergantung\nChoice B: Mandiri\nChoice C: Saling bergant...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7468",
+      "prompt": "Question: Istilah mana yang mengacu pada proses menggunakan aplikasi cat yang tebal?\nChoice A: Scumbling\nChoice B: Alla prima\nChoice C: Impasto\nChoice D: Frottage\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9907",
+      "prompt": "Question: Mill mengklaim bahwa perbedaan antara keadilan dan kewajiban moral lainnya sesuai dengan sempurna dengan perbedaan antara:\nChoice A: kewajiban sempurna dan tidak sempurna.\nChoice B: kewajiba...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13923",
+      "prompt": "Question: Biksu mana yang mengembangkan Buddhisme Tanah Murni seperti yang kita kenal sekarang?\nChoice A: Genshin\nChoice B: Dogen\nChoice C: Honen\nChoice D: Shinran\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13689",
+      "prompt": "Question: Manakah dari berikut ini yang menganggap negara sebagai aktor utama dalam hubungan internasional?\nChoice A: Realisme\nChoice B: Idealisme\nChoice C: Liberalisme\nChoice D: Tidak ada di atas\nAns...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10039",
+      "prompt": "Question: Penunjukan gaya tembikar apa yang akhirnya diterapkan pada seluruh kompleks budaya yang bergerak melintasi Pasifik?\nChoice A: Clovis\nChoice B: Nenana Complex\nChoice C: Lapita\nChoice D: Micro...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11161",
+      "prompt": "Question: Seorang kontraktor setuju untuk merombak garasi seorang pemilik rumah dengan biaya $5,000. Tepat sebelum para pihak menandatangani kontrak tertulis satu halaman, pemilik rumah menarik perhat...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3863",
+      "prompt": "Question: Kebijakan fiskal mana yang kemungkinan besar paling efektif ketika ekonomi mengalami kesenjangan inflasi?\nChoice A: Pemerintah menurunkan pajak dan mempertahankan pengeluaran tidak berubah.\n...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8921",
+      "prompt": "Question: Untuk skenario mana dari dua skenario ini karakter utama (yang menggunakan saya/aku/kami) melakukan sesuatu yang jelas secara moral salah, menurut standar moral biasa di AS pada tahun 2020? ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3845",
+      "prompt": "Question: GDP mengukur\nChoice A: produksi dalam batas-batas suatu negara.\nChoice B: produksi oleh warga negara di mana pun mereka berada.\nChoice C: pendapatan yang diperoleh oleh faktor-faktor produks...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_4764",
+      "prompt": "Question: Sebuah positron yang bergerak sangat lambat berinteraksi dengan elektron yang diam. Pernyataan mana di bawah ini yang dengan benar menggambarkan kemungkinan hasil dari reaksi ini dan mengapa...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7826",
+      "prompt": "Question: Manakah dari berikut ini yang merupakan deskripsi terbaik tentang pengajaran fonik tradisional?\nChoice A: Siswa mempelajari daftar kata-kata frekuensi tinggi untuk meningkatkan kecepatan mem...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8856",
+      "prompt": "Question: Untuk skenario mana dari dua skenario ini karakter utama (yang menggunakan saya/aku) melakukan sesuatu yang jelas salah secara moral, menurut standar moral biasa di AS pada tahun 2020? Skena...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_484",
+      "prompt": "Question: Dalam konteks bisnis ke bisnis, konflik kepentingan dapat muncul dalam dua cara utama: konflik _______ dan _______ kepentingan, yang mungkin muncul, misalnya, ketika sebuah perusahaan dipeke...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_6957",
+      "prompt": "Question: Individualisme sebagai filosofi moral yang membimbing dianjurkan oleh ekonom yang mana?\nChoice A: John Kenneth Galbraith\nChoice B: John Maynard Keynes\nChoice C: Milton Friedman\nChoice D: Alf...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5990",
+      "prompt": "Question: Pertanyaan ini merujuk pada informasi berikut.\nAdapun pria mereka tidak memiliki kecemburuan seksual. Dan tidak ada dari mereka yang menurunkan garis keturunannya dari ayahnya tetapi, sebali...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12505",
+      "prompt": "Question: Ketika menggunakan regresi berganda, multikolinieritas terjadi ketika:\nChoice A: prediktor sangat berkorelasi satu sama lain.\nChoice B: ukuran kriteria sangat berkorelasi satu sama lain.\nCho...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12686",
+      "prompt": "Question: Sebagaimana didefinisikan dalam Pedoman Umum APA untuk Penyedia Layanan Psikologis dan Pedoman Praktik CPA untuk Penyedia Layanan Psikologis, \"layanan psikologis\" mencakup semua hal berikut ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7215",
+      "prompt": "Question: _________ memungkinkan berbagai jenis ketidakpastian untuk dikurangi dengan beberapa cara (Fill dan McKee, 2012). Ini termasuk mengurangi kompleksitas, meningkatkan nilai dan keunggulan komp...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_13480",
+      "prompt": "Question: Pekerjaan Smart menyarankan bahwa:\nChoice A: tingkat kejahatan kekerasan serupa untuk pria dan wanita\nChoice B: kenakalan seksual wanita lebih mungkin dinormalisasi daripada pria\nChoice C: p...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2755",
+      "prompt": "Question: Manakah dari pernyataan berikut tentang respirasi seluler yang benar?\nChoice A: Sebagian besar CO2 yang dihasilkan selama respirasi seluler dilepaskan dari glikolisis.\nChoice B: Proton dipom...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8428",
+      "prompt": "Question: Sehubungan dengan masalah kelaparan dan kemiskinan dunia, Arthur menunjukkan bahwa Singer mengabaikan\nChoice A: prinsip-prinsip kesetaraan dan kerugian.\nChoice B: prinsip-prinsip hak dan keb...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_2113",
+      "prompt": "Question: Populasi di sebuah kota tertentu adalah 836.527. Berapa populasi kota ini jika dibulatkan ke sepuluh ribu terdekat?\nChoice A: 800.000\nChoice B: 830.000\nChoice C: 836.000\nChoice D: 840.000\nAn...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11576",
+      "prompt": "Question: Seorang mahasiswa di universitas swasta menerima bantuan keuangan dari universitas berdasarkan aplikasi bantuan keuangan yang dia selesaikan pada saat pendaftarannya. Selama ujian akhir di a...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9840",
+      "prompt": "Question: Perbedaan pendapat tentang nilai estetika atau relevansi sosial dari sebuah karya seni adalah _____.\nChoice A: tidak umum\nChoice B: umum\nChoice C: kosong\nChoice D: tidak pernah serius\nAnswer...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_449",
+      "prompt": "Question: CSO sering menghabiskan terlalu banyak waktu untuk mengkomunikasikan ukuran kinerja mereka dan terlalu banyak waktu untuk merancangnya dengan masukan dari penerima manfaat.\nChoice A: 2,3\nCho...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_7042",
+      "prompt": "Question: Integrasi vertikal ke depan adalah ketika sebuah perusahaan bergabung atau mengakuisisi perusahaan lain\nChoice A: Menuju sumber pasokan\nChoice B: Menuju konsumen\nChoice C: Pada tahap yang sa...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10915",
+      "prompt": "Question: Seorang pria dan seorang wanita adalah pemilik rumah yang bersebelahan di lingkungan perumahan. Pria tersebut mulai mengoperasikan rumah pemotongan hewan di halaman belakangnya. Bau busuk da...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10346",
+      "prompt": "Question: Eksperimen dengan ujung tombak batu yang dibuat untuk meniru artefak yang ditemukan di situs Kathu Pan di Afrika Selatan menunjukkan bahwa Homo erectus:\nChoice A: membuat dan menggunakan tom...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12401",
+      "prompt": "Question: Seorang pria berusia 32 tahun datang ke dokter karena dia mengalami kesulitan fokus pada tugas di tempat kerja dan di rumah selama 2 bulan terakhir. Dia bekerja sebagai mekanik mobil. Dia me...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_452",
+      "prompt": "Question: Menggantikan rantai pasokan dengan _______ meningkatkan pentingnya produk _______ serta perancangan ulang mendasar dari setiap aktivitas yang dilakukan perusahaan yang menghasilkan _______.\n...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1391",
+      "prompt": "Question: Cahaya dari laser jatuh pada sepasang celah yang sangat sempit yang dipisahkan oleh 0,5 mikrometer, dan garis terang yang dipisahkan oleh 1,0 milimeter diamati pada layar yang jauh. Jika fre...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12020",
+      "prompt": "Question: Seorang wanita memasuki toko perhiasan dan bertanya kepada pemilik toko apakah dia memiliki gelang dengan inlay pirus dan mutiara. Pemilik toko menjawab dengan afirmatif dan menunjukkan kepa...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7674",
+      "prompt": "Question: Siapa di antara orang-orang ini yang dimakamkan di Lembah Para Raja?\nChoice A: Louis XIV\nChoice B: Elvis Presley\nChoice C: Julius Caesar\nChoice D: Raja Tut\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2258",
+      "prompt": "Question: Sederhanakan \u22124 + 7 \u2022 3^2. Gunakan kalkulator, kertas dan pensil, atau matematika mental.\nChoice A: 437\nChoice B: 27\nChoice C: 289\nChoice D: 59\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_8320",
+      "prompt": "Question: Manakah dari berikut ini yang bukan merupakan persyaratan dalam definisi \"hukuman hukum\"?\nChoice A: Itu harus untuk pelanggaran terhadap aturan hukum.\nChoice B: Itu harus melibatkan konsekue...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3030",
+      "prompt": "Question: Besi(III) hidroksida memiliki Ksp = 1.6 \u00d7 10^-39. Berapakah kelarutan molar dari senyawa ini?\nChoice A: 8.8 \u00d7 10^-11 M\nChoice B: 2.0 \u00d7 10^-10 M\nChoice C: 7.4 \u00d7 10^-14 mol/L\nChoice D: 9.4 \u00d7 1...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_835",
+      "prompt": "Question: Asam amino ornithine diregenerasi selama setiap putaran siklus urea dengan cara yang mirip dengan peserta mana dari siklus asam sitrat berikut?\nChoice A: Suksinat\nChoice B: Fumarat\nChoice C:...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4549",
+      "prompt": "Question: Jika permintaan anggur meningkat bersamaan dengan peningkatan pasokan anggur, kita dapat mengatakan bahwa\nChoice A: jumlah keseimbangan naik, tetapi perubahan harga tidak jelas.\nChoice B: ju...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6795",
+      "prompt": "Question: William Safire dalam American Heritage Magazine (Desember 1987): ...Kehebatan Lincoln adalah tujuannya yang jelas. Dia melihat sesuatu yang hanya sedikit orang lain yang melihat: bahwa ekspe...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5735",
+      "prompt": "Question: Pertanyaan ini merujuk pada informasi berikut.\n\"Kami telah menyaksikan selama lebih dari seperempat abad perjuangan dua partai politik besar untuk kekuasaan dan penjarahan, sementara kesalah...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3559",
+      "prompt": "Question: Upaya negara-negara inti untuk merangsang peningkatan produksi pertanian di daerah pinggiran melalui penggunaan teknologi, benih hibrida, dan pupuk disebut\nChoice A: Revolusi Pertanian Perta...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8195",
+      "prompt": "Question: Thomas Nagel menyebut dua jenis pertimbangan moral yang dia bahas dalam \"War and Massacre\"\nChoice A: konsekuensialis dan berbasis martabat\nChoice B: berpandangan ke depan dan berpandangan ke...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_5713",
+      "prompt": "Question: Pertanyaan ini merujuk pada informasi berikut.\n\"Sedangkan hukum dan perjanjian Amerika Serikat, tanpa mengganggu kebebasan berekspresi pendapat dan simpati, atau dengan pembuatan komersial a...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6015",
+      "prompt": "Question: Pertanyaan ini mengacu pada informasi berikut.\nSaya berjalan di samping barisan, bertanya apa yang terjadi.\nSeorang prajurit berkata dengan sederhana: \"Mereka memanggil lebih banyak setiap h...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4851",
+      "prompt": "Question: Manakah dari berikut ini yang TIDAK sama dengan satu tesla?\nChoice A: 1 J/(A*m^2)\nChoice B: 1 kg/(C*s)\nChoice C: 1 N/(A*m)\nChoice D: 1 A*N/V\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_14017",
+      "prompt": "Question: Siapa pertapa pertapa pertama yang signifikan?\nChoice A: Pachomius\nChoice B: Athanasius\nChoice C: Anthony\nChoice D: Basil\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7521",
+      "prompt": "Question: Kira-kira berapa banyak film yang ditonton di rumah-rumah di Amerika Serikat dalam satu tahun?\nChoice A: 200.000.000\nChoice B: 2.000.000.000\nChoice C: 20.000.000.000\nChoice D: 200.000.000.00...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4415",
+      "prompt": "Question: Jika sebuah segitiga sama sisi memiliki panjang sisi 8, berapa luas sebuah persegi yang memiliki keliling yang sama dengan segitiga ini?\nChoice A: 9\nChoice B: 16\nChoice C: 36\nChoice D: 49\nAn...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1357",
+      "prompt": "Question: Berapa banyak elektron yang dimiliki emas (Au) yang memiliki nomor kuantum l = 2?\nChoice A: 9\nChoice B: 23\nChoice C: 29\nChoice D: 79\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8483",
+      "prompt": "Question: Baron mengutip ringkasan kesaksian Ali Soufan di Senat untuk menyarankan bahwa\nChoice A: penyiksaan hanya bekerja dalam situasi terbatas.\nChoice B: mendukung satu tindakan penyiksaan berarti...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_320",
+      "prompt": "Question: Satuan astronomi parsec (pc) memainkan peran penting dalam astronomi. Satu parsec sama dengan sekitar 3,26 tahun cahaya. Bagaimana satu parsec didefinisikan dalam astronomi?\nChoice A: Jarak ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13955",
+      "prompt": "Question: Apa arti samyak jnana dalam tradisi Jaina?\nChoice A: Pengetahuan yang benar\nChoice B: Praktik yang benar\nChoice C: Intuisi yang benar\nChoice D: Kepercayaan yang benar\nAnswer with A, B, C or ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_9926",
+      "prompt": "Question: Ketika Euthyphro mencoba mendefinisikan yang suci sebagai menuntut pelaku kesalahan, Socrates keberatan bahwa:\nChoice A: ada banyak hal lain yang juga suci.\nChoice B: menuntut pelaku kesalah...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_865",
+      "prompt": "Question: Di hadapan alkohol dehidrogenase, laju reduksi asetaldehida menjadi etanol meningkat seiring dengan peningkatan konsentrasi asetaldehida. Akhirnya, laju reaksi mencapai maksimum, setelah itu...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6255",
+      "prompt": "Question: Beberapa penelitian telah menemukan bahwa penurunan kognitif di kemudian hari diprediksi oleh\nChoice A: Masalah kardiovaskular\nChoice B: Kehilangan kekuatan otot\nChoice C: Penurunan sistem k...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3930",
+      "prompt": "Question: Kebijakan fiskal yang tepat untuk mengatasi resesi adalah\nChoice A: meningkatkan pengeluaran pemerintah dan pajak.\nChoice B: mengurangi pengeluaran pemerintah dan pajak.\nChoice C: meningkatk...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12181",
+      "prompt": "Question: Seorang anak laki-laki berusia 5 tahun dirawat di rumah sakit karena demam selama 1 minggu dan ketidaknyamanan perut yang semakin parah. Pada usia 7 bulan, ia dirawat karena osteomielitis ya...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1136",
+      "prompt": "Question: Jika f(z) adalah fungsi analitik yang memetakan seluruh bidang kompleks terbatas ke sumbu nyata, maka sumbu imajiner harus dipetakan ke\nChoice A: seluruh sumbu nyata\nChoice B: sebuah titik\nC...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12209",
+      "prompt": "Question: Seorang pria berusia 35 tahun datang ke dokter karena nyeri dan pembengkakan di lengan kanannya di mana dia tergores cabang pohon 2 hari yang lalu. Suhunya adalah 38,3\u00b0C (101\u00b0F). Pemeriksaan...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_671",
+      "prompt": "Question: Metabolisme ditentukan oleh:\nChoice A: ukuran protein dalam sel.\nChoice B: ketersediaan asam amino.\nChoice C: protein yang terbentuk sesuai dengan materi genetik.\nChoice D: komposisi asam am...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_517",
+      "prompt": "Question: Manakah dari berikut ini yang benar tentang tulang belakang?\nChoice A: Sakit punggung adalah keluhan yang jarang terjadi\nChoice B: Tes Schober dirancang untuk mengukur fleksi tulang belakang...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4329",
+      "prompt": "Question: Misalkan $f(x) = 3x^2-2$ dan $g(f(x)) = x^2 + x +1$. Temukan jumlah dari semua nilai yang mungkin dari $g(25)$.\nChoice A: 13\nChoice B: 25\nChoice C: 9\nChoice D: 20\nAnswer with A, B, C or D:\nA...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3326",
+      "prompt": "Question: Pertanyaan ini merujuk pada informasi berikut.\nMulai saat ini hingga saat musuh telah diusir dari tanah Republik, semua orang Prancis berada dalam permintaan tetap untuk pelayanan tentara. P...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_336",
+      "prompt": "Question: Manakah yang bukan merupakan persyaratan penting untuk kehidupan seperti yang kita ketahui?\nChoice A: Kemampuan untuk bernapas oksigen\nChoice B: Kemampuan untuk menghasilkan energi dari sina...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_11553",
+      "prompt": "Question: Sepasang suami istri menggugat seorang broker real estate atas tuduhan penipuan dan pelanggaran kontrak karena gagal memenuhi janji yang dia buat terkait pembelian rumah oleh pasangan terseb...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2543",
+      "prompt": "Question: Manakah dari rumus PL yang diberikan merupakan simbolisasi terbaik dari kalimat berikut?\nEntah impor daging sapi oleh Inggris adalah kondisi yang diperlukan untuk subsidi pertanian oleh Pran...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_4177",
+      "prompt": "Question: Misalkan ekonomi Jepang mengalami resesi berkepanjangan. Pendapatan rumah tangga Jepang yang lebih rendah akan mempengaruhi ekspor AS ke Jepang, permintaan terhadap dolar, dan nilai dolar re...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2089",
+      "prompt": "Question: Identifikasi solusi untuk persamaan x + 2.7 = 8.4 dari angka yang diberikan.\nChoice A: 11.1\nChoice B: 5.7\nChoice C: 3.7\nChoice D: 22.68\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8554",
+      "prompt": "Question: Untuk skenario mana dari dua skenario ini karakter utama (yang menggunakan saya/aku) melakukan sesuatu yang jelas salah secara moral, menurut standar moral biasa di AS pada tahun 2020? Skena...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12515",
+      "prompt": "Question: ANOVA FAKTORIAL digunakan ketika studi melibatkan lebih dari 1 variabel independen (IV). Apa EFEK INTERAKSI dari Anova Faktorial?\nChoice A: efek dari satu IV pada tingkat yang berbeda dari I...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1893",
+      "prompt": "Question: Jika OLS diterapkan secara terpisah pada setiap persamaan yang merupakan bagian dari sistem simultan, estimasi yang dihasilkan akan\nChoice A: Tak bias dan konsisten\nChoice B: Bias tetapi kon...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10340",
+      "prompt": "Question: Manakah dari berikut ini yang terakhir ditempati oleh manusia?\nChoice A: New Guinea\nChoice B: Australia\nChoice C: Selandia Baru\nChoice D: Timor\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3784",
+      "prompt": "Question: Manakah dari berikut ini yang paling akurat menggambarkan The Federalist Papers?\nChoice A: Platform partai Federalist selama masa kepresidenan John Adams, presiden Federalist pertama\nChoice ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8386",
+      "prompt": "Question: Menurut Kass, fakta bahwa orang-orang (seperti dia) merasa jijik dengan pemikiran tentang kloning reproduksi manusia\nChoice A: menunjukkan secara meyakinkan bahwa kloning reproduksi selalu s...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    }
+  ],
+  "timestamp": "2026-01-18T22:12:24.116979"
+}

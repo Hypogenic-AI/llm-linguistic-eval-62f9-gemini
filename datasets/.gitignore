@@ -1,9 +1,14 @@
-# Exclude all data files
+# Exclude all data files (can be large)
 *
 
-# Include documentation and samples
+# Include documentation and metadata
 !.gitignore
 !README.md
 !**/README.md
+
+# Include sample files for reference
 !**/samples/
 !**/samples.json
+!**/*_sample.json
+!**/dataset_info.json
+!**/dataset_dict.json

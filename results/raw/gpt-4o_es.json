@@ -1,0 +1,811 @@
+{
+  "model": "gpt-4o",
+  "language": "es",
+  "resource_level": "high",
+  "total_questions": 100,
+  "correct": 82,
+  "accuracy": 0.82,
+  "responses": [
+    {
+      "question_id": "test_4223",
+      "prompt": "Question: \u00bfCu\u00e1l de los siguientes NO es un argumento para restringir el comercio?\nChoice A: Proteger la industria naciente\nChoice B: Promover el empleo\nChoice C: Combatir la inflaci\u00f3n\nChoice D: Promov...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10406",
+      "prompt": "Question: El 1 de enero del a\u00f1o 1, una empresa compr\u00f3 equipo por $100 millones. El equipo consta de cuatro componentes principales, de los cuales dos componentes comprenden el 80% del costo total y ca...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1304",
+      "prompt": "Question: Una causa fundamental de la fatiga en el ejercicio de alta intensidad es:\nChoice A: una ca\u00edda en la concentraci\u00f3n celular de ADP.\nChoice B: inhibici\u00f3n de la producci\u00f3n de ATP.\nChoice C: fall...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1419",
+      "prompt": "Question: Un espectr\u00f3metro de rejilla apenas puede resolver dos longitudes de onda de 500 nm y 502 nm, respectivamente. \u00bfCu\u00e1l de las siguientes opciones da el poder de resoluci\u00f3n del espectr\u00f3metro?\nCh...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13632",
+      "prompt": "Question: \u00bfCu\u00e1l fue la diferencia clave entre la expansi\u00f3n de EE.UU. antes y despu\u00e9s de 1865?\nChoice A: La expansi\u00f3n de EE.UU. se bas\u00f3 en el territorio en lugar de los mercados despu\u00e9s de 1865\nChoice ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8862",
+      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/mi) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1145",
+      "prompt": "Question: Si f: R -> R es una funci\u00f3n acotada que es integrable en el sentido de Lebesgue, \u00bfcu\u00e1l de las siguientes afirmaciones debe ser verdadera?\nChoice A: f es integrable en el sentido de Riemann.\n...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9815",
+      "prompt": "Question: Seg\u00fan la teor\u00eda de Brandt, una regla moral ideal es aquella que:\nChoice A: maximiza la utilidad positiva, ignorando la utilidad negativa.\nChoice B: minimiza la utilidad negativa, ignorando l...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2081",
+      "prompt": "Question: Encuentra la mediana en el conjunto de datos 23, 13, 18, 29, 32, 25.\nChoice A: 18\nChoice B: 24\nChoice C: 25\nChoice D: 29\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2125",
+      "prompt": "Question: Encuentra 4 sobre 7 + 2 sobre 7.\nChoice A: 6 sobre 14\nChoice B: 8 sobre 49\nChoice C: 14 sobre 28\nChoice D: 6 sobre 7\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12346",
+      "prompt": "Question: Una mujer de 19 a\u00f1os que es una paciente regular viene a la consulta para su examen f\u00edsico anual y citolog\u00eda cervical. Ella te dice que no ha tenido un per\u00edodo menstrual en los \u00faltimos 6 mes...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8598",
+      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/mi) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10101",
+      "prompt": "Question: La cr\u00eda dirigida de plantas y animales por los humanos se llama:\nChoice A: recolecci\u00f3n.\nChoice B: selecci\u00f3n artificial.\nChoice C: selecci\u00f3n natural.\nChoice D: pastoreo.\nAnswer with A, B, C o...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2756",
+      "prompt": "Question: \u00bfCu\u00e1l de los siguientes principios NO forma parte de la teor\u00eda de la evoluci\u00f3n por selecci\u00f3n natural de Darwin?\nChoice A: La evoluci\u00f3n es un proceso gradual que ocurre durante un largo per\u00edo...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4633",
+      "prompt": "Question: Un monopolio que discrimina precios se diferencia de un monopolio que no discrimina porque un monopolio que discrimina\nChoice A: tiene una curva de demanda que es m\u00e1s el\u00e1stica que un monopol...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9729",
+      "prompt": "Question: Berkeley cree que las cosas sensibles no pueden existir excepto en _____.\nChoice A: una mente\nChoice B: existencia absoluta\nChoice C: sustancia material\nChoice D: un universo material\nAnswer...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11233",
+      "prompt": "Question: Mientras se relajaba junto a la piscina un domingo por la tarde, un propietario fue golpeado por una pelota de golf lanzada por un ni\u00f1o de 14 a\u00f1os que estaba jugando en el noveno hoyo del ca...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7558",
+      "prompt": "Question: \u00bfCu\u00e1l era la esperanza de vida promedio de los hombres blancos nacidos en los EE. UU. justo antes de la Guerra Civil?\nChoice A: 40 a\u00f1os\nChoice B: 50 a\u00f1os\nChoice C: 60 a\u00f1os\nChoice D: 70 a\u00f1os\n...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3563",
+      "prompt": "Question: \u00bfCu\u00e1l de los siguientes pa\u00edses NO es un estado federal?\nChoice A: Canad\u00e1\nChoice B: Estados Unidos\nChoice C: Francia\nChoice D: Rep\u00fablica Popular China\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9924",
+      "prompt": "Question: Epicteto recomienda que actuemos:\nChoice A: de acuerdo a nuestras pasiones.\nChoice B: de manera que hagamos lo que nos venga naturalmente, sin mucho pensamiento.\nChoice C: solo despu\u00e9s de un...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13594",
+      "prompt": "Question: La 'Gran Migraci\u00f3n' de 1916-1919 signific\u00f3 que Chicago se convirti\u00f3 en una ciudad \u00e9tnicamente diversa. La consecuencia de esto fue:\nChoice A: asimilaci\u00f3n: todas las fronteras raciales fueron...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12880",
+      "prompt": "Question: El patr\u00f3n cl\u00e1sico de envejecimiento se define como 2 declive en qu\u00e9 subprueba(s) de la Escala de Inteligencia para Adultos de Wechsler-Revisada\nChoice A: Todas las subpruebas Verbales\nChoice...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3358",
+      "prompt": "Question: Esta pregunta se refiere a la siguiente informaci\u00f3n.\nLea las siguientes memorias.\nNo solo esperaba que todas las personas de distinci\u00f3n asistieran continuamente a la Corte, sino que tambi\u00e9n ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13282",
+      "prompt": "Question: \u00bfDe qu\u00e9 maneras est\u00e1 limitada la argumentaci\u00f3n a favor de la intervenci\u00f3n humanitaria, tal como se describe en este cap\u00edtulo?\nChoice A: No es evidente por s\u00ed mismo que los individuos tengan ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5427",
+      "prompt": "Question: Una cr\u00edtica com\u00fan a etiquetar a los estudiantes como discapacitados es que los individuos tienden a actuar de acuerdo con las caracter\u00edsticas asociadas con una etiqueta. \u00bfC\u00f3mo se conoce este...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7126",
+      "prompt": "Question: \u00bfCu\u00e1l de los siguientes se refiere a mensajes electr\u00f3nicos no solicitados?\nChoice A: Correo electr\u00f3nico de suscripci\u00f3n.\nChoice B: Marketing de consentimiento.\nChoice C: Correo basura.\nChoice...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12554",
+      "prompt": "Question: El modelo de etapas de cambio (transtheoretical) de Prochaska y DiClemente (1982) predice que una persona en la etapa de ________ planea tomar medidas dentro de los pr\u00f3ximos seis meses que a...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12177",
+      "prompt": "Question: Un ni\u00f1o de 15 a\u00f1os es llevado al departamento de emergencias por sus padres debido a una historia de 2 horas de confusi\u00f3n y agitaci\u00f3n. Tambi\u00e9n ha tenido fiebre, dolor de cabeza, rigidez en e...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6700",
+      "prompt": "Question: \u00bfCu\u00e1l de las siguientes opciones describe mejor la falacia de ep\u00edtetos que suplican la pregunta?\nChoice A: Tratar algo que existe en la mente como si fuera un objeto real.\nChoice B: Una form...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7870",
+      "prompt": "Question: Si alguien tiene cataratas, \u00bfqu\u00e9 parte de su cuerpo podr\u00eda necesitar una operaci\u00f3n?\nChoice A: o\u00eddo\nChoice B: mano\nChoice C: ojo\nChoice D: rodilla\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9560",
+      "prompt": "Question: \u00bfCu\u00e1l es la unidad funcional b\u00e1sica del tejido muscular esquel\u00e9tico?\nChoice A: la fibra muscular\nChoice B: el sarc\u00f3mero\nChoice C: la miofibrilla\nChoice D: el ret\u00edculo sarcopl\u00e1smico\nAnswer wi...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_8139",
+      "prompt": "Question: \u00bfCu\u00e1l era el nombre de nacimiento del l\u00edder de los derechos civiles Malcolm?\nChoice A: Michael Brown\nChoice B: Malcolm Little\nChoice C: Malcolm Lincoln\nChoice D: Michael Lloyd\nAnswer with A,...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2001",
+      "prompt": "Question: Seg\u00fan el modelo de Bohr, un electr\u00f3n gana o pierde energ\u00eda solo por\nChoice A: moverse m\u00e1s r\u00e1pido o m\u00e1s lento en una \u00f3rbita permitida.\nChoice B: saltar de una \u00f3rbita permitida a otra.\nChoice ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4339",
+      "prompt": "Question: \u00bfCu\u00e1l es el menor cuadrado perfecto con 3 factores primos diferentes?\nChoice A: 300\nChoice B: 9\nChoice C: 900\nChoice D: 666\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3939",
+      "prompt": "Question: Un choque de oferta negativo o contractivo\nChoice A: desplazar\u00e1 la curva de Phillips hacia la izquierda.\nChoice B: desplazar\u00e1 la curva de demanda de inversi\u00f3n hacia la derecha.\nChoice C: des...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1061",
+      "prompt": "Question: Sea T(n) definido por T(1) = 7 y T(n + 1) = 3n + T(n) para todos los enteros n \u2265 1. \u00bfCu\u00e1l de las siguientes opciones representa el orden de crecimiento de T(n) como una funci\u00f3n de n?\nChoice ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6029",
+      "prompt": "Question: Esta pregunta se refiere a la siguiente informaci\u00f3n.\n\"Por lo tanto, fue declarado por los representantes mencionados anteriormente del citado Rey y Reina de Castilla, Le\u00f3n, Arag\u00f3n, Sicilia, ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_347",
+      "prompt": "Question: \u00bfPor qu\u00e9 vemos esencialmente la misma cara de la Luna en todo momento?\nChoice A: porque la Luna tiene una \u00f3rbita casi circular alrededor de la Tierra\nChoice B: porque la Luna no rota\nChoice ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10836",
+      "prompt": "Question: Una mujer es la propietaria registrada de una parcela de tierra designada como \"A\". Es la m\u00e1s alta de tres propiedades vecinas en una monta\u00f1a. La hermana de la mujer posee la parcela \"C\", qu...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_10172",
+      "prompt": "Question: \u00bfCu\u00e1l es la diferencia entre una fecha absoluta y una fecha relativa?\nChoice A: Una fecha absoluta es conocida por todos, mientras que una fecha relativa var\u00eda entre 30 y 50 a\u00f1os.\nChoice B: ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4031",
+      "prompt": "Question: \u00bfCu\u00e1l de las siguientes opciones es m\u00e1s probable que cree la mayor disminuci\u00f3n en el PIB real?\nChoice A: El gobierno disminuye el gasto acompa\u00f1ado de una disminuci\u00f3n de impuestos.\nChoice B: ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10845",
+      "prompt": "Question: Cuatro hombres firmaron un contrato de arrendamiento como inquilinos de una casa de cinco habitaciones. Cada uno ten\u00eda una habitaci\u00f3n separada y usaban la quinta habitaci\u00f3n como laboratorio ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3858",
+      "prompt": "Question: El PIB mide I. producci\u00f3n II. ingresos obtenidos durante el proceso de producci\u00f3n III. gasto de consumidores, empresas, gobiernos y extranjeros\nChoice A: Solo I es correcto.\nChoice B: Solo I...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_117",
+      "prompt": "Question: \u00bfLas hormonas masculinas son producidas por cu\u00e1l de los siguientes?\nChoice A: Glande\nChoice B: Prepucio\nChoice C: Pr\u00f3stata\nChoice D: Test\u00edculos\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1175",
+      "prompt": "Question: Declaraci\u00f3n 1 | Si A est\u00e1 conectado, el cierre de A debe estar conectado. Declaraci\u00f3n 2 | Toda funci\u00f3n continua f : (0, 1) \u2192 (0, 1) tiene un punto fijo.\nChoice A: Verdadero, Verdadero\nChoice...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13191",
+      "prompt": "Question: \u00bfCu\u00e1les son los problemas pr\u00e1cticos asociados con la aplicaci\u00f3n de la diplomacia coercitiva en Occidente?\nChoice A: Diferentes naturalezas de los adversarios complican el uso de la coerci\u00f3n ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_11759",
+      "prompt": "Question: Un m\u00e9dico es acusado del asesinato de su esposa. La fiscal\u00eda alega que asesin\u00f3 a su esposa administr\u00e1ndole una inyecci\u00f3n masiva de succinilcolina mientras ella dorm\u00eda. La succinilcolina es u...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_976",
+      "prompt": "Question: \u00bfCu\u00e1l de los siguientes iones met\u00e1licos no puede ser utilizado como un apagador paramagn\u00e9tico?\nChoice A: Ti3+\nChoice B: Cr3+\nChoice C: Fe3+\nChoice D: Zn2+\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_4011",
+      "prompt": "Question: \u00bfCu\u00e1l de los siguientes desplazar\u00eda la curva de demanda agregada hacia la izquierda?\nChoice A: Un aumento en la confianza del consumidor.\nChoice B: Las empresas esperan menores ventas en el ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1116",
+      "prompt": "Question: Si v es un vector propio de una matriz invertible A, \u00bfcu\u00e1l de las siguientes afirmaciones es necesariamente verdadera?\nI. v es tambi\u00e9n un vector propio de 2A.\nII. v es tambi\u00e9n un vector prop...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_524",
+      "prompt": "Question: \u00bfCu\u00e1l de los siguientes libera m\u00e1s energ\u00eda cuando se oxida completamente en el cuerpo?\nChoice A: Un gramo de glucosa\nChoice B: Un gramo de \u00e1cido palm\u00edtico\nChoice C: Un gramo de leucina\nChoic...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5857",
+      "prompt": "Question: Esta pregunta se refiere a la siguiente informaci\u00f3n.\nAmbos autores a continuaci\u00f3n estaban hablando de la Revoluci\u00f3n Francesa.\nEra el mejor de los tiempos, era el peor de los tiempos, era la ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1172",
+      "prompt": "Question: Enunciado 1 | Supongamos que f : [a, b] es una funci\u00f3n y supongamos que f tiene un m\u00e1ximo local. \u00bfDebe existir f'(x) y ser igual a 0? Enunciado 2 | Existen mapas continuos no constantes de R...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9503",
+      "prompt": "Question: \u00bfCu\u00e1l es una limitaci\u00f3n importante del uso del IMC (\u00edndice de masa corporal) como m\u00e9todo de medici\u00f3n de la grasa corporal?\nChoice A: No es una medida precisa para personas promedio\nChoice B:...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4168",
+      "prompt": "Question: Si se a\u00f1adieran $100 de nueva inversi\u00f3n privada aut\u00f3noma a una econom\u00eda con una propensi\u00f3n marginal a consumir de .90, \u00bfen cu\u00e1nto se desplazar\u00eda la demanda agregada hacia la derecha?\nChoice ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4855",
+      "prompt": "Question: La masa de la Tierra es 5.97 \u00d7 10^24 kg. La Luna, cuyo centro est\u00e1 a 3.84 \u00d7 10^8 m del centro de la Tierra, tiene una masa de 7.35 \u00d7 10^22 kg. \u00bfCu\u00e1l de las siguientes es la mejor estimaci\u00f3n ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12507",
+      "prompt": "Question: Durante la segunda etapa del nivel preconvencional de desarrollo moral de Kohlberg, los ni\u00f1os obedecen las reglas porque:\nChoice A: sienten que tienen un deber personal de respetar las regla...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8853",
+      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/m\u00ed) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3612",
+      "prompt": "Question: Ralph compra fertilizante para el jard\u00edn en la tienda de jardiner\u00eda cercana en lugar de conducir 50 millas hasta la ciudad vecina para el mismo producto. \u00bfEsto refleja qu\u00e9 tipo de interacci\u00f3...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9923",
+      "prompt": "Question: Seg\u00fan Parfit, la obligaci\u00f3n de dar prioridad al bienestar de los hijos es:\nChoice A: relativa al agente.\nChoice B: neutral al agente.\nChoice C: absoluta.\nChoice D: ninguna de las anteriores....",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2197",
+      "prompt": "Question: \u00bfCu\u00e1l es la estimaci\u00f3n m\u00e1s razonable de la longitud de la piscina de una ciudad?\nChoice A: 1 metro\nChoice B: 25 metros\nChoice C: 1 kil\u00f3metro\nChoice D: 25 kil\u00f3metros\nAnswer with A, B, C or D:...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13464",
+      "prompt": "Question: Seg\u00fan Hakim (1995, 1996), la mayor\u00eda del trabajo a tiempo parcial es realizado por mujeres porque:\nChoice A: los trabajos a tiempo parcial pagan salarios relativamente altos y por lo tanto s...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10476",
+      "prompt": "Question: Mast Co. cambi\u00f3 del m\u00e9todo FIFO para la valoraci\u00f3n de inventarios al m\u00e9todo LIFO para prop\u00f3sitos de estados financieros y fiscales. Durante un per\u00edodo de inflaci\u00f3n, \u00bfser\u00edan el inventario fin...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10574",
+      "prompt": "Question: En el a\u00f1o actual, Vinton intercambi\u00f3 un terreno sin mejoras por un edificio de apartamentos. El terreno ten\u00eda una base de $300000 y un valor de mercado justo (FMV) de $420000 y estaba gravad...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8535",
+      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/mi) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_4258",
+      "prompt": "Question: \u00bfCu\u00e1l es el d\u00edgito de las unidades de $1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8 \\cdot 9$?\nChoice A: 1\nChoice B: 2\nChoice C: 0\nChoice D: 5\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8541",
+      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/mi) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7260",
+      "prompt": "Question: Durante la etapa __________ del proceso de adopci\u00f3n, la innovaci\u00f3n se prueba por primera vez. Las promociones de ventas se utilizan a menudo como muestras para permitir que las personas prue...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3173",
+      "prompt": "Question: SO2Cl2 \u2192 SO2(g) + Cl2(g) A 600 K, SO2Cl2 se descompondr\u00e1 para formar di\u00f3xido de azufre y gas de cloro a trav\u00e9s de la ecuaci\u00f3n anterior. Si se encuentra que la reacci\u00f3n es de primer orden en ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1563",
+      "prompt": "Question: \u00bfC\u00f3mo se detecta la suplantaci\u00f3n de direcciones IP?\nChoice A: Instalando y configurando un IDS que pueda leer el encabezado IP\nChoice B: Comparando los valores TTL de las direcciones reales ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1606",
+      "prompt": "Question: Cuando un elemento expulsa una part\u00edcula alfa, el n\u00famero at\u00f3mico del elemento resultante\nChoice A: se reduce en 2\nChoice B: se reduce en 4\nChoice C: aumenta en 2\nChoice D: aumenta en 4\nAnswe...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12332",
+      "prompt": "Question: Un ni\u00f1o de 10 meses es llevado al m\u00e9dico debido a una historia de fiebre y tos de 4 d\u00edas. Su enfermedad comenz\u00f3 con fiebre leve y abundante secreci\u00f3n nasal clara. Hace dos d\u00edas desarroll\u00f3 un...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7720",
+      "prompt": "Question: \u00bfQui\u00e9n cant\u00f3 como vocalista principal para la banda Big Brother and the Holding Company?\nChoice A: Grace Slick\nChoice B: Janis Joplin\nChoice C: Mama Cass\nChoice D: Karen Carpenter\nAnswer wit...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6343",
+      "prompt": "Question: Las secreciones del l\u00edquido de la gl\u00e1ndula de Cowper en la punta del pene son evidentes por primera vez:\nChoice A: despu\u00e9s del orgasmo\nChoice B: inmediatamente antes del orgasmo\nChoice C: an...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7566",
+      "prompt": "Question: Los acompa\u00f1amientos simples, la textura ligera y las melod\u00edas suaves son cualidades de\nChoice A: estilo galante\nChoice B: partitas\nChoice C: Sturm und Drang\nChoice D: serenata\nAnswer with A,...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7327",
+      "prompt": "Question: Una mutaci\u00f3n sin sentido implica:\nChoice A: una secuencia reguladora.\nChoice B: un sitio de aceptaci\u00f3n de empalme AG.\nChoice C: la creaci\u00f3n de un amino\u00e1cido diferente.\nChoice D: la creaci\u00f3n ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8421",
+      "prompt": "Question: \u00bfPor qu\u00e9 los animales no pueden ser portadores de derechos seg\u00fan Cohen?\nChoice A: porque los derechos son esencialmente humanos\nChoice B: porque los animales carecen de cualquier tipo de rac...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13578",
+      "prompt": "Question: Goldthorpe identific\u00f3 la 'clase de servicio' como:\nChoice A: aquellos en ocupaciones no manuales, ejerciendo autoridad en nombre del estado\nChoice B: personas que trabajan en empresas de con...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_899",
+      "prompt": "Question: Cuando la siguiente ecuaci\u00f3n est\u00e1 balanceada, \u00bfcu\u00e1l de las siguientes afirmaciones es verdadera?\n__ MnO4\u2212 + __ I\u2212 + __ H+ <-> __ Mn2+ + __ IO3\u2212 + __ H2O\nChoice A: La proporci\u00f3n de I\u2212 : IO3\u2212 ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_12582",
+      "prompt": "Question: Al evaluar la competencia de un acusado para ser juzgado, el enfoque de la evaluaci\u00f3n est\u00e1 en:\nChoice A: su capacidad para distinguir entre el bien y el mal.\nChoice B: su capacidad para comp...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12238",
+      "prompt": "Question: Una mujer de 23 a\u00f1os con insuficiencia de m\u00e9dula \u00f3sea es tratada con una gran dosis de globulina antitimoc\u00edtica de conejo. Diez d\u00edas despu\u00e9s, desarrolla fiebre, linfadenopat\u00eda, artralgias y ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12100",
+      "prompt": "Question: Un juez prominente viv\u00eda al lado de un padre. Recientemente, el juez hab\u00eda sentenciado al hijo del padre a seis meses de prisi\u00f3n por un cargo de narc\u00f3ticos. Una tarde, mientras el juez corta...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1630",
+      "prompt": "Question: El campo el\u00e9ctrico dentro de la c\u00fapula de un generador de Van de Graaff es cero cuando la c\u00fapula est\u00e1\nChoice A: cargada\nChoice B: sin carga\nChoice C: Una de estas\nChoice D: Ninguna de estas\n...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1005",
+      "prompt": "Question: Suponga que el intercambio de archivos en una estructura de directorio multinivel se logra con entradas de directorio que son enlaces que apuntan a un nodo que contiene informaci\u00f3n sobre un ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7186",
+      "prompt": "Question: Antes de comenzar el proceso de segmentaci\u00f3n de mercado, una empresa deber\u00eda:\nChoice A: Identificar bases para segmentar mercados.\nChoice B: Prever el potencial total del mercado.\nChoice C: ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13560",
+      "prompt": "Question: Warner y Myrdal afirmaron que los antiguos esclavos negros no se estaban uniendo al 'crisol \u00e9tnico' de las ciudades norteamericanas porque:\nChoice A: la poblaci\u00f3n blanca no cre\u00eda en la liber...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6055",
+      "prompt": "Question: Esta pregunta se refiere a la siguiente informaci\u00f3n.\nYi Yin sacrific\u00f3 al antiguo rey y present\u00f3 al rey heredero reverentemente ante el santuario de su abuelo. . . . Yi Yin luego describi\u00f3 cl...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1809",
+      "prompt": "Question: \u00bfCu\u00e1l de las siguientes afirmaciones es falsa con respecto al modelo de probabilidad lineal?\nChoice A: No hay nada en el modelo que asegure que las probabilidades estimadas se encuentren ent...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4351",
+      "prompt": "Question: Cuando $(x\\sqrt{x^3})^4$ se simplifica, \u00bfcu\u00e1l es el exponente de $x$?\nChoice A: 5\nChoice B: 10\nChoice C: 2\nChoice D: 12\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3193",
+      "prompt": "Question: Hist\u00f3ricamente, se ha observado que las velocidades de procesamiento de las computadoras tienden a duplicarse cada dos a\u00f1os. \u00bfCu\u00e1l de las siguientes opciones describe mejor c\u00f3mo las empresas...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3170",
+      "prompt": "Question: Una cierta reacci\u00f3n no es espont\u00e1nea en condiciones est\u00e1ndar, pero se vuelve espont\u00e1nea a temperaturas m\u00e1s altas. \u00bfQu\u00e9 conclusiones se pueden sacar en condiciones est\u00e1ndar?\nChoice A: \u0394H < 0,...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9875",
+      "prompt": "Question: Seg\u00fan S\u00f3crates, el valor o la calidad de la vida de una persona depende de entender los principios de, o la raz\u00f3n b\u00e1sica de la existencia humana. Sin tal conocimiento (sugiere) la vida carec...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_8083",
+      "prompt": "Question: \u00bfQu\u00e9 principio explica por qu\u00e9 la comida fr\u00eda se calienta y la comida caliente se enfr\u00eda cuando se almacena a temperatura ambiente?\nChoice A: entrop\u00eda\nChoice B: equilibrio qu\u00edmico\nChoice C: ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2339",
+      "prompt": "Question: El precio original de una bicicleta nueva es $138.00. Si la bicicleta tiene un descuento del 15%, \u00bfcu\u00e1l es el nuevo precio?\nChoice A: $20.70\nChoice B: $117.30\nChoice C: $123.00\nChoice D: $15...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7529",
+      "prompt": "Question: \u00bfQu\u00e9 es tu hallux?\nChoice A: l\u00f3bulo de la oreja\nChoice B: lengua\nChoice C: p\u00e1rpado\nChoice D: dedo gordo del pie\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3059",
+      "prompt": "Question: Una muestra de 25 g de un s\u00f3lido se calent\u00f3 a 100 \u00b0C y luego se transfiri\u00f3 r\u00e1pidamente a un recipiente aislado que conten\u00eda 100 g de agua a 26 \u00b0C. La temperatura de la mezcla aument\u00f3 hasta a...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4856",
+      "prompt": "Question: Un objeto de volumen 2 \u00d7 10^-3 m^3 y peso 6 N se coloca en un tanque de agua, donde flota. \u00bfQu\u00e9 porcentaje del volumen del objeto est\u00e1 por encima de la superficie del agua?\nChoice A: 12%\nCho...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_8339",
+      "prompt": "Question: Carens acepta que es posible que la apertura repentina de las fronteras de un pa\u00eds haga m\u00e1s da\u00f1o que bien desde una perspectiva igualitaria liberal. Sin embargo, \u00e9l argumenta que\nChoice A: e...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4373",
+      "prompt": "Question: El \u00e1rea delimitada por la par\u00e1bola y = x^2 y las l\u00edneas y = 1 y y = 9 es igual a\nChoice A: 8\nChoice B: 84/3\nChoice C: 64\\sqrt{2}/3\nChoice D: 104/3\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1248",
+      "prompt": "Question: \u00bfAproximadamente cu\u00e1ntos kJ de energ\u00eda se gastan si la absorci\u00f3n de ox\u00edgeno a ritmo constante de un atleta promedia 3.0 l/min durante 5 minutos de ejercicio?\nChoice A: 60 kJ\nChoice B: 150 kJ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false
+    }
+  ],
+  "timestamp": "2026-01-18T22:08:23.937157"
+}

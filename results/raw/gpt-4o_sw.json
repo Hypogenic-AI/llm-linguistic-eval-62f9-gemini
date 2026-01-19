@@ -1,0 +1,811 @@
+{
+  "model": "gpt-4o",
+  "language": "sw",
+  "resource_level": "low",
+  "total_questions": 100,
+  "correct": 79,
+  "accuracy": 0.79,
+  "responses": [
+    {
+      "question_id": "test_5291",
+      "prompt": "Question: Ni aina gani ya uchunguzi wa ubongo kati ya zifuatazo ingekuwa na manufaa zaidi katika kukanusha kauli: \"Watu wengi hutumia asilimia 10 tu ya ubongo wao\"?\nChoice A: CAT\nChoice B: MRI\nChoice ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1411",
+      "prompt": "Question: Katika hali fulani, boriti ya elektroni inayogonga uso wa kioo itafarakana na muundo wa kutawanyika wa boriti unaweza kupatikana. Ni nini takriban nishati ya kinetiki ya elektroni inayohitaj...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_4344",
+      "prompt": "Question: Tambua jumla\\[\\frac{1}{2^1} + \\frac{2}{2^2} + \\frac{3}{2^3} + \\cdots + \\frac{k}{2^k} + \\cdots \\]\nChoice A: \\infty\nChoice B: 1\nChoice C: 2\nChoice D: 4\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1959",
+      "prompt": "Question: Muundo wa Lissajous kwenye osiloskopu una tangensia 5 za usawa na tangensia 2 za wima. Mzunguko wa pembejeo ya usawa ni 100 Hz. Mzunguko wa wima utakuwa\nChoice A: 500 Hz.\nChoice B: 250 Hz.\nC...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10241",
+      "prompt": "Question: Binadamu wanatokana na nyani gani kati ya wafuatao?\nChoice A: chimpanzi\nChoice B: gorila\nChoice C: orangutani\nChoice D: hakuna kati ya hayo\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7413",
+      "prompt": "Question: Nyama inapaswa kuhifadhiwa ikiwa imegandishwa katika joto gani kwa nyuzi za Fahrenheit?\nChoice A: 0 nyuzi au chini\nChoice B: kati ya nyuzi 10 na 20\nChoice C: kati ya nyuzi 20 na 30\nChoice D:...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11227",
+      "prompt": "Question: Mgonjwa alilazwa hospitalini. Alikuwa ameendesha gari lake licha ya kuwa amelewa. Kwa sababu hiyo, aligonga gari kwenye mti na kupata pua iliyovunjika. Baada ya daktari kurekebisha pua iliyo...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11011",
+      "prompt": "Question: Muuza alisaini makubaliano ya kuuza kipande cha makazi kwa mnunuzi mtarajiwa. Makubaliano yalihitaji yeye kutoa hati nzuri na inayouzwa. Utafutaji wa hati ulionyesha rehani wazi kutoka kwa m...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11488",
+      "prompt": "Question: Mwenye nyumba alikuwa mmiliki wa jengo kubwa la ghorofa nyingi katika mji wa Midwestern. Mnamo Juni 1, 2007, wapangaji wawili walichukua umiliki wa ghorofa ya vyumba vitatu katika jengo la m...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3955",
+      "prompt": "Question: Pato la uchumi ni\nChoice A: kupimwa kwa idadi ya biashara katika uchumi.\nChoice B: kugawanywa kwa usawa kati ya watu.\nChoice C: muhimu katika kuamua kiwango cha maisha katika taifa.\nChoice D...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9643",
+      "prompt": "Question: Ni vitamini gani kati ya zifuatazo inayotoa koenzimu kwa dekarboksilishaji ya oksidishi ya pyruvate?\nChoice A: Folate\nChoice B: Niacin\nChoice C: Riboflavin\nChoice D: Thiamin\nAnswer with A, B...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6818",
+      "prompt": "Question: Ni upotoshaji gani kati ya zifuatazo hutokea wakati mtu anapohitimisha kwamba ujanibishaji halali lazima utumike kwa kesi fulani?\nChoice A: Dilemma ya uongo\nChoice B: Utoshelezaji wa mviring...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8118",
+      "prompt": "Question: Ni ipi kati ya mipangilio ifuatayo ya kamera ya kidijitali inaweza kutumika kuweka rangi sahihi chini ya hali mbalimbali za mwanga?\nChoice A: Usawazishaji wa rangi nyeupe\nChoice B: Upana wa ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7964",
+      "prompt": "Question: Neno linaloelezea vyema sanaa inayojumuisha vipengele vya kithespi kama vile harakati za mwili, ushiriki wa hadhira, muziki, na picha zinazoonyeshwa ni\nChoice A: mimesis\nChoice B: sanaa ya u...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5178",
+      "prompt": "Question: Albert Bandura na wanasayansi wa nadharia ya utu wa kijamii-na utambuzi wanaamini kwamba utu unatokana na mwingiliano wa mambo gani?\nChoice A: jenetiki, fahamu isiyoeleweka, na kijamii\nChoic...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10846",
+      "prompt": "Question: Mmiliki wa jengo la vyumba katika sehemu ya mji iliyochakaa alijua kwamba mmoja wa wapangaji wake alikuwa akiuza dawa za kulevya kutoka kwenye chumba chake. Pia alijua kwamba vitendo vya mpa...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7677",
+      "prompt": "Question: Wakati ni saa sita mchana huko New York wakati wa kuokoa mwanga wa mchana ni saa ngapi huko Honolulu?\nChoice A: 6:00 AM\nChoice B: 6:30 AM\nChoice C: 7:00 AM\nChoice D: 8:00 AM\nAnswer with A, B...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5316",
+      "prompt": "Question: Mwanafunzi wa miaka 10 ambaye alizaliwa katika nchi isiyozungumza Kiingereza amependekezwa kama mgombea anayefaa kwa huduma za elimu maalum kwa msingi wa alama za chini zilizopatikana kwenye...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_10430",
+      "prompt": "Question: CPA aliandaa marejesho ya kodi ambayo yalihusisha shughuli ya hifadhi ya kodi ambayo ilifunuliwa kwenye marejesho. Katika hali ipi kati ya zifuatazo adhabu ya mwandaaji wa marejesho ya kodi ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_11546",
+      "prompt": "Question: Mshtakiwa ameshtakiwa kwa kutengeneza silaha haramu kinyume na sheria za silaha za shirikisho. Katika kesi yake kuu, serikali inataka kuwasilisha nakala ya stakabadhi ya mshtakiwa kutoka chu...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_998",
+      "prompt": "Question: Kwenye mfumo wa uendeshaji wa NoNicks, muda unaohitajika kwa operesheni moja ya kusoma faili una vipengele vinne visivyopishana:\nmuda wa kutafuta diski-25 msek\nmuda wa kusubiri diski-8 msek\n...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_11300",
+      "prompt": "Question: Mtu ambaye alikuwa akisafiri alijisajili katika hoteli kwa usiku. Wakati alikuwa akitazama televisheni katika chumba chake cha hoteli, mwizi alifungua kufuli ya mlango wa chumba cha hoteli, ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13784",
+      "prompt": "Question: Virusi vya familia ya calcivirus hujirudiaje?\nChoice A: Kama virusi vya RNA yenye mnyororo hasi\nChoice B: Kama virusi vya RNA yenye mnyororo chanya\nChoice C: Virusi vya kurudi nyuma\nChoice D...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1643",
+      "prompt": "Question: Kasi ya sauti katika hewa inategemea\nChoice A: mzunguko.\nChoice B: urefu wa wimbi.\nChoice C: joto la hewa.\nChoice D: Yote haya.\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3486",
+      "prompt": "Question: Ni ipi kati ya vitu vifuatavyo SI changamoto kwa serikali?\nChoice A: Makampuni ya kimataifa\nChoice B: EU\nChoice C: Shirika la Biashara Duniani\nChoice D: Mtandao mzuri wa usafiri\nAnswer with ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11640",
+      "prompt": "Question: Kwenye kesi ya mshtakiwa kwa kosa la ulaghai, mwendesha mashtaka alimwita shahidi akitarajia kwamba atatoa ushahidi kuwa alimsikia mshtakiwa akimtishia mtu na madhara ya kimwili isipokuwa mt...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3549",
+      "prompt": "Question: Ni maelezo gani yanayofafanua vyema mfano wa uongozi wa mijini ambapo idadi ya watu wa jiji ni kinyume na cheo chake katika uongozi?\nChoice A: Athari ya kuzidisha\nChoice B: Kanuni ya ukubwa ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4626",
+      "prompt": "Question: Ni ipi kati ya zifuatazo ina uwezekano mkubwa wa kupunguza mahitaji ya walimu wa chekechea?\nChoice A: Kuongezeka kwa ufadhili wa elimu\nChoice B: Kuongezeka kwa uhamiaji wa raia wa kigeni na ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12357",
+      "prompt": "Question: Mwanamke mwenye umri wa miaka 33 anakuja kwa daktari kwa sababu ya historia ya siku 2 ya kichefuchefu kidogo, kuongezeka kwa haraka ya mkojo na mara kwa mara, na kufunga choo. Pia amepoteza ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1345",
+      "prompt": "Question: Creatine inasyntheswa kutoka:\nChoice A: amino asidi kwenye misuli.\nChoice B: amino asidi kwenye ini.\nChoice C: amino asidi kwenye figo.\nChoice D: creatinine kwenye figo.\nAnswer with A, B, C ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2622",
+      "prompt": "Question: Kufikia mwaka wa 2017, sehemu ya vifo nchini Greenland kwa kujiua ni karibu\nChoice A: 0.90%\nChoice B: 1.80%\nChoice C: 3.60%\nChoice D: 7.20%\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_4202",
+      "prompt": "Question: Sera sahihi za kifedha na za fedha wakati wa awamu ya kupungua ya mzunguko wa biashara ni pamoja na\nChoice A: ziada za bajeti na viwango vya juu vya punguzo.\nChoice B: upunguzaji wa kodi na ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_2899",
+      "prompt": "Question: Protini inayozuia kuunganishwa kwa RNA polymerase na tovuti ya promota.\nChoice A: Enhancer\nChoice B: Repressor\nChoice C: Operator\nChoice D: Promoter\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10139",
+      "prompt": "Question: Ni lini upatikanaji wa malighafi kutoka umbali mrefu uliongezeka, na inaashiria nini?\nChoice A: wakati wa Paleolithic ya Juu; mawasiliano ya umbali mrefu na utegemezi mkubwa wa biashara na v...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1242",
+      "prompt": "Question: Mtoto mdogo analetwa kwa mwanasaikolojia kwa ajili ya tathmini ya hali yao ya nyumbani. Mtoto anawekwa katikati ya sakafu, na mama upande mmoja na mwanasaikolojia upande mwingine. Mama kisha...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2613",
+      "prompt": "Question: Ni ipi kati ya zifuatazo husababisha vifo vingi zaidi duniani kila mwaka (kama ya mwaka 2017)?\nChoice A: Magonjwa ya kuhara\nChoice B: Kisukari\nChoice C: Ugonjwa wa akili unaosababisha kupote...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_43",
+      "prompt": "Question: Kauli 1 | Kila eneo la kipekee lenye tabia ya 0 ni lisilo na mwisho. Kauli 2 | Kila eneo la kipekee lenye tabia ya msingi ni lenye mwisho.\nChoice A: Kweli, Kweli\nChoice B: Sikweli, Sikweli\nC...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_7284",
+      "prompt": "Question: Katika muunganiko wa Robertsonian translocation fusion hutokea kwenye:\nChoice A: telomeres.\nChoice B: centromeres.\nChoice C: histones.\nChoice D: mwisho wa mikono mirefu.\nAnswer with A, B, C ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12870",
+      "prompt": "Question: Kiwango cha Upimaji wa Elimu na Kisaikolojia kinatoa\nChoice A: data za uaminifu na uhalali juu ya zaidi ya mitihani 3000, pamoja na mahitaji ya mafunzo ya chini yanayohitajika kusimamia, kuf...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_10964",
+      "prompt": "Question: Katika kesi ya madai ya majeraha ya kibinafsi yaliyopatikana katika ajali ya barabarani, mlalamikaji kwanza anamuita mshtakiwa kama upande mbaya. Mlalamikaji kisha anamuita shahidi ambaye al...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8474",
+      "prompt": "Question: Stephen Macedo anashughulikia suala la kimaadili la uhamiaji kutoka kwa mtazamo wa _____ haki.\nChoice A: feministi\nChoice B: ulimwengu\nChoice C: ugawaji\nChoice D: kimataifa\nAnswer with A, B,...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5074",
+      "prompt": "Question: Watu ambao hapo awali hawakuelewana mara nyingi wanaweza kuweka kando tofauti zao wanapokabiliwa na janga la pamoja. Haja yao ya kufanya kazi pamoja mara nyingi hurejelewa kama\nChoice A: len...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_545",
+      "prompt": "Question: Ni ipi kati ya sababu zifuatazo haiathiri mafanikio katika michezo?\nChoice A: Uwezo wa kuvumilia mazoezi mazito bila kuugua au kuumia.\nChoice B: Mbinu.\nChoice C: Lishe.\nChoice D: Kumeza carn...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4054",
+      "prompt": "Question: Ikiwa uchumi ulipata kupungua kwa Pato Halisi la Taifa (GDP) na kiwango cha bei hii inaweza kuelezewa vyema na\nChoice A: kupungua kwa tija ya kazi.\nChoice B: maendeleo ya kiteknolojia.\nChoic...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5023",
+      "prompt": "Question: Uwezo wa mwanamuziki kutofautisha kati ya sauti mbili zinazofanana sana unategemea dhana gani kati ya zifuatazo?\nChoice A: kizingiti cha kabisa\nChoice B: nadharia ya kugundua ishara\nChoice C...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13175",
+      "prompt": "Question: Ni kwa njia gani dhana ya usalama wa mazingira imepingwa?\nChoice A: Uchambuzi wa usalama wa mazingira unaeleweka kama uadilifu wa mfumo mzima wa ikolojia ambao tishio lake kuu ni shughuli za...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4929",
+      "prompt": "Question: Mlo maalum unaweza kuzuia kujitokeza kwa sifa ya\nChoice A: Ugonjwa wa Tay-Sachs\nChoice B: PKU (phenylketonuria)\nChoice C: Ugonjwa wa Huntington\nChoice D: Down syndrome\nAnswer with A, B, C or...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13106",
+      "prompt": "Question: Awamu ya ________ ya mchakato wa PR inajumuisha kufanya maamuzi kuhusu mikakati na mbinu gani zitakazotumika kujibu malengo ya shirika na kutekeleza mikakati na mbinu hizo.\nChoice A: upangaj...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_8183",
+      "prompt": "Question: Kwa nini, kulingana na Gill, Leon Kass anafikiria dhana ya kuwa \"bora kufa\" haina mantiki?\nChoice A: kwa sababu watu waliokufa hawapo tena, na hivyo hawawezi kufaidika na kuchagua kufa.\nChoi...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1178",
+      "prompt": "Question: Ni makundi mangapi ya Abelian yenye muundo tofauti yana mpangilio wa 72?\nChoice A: 4\nChoice B: 6\nChoice C: 8\nChoice D: 9\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12834",
+      "prompt": "Question: thamani ya matarajio ya utafiti.\nChoice A: hawahitaji kuambiwa kusudi la kweli mradi tu matumizi ya udanganyifu yamehalalishwa na\nChoice B: hawahitaji kuambiwa kusudi la kweli isipokuwa kuto...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4087",
+      "prompt": "Question: Kabichi unazozalisha kwenye bustani yako ya majira ya joto ni\nChoice A: zinahesabiwa katika GDP chini ya C.\nChoice B: zinahesabiwa katika GDP chini ya I.\nChoice C: zinahesabiwa katika GDP la...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4625",
+      "prompt": "Question: Ni ipi kati ya zifuatazo ni kweli?\nChoice A: Gharama ya kijamii ya pembezoni = gharama ya kibinafsi ya pembezoni + faida za kijamii za pembezoni.\nChoice B: Thamani ya nje = gharama za kijami...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11629",
+      "prompt": "Question: Katika hali ipi kati ya zifuatazo ambapo utetezi wa mshtakiwa wa ulazima utamwondolea zaidi uwezekano wa kuwajibika kwa jinai?\nChoice A: Mshtakiwa alitupwa kwenye kisiwa cha jangwa, pamoja n...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_10873",
+      "prompt": "Question: Franchise ya Marekani inaendesha kama muingizaji na msambazaji wa baiskeli zinazotengenezwa na nchi ya kigeni, na inahifadhi maghala kadhaa kwa usambazaji wa jumla wa baiskeli. Ghala lililok...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_12371",
+      "prompt": "Question: Mwanaume mwenye umri wa miaka 42 anakuja kwa daktari kwa sababu ya uchovu, maumivu ya misuli na viungo, na joto hadi 38.4\u00b0C (101.1\u00b0F) kwa siku 3. Miezi mitatu iliyopita, alipitia upandikizaj...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3296",
+      "prompt": "Question: Swali hili linahusu taarifa ifuatayo.\n\"Kivuli kinatisha Ulaya-kivuli cha Ukomunisti. Nguvu zote za Ulaya ya zamani zimeingia katika muungano mtakatifu ili kufukuza kivuli hiki; Papa na Mfalm...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_7599",
+      "prompt": "Question: Muda wa muhula mmoja katika Seneti ya Marekani ni wa muda gani?\nChoice A: miaka miwili\nChoice B: miaka minne\nChoice C: miaka sita\nChoice D: miaka minane\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1899",
+      "prompt": "Question: Ni ipi kati ya kauli zifuatazo ni kweli kuhusu acf na pacf?\n\n(i) ACF na PACF mara nyingi ni ngumu kufasiri katika vitendo\n\n(ii) ACF na PACF inaweza kuwa ngumu kuhesabu kwa baadhi ya seti za ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10013",
+      "prompt": "Question: Mill anadai kwamba kanuni ya matumizi:\nChoice A: inaweza kuthibitishwa kutoka kwa kanuni zinazoonekana wazi.\nChoice B: inaweza kuthibitishwa kutoka kwa kanuni zinazojulikana kwa uzoefu.\nChoi...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3941",
+      "prompt": "Question: Ni ipi kati ya zifuatazo inaelezea tofauti kuu kati ya mstari wa usambazaji wa jumla wa muda mfupi na wa muda mrefu?\nChoice A: Usambazaji wa jumla wa muda mfupi unapanda kwa kuwa mishahara y...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12134",
+      "prompt": "Question: Mkopesha alikopesha rafiki yake $15,000 kusaidia kulipia ada ya chuo kikuu ya binti ya rafiki yake. Miezi sita baadaye, rafiki alipoteza kazi yake na hakuweza kulipa mkopo kwa mkopesha. Baad...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2488",
+      "prompt": "Question: Chagua tafsiri bora katika mantiki ya kipekee: Cecilia anavunja moyo wangu ikiwa, na tu ikiwa, Maria ni tatizo au msichana.\nChoice A: Bc \u2261 (Pm \u2228 Gm)\nChoice B: Bc \u2261 (Pm \u2022 Gm)\nChoice C: Bc \u2283 (...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4645",
+      "prompt": "Question: Ni ipi kati ya zifuatazo ni kipengele cha msingi cha mfumo wa soko huria?\nChoice A: Kiwango cha juu cha ushiriki wa serikali.\nChoice B: Umiliki wa umma wa rasilimali.\nChoice C: Umiliki binaf...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2373",
+      "prompt": "Question: Roya alilipa $48 kwa katoni 12 za juisi ya machungwa. Ni kiwango gani cha malipo kwa kila katoni ya juisi ya machungwa ambacho Roya alilipa?\nChoice A: $3\nChoice B: $4\nChoice C: $6\nChoice D: ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1181",
+      "prompt": "Question: Kama A ni sehemu ndogo ya mstari halisi R na A ina kila namba ya kiakili, ni ipi kati ya zifuatazo lazima iwe kweli?\nChoice A: Kama A iko wazi, basi A = R.\nChoice B: Kama A imefungwa, basi A...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_989",
+      "prompt": "Question: Katalisi ya enzyme ya Redox inahusisha mzunguko wa oksidishaji na kupunguza ioni za metali ambazo zina angalau hali mbili thabiti za oksidishaji chanya. Ni ipi kati ya makundi yafuatayo ya m...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2769",
+      "prompt": "Question: Mpangilio wa nukleotidi wa molekuli ya DNA ni 5\u2032-C-A-T-3\u2032. Molekuli ya mRNA yenye kodoni inayolingana inanakiliwa kutoka kwa DNA katika mchakato wa usanisi wa protini tRNA inaungana na kodon...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_5354",
+      "prompt": "Question: Baada ya kugundua kwamba alikuwa katika hatua za mwanzo za tatizo la kula, wazazi wa Maria walisisitiza Maria aone mtaalamu wa tiba. Ingawa Maria alihudhuria vikao vya tiba, alikuwa amechele...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10986",
+      "prompt": "Question: Mtu ambaye alikuwa na mali kando ya mto alimshitaki kiwanda kilichoko juu ya mto katika mahakama ya shirikisho kwa kuchafua mto, akitaka kuzuia na fidia ya $250,000. Kiwanda kilitoa ombi la ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13952",
+      "prompt": "Question: Krishna na Rama ni miungu ya umbo la mungu gani wa Kihindu?\nChoice A: Shiva\nChoice B: Vishnu\nChoice C: Brahma\nChoice D: Ganesha\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10442",
+      "prompt": "Question: Iwapo lengo la mtihani wa mkaguzi wa maelezo ni kugundua ongezeko la mauzo mkaguzi anapaswa kufuatilia miamala kutoka\nChoice A: Jarida la mauzo hadi nyaraka za usafirishaji.\nChoice B: Nyarak...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5031",
+      "prompt": "Question: Energia ya mitambo inabadilishwa kuwa nishati ya kemikali ya umeme na\nChoice A: athari za tezi\nChoice B: athari za misuli\nChoice C: vipokezi vya shinikizo\nChoice D: vijiti na koni\nAnswer wit...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_7893",
+      "prompt": "Question: Ikiwa pete ina nambari 925 iliyochapishwa ndani yake, inawezekana zaidi imetengenezwa kwa nyenzo gani?\nChoice A: platinamu\nChoice B: dhahabu\nChoice C: chuma\nChoice D: fedha\nAnswer with A, B,...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2057",
+      "prompt": "Question: Idadi ya pini za pato katika microprocessors za 8085 ni\nChoice A: 27.\nChoice B: 40.\nChoice C: 21.\nChoice D: 19.\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_8453",
+      "prompt": "Question: Norcross anadai kwamba ikiwa maadili yanataka tusiteseke mbwa ili tu kuboresha raha yetu ya kula, maadili pia yanataka kwamba\nChoice A: tujaribu kupunguza alama yetu ya kaboni.\nChoice B: tuc...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12858",
+      "prompt": "Question: Nadharia ya kujithibitisha inatabiri kwamba mume ambaye ana hali ya kujithamini ya chini na ni mzito kupita kiasi na ana huzuni ya kudumu atapendelea mke wake kufanya nini:\nChoice A: kutotoa...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5295",
+      "prompt": "Question: Tabia ya watoto wadogo kujifunza lugha kutumia kupita kiasi sheria za sintaksia inajulikana kama\nChoice A: kujiamini kupita kiasi\nChoice B: upendeleo wa uthibitisho\nChoice C: kujumlisha kupi...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13052",
+      "prompt": "Question: BBC ilianza kurusha matangazo ya redio mwaka gani?\nChoice A: 1917\nChoice B: 1922\nChoice C: 1925\nChoice D: 1927\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7184",
+      "prompt": "Question: Ni kipengele kipi kati ya vifuatavyo ambacho si sehemu ya mfano wa Nguvu Tano za Porter kwa ushindani wa sekta?\nChoice A: Tishio la mbadala.\nChoice B: Tishio la wasambazaji.\nChoice C: Nguvu ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4753",
+      "prompt": "Question: Kitu kimewekwa sentimita 100 kutoka kwenye kioo cha ndege. Picha iko umbali gani kutoka kwenye kitu?\nChoice A: sentimita 50\nChoice B: sentimita 100\nChoice C: sentimita 200\nChoice D: sentimit...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9220",
+      "prompt": "Question: Kwa hali ipi kati ya hizi mbili ambapo mhusika mkuu (anayejitumia mimi/mimi/mimi) anafanya kitu ambacho ni wazi kuwa kibaya kimaadili, kulingana na viwango vya kawaida vya maadili nchini Mar...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9936",
+      "prompt": "Question: Ni ipi kati ya zifuatazo sio mojawapo ya wajibu wa awali wa Ross?\nChoice A: Uaminifu\nChoice B: Uhisani\nChoice C: Kutofanya madhara\nChoice D: Kisheria\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9063",
+      "prompt": "Question: Kwa hali ipi kati ya hizi mbili ambapo mhusika mkuu (anayetumia mimi/mimi/yangu) anafanya kitu ambacho ni wazi kuwa kibaya kimaadili, kulingana na viwango vya kawaida vya maadili nchini Mare...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7865",
+      "prompt": "Question: Wanafunzi katika darasa la sayansi la darasa la nne wanajifunza kuhusu michakato inayobadilisha uso wa Dunia. Ni ipi kati ya zifuatazo ni mfano bora wa wakala ambaye polepole huunda uso wa D...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1332",
+      "prompt": "Question: Nyuzinyuzi za kasi zina:\nChoice A: idadi kubwa kiasi ya mitochondria na shughuli ndogo ya ATPase.\nChoice B: idadi ndogo kiasi ya mitochondria na shughuli ndogo ya ATPase.\nChoice C: idadi ndo...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11054",
+      "prompt": "Question: Mume na mke walikuwa wakifanya manunuzi katika duka la idara ya ndani wakati mke aliona gauni ambalo alipenda sana. Mke, ambaye alikuwa na uzito wa zaidi ya pauni 300, hakuweza kupata saizi ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_665",
+      "prompt": "Question: Ni ipi kati ya sababu zifuatazo inaweza kuathiri shughuli za enzyme?\nChoice A: Joto.\nChoice B: pH.\nChoice C: Uwepo wa ioni za metali fulani.\nChoice D: Yote ya hapo juu.\nAnswer with A, B, C o...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7740",
+      "prompt": "Question: Ni ipi kati ya hatua zifuatazo za sera ya kifedha ni yenye upanuzi zaidi?\nChoice A: Kuongeza matumizi ya serikali na kodi\nChoice B: Kuongeza matumizi ya serikali na kupunguza kodi\nChoice C: ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13686",
+      "prompt": "Question: Mamlaka ya serikali iliyoundwa kuratibu sera za kigeni na za kijeshi za Marekani inajulikana kama\nChoice A: Baraza la Usalama wa Taifa.\nChoice B: Pentagon.\nChoice C: Taasis ya Sera ya Ulinzi...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5606",
+      "prompt": "Question: Ikizingatiwa kuwa sampuli ina upotofu wa kawaida wa sifuri, ni ipi kati ya kauli zifuatazo ni sahihi?\nChoice A: Upotofu wa kawaida wa idadi ya watu pia ni sifuri.\nChoice B: Wastani wa sampul...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_11170",
+      "prompt": "Question: Sheria ya jinai ya serikali inakataza kuchapishwa kwa maelezo yoyote ya undani wa utekelezaji wa adhabu ya kifo kwa mfungwa yeyote ambaye amehukumiwa kifo na mahakama za serikali. Ingawa she...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_4383",
+      "prompt": "Question: Ni diagonali ngapi tofauti za hexagon ya konveksi zinaweza kuchorwa?\nChoice A: 6\nChoice B: 8\nChoice C: 9\nChoice D: 36\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_430",
+      "prompt": "Question: Wakati wa kujadiliana kwa kutumia mbinu zisizo za kimaadili, biashara zinaweza kuhatarisha _______, ikiwa mazungumzo ni sehemu ya ushirikiano wa muda mrefu wa kibiashara, pamoja na _________...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1514",
+      "prompt": "Question: Ni yapi kati ya yafuatayo yanayoweza kushambuliwa kwa urahisi na mashambulizi ya sindano?\nChoice A: Vitambulisho vya kikao\nChoice B: Funguo za rejista\nChoice C: Mawasiliano ya mtandao\nChoice...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4011",
+      "prompt": "Question: Ni ipi kati ya zifuatazo itakayobadilisha mkondo wa mahitaji ya jumla kwenda kushoto?\nChoice A: Kuongezeka kwa imani ya watumiaji.\nChoice B: Makampuni ya biashara yanatarajia mauzo ya chini ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12599",
+      "prompt": "Question: Kiungo kikuu cha matibabu ya kitabia yenye ufanisi zaidi kwa agoraphobia ni\nChoice A: kupumzisha misuli kwa kina\nChoice B: kujitokeza kwa muda mrefu katika hali halisi\nChoice C: kuunda tabia...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10556",
+      "prompt": "Question: Mkaguzi anaweza kutoa huduma zozote zisizo za ukaguzi kwa mteja wa mtoaji bila kuathiri uhuru na bila kupata idhini ya kamati ya ukaguzi, isipokuwa\nChoice A: Huduma zisizo za ukaguzi zenye m...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10808",
+      "prompt": "Question: Wakati wa mzozo wa ulezi, mahakama ilikubali ombi la mshtakiwa na kumteua mtaalamu wa magonjwa ya kliniki kufanya vipimo vya makundi ya damu vya mtoto, mlalamikaji, na mshtakiwa. Baada ya ku...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_342",
+      "prompt": "Question: Ni nini kingekuwa na uzito mkubwa zaidi kwenye mwezi?\nChoice A: Kilo moja ya manyoya\nChoice B: Pauni tano za matofali kama ilivyopimwa duniani\nChoice C: Kilo tano za manyoya\nChoice D: Kilo m...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    }
+  ],
+  "timestamp": "2026-01-18T22:14:37.960221"
+}

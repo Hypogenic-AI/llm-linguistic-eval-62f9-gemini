@@ -1,0 +1,811 @@
+{
+  "model": "gpt-4o",
+  "language": "fr",
+  "resource_level": "high",
+  "total_questions": 100,
+  "correct": 82,
+  "accuracy": 0.82,
+  "responses": [
+    {
+      "question_id": "test_7972",
+      "prompt": "Question: Laquelle des parties suivantes du Soleil est facilement visible uniquement lors d'une \u00e9clipse solaire totale ?\nChoice A: Le noyau\nChoice B: La photosph\u00e8re\nChoice C: Les taches solaires\nChoic...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10112",
+      "prompt": "Question: Quelle est la preuve du commerce entre les villes de la vall\u00e9e de l'Indus et les cit\u00e9s-\u00e9tats de l'ancienne M\u00e9sopotamie ?\nChoice A: Des outils en obsidienne ont \u00e9t\u00e9 trouv\u00e9s sur des sites dans...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1622",
+      "prompt": "Question: Les neutrons dans un atome se trouvent normalement\nChoice A: \u00e0 l'int\u00e9rieur du noyau\nChoice B: \u00e0 l'ext\u00e9rieur du noyau\nChoice C: L'un ou l'autre\nChoice D: Aucun des deux\nAnswer with A, B, C or...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_840",
+      "prompt": "Question: Lequel des tissus suivants dans une plante en pleine photosynth\u00e8se aurait le taux de production d'oxyg\u00e8ne le plus \u00e9lev\u00e9 ?\nChoice A: Cortex\nChoice B: M\u00e9sophylle palissadique\nChoice C: \u00c9piderm...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12215",
+      "prompt": "Question: Un homme de 47 ans est admis \u00e0 l'h\u00f4pital par le service des urgences en raison de l'apparition soudaine de palpitations, de douleurs thoraciques du c\u00f4t\u00e9 gauche, de vertiges et de dyspn\u00e9e qui...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_9945",
+      "prompt": "Question: Selon Sartre, il y a au moins un \u00eatre chez qui l'existence pr\u00e9c\u00e8de l'essence, et cet \u00eatre est _____.\nChoice A: Dieu\nChoice B: l'homme\nChoice C: l'homme primitif\nChoice D: l'homme futur\nAnswe...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_242",
+      "prompt": "Question: La plupart des roches \u00e0 la surface de la Lune sont plus anciennes que celles \u00e0 la surface de la Terre. La meilleure preuve de cela est :\nChoice A: Les roches lunaires sont compos\u00e9es de fragm...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1546",
+      "prompt": "Question: Quel scan Nmap n'ouvre pas compl\u00e8tement une connexion TCP ?\nChoice A: Scan furtif SYN\nChoice B: Connexion TCP\nChoice C: Scan XMAS tree\nChoice D: Scan ACK\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4140",
+      "prompt": "Question: Il y a relativement plus d'\u00e9viction en raison de la politique budg\u00e9taire expansionniste lorsque\nChoice A: la politique mon\u00e9taire expansionniste accompagne la politique budg\u00e9taire\nChoice B: l...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2775",
+      "prompt": "Question: Un \u00e9tudiant enthousiaste en biologie AP int\u00e9ress\u00e9 par l'\u00e9tude de l'osmose et du mouvement de l'eau dans les solutions a pris un sac de dialyse contenant une solution de 0,5 M et l'a plac\u00e9 da...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7249",
+      "prompt": "Question: Les organisations bas\u00e9es sur Internet con\u00e7ues pour fournir des informations aux membres du canal, y compris les utilisateurs finaux, sont appel\u00e9es :\nChoice A: Infom\u00e9diaires.\nChoice B: D\u00e9tail...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8856",
+      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement incorrect, selon les normes morales ordinaires aux \u00c9tats-Uni...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8755",
+      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement incorrect, selon les normes morales ordinaires aux \u00c9tats-Uni...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3601",
+      "prompt": "Question: Le processus de d\u00e9volution implique\nChoice A: le changement de gouvernement d'une d\u00e9mocratie \u00e0 une dictature communiste.\nChoice B: le transfert de pouvoir du gouvernement central aux gouvern...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7160",
+      "prompt": "Question: ____________ distribuent le produit. Ils offrent de la valeur gr\u00e2ce aux services associ\u00e9s \u00e0 la vente de l'inventaire, au cr\u00e9dit et au service apr\u00e8s-vente.\nChoice A: Distributeurs.\nChoice B: ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_972",
+      "prompt": "Question: Les chlorofluorocarbones (CFC) tels que F3CCCl3 sont impliqu\u00e9s dans la d\u00e9composition de l'ozone stratosph\u00e9rique. Quelle m\u00e9thode parmi les suivantes serait la mieux adapt\u00e9e \u00e0 la mesure de tra...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2748",
+      "prompt": "Question: Quand nous disons qu'un organisme individuel a une plus grande aptitude qu'un autre individu, nous voulons sp\u00e9cifiquement dire que l'organisme\nChoice A: vit plus longtemps que les autres de ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6793",
+      "prompt": "Question: Un autre nom pour le sophisme de la p\u00e9tition de principe est\nChoice A: Dito simpliciter\nChoice B: Bifurcation\nChoice C: Personnalit\u00e9 r\u00e9pr\u00e9hensible\nChoice D: Raisonnement circulaire\nAnswer wi...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_35",
+      "prompt": "Question: Trouvez le degr\u00e9 de l'extension de champ donn\u00e9e Q(sqrt(2), sqrt(3)) sur Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6983",
+      "prompt": "Question: Quel est le but d'un 'cercle de qualit\u00e9'?\nChoice A: Rassembler les managers et les travailleurs pour trouver des am\u00e9liorations.\nChoice B: Rassembler les managers et les travailleurs pour dis...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4636",
+      "prompt": "Question: Supposons que l'aluminium soit un \u00e9l\u00e9ment cl\u00e9 de la production de v\u00e9los. Si le prix de l'aluminium baisse, et que toutes les autres variables restent constantes, nous nous attendons \u00e0\nChoice...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8200",
+      "prompt": "Question: Thomson discute d'une version diff\u00e9rente du cas du violoniste o\u00f9 le violoniste n'a besoin d'utiliser vos reins que pendant une heure pour survivre. Son propre avis sur ce cas est que\nChoice ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4973",
+      "prompt": "Question: L'impuissance apprise est le plus probablement directement li\u00e9e \u00e0\nChoice A: l'effet Barnum.\nChoice B: le biais d'autocomplaisance.\nChoice C: un locus de contr\u00f4le externe.\nChoice D: la consid...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7556",
+      "prompt": "Question: Laquelle des affirmations suivantes est correcte \u00e0 propos d'une structure trophique dans laquelle une sauterelle mangeuse de feuilles est mang\u00e9e par une grenouille, qui \u00e0 son tour est mang\u00e9e...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_12998",
+      "prompt": "Question: \"Pour \"\"inoculer\"\" quelqu'un contre un message persuasif, vous devriez:\"\nChoice A: pr\u00e9venir la personne qu'elle est sur le point d'entendre un message con\u00e7u pour changer ses croyances.\nChoic...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13605",
+      "prompt": "Question: Quelle est la structure du Conseil de s\u00e9curit\u00e9 des Nations Unies ?\nChoice A: 5 membres permanents avec droit de veto, 10 membres rotatifs sans droit de veto\nChoice B: 5 membres permanents et...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10202",
+      "prompt": "Question: L'art et l'iconographie mayas pr\u00e9sentent en grande partie des repr\u00e9sentations de :\nChoice A: nourrissons et enfants.\nChoice B: \u00e9toiles et com\u00e8tes.\nChoice C: amour et sexe.\nChoice D: mutilati...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12383",
+      "prompt": "Question: Un homme de 54 ans vient chez le m\u00e9decin pour un examen de suivi 10 jours apr\u00e8s avoir subi une op\u00e9ration st\u00e9r\u00e9otaxique du cerveau pour enlever une petite tumeur. L'op\u00e9ration a \u00e9t\u00e9 r\u00e9ussie. P...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13373",
+      "prompt": "Question: Laquelle de ces affirmations d\u00e9finit le mieux les concepts d'identit\u00e9 corporative et sociale?\nChoice A: Un acteur ne peut avoir qu'une seule identit\u00e9 sociale, et cela forme la base pour d\u00e9ve...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8883",
+      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement r\u00e9pr\u00e9hensible, selon les normes morales ordinaires aux \u00c9tats...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2585",
+      "prompt": "Question: En 2019, environ quel pourcentage d'Allemands disent que la relation entre les \u00c9tats-Unis et l'Allemagne est bonne ?\nChoice A: 34%\nChoice B: 49%\nChoice C: 64%\nChoice D: 79%\nAnswer with A, B,...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3165",
+      "prompt": "Question: La constante sp\u00e9cifique de vitesse, k, pour une certaine r\u00e9action de premier ordre est de 86 h^-1. Quelle masse d'un \u00e9chantillon de 0,0500 g de mat\u00e9riau de d\u00e9part restera apr\u00e8s 58 s?\nChoice ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5167",
+      "prompt": "Question: Curtis fixe une image d'une \u00e9toile jaune pendant une minute enti\u00e8re. Lorsqu'il d\u00e9place son regard vers une feuille de papier blanc vierge, il est probable qu'il voie une image r\u00e9manente qui ...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3746",
+      "prompt": "Question: Quel est le r\u00e9sultat le plus direct d'un syst\u00e8me \u00e9lectoral avec des circonscriptions uninominales ?\nChoice A: Prolif\u00e9ration de nombreux petits partis\nChoice B: Un \u00e9quilibre des pouvoirs qui ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_970",
+      "prompt": "Question: Toutes les prot\u00e9ines absorbent les radiations \u00e9lectromagn\u00e9tiques de longueur d'onde autour de 190 nm, ce qui correspond \u00e0 une excitation \u03c0 \u2192 \u03c0* dans la mol\u00e9cule de prot\u00e9ine. Dans quelle r\u00e9gi...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10630",
+      "prompt": "Question: La soci\u00e9t\u00e9 Bay Co. a engag\u00e9 des frais juridiques pour d\u00e9fendre ses droits de brevet. Ces frais juridiques doivent \u00eatre capitalis\u00e9s lorsque l'issue du litige est R\u00e9ussie \u00c9chou\u00e9e\nChoice A: Oui...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13708",
+      "prompt": "Question: Que se passe-t-il pendant la 'p\u00e9riode d'incubation'?\nChoice A: Le virus est \u00e9limin\u00e9 du corps par le syst\u00e8me immunitaire\nChoice B: La r\u00e9plication du virus se produit au niveau intracellulaire...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9972",
+      "prompt": "Question: Hare se r\u00e9f\u00e8re aux personnes qui soutiennent des id\u00e9aux sans se soucier de savoir si les int\u00e9r\u00eats des gens sont poursuivis par eux comme :\nChoice A: fanatiques.\nChoice B: amoralistes.\nChoice...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1010",
+      "prompt": "Question: Soient A et B deux ensembles de mots (cha\u00eenes) de \u03a3*, pour un certain alphabet de symboles \u03a3. Supposons que B soit un sous-ensemble de A. Laquelle des affirmations suivantes doit toujours \u00eat...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13933",
+      "prompt": "Question: \u00c0 qui les Yoga Sutras sont-ils attribu\u00e9s ?\nChoice A: Madhva\nChoice B: Patanjali\nChoice C: Ramanuja\nChoice D: Aryabhatta\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5459",
+      "prompt": "Question: Un cadre t\u00e9l\u00e9phonique demande \u00e0 un associ\u00e9 de contacter 104 clients utilisant leur service pour obtenir leurs avis concernant une id\u00e9e de nouveau forfait tarifaire. L'associ\u00e9 note le nombre ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_948",
+      "prompt": "Question: Un radical silyl\u00e9 portant un fragment Si-H\u00b7 a une valeur g de 2.0033 et une paire de lignes s\u00e9par\u00e9es par 15,5 MHz. Exprimez la s\u00e9paration en unit\u00e9s de mT, Gauss et cm-1.\nChoice A: 15,5 MHz =...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_833",
+      "prompt": "Question: Laquelle des techniques suivantes pourrait \u00eatre utilis\u00e9e pour d\u00e9montrer la liaison des prot\u00e9ines \u00e0 des s\u00e9quences d'ADN sp\u00e9cifiques ?\nChoice A: Hybridation par Western blot\nChoice B: Hybridat...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10743",
+      "prompt": "Question: Dans une juridiction utilisant les indices de donateur \u0080\u0094donataire, les \u00e9v\u00e9nements suivants se sont produits dans l'ordre indiqu\u00e9 ci-dessous : (1) En 1962, un donateur a c\u00e9d\u00e9 \u00e0 un homme une ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8642",
+      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement r\u00e9pr\u00e9hensible, selon les normes morales ordinaires aux \u00c9tats...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9275",
+      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement r\u00e9pr\u00e9hensible, selon les normes morales ordinaires aux \u00c9tats...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9786",
+      "prompt": "Question: \u00c9picure soutient que la philosophie est :\nChoice A: pas adapt\u00e9e aux jeunes.\nChoice B: pas adapt\u00e9e aux vieux.\nChoice C: importante, mais d\u00e9sagr\u00e9able.\nChoice D: aucune des r\u00e9ponses ci-dessus.\n...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2628",
+      "prompt": "Question: Les donn\u00e9es de la Banque mondiale montrent qu'en 1995, les 20% des m\u00e9nages les plus pauvres repr\u00e9sentaient 7,5% du revenu des m\u00e9nages au Niger, les 20% suivants repr\u00e9sentaient 11,8% du reven...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_943",
+      "prompt": "Question: Quelle est la force (B1) d'une impulsion 13C \u00e0 90\u00b0 d'une dur\u00e9e de 1 \u03bcs ?\nChoice A: 3,72 mT\nChoice B: 5,18 mT\nChoice C: 17,0 mT\nChoice D: 23,3 mT\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_9398",
+      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement r\u00e9pr\u00e9hensible, selon les normes morales ordinaires aux \u00c9tats...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1327",
+      "prompt": "Question: Pour des contractions de force tr\u00e8s \u00e9lev\u00e9e durant 1-2 secondes, la source initiale d'\u00e9nergie provient de :\nChoice A: Glycolyse.\nChoice B: phosphorylation de la cr\u00e9atine.\nChoice C: r\u00e9serves d...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_3097",
+      "prompt": "Question: Le sulfate de c\u00e9rium(III), Ce2(SO4)2, est moins soluble dans l'eau chaude que dans l'eau froide. Laquelle des conclusions suivantes peut \u00eatre li\u00e9e \u00e0 cela?\nChoice A: La chaleur de dissolution...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1134",
+      "prompt": "Question: \u00c9nonc\u00e9 1 | Supposons que \u2211|a_i| diverge et \u2211 a_i = 2. Il existe une r\u00e9arrangement a_i_k des termes tel que \u2211 a_i_k = 4. \u00c9nonc\u00e9 2 | Il existe des espaces m\u00e9triques X et Y avec X ferm\u00e9 et born...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10986",
+      "prompt": "Question: Un homme propri\u00e9taire d'un terrain riverain a poursuivi une usine en amont devant un tribunal f\u00e9d\u00e9ral pour pollution de la rivi\u00e8re, demandant une injonction et 250 000 $ de dommages et int\u00e9r...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1125",
+      "prompt": "Question: Quel est le plus grand ordre d'un \u00e9l\u00e9ment dans le groupe des permutations de 5 objets ?\nChoice A: 5\nChoice B: 6\nChoice C: 12\nChoice D: 15\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_12615",
+      "prompt": "Question: Une analyse fonctionnelle est r\u00e9alis\u00e9e afin d'identifier les variables _______.\nChoice A: de contr\u00f4le\nChoice B: mod\u00e9ratrices\nChoice C: d\u00e9pendantes\nChoice D: organismiques\nAnswer with A, B, C...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_4117",
+      "prompt": "Question: Dans une \u00e9conomie priv\u00e9e ferm\u00e9e, laquelle des affirmations suivantes est vraie ?\nChoice A: L'\u00e9pargne des m\u00e9nages ne peut jamais \u00eatre n\u00e9gative.\nChoice B: L'investissement est toujours sup\u00e9rie...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7206",
+      "prompt": "Question: Internet a conduit au d\u00e9veloppement d'un interm\u00e9diaire d'information. Ici, le r\u00f4le cl\u00e9 est de g\u00e9rer l'information pour am\u00e9liorer l'efficacit\u00e9 et l'efficience du canal de distribution. Cela e...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1983",
+      "prompt": "Question: ________ est l'impuret\u00e9 la plus nuisible dans les mat\u00e9riaux magn\u00e9tiques\nChoice A: Carbone.\nChoice B: Soufre.\nChoice C: Oxyg\u00e8ne.\nChoice D: Azote.\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_10450",
+      "prompt": "Question: Lorsqu'un comptable compile des \u00e9tats financiers pr\u00e9visionnels, le rapport du comptable doit inclure un paragraphe distinct qui\nChoice A: D\u00e9cline toute forme d'assurance sur les \u00e9tats financ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4310",
+      "prompt": "Question: Trouvez le reste lorsque 25^1059 est divis\u00e9 par 23.\nChoice A: 11\nChoice B: 13\nChoice C: 8\nChoice D: 5\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_10624",
+      "prompt": "Question: Dawn Corp. utilise un syst\u00e8me de co\u00fbt standard. Au cours de l'ann\u00e9e, la variance du taux de main-d'\u0153uvre et la variance de l'efficacit\u00e9 de la main-d'\u0153uvre \u00e9taient d\u00e9favorables. Dawn a direct...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_10976",
+      "prompt": "Question: Un d\u00e9taillant a intent\u00e9 une action f\u00e9d\u00e9rale pour diversit\u00e9 contre un grossiste, all\u00e9guant une rupture de contrat et une repr\u00e9sentation frauduleuse. Apr\u00e8s que les parties ont pr\u00e9sent\u00e9 leurs p...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_663",
+      "prompt": "Question: Que devez-vous vous assurer avant d'utiliser une valve de parole?\nChoice A: Que le patient est capable d'avaler correctement.\nChoice B: Il s'est \u00e9coul\u00e9 sept jours depuis l'insertion du tube ...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11507",
+      "prompt": "Question: Un propri\u00e9taire a propos\u00e9 de payer un couvreur qu'il connaissait 2 000 $ pour l'accord du couvreur de r\u00e9parer le toit du propri\u00e9taire. Il a dit au couvreur : \"Nous aurons un accord lorsque v...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1359",
+      "prompt": "Question: Avec un nombre croissant de sprints, le :\nChoice A: contribution ana\u00e9robie augmente progressivement.\nChoice B: pH du muscle tombe en dessous de 6,0.\nChoice C: concentration de glucose dans l...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7471",
+      "prompt": "Question: Quelle culture alimentaire importante est cultiv\u00e9e dans des champs appel\u00e9s rizi\u00e8res?\nChoice A: bl\u00e9\nChoice B: seigle\nChoice C: ma\u00efs\nChoice D: riz\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12306",
+      "prompt": "Question: Un homme de 27 ans est admis \u00e0 l'h\u00f4pital 45 minutes apr\u00e8s avoir \u00e9t\u00e9 impliqu\u00e9 dans une collision de v\u00e9hicule \u00e0 moteur. L'examen physique montre une r\u00e9ponse lente aux stimuli. L'examen neurolo...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10730",
+      "prompt": "Question: Un homme a arrang\u00e9 l'installation de volets en bois sur mesure sur les fen\u00eatres de sa maison. L'entrepreneur qui a install\u00e9 les volets l'a fait en per\u00e7ant des vis et des supports dans les ca...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10364",
+      "prompt": "Question: Lequel des types de preuves d'audit suivants fournit le moins d'assurance de fiabilit\u00e9 ?\nChoice A: Confirmations des cr\u00e9ances re\u00e7ues des clients du client.\nChoice B: Rapports de r\u00e9ception pr...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9647",
+      "prompt": "Question: \u00c9valuer la croissance dans la pratique courante devrait \u00eatre :\nChoice A: Taille seulement\nChoice B: Poids seulement\nChoice C: Poids et taille\nChoice D: Circonf\u00e9rence de la t\u00eate\nAnswer with A...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5505",
+      "prompt": "Question: Lequel des \u00e9l\u00e9ments suivants n'est pas requis dans un cadre binomial ?\nChoice A: Chaque essai est consid\u00e9r\u00e9 soit comme un succ\u00e8s, soit comme un \u00e9chec.\nChoice B: Chaque essai est ind\u00e9pendant....",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4560",
+      "prompt": "Question: Lequel des \u00e9l\u00e9ments suivants n'est pas une caract\u00e9ristique d'une courbe de demande coud\u00e9e ?\nChoice A: Une gamme de co\u00fbts marginaux sur laquelle RM = CM.\nChoice B: P < CM.\nChoice C: Interd\u00e9pe...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3422",
+      "prompt": "Question: Cette question se r\u00e9f\u00e8re aux informations suivantes.\n\"Le Gouvernement du Reich allemand et Le Gouvernement de l'Union des R\u00e9publiques socialistes sovi\u00e9tiques d\u00e9sireux de renforcer la cause d...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12519",
+      "prompt": "Question: Quelle m\u00e9thode de traitement donne les meilleurs r\u00e9sultats pour traiter les sympt\u00f4mes de l'anxi\u00e9t\u00e9 ?\nChoice A: Th\u00e9rapie cognitivo-comportementale\nChoice B: Entra\u00eenement aux comp\u00e9tences socia...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_13337",
+      "prompt": "Question: Dans le contexte de la s\u00e9curit\u00e9 militaire, lequel des \u00e9l\u00e9ments suivants n'est pas un avantage \u00e9vident de l'adoption d'une approche th\u00e9orique 'critique'?\nChoice A: Une approche plus critique ...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5468",
+      "prompt": "Question: Une grande ville \u00e9tait int\u00e9ress\u00e9e par l'annexion d'une partie du comt\u00e9 environnant. Dans une enqu\u00eate men\u00e9e par le journal local, 58 pour cent des r\u00e9pondants ont d\u00e9clar\u00e9 qu'ils \u00e9taient contre...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4180",
+      "prompt": "Question: Selon l'analyse \u00e9conomique classique \u00e0 long terme, une augmentation de la masse mon\u00e9taire entra\u00eene\nChoice A: une augmentation proportionnelle de la quantit\u00e9 de production.\nChoice B: la stagf...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_4644",
+      "prompt": "Question: Laquelle des caract\u00e9ristiques suivantes est propre \u00e0 la concurrence monopolistique ?\nChoice A: Efficace \u00e9conomiquement \u00e0 long terme.\nChoice B: Prix au minimum du co\u00fbt total moyen \u00e0 long term...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_7072",
+      "prompt": "Question: Lequel des processus suivants n'est pas fondamental pour expliquer comment les consommateurs pensent et apprennent \u00e0 propos des produits et des marques ?\nChoice A: Cognition.\nChoice B: Perce...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_2172",
+      "prompt": "Question: Consid\u00e9rez le motif num\u00e9rique 5, 9, 13, 17, 21, 25, 29. Quelle r\u00e8gle pourrait avoir \u00e9t\u00e9 utilis\u00e9e pour cr\u00e9er le motif?\nChoice A: Commencez avec 0. Ajoutez 4 chaque fois pour obtenir le nombre...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12554",
+      "prompt": "Question: Le mod\u00e8le des \u00e9tapes de changement (transth\u00e9orique) de Prochaska et DiClemente (1982) pr\u00e9dit qu'une personne dans la phase ________ pr\u00e9voit de prendre des mesures dans les six prochains mois...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_12079",
+      "prompt": "Question: Un petit avion commercial s'est \u00e9cras\u00e9 dans l'\u00c9tat A. Les passagers et le pilote, tous citoyens de l'\u00c9tat B, ont \u00e9t\u00e9 tu\u00e9s dans l'accident. La compagnie a\u00e9rienne qui poss\u00e9dait et exploitait l...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5224",
+      "prompt": "Question: Une personne souffrant d'une \u00e9ruption cutan\u00e9e trouve que sa douleur est temporairement soulag\u00e9e par des d\u00e9mangeaisons vigoureuses. Elle ne per\u00e7oit pas la douleur de l'\u00e9ruption pendant qu'ell...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8242",
+      "prompt": "Question: Quelles informations sont disponibles pour les occupants dans la position originelle de Rawls ?\nChoice A: connaissance de ses talents par rapport aux autres\nChoice B: connaissance de son sta...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_5502",
+      "prompt": "Question: Lequel des \u00e9l\u00e9ments suivants n'est pas important dans la conception des exp\u00e9riences ?\nChoice A: Contr\u00f4le des variables de confusion\nChoice B: Randomisation dans l'attribution des sujets \u00e0 di...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_14014",
+      "prompt": "Question: Avec quelle branche de l'Islam les Isma'ilis sont-ils associ\u00e9s ?\nChoice A: Les Sunnites\nChoice B: Les Chiites\nChoice C: Les Soufis\nChoice D: Les Ahmadis\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1200",
+      "prompt": "Question: Une voiture de course tentant de sauter une s\u00e9rie de 8 bus est plac\u00e9e sur une piste plate avec une rampe \u00e0 la fin. Les ing\u00e9nieurs assign\u00e9s au projet ont d\u00e9termin\u00e9 que, pour sauter les bus, l...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_153",
+      "prompt": "Question: La localisation anatomique du canal rachidien est\nChoice A: caudal\nChoice B: dorsal\nChoice C: frontal\nChoice D: transverse\nAnswer with A, B, C or D:\nAnswer:",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_8261",
+      "prompt": "Question: Velleman croit que l'option de l'euthanasie peut nuire \u00e0 certains patients. Quelle est, selon lui, la mani\u00e8re la plus significative dont cela pourrait se produire ?\nChoice A: en imposant \u00e0 u...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_11550",
+      "prompt": "Question: Un t\u00e9moin est pr\u00e9vu pour t\u00e9moigner dans une affaire criminelle. Pour prouver qu'il \u00e9tait mineur \u00e0 une date donn\u00e9e, des preuves sont pr\u00e9sent\u00e9es qu'\u00e0 cette date, il \u00e9tait d\u00e9tenu dans un centre...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_10324",
+      "prompt": "Question: Quelle culture \u00e9tait centr\u00e9e dans la vall\u00e9e de la rivi\u00e8re Ohio il y a environ 2 800 ans ?\nChoice A: les Kwakiutl\nChoice B: les Mogollon\nChoice C: les Sinagua\nChoice D: les Adena\nAnswer with ...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1656",
+      "prompt": "Question: Le vol d'un dirigeable illustre le mieux\nChoice A: le principe d'Archim\u00e8de\nChoice B: le principe de Pascal\nChoice C: le principe de Bernoulli\nChoice D: la loi de Boyle\nAnswer with A, B, C or...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_1213",
+      "prompt": "Question: Un nouvel enzyme est trouv\u00e9 chez une souris transg\u00e9nique qui participe \u00e0 la synth\u00e8se d'un produit inconnu en utilisant deux r\u00e9actifs. Lors de l'utilisation de compos\u00e9s radiomarqu\u00e9s pour \u00e9tud...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_9897",
+      "prompt": "Question: Mill dit que le but ultime de l'utilitarisme est une existence aussi libre de douleur que possible et aussi riche que possible en _____.\nChoice A: plaisirs inf\u00e9rieurs\nChoice B: accomplisseme...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_3590",
+      "prompt": "Question: Lequel des facteurs suivants ne joue PAS un r\u00f4le dans les relations de genre dans une culture ou une soci\u00e9t\u00e9 ?\nChoice A: Biologie\nChoice B: Progr\u00e8s dans le d\u00e9veloppement technologique\nChoice...",
+      "raw_response": "B",
+      "parsed_answer": "B",
+      "correct_answer": "A",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_9348",
+      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement incorrect, selon les normes morales ordinaires aux \u00c9tats-Uni...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "D",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_2202",
+      "prompt": "Question: Une entreprise fabrique 5 voitures bleues pour chaque 3 voitures blanches qu'elle fabrique. Si l'entreprise fabrique 15 voitures blanches en une journ\u00e9e, combien de voitures bleues fabriquer...",
+      "raw_response": "D",
+      "parsed_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true
+    },
+    {
+      "question_id": "test_6240",
+      "prompt": "Question: M\u00eame une petite quantit\u00e9 de privation de sommeil semble\nChoice A: Augmenter le poids\nChoice B: Am\u00e9liorer la qualit\u00e9 du sommeil\nChoice C: Perturber l'attention le lendemain\nChoice D: Augmente...",
+      "raw_response": "C",
+      "parsed_answer": "C",
+      "correct_answer": "B",
+      "is_correct": false
+    },
+    {
+      "question_id": "test_1139",
+      "prompt": "Question: Supposons que A et B sont des matrices n \u00d7 n avec des entr\u00e9es r\u00e9elles. Lesquelles des propositions suivantes sont VRAIES ?\nI. La trace de A^2 est non n\u00e9gative.\nII. Si A^2 = A, alors la trace...",
+      "raw_response": "A",
+      "parsed_answer": "A",
+      "correct_answer": "A",
+      "is_correct": true
+    }
+  ],
+  "timestamp": "2026-01-18T22:09:09.283697"
+}
