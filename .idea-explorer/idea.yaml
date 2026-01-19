@@ -1,0 +1,28 @@
+idea:
+  title: Evaluating Linguistic Performance in LLMs
+  domain: nlp
+  hypothesis: 'Large language models trained predominantly on English data may underperform
+    when deployed in non-English-speaking countries. Evaluating LLM performance across
+    multiple languages will reveal the extent of English-centric bias and whether
+    these models possess implicit internal translation mechanisms.
+
+    '
+  background:
+    description: 'Large language models are trained predominantly on English data,
+      yet they are increasingly deployed at national scale in non-English-speaking
+      countries. (ie XAI partnership with Venzeula, Open-AI with Estonia)
+
+      Despite this, model capability evaluations and training data are overwhelmingly
+      English-centric.
+
+      It may be interesting to host some evaluation benchmark/ leaderboard for LLM
+      performance across languages. Is it possible that these models have some implicit
+      internal translation mechanisms?'
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/zPs0N3qLLeBtMWy4f4I9
+    idea_id: evaluating_linguistic_performa_20260118_191935_509d5e85
+    created_at: '2026-01-18T19:19:35.497530'
+    status: submitted
+    github_repo_name: llm-linguistic-eval-62f9-gemini
+    github_repo_url: https://github.com/Hypogenic-AI/llm-linguistic-eval-62f9-gemini
