@@ -1,811 +1,452 @@
-{
-  "model": "gpt-4o",
-  "language": "vi",
-  "resource_level": "mid",
-  "total_questions": 100,
-  "correct": 78,
-  "accuracy": 0.78,
-  "responses": [
-    {
-      "question_id": "test_8385",
-      "prompt": "Question: Theo quan \u0111i\u1ec3m c\u1ee7a Mill, s\u1ef1 va ch\u1ea1m v\u1edbi sai l\u1ea7m l\u00e0m cho\nChoice A: \u1ea5n t\u01b0\u1ee3ng v\u1ec1 s\u1ef1 th\u1eadt tr\u1edf n\u00ean r\u00f5 r\u00e0ng h\u01a1n.\nChoice B: \u1ea5n t\u01b0\u1ee3ng v\u1ec1 sai l\u1ea7m tr\u1edf n\u00ean r\u00f5 r\u00e0ng h\u01a1n.\nChoice C: \u1ea5n t\u01b0\u1ee3ng v\u1ec1 c\u00e1c \u00fd t\u01b0\u1edfn...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7946",
-      "prompt": "Question: Khi qu\u00e9t \u1ed5 \u0111\u0129a \u0111\u1ec3 t\u00ecm virus, th\u01b0\u1eddng quan tr\u1ecdng \u0111\u1ec3 ki\u1ec3m tra c\u00e1c t\u1ec7p c\u00f3 ph\u1ea7n m\u1edf r\u1ed9ng n\u00e0o sau \u0111\u00e2y?\nChoice A: .jpg\nChoice B: .pdf\nChoice C: .wav\nChoice D: .exe\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7954",
-      "prompt": "Question: Carmen d\u00e0nh to\u00e0n b\u1ed9 thu nh\u1eadp h\u00e0ng tu\u1ea7n c\u1ee7a m\u00ecnh cho hai m\u1eb7t h\u00e0ng: X v\u00e0 Y. \u1ede m\u1ee9c ti\u00eau th\u1ee5 hi\u1ec7n t\u1ea1i c\u1ee7a hai m\u1eb7t h\u00e0ng, l\u1ee3i \u00edch c\u1eadn bi\u00ean c\u1ee7a \u0111\u1ed3ng \u0111\u00f4 la cu\u1ed1i c\u00f9ng chi ti\u00eau cho m\u1eb7t h\u00e0ng X l\u00e0 5 v\u00e0 ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12623",
-      "prompt": "Question: Trong ph\u1ea7n sau c\u1ee7a n\u0103m \u0111\u1ea7u ti\u00ean, kh\u1ea3 n\u0103ng h\u1ecdc ng\u00f4n ng\u1eef c\u1ee7a tr\u1ebb em thay \u0111\u1ed5i nh\u01b0 th\u1ebf n\u00e0o\nChoice A: tr\u1edf n\u00ean k\u00e9m kh\u1ea3 n\u0103ng ph\u00e2n bi\u1ec7t c\u00e1c \u00e2m thanh kh\u00f4ng c\u00f3 trong ng\u00f4n ng\u1eef c\u1ee7a m\u00ecnh\nChoice B: b\u1eaft \u0111\u1ea7...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3600",
-      "prompt": "Question: \u1ea2nh h\u01b0\u1edfng c\u1ee7a ch\u1ee7 ngh\u0129a t\u00e2n Malthus c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c th\u1ea5y trong\nChoice A: c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh c\u1ee7a ch\u00ednh ph\u1ee7 v\u1ec1 ki\u1ec3m so\u00e1t sinh s\u1ea3n v\u00e0 k\u1ebf ho\u1ea1ch h\u00f3a gia \u0111\u00ecnh.\nChoice B: c\u1ee9u tr\u1ee3 n\u1ea1n \u0111\u00f3i.\nChoice C: t\u0103ng ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9454",
-      "prompt": "Question: S\u1ef1 thi\u1ebfu h\u1ee5t lactase trong ru\u1ed9t d\u1eabn \u0111\u1ebfn vi\u1ec7c ti\u00eau h\u00f3a lactose k\u00e9m, sau \u0111\u00f3 c\u00f3 th\u1ec3 d\u1eabn \u0111\u1ebfn kh\u00f4ng dung n\u1ea1p lactose, t\u1ee9c l\u00e0 g\u00e2y ra c\u00e1c tri\u1ec7u ch\u1ee9ng l\u00e2m s\u00e0ng. Tr\u1ebb s\u01a1 sinh v\u00e0 tr\u1ebb em th\u01b0\u1eddng bi\u1ec3u hi\u1ec7...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8545",
-      "prompt": "Question: Trong hai t\u00ecnh hu\u1ed1ng n\u00e0y, nh\u00e2n v\u1eadt ch\u00ednh (ng\u01b0\u1eddi s\u1eed d\u1ee5ng t\u00f4i/t\u00f4i/c\u1ee7a t\u00f4i) l\u00e0m \u0111i\u1ec1u g\u00ec r\u00f5 r\u00e0ng l\u00e0 sai v\u1ec1 m\u1eb7t \u0111\u1ea1o \u0111\u1ee9c, theo ti\u00eau chu\u1ea9n \u0111\u1ea1o \u0111\u1ee9c th\u00f4ng th\u01b0\u1eddng \u1edf M\u1ef9 v\u00e0o n\u0103m 2020? T\u00ecnh hu\u1ed1ng 1 | T\u00f4i...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13711",
-      "prompt": "Question: \u201cQu\u1ea3n l\u00fd d\u1ef1 ph\u00f2ng\u201d l\u00e0:\nChoice A: M\u1ed9t chi\u1ebfn l\u01b0\u1ee3c cu\u1ed1i c\u00f9ng \u0111\u1ec3 gi\u1ea3m c\u00e1c h\u00e0nh vi nguy c\u01a1 cao\nChoice B: Tr\u1ea3 ti\u1ec1n cho ng\u01b0\u1eddi s\u1eed d\u1ee5ng ma t\u00fay \u0111\u1ec3 c\u00f3 m\u1eabu n\u01b0\u1edbc ti\u1ec3u \u00e2m t\u00ednh\nChoice C: Tr\u1ea3 ti\u1ec1n cho ng\u01b0\u1eddi...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_2832",
-      "prompt": "Question: C\u00e2u n\u00e0o sau \u0111\u00e2y gi\u1ea3i th\u00edch c\u00e1ch m\u1ed9t \u0111\u1ed9t bi\u1ebfn \u0111i\u1ec3m c\u00f3 th\u1ec3 kh\u00f4ng c\u00f3 t\u00e1c \u0111\u1ed9ng ti\u00eau c\u1ef1c \u0111\u1ebfn protein \u0111\u01b0\u1ee3c h\u00ecnh th\u00e0nh t\u1eeb m\u1ed9t chu\u1ed7i trong DNA?\nChoice A: Codon \u0111\u1ea7u ti\u00ean c\u1ee7a m\u1ed9t gen lu\u00f4n l\u00e0 AUG, m\u1ed9t ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12330",
-      "prompt": "Question: M\u1ed9t ng\u01b0\u1eddi \u0111\u00e0n \u00f4ng 24 tu\u1ed5i \u0111\u1ebfn v\u0103n ph\u00f2ng v\u00ec c\u00f3 ti\u1ec1n s\u1eed 2 ng\u00e0y b\u1ecb ph\u00e1t ban \u0111\u1ecf, ng\u1ee9a \u1edf m\u00f4ng v\u00e0 ch\u00e2n. B\u1ed1n ng\u00e0y tr\u01b0\u1edbc, anh ta tr\u1edf v\u1ec1 t\u1eeb m\u1ed9t chuy\u1ebfn du thuy\u1ec1n \u0111\u1ebfn Caribbean, trong \u0111\u00f3 anh ta \u0111\u00e3 b\u01a1i ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1405",
-      "prompt": "Question: Theo \u0111\u1ecbnh ngh\u0129a, d\u00f2ng \u0111i\u1ec7n d\u1ecbch chuy\u1ec3n qua m\u1ed9t b\u1ec1 m\u1eb7t S t\u1ef7 l\u1ec7 thu\u1eadn v\u1edbi\nChoice A: t\u1eeb th\u00f4ng qua S\nChoice B: t\u1ed1c \u0111\u1ed9 thay \u0111\u1ed5i c\u1ee7a t\u1eeb th\u00f4ng qua S\nChoice C: t\u00edch ph\u00e2n theo th\u1eddi gian c\u1ee7a t\u1eeb th\u00f4ng ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4949",
-      "prompt": "Question: Xavier \u0111ang b\u1eaft \u0111\u1ea7u n\u0103m \u0111\u1ea7u ti\u00ean c\u1ee7a \u0111\u1ea1i h\u1ecdc. Anh \u1ea5y h\u00e1o h\u1ee9c t\u00ecm v\u00e0i ng\u01b0\u1eddi b\u1ea1n kh\u00e1c \u0111\u1ec3 \"\u0111i ch\u01a1i\". C\u00e1c nh\u00e0 t\u00e2m l\u00fd h\u1ecdc s\u1ebd n\u00f3i r\u1eb1ng Xavier \u0111\u01b0\u1ee3c th\u00fac \u0111\u1ea9y b\u1edfi m\u1ed9t nhu c\u1ea7u\nChoice A: nhu c\u1ea7u k\u1ebft b\u1ea1...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9525",
-      "prompt": "Question: \u0110\u00e2u l\u00e0 N\u0102M chu\u1ed7i ch\u00ednh c\u1ee7a apoprotein \u0111\u00e3 \u0111\u01b0\u1ee3c x\u00e1c \u0111\u1ecbnh?\nChoice A: apoA, apoB, apoC, apoD, v\u00e0 apoE\nChoice B: apoA, apo(a), apoB, apoC v\u00e0 apoE\nChoice C: apoA, apoB, apoC, apo E, v\u00e0 apoL\nChoice...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_12415",
-      "prompt": "Question: Sau khi b\u1ecb \u0111\u00e1nh \u0111\u1eadp nghi\u00eam tr\u1ecdng v\u00e0 b\u1ecb th\u01b0\u01a1ng do \u0111\u1ea1n b\u1eafn v\u00e0o b\u1ee5ng, m\u1ed9t ph\u1ee5 n\u1eef 42 tu\u1ed5i tr\u1ea3i qua ph\u1eabu thu\u1eadt c\u1eaft b\u1ecf ru\u1ed9t non b\u1ecb th\u1ee7ng. Trong qu\u00e1 tr\u00ecnh ph\u1eabu thu\u1eadt, t\u00e1i t\u1ea1o nh\u1ef1a c\u1ee7a c\u00e1c v\u1ebft g\u00e3y x...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11799",
-      "prompt": "Question: M\u1ed9t ng\u01b0\u1eddi b\u00e1n \u0111\u00e3 b\u00e1n hai ph\u1ea7n ba ph\u00eda \u0111\u00f4ng c\u1ee7a m\u1ea3nh \u0111\u1ea5t c\u1ee7a m\u00ecnh cho m\u1ed9t ng\u01b0\u1eddi mua, ng\u01b0\u1eddi sau \u0111\u00f3 \u0111\u00e3 x\u00e2y d\u1ef1ng m\u1ed9t ng\u00f4i nh\u00e0 \u1edf \u0111\u00f3. M\u1ed9t n\u0103m sau, ng\u01b0\u1eddi mua \u0111\u00e3 d\u1ecdn m\u1ed9t con \u0111\u01b0\u1eddng t\u1eeb nh\u00e0 c\u1ee7a m\u00ecnh qu...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11505",
-      "prompt": "Question: M\u1ed9t ng\u01b0\u1eddi \u0111\u00e0n \u00f4ng b\u1ecb b\u1eaft theo m\u1ed9t \u0111\u1ea1o lu\u1eadt h\u00ecnh s\u1ef1 c\u1ea5m say r\u01b0\u1ee3u n\u01a1i c\u00f4ng c\u1ed9ng. M\u1ed9t th\u1ea9m ph\u00e1n \u0111\u00e3 ph\u1ea1t anh ta $100 v\u00e0 k\u1ebft \u00e1n anh ta m\u1ed9t cu\u1ed1i tu\u1ea7n trong t\u00f9. Khi kh\u00e1ng c\u00e1o, anh ta \u0111\u00e3 c\u00f3 m\u1ed9t phi\u00ea...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5969",
-      "prompt": "Question: C\u00e2u h\u1ecfi n\u00e0y \u0111\u1ec1 c\u1eadp \u0111\u1ebfn th\u00f4ng tin sau.\n\"Al-Zawawi c\u0169ng n\u00f3i 'Sultan Musa n\u00e0y n\u00f3i v\u1edbi t\u00f4i r\u1eb1ng t\u1ea1i m\u1ed9t th\u1ecb tr\u1ea5n g\u1ecdi l\u00e0 ZKRY, \u00f4ng ta c\u00f3 m\u1ed9t m\u1ecf \u0111\u1ed3ng t\u1eeb \u0111\u00f3 c\u00e1c th\u1ecfi \u0111\u1ed3ng \u0111\u01b0\u1ee3c mang \u0111\u1ebfn BYTY. \"Kh\u00f4ng...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1548",
-      "prompt": "Question: Trong m\u1ed9t cu\u1ed9c t\u1ea5n c\u00f4ng _____________, d\u1eef li\u1ec7u th\u00eam ch\u1ee9a m\u1ed9t s\u1ed1 h\u01b0\u1edbng d\u1eabn c\u1ee5 th\u1ec3 trong b\u1ed9 nh\u1edb cho c\u00e1c h\u00e0nh \u0111\u1ed9ng \u0111\u01b0\u1ee3c d\u1ef1 ki\u1ebfn b\u1edfi m\u1ed9t t\u1ed9i ph\u1ea1m m\u1ea1ng ho\u1eb7c ng\u01b0\u1eddi ki\u1ec3m tra x\u00e2m nh\u1eadp \u0111\u1ec3 ph\u00e1 v\u1ee1 h\u1ec7 t...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_14000",
-      "prompt": "Question: Ph\u00fac \u00c2m c\u1ee7a John li\u00ean quan \u0111\u1ebfn kh\u00e1i ni\u1ec7m th\u1ea7n h\u1ecdc n\u00e0o?\nChoice A: Nh\u1eadp th\u1ec3\nChoice B: Logos c\u1ee7a Ch\u00faa\nChoice C: Ch\u00faa Jesus l\u00e0 \u0111\u1ea5ng c\u1ee9u th\u1ebf v\u00e0 c\u1ee9u r\u1ed7i\nChoice D: T\u1ea5t c\u1ea3 c\u00e1c \u0111i\u1ec1u tr\u00ean\nAnswer with ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4112",
-      "prompt": "Question: Trong c\u00e1n c\u00e2n thanh to\u00e1n, c\u00e1n c\u00e2n th\u01b0\u01a1ng m\u1ea1i\nChoice A: b\u1ecb b\u1ecf qua.\nChoice B: xu\u1ea5t hi\u1ec7n trong t\u00e0i kho\u1ea3n v\u1ed1n.\nChoice C: xu\u1ea5t hi\u1ec7n trong t\u00e0i kho\u1ea3n v\u00e3ng lai\nChoice D: \u0111\u01b0\u1ee3c bao g\u1ed3m trong d\u1ef1 tr\u1eef ch...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12573",
-      "prompt": "Question: Khi s\u1eed d\u1ee5ng Nguy\u00ean t\u1eafc Premack \u0111\u1ec3 thay \u0111\u1ed5i h\u00e0nh vi, ph\u1ea7n th\u01b0\u1edfng l\u00e0:\nChoice A: \u0111\u01b0\u1ee3c \u00e1p d\u1ee5ng kh\u00f4ng li\u00ean t\u1ee5c.\nChoice B: m\u1ed9t ph\u1ea7n th\u01b0\u1edfng \u0111i\u1ec1u ki\u1ec7n h\u00f3a t\u1ed5ng qu\u00e1t.\nChoice C: m\u1ed9t h\u00e0nh vi x\u1ea3y ra th\u01b0...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5404",
-      "prompt": "Question: M\u1ed9t nh\u00e0 t\u00e2m l\u00fd h\u1ecdc tr\u01b0\u1eddng h\u1ecdc \u0111\u01b0\u1ee3c y\u00eau c\u1ea7u gi\u00fap c\u00f4 Smith gi\u1ea3i quy\u1ebft c\u00e1c h\u00e0nh vi g\u00e2y r\u1ed1i \u0111ang l\u00e0m gi\u00e1n \u0111o\u1ea1n vi\u1ec7c h\u1ecdc c\u1ee7a h\u1ecdc sinh. Nh\u00e0 t\u00e2m l\u00fd h\u1ecdc tr\u01b0\u1eddng h\u1ecdc \u0111\u01b0\u1ee3c cung c\u1ea5p d\u1eef li\u1ec7u cho th\u1ea5y c\u00f3 ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3938",
-      "prompt": "Question: \u0110i\u1ec1u n\u00e0o sau \u0111\u00e2y c\u00f3 xu h\u01b0\u1edbng l\u00e0m t\u0103ng h\u1ec7 s\u1ed1 chi ti\u00eau?\nChoice A: S\u1ef1 gia t\u0103ng trong xu h\u01b0\u1edbng ti\u00eau d\u00f9ng bi\u00ean\nChoice B: Gi\u1ea3m t\u1ed1c \u0111\u1ed9 l\u01b0u th\u00f4ng ti\u1ec1n t\u1ec7\nChoice C: S\u1ef1 gia t\u0103ng trong xu h\u01b0\u1edbng ti\u1ebft ki...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3320",
-      "prompt": "Question: C\u00e2u h\u1ecfi n\u00e0y \u0111\u1ec1 c\u1eadp \u0111\u1ebfn th\u00f4ng tin sau.\n\u0110\u1ecdc \u0111o\u1ea1n tr\u00edch sau.\nCh\u01b0a bao gi\u1edd t\u00e0i n\u0103ng c\u1ee7a thi\u00ean t\u00e0i cao nh\u1ea5t thu\u1ed9c lo\u1ea1i cao qu\u00fd nh\u1ea5t l\u1ea1i \u0111\u01b0\u1ee3c ban ph\u00e1t d\u1ed3i d\u00e0o cho m\u1ed9t con ng\u01b0\u1eddi. Thi\u00ean t\u00e0i c\u1ee7a Napo...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2461",
-      "prompt": "Question: Ch\u1ecdn b\u1ea3n d\u1ecbch t\u1ed1t nh\u1ea5t sang logic v\u1ecb t\u1eeb. Jos\u00e9 gi\u1edbi thi\u1ec7u Wilma v\u1edbi Kevin. (j: Jos\u00e9; k: Kevin; w: Wilma; Ixyz: x gi\u1edbi thi\u1ec7u y v\u1edbi z)\nChoice A: Iwkj\nChoice B: Ijwk\nChoice C: Iwjk\nChoice D: Ijk...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_404",
-      "prompt": "Question: M\u00f4 h\u00ecnh l\u1ee3i \u00edch t\u1ef1 gi\u00e1c c\u1ee7a CSR l\u00e0 g\u00ec?\nChoice A: R\u1eb1ng l\u1ee3i \u00edch t\u1ed1t nh\u1ea5t c\u1ee7a t\u1ed5 ch\u1ee9c l\u00e0 \u0111\u1eb7t m\u00ecnh l\u00ean h\u00e0ng \u0111\u1ea7u thay v\u00ec \u0111\u1ea1o \u0111\u1ee9c c\u1ee7a m\u00ecnh\nChoice B: R\u1eb1ng l\u1ee3i \u00edch t\u1ed1t nh\u1ea5t c\u1ee7a t\u1ed5 ch\u1ee9c l\u00e0 xem x\u00e9t nh...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_769",
-      "prompt": "Question: C\u00e1c th\u00ed nghi\u1ec7m v\u1ec1 s\u1ef1 ph\u00e1t tri\u1ec3n b\u00e0i h\u00e1t \u1edf chim \u0111\u00e3 cho th\u1ea5y r\u1eb1ng khi m\u1ed9t con chim \u0111\u1ef1c non \u0111\u01b0\u1ee3c nu\u00f4i d\u01b0\u1ee1ng trong s\u1ef1 c\u00f4 l\u1eadp ch\u1ec9 nghe b\u00e0i h\u00e1t c\u1ee7a m\u1ed9t lo\u00e0i chim kh\u00e1c, n\u00f3 s\u1ebd ph\u00e1t tri\u1ec3n m\u1ed9t kho b\u00e0i...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4288",
-      "prompt": "Question: Vi khu\u1ea9n trong m\u1ed9t m\u00f4i tr\u01b0\u1eddng nu\u00f4i c\u1ea5y t\u0103ng v\u1edbi t\u1ed1c \u0111\u1ed9 t\u1ef7 l\u1ec7 thu\u1eadn v\u1edbi s\u1ed1 l\u01b0\u1ee3ng hi\u1ec7n c\u00f3. M\u1ed9t qu\u1ea7n th\u1ec3 ban \u0111\u1ea7u g\u1ed3m 200 vi khu\u1ea9n t\u0103ng g\u1ea5p ba l\u1ea7n trong 10 gi\u1edd. N\u1ebfu m\u00f4 h\u00ecnh t\u0103ng tr\u01b0\u1edfng n\u00e0y ti\u1ebfp ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8591",
-      "prompt": "Question: Trong hai t\u00ecnh hu\u1ed1ng n\u00e0y, nh\u00e2n v\u1eadt ch\u00ednh (ng\u01b0\u1eddi s\u1eed d\u1ee5ng t\u00f4i/t\u00f4i/c\u1ee7a t\u00f4i) l\u00e0m \u0111i\u1ec1u g\u00ec \u0111\u00f3 r\u00f5 r\u00e0ng l\u00e0 sai v\u1ec1 m\u1eb7t \u0111\u1ea1o \u0111\u1ee9c, theo ti\u00eau chu\u1ea9n \u0111\u1ea1o \u0111\u1ee9c th\u00f4ng th\u01b0\u1eddng \u1edf M\u1ef9 v\u00e0o n\u0103m 2020? T\u00ecnh hu\u1ed1ng 1 | ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11339",
-      "prompt": "Question: M\u1ed9t ng\u01b0\u1eddi \u0111\u00e0n \u00f4ng s\u1edf h\u1eefu m\u1ed9t m\u1ea3nh \u0111\u1ea5t v\u1edbi m\u1ed9t c\u0103n nh\u00e0 g\u1ed7 xu\u1ed1ng c\u1ea5p tr\u00ean \u0111\u00f3. Anh ta m\u1ea5t h\u1ee9ng th\u00fa v\u1edbi n\u00f3, \u0111\u1ec3 c\u00e1c h\u00f3a \u0111\u01a1n thu\u1ebf ch\u1ed3ng ch\u1ea5t v\u00e0 kh\u00f4ng b\u1ea3o tr\u00ec n\u00f3. N\u0103m 1990, m\u1ed9t c\u1eb7p v\u1ee3 ch\u1ed3ng v\u00f4 gia ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1205",
-      "prompt": "Question: C\u00e1c steroid t\u1ed5ng h\u1ee3p t\u0103ng c\u01b0\u1eddng hi\u1ec7u su\u1ea5t d\u1ef1a tr\u00ean c\u1ea5u tr\u00fac c\u1ee7a hormone:\nChoice A: testosterone.\nChoice B: cortisol.\nChoice C: progesterone.\nChoice D: aldosterone.\nAnswer with A, B, C or D:\n...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8208",
-      "prompt": "Question: \u0110\u1eb7c \u0111i\u1ec3m n\u00e0o sau \u0111\u00e2y l\u00e0 c\u1ee7a l\u00fd thuy\u1ebft \u0111\u1ea1o \u0111\u1ee9c h\u1eadu qu\u1ea3?\nChoice A: \u0110\u00f3 l\u00e0 m\u1ed9t l\u00fd thuy\u1ebft d\u1ef1a tr\u00ean gi\u00e1 tr\u1ecb.\nChoice B: N\u00f3 li\u00ean quan \u0111\u1ebfn \u00fd t\u01b0\u1edfng v\u1ec1 c\u00e1c h\u00e0nh \u0111\u1ed9ng thay th\u1ebf m\u1edf ra cho t\u00e1c nh\u00e2n.\nChoice...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7382",
-      "prompt": "Question: Ph\u00e2n b\u1ed1 kh\u00e1c bi\u1ec7t c\u1ee7a c\u00e1c ch\u1ea5t trong tr\u1ee9ng th\u01b0\u1eddng d\u1eabn \u0111\u1ebfn:\nChoice A: s\u1ef1 kh\u00e1c bi\u1ec7t trong bi\u1ec3u hi\u1ec7n gen c\u00f3 th\u1ec3 thi\u1ebft l\u1eadp m\u1ed9t m\u00f4 h\u00ecnh trong ph\u00f4i khi c\u00e1c t\u1ebf b\u00e0o ph\u00e2n chia\nChoice B: s\u1ef1 khu\u1ebfch \u0111\u1ea1i...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11733",
-      "prompt": "Question: Hai ng\u01b0\u1eddi \u0111\u00e0n \u00f4ng \u0111\u1ed3ng \u00fd \u0111\u1ed9t nh\u1eadp v\u00e0o m\u1ed9t ng\u00f4i nh\u00e0. Trong khi h\u1ecd \u0111ang l\u00ean k\u1ebf ho\u1ea1ch cho v\u1ee5 tr\u1ed9m, hai ng\u01b0\u1eddi \u0111\u00e0n \u00f4ng bi\u1ebft r\u1eb1ng ng\u00f4i nh\u00e0 c\u00f3 m\u1ed9t h\u1ec7 th\u1ed1ng b\u00e1o \u0111\u1ed9ng tinh vi c\u1ea7n ph\u1ea3i \u0111\u01b0\u1ee3c v\u00f4 hi\u1ec7u h\u00f3...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_10563",
-      "prompt": "Question: Pine Co. \u0111\u00e3 mua \u0111\u1ea5t v\u1edbi gi\u00e1 $450000 l\u00e0m \u0111\u1ecba \u0111i\u1ec3m nh\u00e0 m\u00e1y. M\u1ed9t t\u00f2a nh\u00e0 hi\u1ec7n c\u00f3 tr\u00ean \u0111\u1ecba \u0111i\u1ec3m \u0111\u00e3 b\u1ecb ph\u00e1 b\u1ecf tr\u01b0\u1edbc khi b\u1eaft \u0111\u1ea7u x\u00e2y d\u1ef1ng. Th\u00f4ng tin b\u1ed5 sung nh\u01b0 sau: Chi ph\u00ed ph\u00e1 b\u1ecf t\u00f2a nh\u00e0 c\u0169 $600...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_3239",
-      "prompt": "Question: Ph\u00e1t bi\u1ec3u n\u00e0o sau \u0111\u00e2y l\u00e0 \u0111\u00fang v\u1ec1 t\u00e0i li\u1ec7u ch\u01b0\u01a1ng tr\u00ecnh?\nChoice A: T\u00e0i li\u1ec7u ch\u01b0\u01a1ng tr\u00ecnh kh\u00f4ng n\u00ean thay \u0111\u1ed5i sau khi n\u00f3 \u0111\u01b0\u1ee3c vi\u1ebft l\u1ea7n \u0111\u1ea7u.\nChoice B: T\u00e0i li\u1ec7u ch\u01b0\u01a1ng tr\u00ecnh ch\u1ec9 c\u1ea7n thi\u1ebft cho c\u00e1c...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13372",
-      "prompt": "Question: Nh\u1eefng c\u00e1ch n\u00e0o c\u00f3 th\u1ec3 \u0111e d\u1ecda m\u1ed9t x\u00e3 h\u1ed9i?\nChoice A: C\u00e1c x\u00e3 h\u1ed9i b\u1ecb \u0111e d\u1ecda khi di s\u1ea3n ng\u00f4n ng\u1eef v\u00e0 truy\u1ec1n th\u1ed1ng c\u1ee7a h\u1ecd b\u1ecb t\u1ea5n c\u00f4ng. Vi\u1ec7c kh\u00f4ng th\u1ec3 s\u1eed d\u1ee5ng v\u00e0 ph\u00e1t tri\u1ec3n ng\u00f4n ng\u1eef truy\u1ec1n th\u1ed1ng bi\u1ec3...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_12994",
-      "prompt": "Question: Khi c\u00e1c nhu c\u1ea7u sinh t\u1ed3n c\u01a1 b\u1ea3n \u0111\u00e3 \u0111\u01b0\u1ee3c \u0111\u00e1p \u1ee9ng, ti\u1ec1n nh\u01b0 m\u1ed9t y\u1ebfu t\u1ed1 th\u00fac \u0111\u1ea9y\nChoice A: thay \u0111\u1ed5i th\u00e0nh m\u1ed9t y\u1ebfu t\u1ed1 duy tr\u00ec, t\u0103ng l\u00ean nh\u01b0 m\u1ed9t y\u1ebfu t\u1ed1 th\u00fac \u0111\u1ea9y\nChoice B: tr\u1edf th\u00e0nh m\u1ed9t bi\u1ec3u t\u01b0\u1ee3ng...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_6877",
-      "prompt": "Question: Tuy\u00ean b\u1ed1 1| V\u00ec chi\u1ec1u VC c\u1ee7a m\u1ed9t SVM v\u1edbi Radial Base Kernel l\u00e0 v\u00f4 h\u1ea1n, n\u00ean SVM \u0111\u00f3 ph\u1ea3i t\u1ec7 h\u01a1n m\u1ed9t SVM v\u1edbi kernel \u0111a th\u1ee9c c\u00f3 chi\u1ec1u VC h\u1eefu h\u1ea1n. Tuy\u00ean b\u1ed1 2| M\u1ed9t m\u1ea1ng n\u01a1-ron hai l\u1edbp v\u1edbi c\u00e1c h\u00e0m k...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9073",
-      "prompt": "Question: Trong hai t\u00ecnh hu\u1ed1ng n\u00e0y, nh\u00e2n v\u1eadt ch\u00ednh (ng\u01b0\u1eddi s\u1eed d\u1ee5ng t\u00f4i/t\u00f4i/c\u1ee7a t\u00f4i) l\u00e0m \u0111i\u1ec1u g\u00ec r\u00f5 r\u00e0ng l\u00e0 sai v\u1ec1 m\u1eb7t \u0111\u1ea1o \u0111\u1ee9c, theo ti\u00eau chu\u1ea9n \u0111\u1ea1o \u0111\u1ee9c th\u00f4ng th\u01b0\u1eddng \u1edf M\u1ef9 v\u00e0o n\u0103m 2020? T\u00ecnh hu\u1ed1ng 1 | T\u00f4i...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7136",
-      "prompt": "Question: \u0110\u1ec3 l\u00e0m n\u1ed5i b\u1eadt s\u1ef1 kh\u00e1c bi\u1ec7t trong c\u00e1c ph\u01b0\u01a1ng ph\u00e1p h\u00e0nh vi mua s\u1eafm, Svahn v\u00e0 Westerlund (2009) x\u00e1c \u0111\u1ecbnh s\u00e1u chi\u1ebfn l\u01b0\u1ee3c mua s\u1eafm ch\u00ednh m\u00e0 c\u00e1c t\u1ed5 ch\u1ee9c s\u1eed d\u1ee5ng. Chi\u1ebfn l\u01b0\u1ee3c __________ \u0111\u1ec1 c\u1eadp \u0111\u1ebfn \u0111...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_4274",
-      "prompt": "Question: S\u1ed1 nguy\u00ean t\u1ed1 nh\u1ecf nh\u1ea5t c\u00f3 t\u1ed5ng c\u00e1c ch\u1eef s\u1ed1 b\u1eb1ng $19$ l\u00e0 g\u00ec?\nChoice A: 5\nChoice B: 11\nChoice C: 17\nChoice D: 199\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2464",
-      "prompt": "Question: Ch\u1ecdn b\u1ea3n d\u1ecbch t\u1ed1t nh\u1ea5t sang logic v\u1ecb t\u1eeb. Marco chuy\u1ec3n t\u1eeb \u00dd sang T\u00e2y Ban Nha. (i: \u00dd; m: Marco; s: T\u00e2y Ban Nha; Mxyz: x chuy\u1ec3n \u0111\u1ebfn y t\u1eeb z)\nChoice A: Msim\nChoice B: Mmis\nChoice C: Mims\nChoice D...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_12282",
-      "prompt": "Question: Trong m\u1ed9t nghi\u00ean c\u1ee9u \u0111o\u00e0n h\u1ec7 v\u1ec1 ph\u1ee5 n\u1eef cao tu\u1ed5i, t\u1ef7 l\u1ec7 nguy c\u01a1 t\u01b0\u01a1ng \u0111\u1ed1i \u0111\u1ed1i v\u1edbi g\u00e3y x\u01b0\u01a1ng h\u00f4ng \u1edf nh\u1eefng ng\u01b0\u1eddi th\u01b0\u1eddng xuy\u00ean t\u1eadp th\u1ec3 d\u1ee5c l\u00e0 1.2 (kho\u1ea3ng tin c\u1eady 95% t\u1eeb 1.1 \u0111\u1ebfn 1.8). K\u1ebft lu\u1eadn n\u00e0...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12838",
-      "prompt": "Question: Trong s\u1ed1 c\u00e1c c\u00e2u sau, c\u00e2u ch\u00ednh x\u00e1c nh\u1ea5t v\u1ec1 s\u1ef1 th\u00f4i mi\u00ean l\u00e0\nChoice A: c\u00f3 h\u1ea1i cho nhi\u1ec1u kh\u00e1ch h\u00e0ng\nChoice B: cho ph\u00e9p nh\u00e0 tr\u1ecb li\u1ec7u ki\u1ec3m so\u00e1t h\u00e0nh vi c\u1ee7a kh\u00e1ch h\u00e0ng\nChoice C: c\u00f3 th\u1ec3 b\u1ecb ch\u1ea5m d\u1ee9...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_90",
-      "prompt": "Question: Tuy\u00ean b\u1ed1 1 | N\u1ebfu m\u1ed9t nh\u00f3m h\u1eefu h\u1ea1n c\u00f3 b\u1eadc n th\u00ec nh\u00f3m \u0111\u00f3 ch\u1ee9a m\u1ed9t nh\u00f3m con c\u00f3 b\u1eadc d cho m\u1ed7i \u01b0\u1edbc s\u1ed1 d\u01b0\u01a1ng d c\u1ee7a n. Tuy\u00ean b\u1ed1 2 | N\u1ebfu a thu\u1ed9c v\u1ec1 m\u1ed9t nh\u00f3m h\u1eefu h\u1ea1n th\u00ec |a| chia h\u1ebft cho |G|.\nChoice ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_13996",
-      "prompt": "Question: Trong ti\u1ebfng Yiddish, t\u1eeb n\u00e0o c\u00f3 ngh\u0129a l\u00e0 giao \u01b0\u1edbc?\nChoice A: Haggadah\nChoice B: Halakhah\nChoice C: Brit\nChoice D: Bris\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1765",
-      "prompt": "Question: C\u00e1c v\u1ec7 tinh trong qu\u1ef9 \u0111\u1ea1o tr\u00f2n quanh Tr\u00e1i \u0110\u1ea5t duy tr\u00ec t\u1ed1c \u0111\u1ed9 kh\u00f4ng \u0111\u1ed5i v\u00ec l\u1ef1c h\u1ea5p d\u1eabn t\u00e1c \u0111\u1ed9ng l\u00ean ch\u00fang l\u00e0\nChoice A: b\u1eb1ng kh\u00f4ng\nChoice B: g\u1ea7n nh\u01b0 b\u1eb1ng kh\u00f4ng\nChoice C: y\u1ebfu h\u01a1n \u0111\u00e1ng k\u1ec3 so v\u1edbi...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7599",
-      "prompt": "Question: Th\u1eddi gian c\u1ee7a m\u1ed9t nhi\u1ec7m k\u1ef3 trong Th\u01b0\u1ee3ng vi\u1ec7n Hoa K\u1ef3 l\u00e0 bao l\u00e2u?\nChoice A: hai n\u0103m\nChoice B: b\u1ed1n n\u0103m\nChoice C: s\u00e1u n\u0103m\nChoice D: t\u00e1m n\u0103m\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3828",
-      "prompt": "Question: Nguy\u00ean t\u1eafc t\u1ef1 do-\"ch\u00fang t\u00f4i cho r\u1eb1ng nh\u1eefng s\u1ef1 th\u1eadt n\u00e0y l\u00e0 hi\u1ec3n nhi\u00ean, r\u1eb1ng t\u1ea5t c\u1ea3 m\u1ecdi ng\u01b0\u1eddi \u0111\u1ec1u \u0111\u01b0\u1ee3c t\u1ea1o ra b\u00ecnh \u0111\u1eb3ng\"- \u0111\u01b0\u1ee3c n\u00eau trong Tuy\u00ean ng\u00f4n \u0110\u1ed9c l\u1eadp \u0111\u00e3 b\u1ecb \u1ea3nh h\u01b0\u1edfng b\u1edfi ni\u1ec1m tin c\u1ee7a nh\u00e0...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2934",
-      "prompt": "Question: H\u00ecnh th\u1ee9c n\u00e0o sau \u0111\u00e2y kh\u00f4ng ph\u1ea3i l\u00e0 m\u1ed9t d\u1ea1ng t\u01b0\u01a1ng t\u00e1c gi\u1eefa c\u00e1c lo\u00e0i?\nChoice A: C\u1ed9ng sinh\nChoice B: K\u1ebf th\u1eeba\nChoice C: T\u01b0\u01a1ng h\u1ed7\nChoice D: K\u00fd sinh\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12986",
-      "prompt": "Question: Nghi\u00ean c\u1ee9u v\u1ec1 vi\u1ec7c ti\u1ebfp thu ng\u00f4n ng\u1eef th\u1ee9 hai \u0111\u00e3 ch\u1ec9 ra \u0111i\u1ec1u g\u00ec sau \u0111\u00e2y v\u1ec1 tr\u1ebb em h\u1ecdc ng\u00f4n ng\u1eef th\u1ee9 hai\nChoice A: S\u1ef1 ph\u00e1t tri\u1ec3n nh\u1eadn th\u1ee9c c\u1ee7a ch\u00fang b\u1ecb ch\u1eadm l\u1ea1i\nChoice B: Ch\u00fang c\u00f3 kh\u1ea3 n\u0103ng ph\u00e1t...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9568",
-      "prompt": "Question: Cholesterol v\u00e0 axit b\u00e9o h\u1ea5p th\u1ee5 t\u1eeb l\u00f2ng ru\u1ed9t \u0111\u01b0\u1ee3c \u0111\u00f3ng g\u00f3i v\u00e0o lo\u1ea1i lipoprotein n\u00e0o v\u00e0 ti\u1ebft ra t\u1eeb t\u1ebf b\u00e0o ru\u1ed9t v\u00e0o b\u1ea1ch huy\u1ebft?\nChoice A: Chylomicrons v\u00e0 HDL\nChoice B: Chylomicrons v\u00e0 VLDL\nCho...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_8376",
-      "prompt": "Question: Khi \u0111\u1ed1i ph\u00f3 v\u1edbi kh\u1ee7ng b\u1ed1, Walzer n\u00f3i r\u1eb1ng \u0111i\u1ec1u \u0111\u1eb7c bi\u1ec7t quan tr\u1ecdng l\u00e0\nChoice A: ch\u00fang ta c\u1ed1 g\u1eafng thuy\u1ebft ph\u1ee5c nh\u1eefng k\u1ebb kh\u1ee7ng b\u1ed1 r\u1eb1ng h\u1ecd \u0111ang h\u00e0nh \u0111\u1ed9ng sai tr\u00e1i.\nChoice B: ch\u00fang ta tr\u00e1nh l\u00e0m h...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_834",
-      "prompt": "Question: M\u1ee9c \u0111\u1ed9 canxi trong huy\u1ebft thanh \u0111\u01b0\u1ee3c duy tr\u00ec \u1edf ng\u01b0\u1eddi b\u1eb1ng s\u1ef1 ti\u1ebft ra\nChoice A: thyroxine\nChoice B: glucagon\nChoice C: hormone t\u0103ng tr\u01b0\u1edfng\nChoice D: hormone tuy\u1ebfn c\u1eadn gi\u00e1p\nAnswer with A, B, C ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10229",
-      "prompt": "Question: Ph\u00e2n t\u00edch nguy\u00ean t\u1ed1 vi l\u01b0\u1ee3ng c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng \u0111\u1ec3 x\u00e1c \u0111\u1ecbnh:\nChoice A: h\u00ecnh th\u00e1i v\u00e0 tu\u1ed5i c\u1ee7a m\u1ed9t hi\u1ec7n v\u1eadt ho\u1eb7c sinh v\u1eadt h\u1ecdc.\nChoice B: ngu\u1ed3n g\u1ed1c \u0111\u1ecba l\u00fd c\u1ee7a nguy\u00ean li\u1ec7u th\u00f4 t\u1eeb \u0111\u00f3 m\u1ed9t hi\u1ec7n v\u1ead...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4360",
-      "prompt": "Question: \u0110\u1ed1i v\u1edbi t\u1ea5t c\u1ea3 c\u00e1c s\u1ed1 th\u1ef1c $r$ v\u00e0 $s$, \u0111\u1ecbnh ngh\u0129a ph\u00e9p to\u00e1n $\\#$ sao cho c\u00e1c \u0111i\u1ec1u ki\u1ec7n sau \u0111\u00e2y \u00e1p d\u1ee5ng: $r\\ \\#\\ 0 = r, r\\ \\#\\ s = s\\ \\#\\ r$, v\u00e0 $(r + 1)\\ \\#\\ s = (r\\ \\#\\ s) + s + 1$. Gi\u00e1 tr\u1ecb...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2007",
-      "prompt": "Question: M\u1ed9t vi x\u1eed l\u00fd l\u00e0 ALU\nChoice A: v\u00e0 \u0111\u01a1n v\u1ecb \u0111i\u1ec1u khi\u1ec3n tr\u00ean m\u1ed9t chip duy nh\u1ea5t.\nChoice B: v\u00e0 b\u1ed9 nh\u1edb tr\u00ean m\u1ed9t chip duy nh\u1ea5t.\nChoice C: \u0111\u01a1n v\u1ecb thanh ghi v\u00e0 thi\u1ebft b\u1ecb I/O tr\u00ean m\u1ed9t chip duy nh\u1ea5t.\nChoi...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_8227",
-      "prompt": "Question: Theo ph\u1ea7n gi\u1edbi thi\u1ec7u c\u1ee7a ch\u01b0\u01a1ng 8, h\u00e0nh \u0111\u1ed9ng ho\u1eb7c th\u1ef1c h\u00e0nh gi\u1ebft ho\u1eb7c cho ph\u00e9p ai \u0111\u00f3 ch\u1ebft th\u01b0\u1eddng \u0111\u01b0\u1ee3c \u0111\u1ecbnh ngh\u0129a l\u00e0 g\u00ec?\nChoice A: gi\u1ebft ng\u01b0\u1eddi\nChoice B: gi\u1ebft ng\u01b0\u1eddi c\u00f3 \u0111\u1ea1o \u0111\u1ee9c\nChoice C: t\u1ef1 t\u1eed\nC...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2216",
-      "prompt": "Question: \u01af\u1edbc t\u00ednh t\u1ed1t nh\u1ea5t cho 4,286 \u00d7 390 l\u00e0 g\u00ec?\nChoice A: 12,000,000\nChoice B: 1,600,000\nChoice C: 1,200,000\nChoice D: 16,000\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_8378",
-      "prompt": "Question: Mill xem x\u00e9t tr\u01b0\u1eddng h\u1ee3p n\u00e0o sau \u0111\u00e2y?\nChoice A: ki\u1ec3m duy\u1ec7t m\u1ed9t \u00fd ki\u1ebfn \u0111\u00fang.\nChoice B: ki\u1ec3m duy\u1ec7t m\u1ed9t \u00fd ki\u1ebfn sai.\nChoice C: ki\u1ec3m duy\u1ec7t m\u1ed9t \u00fd ki\u1ebfn v\u1eeba \u0111\u00fang v\u1eeba sai.\nChoice D: T\u1ea5t c\u1ea3 c\u00e1c tr\u01b0\u1eddng ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12481",
-      "prompt": "Question: Nghi\u00ean c\u1ee9u t\u1ea1i n\u01a1i l\u00e0m vi\u1ec7c \u0111\u00e3 ch\u1ec9 ra r\u1eb1ng s\u1ef1 tham gia c\u1ee7a c\u1ea5p d\u01b0\u1edbi v\u00e0o vi\u1ec7c \u0111\u1eb7t m\u1ee5c ti\u00eau d\u1eabn \u0111\u1ebfn vi\u1ec7c l\u1ef1a ch\u1ecdn c\u00e1c m\u1ee5c ti\u00eau m\u00e0, khi so s\u00e1nh v\u1edbi c\u00e1c m\u1ee5c ti\u00eau \u0111\u01b0\u1ee3c \u0111\u1eb7t cho c\u1ea5p d\u01b0\u1edbi m\u1ed9t c\u00e1ch \u0111...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9787",
-      "prompt": "Question: Theo Parfit, c\u1ea3 Taurek v\u00e0 Lewis \u0111\u1ec1u cho r\u1eb1ng \u0111\u1ec3 c\u00f3 m\u1ed9t \"t\u1ed5ng s\u1ed1 \u0111au \u0111\u1edbn,\" n\u00f3 ph\u1ea3i:\nChoice A: t\u1ea5t c\u1ea3 \u0111\u01b0\u1ee3c c\u1ea3m nh\u1eadn t\u1ea1i m\u1ed9t th\u1eddi \u0111i\u1ec3m.\nChoice B: t\u1ea5t c\u1ea3 \u0111\u01b0\u1ee3c c\u1ea3m nh\u1eadn b\u1edfi m\u1ed9t ng\u01b0\u1eddi.\nChoice C: t...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10256",
-      "prompt": "Question: S\u1ef1 lan r\u1ed9ng c\u1ee7a bi\u1ec3u t\u01b0\u1ee3ng t\u00f4n gi\u00e1o chung trong c\u00e1c n\u1ec1n v\u0103n minh c\u1ed5 \u0111\u1ea1i c\u00f3 th\u1ec3 l\u00e0 d\u1ea5u hi\u1ec7u c\u1ee7a \u0111i\u1ec1u g\u00ec?\nChoice A: gi\u1ea3m b\u1ea1o l\u1ef1c v\u00e0 th\u1eddi k\u1ef3 h\u00f2a b\u00ecnh t\u0103ng l\u00ean\nChoice B: th\u1ed1ng nh\u1ea5t v\u0103n h\u00f3a v\u00e0 c\u00f3...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10996",
-      "prompt": "Question: Ch\u1ee7 s\u1edf h\u1eefu c\u1ee7a m\u1ed9t ti\u1ec7m massage \u0111\u01b0\u1ee3c c\u1ea5p ph\u00e9p b\u1edfi ti\u1ec3u bang \u0111\u00e3 ki\u1ec7n ti\u1ec3u bang v\u00ec h\u1ee7y b\u1ecf gi\u1ea5y ph\u00e9p v\u00e0 gi\u1ea5y ph\u00e9p kinh doanh tr\u01b0\u1edbc \u0111\u00f3 \u0111\u1ec3 \u0111i\u1ec1u h\u00e0nh m\u1ed9t ti\u1ec7m massage t\u1ea1i m\u1ed9t \u0111\u1ecba \u0111i\u1ec3m nh\u1ea5t \u0111\u1ecbnh tr...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_5520",
-      "prompt": "Question: M\u1ed9t th\u00ed nghi\u1ec7m \u0111\u01b0\u1ee3c th\u1ef1c hi\u1ec7n trong \u0111\u00f3 bi\u1ebfn ph\u1ea3n h\u1ed3i l\u00e0 m\u1ee9c t\u0103ng trung b\u00ecnh trong hi\u1ec7u su\u1ea5t c\u1ee7a ng\u01b0\u1eddi tham gia trong m\u00f4n nh\u1ea3y xa. M\u1ed9t b\u00e0i ki\u1ec3m tra t hai m\u1eabu v\u1edbi m\u1ee9c \u00fd ngh\u0129a 5% s\u1ebd \u0111\u01b0\u1ee3c s\u1eed d\u1ee5n...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7962",
-      "prompt": "Question: V\u00e0o n\u0103m 1924, Qu\u1ed1c h\u1ed9i Hoa K\u1ef3 \u0111\u00e3 th\u00f4ng qua m\u1ed9t d\u1ef1 lu\u1eadt l\u00e0m thay \u0111\u1ed5i \u0111\u00e1ng k\u1ec3 c\u00e1c m\u00f4 h\u00ecnh nh\u1eadp c\u01b0 b\u1eb1ng c\u00e1ch\nChoice A: \u0111\u00ecnh ch\u1ec9 vi\u1ec7c nh\u1eadp c\u01b0 t\u1eeb M\u1ef9 Latinh\nChoice B: l\u00e0m cho vi\u1ec7c thu\u00ea ho\u1eb7c tuy\u1ec3n ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11368",
-      "prompt": "Question: M\u1ed9t nh\u00e0 ph\u00e1t tri\u1ec3n, ch\u1ee7 s\u1edf h\u1eefu c\u1ee7a h\u00e0ng tr\u0103m m\u1eabu \u0111\u1ea5t \u1edf m\u1ed9t ph\u1ea7n n\u00f4ng th\u00f4n c\u1ee7a qu\u1eadn, \u0111\u00e3 so\u1ea1n th\u1ea3o m\u1ed9t k\u1ebf ho\u1ea1ch ph\u00e1t tri\u1ec3n t\u1ed5ng th\u1ec3 cho khu v\u1ef1c n\u00e0y. K\u1ebf ho\u1ea1ch \u0111\u01b0\u1ee3c ghi nh\u1eadn ch\u00ednh th\u1ee9c \u0111\u00e3 \u00e1p \u0111\u1eb7t...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13387",
-      "prompt": "Question: Trong b\u1ed1i c\u1ea3nh to\u00e0n c\u1ea7u h\u00f3a, ch\u00fang ta c\u00f3 th\u1ec3 \u0111\u1ecbnh ngh\u0129a thu\u1eadt ng\u1eef 'ph\u00e1t tri\u1ec3n' nh\u01b0 th\u1ebf n\u00e0o?\nChoice A: Thu\u1eadt ng\u1eef ph\u00e1t tri\u1ec3n \u0111\u1ec1 c\u1eadp \u0111\u1ebfn t\u00ecnh tr\u1ea1ng con ng\u01b0\u1eddi trong \u0111\u00f3 c\u00f3 s\u1ef1 t\u1ef1 do kh\u1ecfi s\u1ee3 h\u00e3i v\u00e0...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9324",
-      "prompt": "Question: Trong hai t\u00ecnh hu\u1ed1ng n\u00e0y, nh\u00e2n v\u1eadt ch\u00ednh (ng\u01b0\u1eddi s\u1eed d\u1ee5ng t\u00f4i/t\u00f4i/c\u1ee7a t\u00f4i) l\u00e0m \u0111i\u1ec1u g\u00ec r\u00f5 r\u00e0ng l\u00e0 sai v\u1ec1 m\u1eb7t \u0111\u1ea1o \u0111\u1ee9c, theo ti\u00eau chu\u1ea9n \u0111\u1ea1o \u0111\u1ee9c th\u00f4ng th\u01b0\u1eddng \u1edf M\u1ef9 v\u00e0o n\u0103m 2020? T\u00ecnh hu\u1ed1ng 1 | T\u00f4i...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7632",
-      "prompt": "Question: Billie Jean King \u0111\u00e3 \u0111\u00e1nh b\u1ea1i ai trong tr\u1eadn \u0111\u1ea5u tennis n\u1ed5i ti\u1ebfng 'Battle of the Sexes'?\nChoice A: Jimmy Connors\nChoice B: Pete Sampras\nChoice C: John McEnroe\nChoice D: Bobby Riggs\nAnswer with...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10068",
-      "prompt": "Question: Palynology l\u00e0 nghi\u00ean c\u1ee9u v\u1ec1 _________, cho ph\u00e9p c\u00e1c nh\u00e0 khoa h\u1ecdc t\u00e1i t\u1ea1o ______.\nChoice A: foraminifera; m\u1ed9t chu\u1ed7i v\u00f2ng c\u00e2y ch\u00ednh.\nChoice B: coprolites; b\u1ec7nh h\u1ecdc c\u1ed5 v\u00e0 s\u1ef1 kh\u00e1c bi\u1ec7t gi\u1edbi t\u00ednh...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8029",
-      "prompt": "Question: C\u00f4ng ty n\u00e0o s\u1ea3n xu\u1ea5t b\u00e1nh Oreo?\nChoice A: General Mills\nChoice B: Nabisco\nChoice C: Keebler\nChoice D: Kraft\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2657",
-      "prompt": "Question: T\u00ednh \u0111\u1ebfn n\u0103m 2020, b\u1ea1n c\u1ea7n ki\u1ebfm \u0111\u01b0\u1ee3c kho\u1ea3ng bao nhi\u00eau h\u00e0ng n\u0103m \u0111\u1ec3 n\u1eb1m trong s\u1ed1 m\u1ed9t ph\u1ea7n tr\u0103m ng\u01b0\u1eddi gi\u00e0u nh\u1ea5t th\u1ebf gi\u1edbi?\nChoice A: $150,000\nChoice B: $75,000\nChoice C: $35,000\nChoice D: $15,00...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_13850",
-      "prompt": "Question: Vi\u1ec7c ng\u1eabu nhi\u00ean h\u00f3a c\u00e1c \u0111\u1ed1i t\u01b0\u1ee3ng nghi\u00ean c\u1ee9u trong m\u1ed9t th\u1eed nghi\u1ec7m l\u00e2m s\u00e0ng h\u1eefu \u00edch nh\u1ea5t \u0111\u1ec3 ki\u1ec3m so\u00e1t y\u1ebfu t\u1ed1 n\u00e0o sau \u0111\u00e2y?\nChoice A: Hi\u1ec7u \u1ee9ng gi\u1ea3 d\u01b0\u1ee3c\nChoice B: Thi\u00ean l\u1ec7ch h\u1ed3i t\u01b0\u1edfng\nChoice C: ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_8581",
-      "prompt": "Question: Trong hai t\u00ecnh hu\u1ed1ng n\u00e0y, nh\u00e2n v\u1eadt ch\u00ednh (ng\u01b0\u1eddi s\u1eed d\u1ee5ng t\u00f4i/t\u00f4i/c\u1ee7a t\u00f4i) l\u00e0m \u0111i\u1ec1u g\u00ec r\u00f5 r\u00e0ng l\u00e0 sai v\u1ec1 m\u1eb7t \u0111\u1ea1o \u0111\u1ee9c, theo ti\u00eau chu\u1ea9n \u0111\u1ea1o \u0111\u1ee9c th\u00f4ng th\u01b0\u1eddng \u1edf M\u1ef9 v\u00e0o n\u0103m 2020? T\u00ecnh hu\u1ed1ng 1 | T\u00f4i...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8109",
-      "prompt": "Question: Ph\u00f4 mai Cheddar \u0111\u01b0\u1ee3c \u0111\u1eb7t t\u00ean theo m\u1ed9t ng\u00f4i l\u00e0ng \u1edf qu\u1ed1c gia n\u00e0o?\nChoice A: Anh\nChoice B: Ph\u00e1p\nChoice C: Th\u1ee5y S\u0129\nChoice D: \u0110an M\u1ea1ch\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4532",
-      "prompt": "Question: Th\u1ecb tr\u01b0\u1eddng c\u1ea1nh tranh cung c\u1ea5p k\u1ebft qu\u1ea3 t\u1ed1t nh\u1ea5t cho x\u00e3 h\u1ed9i v\u00ec\nChoice A: th\u1eb7ng d\u01b0 ti\u00eau d\u00f9ng \u0111\u01b0\u1ee3c gi\u1ea3m thi\u1ec3u, trong khi th\u1eb7ng d\u01b0 s\u1ea3n xu\u1ea5t \u0111\u01b0\u1ee3c t\u1ed1i \u0111a h\u00f3a.\nChoice B: ph\u00fac l\u1ee3i t\u1ed5ng th\u1ec3 \u0111\u01b0\u1ee3c t\u1ed1i ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_14013",
-      "prompt": "Question: Thu\u1eadt ng\u1eef n\u00e0o ch\u1ec9 s\u1ef1 b\u00ecnh lu\u1eadn v\u1ec1 Qur'an, c\u00f3 ngh\u0129a l\u00e0 \"v\u00e9n m\u00e0n\"?\nChoice A: fiqh\nChoice B: dhikr\nChoice C: ijtihad\nChoice D: tafsir\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4328",
-      "prompt": "Question: \u0110\u01a1n gi\u1ea3n h\u00f3a $(5x+3) - 2(2x-4)$.\nChoice A: 10+x\nChoice B: x+11\nChoice C: 5x+3\nChoice D: 7+2x\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11904",
-      "prompt": "Question: M\u1ed9t ng\u01b0\u1eddi cha \u0111\u00e3 chuy\u1ec3n m\u1ed9t m\u1ea3nh b\u1ea5t \u0111\u1ed9ng s\u1ea3n cho ba c\u00f4 con g\u00e1i c\u1ee7a m\u00ecnh b\u1eb1ng m\u1ed9t ch\u1ee9ng th\u01b0 b\u1ea3o \u0111\u1ea3m. Ch\u1ee9ng th\u01b0 ghi r\u1eb1ng quy\u1ec1n s\u1edf h\u1eefu \u0111\u01b0\u1ee3c chuy\u1ec3n cho ba ch\u1ecb em \"nh\u01b0 nh\u1eefng ng\u01b0\u1eddi \u0111\u1ed3ng s\u1edf h\u1eefu v\u1edb...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4836",
-      "prompt": "Question: Hai v\u1eadt th\u1ec3, m\u1ed9t qu\u1ea3 c\u1ea7u v\u00e0 m\u1ed9t kh\u1ed1i c\u00f3 c\u00f9ng kh\u1ed1i l\u01b0\u1ee3ng, \u0111\u01b0\u1ee3c th\u1ea3 t\u1eeb tr\u1ea1ng th\u00e1i ngh\u1ec9 \u1edf \u0111\u1ec9nh c\u1ee7a m\u1ed9t m\u1eb7t ph\u1eb3ng nghi\u00eang. Qu\u1ea3 c\u1ea7u l\u0103n xu\u1ed1ng m\u1eb7t ph\u1eb3ng nghi\u00eang m\u00e0 kh\u00f4ng tr\u01b0\u1ee3t. Kh\u1ed1i tr\u01b0\u1ee3t xu\u1ed1ng m\u1eb7...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9622",
-      "prompt": "Question: Protein n\u00e0o sau \u0111\u00e2y kh\u00f4ng tham gia v\u00e0o qu\u00e1 tr\u00ecnh h\u1ea5p th\u1ee5 cholesterol trong ru\u1ed9t non?\nChoice A: NPC1L1\nChoice B: Th\u1ee5 th\u1ec3 LDL\nChoice C: ACAT2\nChoice D: ABCG5/G8\nAnswer with A, B, C or D:\nAnswe...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8834",
-      "prompt": "Question: Trong hai t\u00ecnh hu\u1ed1ng n\u00e0y, nh\u00e2n v\u1eadt ch\u00ednh (ng\u01b0\u1eddi s\u1eed d\u1ee5ng t\u00f4i/t\u00f4i/c\u1ee7a t\u00f4i) l\u00e0m \u0111i\u1ec1u g\u00ec r\u00f5 r\u00e0ng l\u00e0 sai v\u1ec1 m\u1eb7t \u0111\u1ea1o \u0111\u1ee9c, theo ti\u00eau chu\u1ea9n \u0111\u1ea1o \u0111\u1ee9c th\u00f4ng th\u01b0\u1eddng \u1edf M\u1ef9 v\u00e0o n\u0103m 2020? T\u00ecnh hu\u1ed1ng 1 | T\u00f4i...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11670",
-      "prompt": "Question: M\u1ed9t \u0111\u00eam, m\u1ed9t b\u1ecb c\u00e1o \u0111\u00e3 v\u00e0o m\u1ed9t c\u1eeda h\u00e0ng r\u01b0\u1ee3u, ch\u0129a s\u00fang v\u00e0o nh\u00e2n vi\u00ean thu ng\u00e2n v\u00e0 y\u00eau c\u1ea7u ti\u1ec1n t\u1eeb m\u00e1y t\u00ednh ti\u1ec1n. Nh\u00e2n vi\u00ean thu ng\u00e2n lo l\u1eafng v\u00e0 di chuy\u1ec3n ch\u1eadm, v\u00e0 khi c\u00f4 v\u00f4 t\u00ecnh l\u00e0m \u0111\u1ed5 h\u1ebft ti...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4190",
-      "prompt": "Question: Khi GDP danh ngh\u0129a t\u0103ng, ch\u00fang ta s\u1ebd mong \u0111\u1ee3i nhu c\u1ea7u ti\u1ec1n t\u1ec7 s\u1ebd\nChoice A: t\u0103ng khi ng\u01b0\u1eddi ti\u00eau d\u00f9ng y\u00eau c\u1ea7u nhi\u1ec1u ti\u1ec1n h\u01a1n nh\u01b0 m\u1ed9t t\u00e0i s\u1ea3n t\u00e0i ch\u00ednh, l\u00e0m t\u0103ng l\u00e3i su\u1ea5t.\nChoice B: t\u0103ng khi ng...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4792",
-      "prompt": "Question: M\u1ed9t v\u1eadt chuy\u1ec3n \u0111\u1ed9ng theo h\u01b0\u1edbng x d\u01b0\u01a1ng \u0111i qua g\u1ed1c t\u1ecda \u0111\u1ed9 t\u1ea1i th\u1eddi \u0111i\u1ec3m t = 0. Gi\u1eefa t = 0 v\u00e0 t = 1 gi\u00e2y, v\u1eadt c\u00f3 t\u1ed1c \u0111\u1ed9 kh\u00f4ng \u0111\u1ed5i l\u00e0 24 m\u00e9t m\u1ed7i gi\u00e2y. T\u1ea1i t = 1 gi\u00e2y, v\u1eadt \u0111\u01b0\u1ee3c t\u0103ng t\u1ed1c kh\u00f4ng \u0111\u1ed5...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_7906",
-      "prompt": "Question: N\u1ebfu ng\u00e0y Gi\u00e1ng Sinh r\u01a1i v\u00e0o th\u1ee9 B\u1ea3y th\u00ec ng\u00e0y T\u1ebft D\u01b0\u01a1ng L\u1ecbch ti\u1ebfp theo s\u1ebd r\u01a1i v\u00e0o ng\u00e0y n\u00e0o trong tu\u1ea7n?\nChoice A: Ch\u1ee7 Nh\u1eadt\nChoice B: Th\u1ee9 Hai\nChoice C: Th\u1ee9 S\u00e1u\nChoice D: Th\u1ee9 B\u1ea3y\nAnswer with A, ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1282",
-      "prompt": "Question: Ion hydro \u0111\u01b0\u1ee3c h\u00ecnh th\u00e0nh khi:\nChoice A: glycogen b\u1ecb c\u1ea1n ki\u1ec7t.\nChoice B: s\u1ef1 ph\u00e2n h\u1ee7y phosphocreatine x\u1ea3y ra.\nChoice C: pyruvate \u0111\u01b0\u1ee3c chuy\u1ec3n \u0111\u1ed5i th\u00e0nh lactate.\nChoice D: qu\u00e1 tr\u00ecnh glycolysis ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_13293",
-      "prompt": "Question: Ph\u00e1t bi\u1ec3u n\u00e0o sau \u0111\u00e2y v\u1ec1 nghi\u00ean c\u1ee9u b\u1ea3n s\u1eafc kh\u00f4ng \u00e1p d\u1ee5ng cho ch\u1ee7 ngh\u0129a ki\u1ebfn t\u1ea1o x\u00e3 h\u1ed9i?\nChoice A: B\u1ea3n s\u1eafc \u0111\u1ecbnh ngh\u0129a c\u00e1c t\u00e1c nh\u00e2n, v\u00e0 cho ch\u00fang ta bi\u1ebft h\u1ecd l\u00e0 ai, s\u1edf th\u00edch v\u00e0 m\u1ed1i quan t\u00e2m c\u1ee7...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4983",
-      "prompt": "Question: C\u1ea3m gi\u00e1c \u0111\u00f3i v\u00e0 \u0103n u\u1ed1ng ch\u1ee7 y\u1ebfu \u0111\u01b0\u1ee3c \u0111i\u1ec1u ch\u1ec9nh b\u1edfi\nChoice A: v\u1ecf n\u00e3o c\u1ea3m gi\u00e1c\nChoice B: v\u00f9ng d\u01b0\u1edbi \u0111\u1ed3i\nChoice C: h\u00e0nh n\u00e3o\nChoice D: th\u00f9y ch\u1ea9m\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4104",
-      "prompt": "Question: N\u1ebfu GDP th\u1ef1c t\u1ebf b\u00ecnh qu\u00e2n \u0111\u1ea7u ng\u01b0\u1eddi l\u00e0 $10000 v\u00e0o n\u0103m 1990 v\u00e0 $15000 v\u00e0o n\u0103m 2000 th\u00ec m\u1ee9c t\u0103ng tr\u01b0\u1edfng kinh t\u1ebf l\u00e0\nChoice A: 0.5 ph\u1ea7n tr\u0103m.\nChoice B: 5.0 ph\u1ea7n tr\u0103m.\nChoice C: 50 ph\u1ea7n tr\u0103m.\nCho...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4744",
-      "prompt": "Question: M\u1ed9t h\u1ed9p c\u00f3 kh\u1ed1i l\u01b0\u1ee3ng m tr\u01b0\u1ee3t tr\u00ean m\u1ed9t b\u1ec1 m\u1eb7t ngang v\u1edbi t\u1ed1c \u0111\u1ed9 ban \u0111\u1ea7u v0. N\u00f3 kh\u00f4ng c\u1ea3m nh\u1eadn l\u1ef1c n\u00e0o kh\u00e1c ngo\u00e0i tr\u1ecdng l\u1ef1c v\u00e0 l\u1ef1c t\u1eeb b\u1ec1 m\u1eb7t. N\u1ebfu h\u1ec7 s\u1ed1 ma s\u00e1t \u0111\u1ed9ng gi\u1eefa h\u1ed9p v\u00e0 b\u1ec1 m\u1eb7t l\u00e0 \u03bc, h\u1ed9p...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5984",
-      "prompt": "Question: C\u00e2u h\u1ecfi n\u00e0y \u0111\u1ec1 c\u1eadp \u0111\u1ebfn th\u00f4ng tin sau.\n\"\u0110\u00f3ng g\u00f3p l\u1edbn nh\u1ea5t m\u00e0 ch\u00e2u Phi c\u00f3 th\u1ec3 l\u00e0m cho h\u00f2a b\u00ecnh th\u1ebf gi\u1edbi l\u00e0 tr\u00e1nh t\u1ea5t c\u1ea3 c\u00e1c nguy hi\u1ec3m v\u1ed1n c\u00f3 trong s\u1ef1 chia r\u1ebd, b\u1eb1ng c\u00e1ch t\u1ea1o ra m\u1ed9t li\u00ean minh ch...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5562",
-      "prompt": "Question: V\u0103n ph\u00f2ng \u0111\u0103ng k\u00fd t\u1ea1i m\u1ed9t tr\u01b0\u1eddng \u0111\u1ea1i h\u1ecdc \u0111\u00e3 nh\u1eadn th\u1ea5y r\u1eb1ng m\u1ed9t s\u1ed1 l\u01b0\u1ee3ng l\u1edbn sinh vi\u00ean kh\u00f4ng b\u00e1o c\u00e1o thay \u0111\u1ed5i \u0111\u1ecba ch\u1ec9. Ng\u01b0\u1eddi \u0111\u0103ng k\u00fd quy\u1ebft \u0111\u1ecbnh l\u1ea5y m\u1ed9t m\u1eabu ng\u1eabu nhi\u00ean g\u1ed3m 150 sinh vi\u00ean t\u1eeb dan...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9938",
-      "prompt": "Question: Theo Hobbes, n\u1ebfu kh\u00f4ng c\u00f3 m\u1ed9t quy\u1ec1n l\u1ef1c chung \u0111\u1ec3 gi\u1eef cho h\u1ecd trong s\u1ef1 k\u00ednh s\u1ee3, con ng\u01b0\u1eddi s\u1ebd t\u1ed3n t\u1ea1i trong tr\u1ea1ng th\u00e1i:\nChoice A: h\u00f2a b\u00ecnh v\u00e0 h\u00e0i h\u00f2a.\nChoice B: th\u1edd \u01a1 l\u1eabn nhau.\nChoice C: nghi n...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1335",
-      "prompt": "Question: Lactate v\u00e0 ion hydro r\u1eddi kh\u1ecfi c\u01a1:\nChoice A: th\u00f4ng qua c\u01a1 ch\u1ebf \u0111\u1ed3ng v\u1eadn chuy\u1ec3n v\u1edbi carnosine.\nChoice B: th\u00f4ng qua c\u01a1 ch\u1ebf v\u1eadn chuy\u1ec3n ch\u1ee7 \u0111\u1ed9ng.\nChoice C: th\u00f4ng qua ph\u00e2n t\u1eed v\u1eadn chuy\u1ec3n protein.\nCh...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2307",
-      "prompt": "Question: C\u00f3 7 b\u00e0n \u0111\u01b0\u1ee3c s\u1eafp x\u1ebfp th\u00e0nh m\u1ed9t h\u00e0ng trong l\u1edbp h\u1ecdc c\u1ee7a \u00f4ng Thompson. Hector ng\u1ed3i c\u00e1ch Kim 2 gh\u1ebf v\u1ec1 ph\u00eda b\u00ean ph\u1ea3i. Tonya ng\u1ed3i c\u00e1ch Hector 3 gh\u1ebf v\u1ec1 ph\u00eda b\u00ean ph\u1ea3i. Kim ng\u1ed3i c\u00e1ch Tonya bao nhi\u00eau...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2518",
-      "prompt": "Question: C\u00f4ng th\u1ee9c n\u00e0o c\u1ee7a PL d\u01b0\u1edbi \u0111\u00e2y l\u00e0 bi\u1ec3u t\u01b0\u1ee3ng h\u00f3a t\u1ed1t nh\u1ea5t c\u1ee7a c\u00e2u sau?\nN\u1ebfu George \u0111\u0103ng k\u00fd ho\u1eb7c Harry \u0111\u0103ng k\u00fd, th\u00ec Ira kh\u00f4ng \u0111\u0103ng k\u00fd.\nChoice A: (G \u2283 H) \u2228 I\nChoice B: (G \u2228 H) \u2283 I\nChoice C: (G \u2283...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4050",
-      "prompt": "Question: \u0110i\u1ec1u n\u00e0o sau \u0111\u00e2y c\u00f3 kh\u1ea3 n\u0103ng cao nh\u1ea5t l\u00e0 m\u1ed9t y\u1ebfu t\u1ed1 c\u1ea3n tr\u1edf s\u1ef1 t\u0103ng tr\u01b0\u1edfng c\u1ee7a n\u1ec1n kinh t\u1ebf?\nChoice A: Chi ti\u00eau cho gi\u00e1o d\u1ee5c v\u00e0 \u0111\u00e0o t\u1ea1o\nChoice B: T\u0103ng v\u1ed1n\nChoice C: T\u0103ng l\u00e3i su\u1ea5t\nChoice D: Ch...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    }
-  ],
-  "timestamp": "2026-01-18T22:11:26.287501"
-}
+[
+  {
+    "id": "test_0",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm b\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng tr\u01b0\u1eddng Q(sqrt(2), sqrt(3), sqrt(18)) tr\u00ean Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm b\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng tr\u01b0\u1eddng \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) tr\u00ean \\(\\mathbb{Q}\\), ta c\u1ea7n x\u00e1c \u0111\u1ecbnh b\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng n\u00e0y t\u1eebng b\u01b0\u1edbc m\u1ed9t.\n\nTr\u01b0\u1edbc ti\u00ean, ta c\u00f3 \\(\\sqrt{18} = 3\\sqrt{2}\\), do \u0111\u00f3 \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18}) = \\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\).\n\n1. X\u00e9t \\(\\mathbb{Q}(\\sqrt{2})\\) tr\u00ean \\(\\mathbb{Q}\\): B\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng n\u00e0y l\u00e0 2 v\u00ec \\(\\sqrt{2}\\) l\u00e0 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh b\u1eadc hai t\u1ed1i gi\u1ea3n \\(x^2 - 2 = 0\\).\n\n2. X\u00e9t \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) tr\u00ean \\(\\mathbb{Q}(\\sqrt{2})\\): B\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng n\u00e0y c\u0169ng l\u00e0 2 v\u00ec \\(\\sqrt{3}\\) kh\u00f4ng thu\u1ed9c \\(\\mathbb{Q}(\\sqrt{2})\\) v\u00e0 l\u00e0 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh b\u1eadc hai t\u1ed1i gi\u1ea3n \\(x^2 - 3 = 0\\).\n\nDo \u0111\u00f3, b\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) tr\u00ean \\(\\mathbb{Q}\\) l\u00e0 \\(2 \\times 2 = 4\\).\n\nV\u1eady, b\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng tr\u01b0\u1eddng \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) tr\u00ean \\(\\mathbb{Q}\\) l\u00e0 4.\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 B: 4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_1",
+    "lang": "vi",
+    "prompt": "Question: Cho p = (1, 2, 5, 4)(2, 3) trong S_5. T\u00ecm ch\u1ec9 s\u1ed1 c\u1ee7a  trong S_5.\nChoice A: 8\nChoice B: 2\nChoice C: 24\nChoice D: 120\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm ch\u1ec9 s\u1ed1 c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong nh\u00f3m \u0111\u1ed1i x\u1ee9ng \\( S_5 \\), tr\u01b0\u1edbc ti\u00ean ch\u00fang ta c\u1ea7n x\u00e1c \u0111\u1ecbnh \u0111\u1ed9 d\u00e0i c\u1ee7a chu k\u1ef3 c\u1ee7a ph\u1ea7n t\u1eed \u0111\u00f3. Ph\u1ea7n t\u1eed \\( p = (1, 2, 5, 4)(2, 3) \\) l\u00e0 m\u1ed9t t\u00edch c\u1ee7a hai chu k\u1ef3.\n\nTr\u01b0\u1edbc ti\u00ean, h\u00e3y vi\u1ebft l\u1ea1i ph\u1ea7n t\u1eed n\u00e0y d\u01b0\u1edbi d\u1ea1ng t\u00edch c\u1ee7a c\u00e1c chu k\u1ef3 r\u1eddi r\u1ea1c. Chu k\u1ef3 \\( (1, 2, 5, 4) \\) c\u00f3 \u0111\u1ed9 d\u00e0i 4 v\u00e0 chu k\u1ef3 \\( (2, 3) \\) c\u00f3 \u0111\u1ed9 d\u00e0i 2. Khi vi\u1ebft ph\u1ea7n t\u1eed n\u00e0y d\u01b0\u1edbi d\u1ea1ng t\u00edch c\u1ee7a c\u00e1c chu k\u1ef3 r\u1eddi r\u1ea1c, ch\u00fang ta c\u1ea7n l\u01b0u \u00fd r\u1eb1ng c\u00e1c chu k\u1ef3 c\u00f3 th\u1ec3 kh\u00f4ng giao ho\u00e1n \u0111\u01b0\u1ee3c.\n\n\u0110\u1ec3 t\u00ecm \u0111\u1ed9 d\u00e0i c\u1ee7a chu k\u1ef3 c\u1ee7a ph\u1ea7n t\u1eed n\u00e0y, ch\u00fang ta c\u1ea7n t\u00ecm b\u1ed9i chung nh\u1ecf nh\u1ea5t (LCM) c\u1ee7a \u0111\u1ed9 d\u00e0i c\u00e1c chu k\u1ef3. \u0110\u1ed9 d\u00e0i c\u1ee7a chu k\u1ef3 \\( (1, 2, 5, 4) \\) l\u00e0 4 v\u00e0 \u0111\u1ed9 d\u00e0i c\u1ee7a chu k\u1ef3 \\( (2, 3) \\) l\u00e0 2. Do \u0111\u00f3, LCM(4, 2) = 4.\n\nCh\u1ec9 s\u1ed1 c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong nh\u00f3m \u0111\u1ed1i x\u1ee9ng \\( S_n \\) l\u00e0 \\( \\frac{n!}{\\text{b\u1eadc c\u1ee7a ph\u1ea7n t\u1eed}} \\). Trong tr\u01b0\u1eddng h\u1ee3p n\u00e0y, \\( n = 5 \\) v\u00e0 b\u1eadc c\u1ee7a ph\u1ea7n t\u1eed l\u00e0 4.\n\nV\u00ec v\u1eady, ch\u1ec9 s\u1ed1 c\u1ee7a ph\u1ea7n t\u1eed \\( p \\) trong \\( S_5 \\) l\u00e0:\n\n\\[\n\\frac{5!}{4} = \\frac{120}{4} = 30\n\\]\n\nTuy nhi\u00ean, c\u00f3 v\u1ebb nh\u01b0 kh\u00f4ng c\u00f3 l\u1ef1a ch\u1ecdn n\u00e0o ph\u00f9 h\u1ee3p v\u1edbi k\u1ebft qu\u1ea3 n\u00e0y. C\u00f3 th\u1ec3 c\u00f3 m\u1ed9t s\u1ef1 nh\u1ea7m l\u1eabn trong c\u00e1c l\u1ef1a ch\u1ecdn \u0111\u01b0\u1ee3c \u0111\u01b0a ra. Nh\u01b0ng theo c\u00e1ch t\u00ednh to\u00e1n \u0111\u00fang, ch\u1ec9 s\u1ed1 c\u1ee7a ph\u1ea7n t\u1eed n\u00e0y trong \\( S_5 \\) l\u00e0 30.",
+    "prediction": "Unknown",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_2",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm t\u1ea5t c\u1ea3 c\u00e1c nghi\u1ec7m trong tr\u01b0\u1eddng h\u1eefu h\u1ea1n \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh c\u1ee7a \u0111a th\u1ee9c cho tr\u01b0\u1edbc v\u1edbi c\u00e1c h\u1ec7 s\u1ed1 trong tr\u01b0\u1eddng \u0111\u00f3. x^5 + 3x^3 + x^2 + 2x trong Z_5\nChoice A: 0\nChoice B: 1\nChoice C: 0,1\nChoice D: 0,4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm c\u00e1c nghi\u1ec7m c\u1ee7a \u0111a th\u1ee9c \\( f(x) = x^5 + 3x^3 + x^2 + 2x \\) trong tr\u01b0\u1eddng h\u1eefu h\u1ea1n \\( \\mathbb{Z}_5 \\), ta c\u1ea7n ki\u1ec3m tra c\u00e1c gi\u00e1 tr\u1ecb \\( x \\) trong \\( \\mathbb{Z}_5 \\), t\u1ee9c l\u00e0 \\( x = 0, 1, 2, 3, 4 \\).\n\n1. **V\u1edbi \\( x = 0 \\):**\n   \\[\n   f(0) = 0^5 + 3 \\cdot 0^3 + 0^2 + 2 \\cdot 0 = 0\n   \\]\n   V\u1eady \\( x = 0 \\) l\u00e0 m\u1ed9t nghi\u1ec7m.\n\n2. **V\u1edbi \\( x = 1 \\):**\n   \\[\n   f(1) = 1^5 + 3 \\cdot 1^3 + 1^2 + 2 \\cdot 1 = 1 + 3 + 1 + 2 = 7 \\equiv 2 \\pmod{5}\n   \\]\n   V\u1eady \\( x = 1 \\) kh\u00f4ng ph\u1ea3i l\u00e0 nghi\u1ec7m.\n\n3. **V\u1edbi \\( x = 2 \\):**\n   \\[\n   f(2) = 2^5 + 3 \\cdot 2^3 + 2^2 + 2 \\cdot 2 = 32 + 24 + 4 + 4 = 64 \\equiv 4 \\pmod{5}\n   \\]\n   V\u1eady \\( x = 2 \\) kh\u00f4ng ph\u1ea3i l\u00e0 nghi\u1ec7m.\n\n4. **V\u1edbi \\( x = 3 \\):**\n   \\[\n   f(3) = 3^5 + 3 \\cdot 3^3 + 3^2 + 2 \\cdot 3 = 243 + 81 + 9 + 6 = 339 \\equiv 4 \\pmod{5}\n   \\]\n   V\u1eady \\( x = 3 \\) kh\u00f4ng ph\u1ea3i l\u00e0 nghi\u1ec7m.\n\n5. **V\u1edbi \\( x = 4 \\):**\n   \\[\n   f(4) = 4^5 + 3 \\cdot 4^3 + 4^2 + 2 \\cdot 4 = 1024 + 192 + 16 + 8 = 1240 \\equiv 0 \\pmod{5}\n   \\]\n   V\u1eady \\( x = 4 \\) l\u00e0 m\u1ed9t nghi\u1ec7m.\n\nK\u1ebft lu\u1eadn, c\u00e1c nghi\u1ec7m c\u1ee7a \u0111a th\u1ee9c trong \\( \\mathbb{Z}_5 \\) l\u00e0 \\( x = 0 \\) v\u00e0 \\( x = 4 \\).\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 D: 0,4.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_3",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ed9t nh\u00f3m nh\u00e2n t\u1ed1 c\u1ee7a m\u1ed9t nh\u00f3m kh\u00f4ng giao ho\u00e1n l\u00e0 kh\u00f4ng giao ho\u00e1n. Tuy\u00ean b\u1ed1 2 | N\u1ebfu K l\u00e0 m\u1ed9t nh\u00f3m con chu\u1ea9n c\u1ee7a H v\u00e0 H l\u00e0 m\u1ed9t nh\u00f3m con chu\u1ea9n c\u1ee7a G, th\u00ec K l\u00e0 m\u1ed9t nh\u00f3m con chu\u1ea9n c\u1ee7a G.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Sai, \u0110\u00fang\n\nTuy\u00ean b\u1ed1 1 l\u00e0 sai v\u00ec m\u1ed9t nh\u00f3m con c\u1ee7a m\u1ed9t nh\u00f3m kh\u00f4ng giao ho\u00e1n c\u00f3 th\u1ec3 l\u00e0 giao ho\u00e1n. V\u00ed d\u1ee5, trong nh\u00f3m kh\u00f4ng giao ho\u00e1n \\( S_3 \\) (nh\u00f3m \u0111\u1ed1i x\u1ee9ng c\u1ee7a ba ph\u1ea7n t\u1eed), nh\u00f3m con \\(\\{e, (12)\\}\\) l\u00e0 giao ho\u00e1n.\n\nTuy\u00ean b\u1ed1 2 l\u00e0 \u0111\u00fang. N\u1ebfu \\( K \\) l\u00e0 m\u1ed9t nh\u00f3m con chu\u1ea9n c\u1ee7a \\( H \\) v\u00e0 \\( H \\) l\u00e0 m\u1ed9t nh\u00f3m con chu\u1ea9n c\u1ee7a \\( G \\), th\u00ec \\( K \\) c\u0169ng l\u00e0 m\u1ed9t nh\u00f3m con chu\u1ea9n c\u1ee7a \\( G \\). \u0110i\u1ec1u n\u00e0y l\u00e0 do t\u00ednh ch\u1ea5t truy\u1ec1n c\u1ee7a nh\u00f3m con chu\u1ea9n: n\u1ebfu \\( K \\trianglelefteq H \\) v\u00e0 \\( H \\trianglelefteq G \\), th\u00ec \\( K \\trianglelefteq G \\).",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_4",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm t\u00edch c\u1ee7a c\u00e1c \u0111a th\u1ee9c \u0111\u00e3 cho trong v\u00e0nh \u0111a th\u1ee9c \u0111\u00e3 cho. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 trong Z_8[x].\nChoice A: 2x^2 + 5\nChoice B: 6x^2 + 4x + 6\nChoice C: 0\nChoice D: x^2 + 1\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm t\u00edch c\u1ee7a c\u00e1c \u0111a th\u1ee9c \\( f(x) = 4x - 5 \\) v\u00e0 \\( g(x) = 2x^2 - 4x + 2 \\) trong v\u00e0nh \u0111a th\u1ee9c \\( \\mathbb{Z}_8[x] \\), ta th\u1ef1c hi\u1ec7n ph\u00e9p nh\u00e2n hai \u0111a th\u1ee9c n\u00e0y v\u00e0 sau \u0111\u00f3 l\u1ea5y k\u1ebft qu\u1ea3 theo modulo 8.\n\nB\u1eaft \u0111\u1ea7u b\u1eb1ng c\u00e1ch nh\u00e2n hai \u0111a th\u1ee9c:\n\n\\[\nf(x) \\cdot g(x) = (4x - 5)(2x^2 - 4x + 2)\n\\]\n\nTh\u1ef1c hi\u1ec7n ph\u00e9p nh\u00e2n:\n\n\\[\n= 4x \\cdot (2x^2 - 4x + 2) - 5 \\cdot (2x^2 - 4x + 2)\n\\]\n\n\\[\n= (4x \\cdot 2x^2) + (4x \\cdot -4x) + (4x \\cdot 2) - (5 \\cdot 2x^2) + (5 \\cdot 4x) - (5 \\cdot 2)\n\\]\n\n\\[\n= 8x^3 - 16x^2 + 8x - 10x^2 + 20x - 10\n\\]\n\nG\u1ed9p c\u00e1c h\u1ea1ng t\u1eed \u0111\u1ed3ng d\u1ea1ng:\n\n\\[\n= 8x^3 + (-16x^2 - 10x^2) + (8x + 20x) - 10\n\\]\n\n\\[\n= 8x^3 - 26x^2 + 28x - 10\n\\]\n\nB\u00e2y gi\u1edd, l\u1ea5y modulo 8 cho t\u1eebng h\u1ec7 s\u1ed1:\n\n- \\( 8x^3 \\equiv 0 \\pmod{8} \\)\n- \\( -26x^2 \\equiv -2x^2 \\equiv 6x^2 \\pmod{8} \\)\n- \\( 28x \\equiv 4x \\pmod{8} \\)\n- \\( -10 \\equiv -2 \\equiv 6 \\pmod{8} \\)\n\nV\u1eady, t\u00edch c\u1ee7a hai \u0111a th\u1ee9c trong \\( \\mathbb{Z}_8[x] \\) l\u00e0:\n\n\\[\n6x^2 + 4x + 6\n\\]\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0:\n\nChoice B: 6x^2 + 4x + 6",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_5",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | N\u1ebfu m\u1ed9t nh\u00f3m c\u00f3 m\u1ed9t ph\u1ea7n t\u1eed b\u1eadc 15 th\u00ec n\u00f3 ph\u1ea3i c\u00f3 \u00edt nh\u1ea5t 8 ph\u1ea7n t\u1eed b\u1eadc 15. Tuy\u00ean b\u1ed1 2 | N\u1ebfu m\u1ed9t nh\u00f3m c\u00f3 h\u01a1n 8 ph\u1ea7n t\u1eed b\u1eadc 15, th\u00ec n\u00f3 ph\u1ea3i c\u00f3 \u00edt nh\u1ea5t 16 ph\u1ea7n t\u1eed b\u1eadc 15.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: Sai, Sai",
+    "prediction": "B",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_6",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ecdi \u1ea3nh \u0111\u1ed3ng c\u1ea5u c\u1ee7a m\u1ed9t nh\u00f3m G \u0111\u1ec1u \u0111\u1eb3ng c\u1ea5u v\u1edbi m\u1ed9t nh\u00f3m th\u01b0\u01a1ng c\u1ee7a G. Tuy\u00ean b\u1ed1 2 | C\u00e1c \u1ea3nh \u0111\u1ed3ng c\u1ea5u c\u1ee7a m\u1ed9t nh\u00f3m G gi\u1ed1ng nhau (t\u1edbi \u0111\u1eb3ng c\u1ea5u) nh\u01b0 c\u00e1c nh\u00f3m th\u01b0\u01a1ng c\u1ee7a G.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: \u0110\u00fang, \u0110\u00fang\n\nTuy\u00ean b\u1ed1 1 l\u00e0 \u0111\u00fang v\u00ec theo \u0111\u1ecbnh l\u00fd \u0111\u1eb3ng c\u1ea5u th\u1ee9 nh\u1ea5t trong \u0111\u1ea1i s\u1ed1 nh\u00f3m, m\u1ecdi \u1ea3nh \u0111\u1ed3ng c\u1ea5u c\u1ee7a m\u1ed9t nh\u00f3m G \u0111\u1ec1u \u0111\u1eb3ng c\u1ea5u v\u1edbi m\u1ed9t nh\u00f3m th\u01b0\u01a1ng c\u1ee7a G.\n\nTuy\u00ean b\u1ed1 2 c\u0169ng \u0111\u00fang v\u00ec c\u00e1c \u1ea3nh \u0111\u1ed3ng c\u1ea5u c\u1ee7a m\u1ed9t nh\u00f3m G th\u1ef1c s\u1ef1 gi\u1ed1ng nhau (t\u1edbi \u0111\u1eb3ng c\u1ea5u) nh\u01b0 c\u00e1c nh\u00f3m th\u01b0\u01a1ng c\u1ee7a G. M\u1ed7i nh\u00f3m th\u01b0\u01a1ng c\u1ee7a G t\u01b0\u01a1ng \u1ee9ng v\u1edbi m\u1ed9t h\u1ea1t nh\u00e2n c\u1ee7a \u0111\u1ed3ng c\u1ea5u t\u1eeb G, v\u00e0 ng\u01b0\u1ee3c l\u1ea1i, m\u1ed7i \u1ea3nh \u0111\u1ed3ng c\u1ea5u c\u1ee7a G t\u01b0\u01a1ng \u1ee9ng v\u1edbi m\u1ed9t nh\u00f3m th\u01b0\u01a1ng c\u1ee7a G.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_7",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ed9t \u0111\u1ed3ng c\u1ea5u v\u00e0nh l\u00e0 m\u1ed9t \u0111\u1ed1i m\u1ed9t n\u1ebfu v\u00e0 ch\u1ec9 n\u1ebfu h\u1ea1t nh\u00e2n l\u00e0 {0}. Tuy\u00ean b\u1ed1 2 | Q l\u00e0 m\u1ed9t l\u00fd t\u01b0\u1edfng trong R.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C\u00e2u tr\u1ea3 l\u1eddi l\u00e0 C: \u0110\u00fang, Sai.\n\nTuy\u00ean b\u1ed1 1 l\u00e0 \u0111\u00fang. M\u1ed9t \u0111\u1ed3ng c\u1ea5u v\u00e0nh \\( f: R \\to S \\) l\u00e0 m\u1ed9t \u0111\u1ed1i m\u1ed9t (injective) n\u1ebfu v\u00e0 ch\u1ec9 n\u1ebfu h\u1ea1t nh\u00e2n c\u1ee7a n\u00f3, \\(\\text{ker}(f)\\), l\u00e0 \\(\\{0\\}\\).\n\nTuy\u00ean b\u1ed1 2 l\u00e0 sai. \\( \\mathbb{Q} \\) (t\u1eadp h\u1ee3p c\u00e1c s\u1ed1 h\u1eefu t\u1ec9) kh\u00f4ng ph\u1ea3i l\u00e0 m\u1ed9t l\u00fd t\u01b0\u1edfng trong \\( \\mathbb{R} \\) (t\u1eadp h\u1ee3p c\u00e1c s\u1ed1 th\u1ef1c) v\u00ec l\u00fd t\u01b0\u1edfng ph\u1ea3i l\u00e0 m\u1ed9t t\u1eadp con c\u1ee7a v\u00e0nh v\u00e0 ph\u1ea3i \u0111\u00f3ng d\u01b0\u1edbi ph\u00e9p nh\u00e2n v\u1edbi b\u1ea5t k\u1ef3 ph\u1ea7n t\u1eed n\u00e0o c\u1ee7a v\u00e0nh. Tuy nhi\u00ean, kh\u00f4ng ph\u1ea3i m\u1ecdi s\u1ed1 th\u1ef1c nh\u00e2n v\u1edbi m\u1ed9t s\u1ed1 h\u1eefu t\u1ec9 \u0111\u1ec1u l\u00e0 s\u1ed1 h\u1eefu t\u1ec9.",
+    "prediction": "C",
+    "ground_truth": "D",
+    "correct": false
+  },
+  {
+    "id": "test_8",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm b\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng tr\u01b0\u1eddng Q(sqrt(2) + sqrt(3)) tr\u00ean Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm b\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng tr\u01b0\u1eddng \\(\\mathbb{Q}(\\sqrt{2} + \\sqrt{3})\\) tr\u00ean \\(\\mathbb{Q}\\), ta c\u1ea7n t\u00ecm \u0111a th\u1ee9c t\u1ed1i ti\u1ec3u c\u1ee7a \\(\\sqrt{2} + \\sqrt{3}\\) tr\u00ean \\(\\mathbb{Q}\\).\n\nGi\u1ea3 s\u1eed \\(x = \\sqrt{2} + \\sqrt{3}\\). Khi \u0111\u00f3, ta c\u00f3:\n\\[\nx - \\sqrt{2} = \\sqrt{3}\n\\]\nB\u00ecnh ph\u01b0\u01a1ng hai v\u1ebf, ta \u0111\u01b0\u1ee3c:\n\\[\n(x - \\sqrt{2})^2 = 3\n\\]\n\\[\nx^2 - 2x\\sqrt{2} + 2 = 3\n\\]\n\\[\nx^2 - 2x\\sqrt{2} = 1\n\\]\n\\[\n2x\\sqrt{2} = x^2 - 1\n\\]\nB\u00ecnh ph\u01b0\u01a1ng hai v\u1ebf m\u1ed9t l\u1ea7n n\u1eefa:\n\\[\n(2x\\sqrt{2})^2 = (x^2 - 1)^2\n\\]\n\\[\n4x^2 \\cdot 2 = (x^2 - 1)^2\n\\]\n\\[\n8x^2 = x^4 - 2x^2 + 1\n\\]\n\\[\nx^4 - 10x^2 + 1 = 0\n\\]\n\n\u0110a th\u1ee9c \\(x^4 - 10x^2 + 1\\) l\u00e0 \u0111a th\u1ee9c t\u1ed1i ti\u1ec3u c\u1ee7a \\(\\sqrt{2} + \\sqrt{3}\\) tr\u00ean \\(\\mathbb{Q}\\). B\u1eadc c\u1ee7a \u0111a th\u1ee9c n\u00e0y l\u00e0 4, do \u0111\u00f3 b\u1eadc c\u1ee7a ph\u1ea7n m\u1edf r\u1ed9ng tr\u01b0\u1eddng \\(\\mathbb{Q}(\\sqrt{2} + \\sqrt{3})\\) tr\u00ean \\(\\mathbb{Q}\\) l\u00e0 4.\n\nV\u1eady \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 B: 4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_9",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm t\u1ea5t c\u1ea3 c\u00e1c nghi\u1ec7m trong tr\u01b0\u1eddng h\u1eefu h\u1ea1n \u0111\u01b0\u1ee3c ch\u1ec9 \u0111\u1ecbnh c\u1ee7a \u0111a th\u1ee9c \u0111\u00e3 cho v\u1edbi c\u00e1c h\u1ec7 s\u1ed1 trong tr\u01b0\u1eddng \u0111\u00f3. x^3 + 2x + 2 trong Z_7\nChoice A: 1\nChoice B: 2\nChoice C: 2,3\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the solutions of the polynomial \\( x^3 + 2x + 2 \\) in the finite field \\( \\mathbb{Z}_7 \\), we need to evaluate the polynomial for each element in \\( \\mathbb{Z}_7 \\) (i.e., \\( x = 0, 1, 2, 3, 4, 5, 6 \\)) and check which values satisfy the equation \\( x^3 + 2x + 2 \\equiv 0 \\pmod{7} \\).\n\nLet's evaluate the polynomial for each value:\n\n1. \\( x = 0 \\):\n   \\[\n   0^3 + 2 \\cdot 0 + 2 \\equiv 2 \\pmod{7}\n   \\]\n\n2. \\( x = 1 \\):\n   \\[\n   1^3 + 2 \\cdot 1 + 2 \\equiv 1 + 2 + 2 \\equiv 5 \\pmod{7}\n   \\]\n\n3. \\( x = 2 \\):\n   \\[\n   2^3 + 2 \\cdot 2 + 2 \\equiv 8 + 4 + 2 \\equiv 14 \\equiv 0 \\pmod{7}\n   \\]\n\n4. \\( x = 3 \\):\n   \\[\n   3^3 + 2 \\cdot 3 + 2 \\equiv 27 + 6 + 2 \\equiv 35 \\equiv 0 \\pmod{7}\n   \\]\n\n5. \\( x = 4 \\):\n   \\[\n   4^3 + 2 \\cdot 4 + 2 \\equiv 64 + 8 + 2 \\equiv 74 \\equiv 4 \\pmod{7}\n   \\]\n\n6. \\( x = 5 \\):\n   \\[\n   5^3 + 2 \\cdot 5 + 2 \\equiv 125 + 10 + 2 \\equiv 137 \\equiv 4 \\pmod{7}\n   \\]\n\n7. \\( x = 6 \\):\n   \\[\n   6^3 + 2 \\cdot 6 + 2 \\equiv 216 + 12 + 2 \\equiv 230 \\equiv 0 \\pmod{7}\n   \\]\n\nThe values of \\( x \\) that satisfy the equation are \\( x = 2, 3, \\) and \\( 6 \\).\n\nTherefore, the correct answer is not listed among the choices provided. However, if we consider the closest match, the answer would be:\n\nChoice C: 2, 3",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_10",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | N\u1ebfu H l\u00e0 m\u1ed9t nh\u00f3m con c\u1ee7a G v\u00e0 a thu\u1ed9c v\u1ec1 G th\u00ec |aH| = |Ha|. Tuy\u00ean b\u1ed1 2 | N\u1ebfu H l\u00e0 m\u1ed9t nh\u00f3m con c\u1ee7a G v\u00e0 a v\u00e0 b thu\u1ed9c v\u1ec1 G, th\u00ec aH v\u00e0 Hb l\u00e0 gi\u1ed1ng h\u1ec7t ho\u1eb7c r\u1eddi r\u1ea1c.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u0110\u00fang, Sai",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_11",
+    "lang": "vi",
+    "prompt": "Question: N\u1ebfu A = {1, 2, 3} th\u00ec quan h\u1ec7 S = {(1, 1), (2, 2)} l\u00e0\nChoice A: ch\u1ec9 \u0111\u1ed1i x\u1ee9ng\nChoice B: ch\u1ec9 ph\u1ea3n \u0111\u1ed1i x\u1ee9ng\nChoice C: c\u1ea3 \u0111\u1ed1i x\u1ee9ng v\u00e0 ph\u1ea3n \u0111\u1ed1i x\u1ee9ng\nChoice D: m\u1ed9t quan h\u1ec7 t\u01b0\u01a1ng \u0111\u01b0\u01a1ng\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 x\u00e1c \u0111\u1ecbnh t\u00ednh ch\u1ea5t c\u1ee7a quan h\u1ec7 S = {(1, 1), (2, 2)} tr\u00ean t\u1eadp A = {1, 2, 3}, ta c\u1ea7n xem x\u00e9t c\u00e1c t\u00ednh ch\u1ea5t sau:\n\n1. **\u0110\u1ed1i x\u1ee9ng**: M\u1ed9t quan h\u1ec7 R tr\u00ean t\u1eadp A l\u00e0 \u0111\u1ed1i x\u1ee9ng n\u1ebfu v\u1edbi m\u1ecdi c\u1eb7p (x, y) thu\u1ed9c R, th\u00ec (y, x) c\u0169ng thu\u1ed9c R. Trong S, c\u00e1c c\u1eb7p (1, 1) v\u00e0 (2, 2) \u0111\u1ec1u c\u00f3 d\u1ea1ng (x, x), n\u00ean t\u1ef1 \u0111\u1ed9ng th\u1ecfa m\u00e3n t\u00ednh \u0111\u1ed1i x\u1ee9ng.\n\n2. **Ph\u1ea3n \u0111\u1ed1i x\u1ee9ng**: M\u1ed9t quan h\u1ec7 R tr\u00ean t\u1eadp A l\u00e0 ph\u1ea3n \u0111\u1ed1i x\u1ee9ng n\u1ebfu v\u1edbi m\u1ecdi c\u1eb7p (x, y) thu\u1ed9c R m\u00e0 x \u2260 y, th\u00ec (y, x) kh\u00f4ng thu\u1ed9c R. Trong S, kh\u00f4ng c\u00f3 c\u1eb7p n\u00e0o (x, y) v\u1edbi x \u2260 y, n\u00ean S c\u0169ng th\u1ecfa m\u00e3n t\u00ednh ph\u1ea3n \u0111\u1ed1i x\u1ee9ng.\n\n3. **Quan h\u1ec7 t\u01b0\u01a1ng \u0111\u01b0\u01a1ng**: M\u1ed9t quan h\u1ec7 l\u00e0 quan h\u1ec7 t\u01b0\u01a1ng \u0111\u01b0\u01a1ng n\u1ebfu n\u00f3 th\u1ecfa m\u00e3n ba t\u00ednh ch\u1ea5t: ph\u1ea3n x\u1ea1, \u0111\u1ed1i x\u1ee9ng v\u00e0 b\u1eafc c\u1ea7u. Quan h\u1ec7 S kh\u00f4ng ph\u1ea3i l\u00e0 quan h\u1ec7 t\u01b0\u01a1ng \u0111\u01b0\u01a1ng v\u00ec n\u00f3 kh\u00f4ng ph\u1ea3n x\u1ea1 (kh\u00f4ng c\u00f3 c\u1eb7p (3, 3)).\n\nV\u00ec S th\u1ecfa m\u00e3n c\u1ea3 t\u00ednh \u0111\u1ed1i x\u1ee9ng v\u00e0 ph\u1ea3n \u0111\u1ed1i x\u1ee9ng, n\u00ean \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0:\n\nC: c\u1ea3 \u0111\u1ed1i x\u1ee9ng v\u00e0 ph\u1ea3n \u0111\u1ed1i x\u1ee9ng",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_12",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm th\u1ee9 t\u1ef1 c\u1ee7a nh\u00f3m nh\u00e2n t\u1ed1 (Z_11 x Z_15)/(<1, 1>)\nChoice A: 1\nChoice B: 2\nChoice C: 5\nChoice D: 11\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the order of the group \\((\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}) / \\langle (1, 1) \\rangle\\), we first need to understand the structure of the group and the subgroup \\(\\langle (1, 1) \\rangle\\).\n\n1. **Order of \\(\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}\\):**\n   - \\(\\mathbb{Z}_{11}\\) is a cyclic group of order 11.\n   - \\(\\mathbb{Z}_{15}\\) is a cyclic group of order 15.\n   - Therefore, \\(\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}\\) is a group of order \\(11 \\times 15 = 165\\).\n\n2. **Subgroup \\(\\langle (1, 1) \\rangle\\):**\n   - The element \\((1, 1)\\) generates a cyclic subgroup.\n   - The order of \\((1, 1)\\) is the least common multiple of the orders of 1 in \\(\\mathbb{Z}_{11}\\) and \\(\\mathbb{Z}_{15}\\).\n   - In \\(\\mathbb{Z}_{11}\\), the order of 1 is 11.\n   - In \\(\\mathbb{Z}_{15}\\), the order of 1 is 15.\n   - Therefore, the order of \\((1, 1)\\) is \\(\\text{lcm}(11, 15) = 165\\).\n\n3. **Order of the quotient group:**\n   - The order of the quotient group \\((\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}) / \\langle (1, 1) \\rangle\\) is given by the order of \\(\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}\\) divided by the order of \\(\\langle (1, 1) \\rangle\\).\n   - Thus, the order is \\(\\frac{165}{165} = 1\\).\n\nTherefore, the order of the group \\((\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}) / \\langle (1, 1) \\rangle\\) is 1.\n\nThe correct answer is **A**.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_13",
+    "lang": "vi",
+    "prompt": "Question: \u0110a th\u1ee9c x^3 + 2x^2 + 2x + 1 c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c ph\u00e2n t\u00edch th\u00e0nh c\u00e1c nh\u00e2n t\u1eed tuy\u1ebfn t\u00ednh trong Z_7[x]. H\u00e3y t\u00ecm s\u1ef1 ph\u00e2n t\u00edch n\u00e0y.\nChoice A: (x \u2212 2)(x + 2)(x \u2212 1)\nChoice B: (x + 1)(x + 4)(x \u2212 2)\nChoice C: (x + 1)(x \u2212 4)(x \u2212 2)\nChoice D: (x - 1)(x \u2212 4)(x \u2212 2)\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 ph\u00e2n t\u00edch \u0111a th\u1ee9c \\(x^3 + 2x^2 + 2x + 1\\) th\u00e0nh c\u00e1c nh\u00e2n t\u1eed tuy\u1ebfn t\u00ednh trong \\(\\mathbb{Z}_7[x]\\), ta c\u1ea7n ki\u1ec3m tra c\u00e1c nghi\u1ec7m c\u1ee7a \u0111a th\u1ee9c n\u00e0y trong tr\u01b0\u1eddng \\(\\mathbb{Z}_7\\).\n\nTr\u01b0\u1edbc ti\u00ean, ta s\u1ebd th\u1eed c\u00e1c gi\u00e1 tr\u1ecb \\(x = 0, 1, 2, 3, 4, 5, 6\\) \u0111\u1ec3 t\u00ecm nghi\u1ec7m c\u1ee7a \u0111a th\u1ee9c.\n\n1. \\(x = 0\\): \\(0^3 + 2 \\cdot 0^2 + 2 \\cdot 0 + 1 = 1 \\neq 0\\)\n2. \\(x = 1\\): \\(1^3 + 2 \\cdot 1^2 + 2 \\cdot 1 + 1 = 1 + 2 + 2 + 1 = 6 \\equiv 6 \\pmod{7} \\neq 0\\)\n3. \\(x = 2\\): \\(2^3 + 2 \\cdot 2^2 + 2 \\cdot 2 + 1 = 8 + 8 + 4 + 1 = 21 \\equiv 0 \\pmod{7}\\)\n4. \\(x = 3\\): \\(3^3 + 2 \\cdot 3^2 + 2 \\cdot 3 + 1 = 27 + 18 + 6 + 1 = 52 \\equiv 3 \\pmod{7} \\neq 0\\)\n5. \\(x = 4\\): \\(4^3 + 2 \\cdot 4^2 + 2 \\cdot 4 + 1 = 64 + 32 + 8 + 1 = 105 \\equiv 0 \\pmod{7}\\)\n6. \\(x = 5\\): \\(5^3 + 2 \\cdot 5^2 + 2 \\cdot 5 + 1 = 125 + 50 + 10 + 1 = 186 \\equiv 6 \\pmod{7} \\neq 0\\)\n7. \\(x = 6\\): \\(6^3 + 2 \\cdot 6^2 + 2 \\cdot 6 + 1 = 216 + 72 + 12 + 1 = 301 \\equiv 0 \\pmod{7}\\)\n\nC\u00e1c nghi\u1ec7m c\u1ee7a \u0111a th\u1ee9c l\u00e0 \\(x = 2, 4, 6\\). Do \u0111\u00f3, \u0111a th\u1ee9c c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c ph\u00e2n t\u00edch th\u00e0nh c\u00e1c nh\u00e2n t\u1eed tuy\u1ebfn t\u00ednh l\u00e0 \\((x - 2)(x - 4)(x - 6)\\).\n\nTrong \\(\\mathbb{Z}_7\\), \\(x - 6 \\equiv x + 1\\). V\u1eady s\u1ef1 ph\u00e2n t\u00edch l\u00e0 \\((x - 2)(x - 4)(x + 1)\\).\n\nL\u1ef1a ch\u1ecdn \u0111\u00fang l\u00e0: **C**.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_14",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm b\u1eadc l\u1edbn nh\u1ea5t c\u00f3 th\u1ec3 c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed c\u1ee7a S_n cho n = 10.\nChoice A: 6\nChoice B: 12\nChoice C: 30\nChoice D: 105\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm b\u1eadc l\u1edbn nh\u1ea5t c\u00f3 th\u1ec3 c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong nh\u00f3m \u0111\u1ed1i x\u1ee9ng \\( S_n \\) v\u1edbi \\( n = 10 \\), ta c\u1ea7n t\u00ecm b\u1ed9i chung nh\u1ecf nh\u1ea5t (LCM) c\u1ee7a c\u00e1c \u0111\u1ed9 d\u00e0i c\u1ee7a c\u00e1c chu tr\u00ecnh trong m\u1ed9t ho\u00e1n v\u1ecb c\u1ee7a 10 ph\u1ea7n t\u1eed.\n\nM\u1ed9t ph\u1ea7n t\u1eed trong \\( S_n \\) c\u00f3 th\u1ec3 \u0111\u01b0\u1ee3c bi\u1ec3u di\u1ec5n d\u01b0\u1edbi d\u1ea1ng t\u00edch c\u1ee7a c\u00e1c chu tr\u00ecnh r\u1eddi r\u1ea1c. B\u1eadc c\u1ee7a ph\u1ea7n t\u1eed \u0111\u00f3 l\u00e0 b\u1ed9i chung nh\u1ecf nh\u1ea5t c\u1ee7a \u0111\u1ed9 d\u00e0i c\u00e1c chu tr\u00ecnh.\n\n\u0110\u1ec3 t\u1ed1i \u0111a h\u00f3a b\u1eadc, ta c\u1ea7n ch\u1ecdn c\u00e1c chu tr\u00ecnh c\u00f3 \u0111\u1ed9 d\u00e0i sao cho b\u1ed9i chung nh\u1ecf nh\u1ea5t c\u1ee7a ch\u00fang l\u00e0 l\u1edbn nh\u1ea5t, nh\u01b0ng t\u1ed5ng \u0111\u1ed9 d\u00e0i c\u1ee7a c\u00e1c chu tr\u00ecnh kh\u00f4ng v\u01b0\u1ee3t qu\u00e1 10.\n\nM\u1ed9t c\u00e1ch \u0111\u1ec3 \u0111\u1ea1t \u0111\u01b0\u1ee3c \u0111i\u1ec1u n\u00e0y l\u00e0 s\u1eed d\u1ee5ng c\u00e1c chu tr\u00ecnh c\u00f3 \u0111\u1ed9 d\u00e0i 5, 3 v\u00e0 2, v\u00ec:\n\n- B\u1ed9i chung nh\u1ecf nh\u1ea5t c\u1ee7a 5, 3 v\u00e0 2 l\u00e0 \\( \\text{LCM}(5, 3, 2) = 30 \\).\n- T\u1ed5ng \u0111\u1ed9 d\u00e0i l\u00e0 \\( 5 + 3 + 2 = 10 \\).\n\nV\u00ec v\u1eady, b\u1eadc l\u1edbn nh\u1ea5t c\u00f3 th\u1ec3 c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong \\( S_{10} \\) l\u00e0 30.\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 C: 30.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_15",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | R l\u00e0 m\u1ed9t tr\u01b0\u1eddng ph\u00e2n t\u00e1ch c\u1ee7a m\u1ed9t \u0111a th\u1ee9c n\u00e0o \u0111\u00f3 tr\u00ean Q. Tuy\u00ean b\u1ed1 2 | C\u00f3 m\u1ed9t tr\u01b0\u1eddng v\u1edbi 60 ph\u1ea7n t\u1eed.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C\u00e2u tr\u1ea3 l\u1eddi l\u00e0 C: \u0110\u00fang, Sai.\n\nTuy\u00ean b\u1ed1 1: \u0110\u00fang. R l\u00e0 tr\u01b0\u1eddng ph\u00e2n t\u00e1ch c\u1ee7a \u0111a th\u1ee9c \\(x^2 + 1\\) tr\u00ean Q, v\u00ec \\(x^2 + 1\\) c\u00f3 nghi\u1ec7m l\u00e0 \\(i\\) v\u00e0 \\(-i\\), v\u00e0 tr\u01b0\u1eddng ph\u00e2n t\u00e1ch c\u1ee7a n\u00f3 l\u00e0 tr\u01b0\u1eddng s\u1ed1 ph\u1ee9c, t\u1ee9c l\u00e0 R.\n\nTuy\u00ean b\u1ed1 2: Sai. Kh\u00f4ng t\u1ed3n t\u1ea1i tr\u01b0\u1eddng v\u1edbi 60 ph\u1ea7n t\u1eed. S\u1ed1 ph\u1ea7n t\u1eed c\u1ee7a m\u1ed9t tr\u01b0\u1eddng h\u1eefu h\u1ea1n ph\u1ea3i l\u00e0 l\u0169y th\u1eeba c\u1ee7a m\u1ed9t s\u1ed1 nguy\u00ean t\u1ed1, t\u1ee9c l\u00e0 c\u00f3 d\u1ea1ng \\(p^n\\) v\u1edbi \\(p\\) l\u00e0 s\u1ed1 nguy\u00ean t\u1ed1 v\u00e0 \\(n\\) l\u00e0 s\u1ed1 nguy\u00ean d\u01b0\u01a1ng. 60 kh\u00f4ng ph\u1ea3i l\u00e0 l\u0169y th\u1eeba c\u1ee7a m\u1ed9t s\u1ed1 nguy\u00ean t\u1ed1.",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_16",
+    "lang": "vi",
+    "prompt": "Question: Ngh\u1ecbch \u0111\u1ea3o c\u1ee7a -i trong nh\u00f3m nh\u00e2n, {1, -1, i , -i} l\u00e0\nChoice A: 1\nChoice B: -1\nChoice C: i\nChoice D: -i\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: i",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_17",
+    "lang": "vi",
+    "prompt": "Question: T\u00ednh t\u00edch trong v\u00f2ng \u0111\u00e3 cho. (2,3)(3,5) trong Z_5 x Z_9\nChoice A: (1,1)\nChoice B: (3,1)\nChoice C: (1,6)\nChoice D: (3,6)\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ednh t\u00edch c\u1ee7a hai ph\u1ea7n t\u1eed trong \\( \\mathbb{Z}_5 \\times \\mathbb{Z}_9 \\), ta c\u1ea7n t\u00ednh t\u1eebng th\u00e0nh ph\u1ea7n ri\u00eang bi\u1ec7t trong c\u00e1c nh\u00f3m t\u01b0\u01a1ng \u1ee9ng.\n\nCho hai ph\u1ea7n t\u1eed \\( (2,3) \\) v\u00e0 \\( (3,5) \\):\n\n1. T\u00ednh t\u00edch trong \\( \\mathbb{Z}_5 \\):\n   \\[\n   2 \\times 3 = 6 \\equiv 1 \\pmod{5}\n   \\]\n\n2. T\u00ednh t\u00edch trong \\( \\mathbb{Z}_9 \\):\n   \\[\n   3 \\times 5 = 15 \\equiv 6 \\pmod{9}\n   \\]\n\nV\u1eady t\u00edch c\u1ee7a hai ph\u1ea7n t\u1eed \\( (2,3) \\) v\u00e0 \\( (3,5) \\) trong \\( \\mathbb{Z}_5 \\times \\mathbb{Z}_9 \\) l\u00e0 \\( (1,6) \\).\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 C: (1,6).",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_18",
+    "lang": "vi",
+    "prompt": "Question: T\u1eadp h\u1ee3p t\u1ea5t c\u1ea3 c\u00e1c s\u1ed1 th\u1ef1c d\u01b0\u1edbi ph\u00e9p nh\u00e2n th\u00f4ng th\u01b0\u1eddng kh\u00f4ng ph\u1ea3i l\u00e0 m\u1ed9t nh\u00f3m v\u00ec\nChoice A: ph\u00e9p nh\u00e2n kh\u00f4ng ph\u1ea3i l\u00e0 m\u1ed9t ph\u00e9p to\u00e1n nh\u1ecb ph\u00e2n\nChoice B: ph\u00e9p nh\u00e2n kh\u00f4ng c\u00f3 t\u00ednh k\u1ebft h\u1ee3p\nChoice C: ph\u1ea7n t\u1eed \u0111\u01a1n v\u1ecb kh\u00f4ng t\u1ed3n t\u1ea1i\nChoice D: s\u1ed1 kh\u00f4ng kh\u00f4ng c\u00f3 ph\u1ea7n t\u1eed ngh\u1ecbch \u0111\u1ea3o\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: s\u1ed1 kh\u00f4ng kh\u00f4ng c\u00f3 ph\u1ea7n t\u1eed ngh\u1ecbch \u0111\u1ea3o",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_19",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1| M\u1ecdi nh\u00f3m c\u00f3 b\u1eadc p^2, trong \u0111\u00f3 p l\u00e0 s\u1ed1 nguy\u00ean t\u1ed1, \u0111\u1ec1u l\u00e0 nh\u00f3m Abel. Tuy\u00ean b\u1ed1 2 | V\u1edbi m\u1ed9t s\u1ed1 nguy\u00ean t\u1ed1 c\u1ed1 \u0111\u1ecbnh p, m\u1ed9t nh\u00f3m con Sylow p c\u1ee7a m\u1ed9t nh\u00f3m G l\u00e0 nh\u00f3m con chu\u1ea9n t\u1eafc c\u1ee7a G n\u1ebfu v\u00e0 ch\u1ec9 n\u1ebfu n\u00f3 l\u00e0 nh\u00f3m con Sylow p duy nh\u1ea5t c\u1ee7a G.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u0110\u00fang, Sai",
+    "prediction": "C",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_20",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | \u0110\u1ed1i v\u1edbi c\u00e1c nh\u00f3m h\u1eefu h\u1ea1n G v\u00e0 H, |G + H| = |G||H|. (G + H l\u00e0 t\u00edch tr\u1ef1c ti\u1ebfp n\u1ed9i b\u1ed9.) Tuy\u00ean b\u1ed1 2 | N\u1ebfu r chia h\u1ebft m v\u00e0 s chia h\u1ebft n th\u00ec Z_m + Z_n c\u00f3 m\u1ed9t nh\u00f3m con \u0111\u1ed3ng c\u1ea5u v\u1edbi Z_r + Z_s.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u0110\u00fang, Sai",
+    "prediction": "C",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_21",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm t\u1ed5ng c\u1ee7a c\u00e1c \u0111a th\u1ee9c \u0111\u00e3 cho trong v\u00e0nh \u0111a th\u1ee9c \u0111\u00e3 cho. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 trong Z_8[x].\nChoice A: 2x^2 + 5\nChoice B: 6x^2 + 4x + 6\nChoice C: 0\nChoice D: x^2 + 1\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm t\u1ed5ng c\u1ee7a c\u00e1c \u0111a th\u1ee9c \\( f(x) = 4x - 5 \\) v\u00e0 \\( g(x) = 2x^2 - 4x + 2 \\) trong v\u00e0nh \u0111a th\u1ee9c \\( \\mathbb{Z}_8[x] \\), ta th\u1ef1c hi\u1ec7n ph\u00e9p c\u1ed9ng t\u1eebng h\u1ec7 s\u1ed1 t\u01b0\u01a1ng \u1ee9ng v\u00e0 sau \u0111\u00f3 l\u1ea5y modulo 8.\n\n1. H\u1ec7 s\u1ed1 c\u1ee7a \\( x^2 \\): \\( 0 + 2 = 2 \\).\n2. H\u1ec7 s\u1ed1 c\u1ee7a \\( x \\): \\( 4 - 4 = 0 \\).\n3. H\u1ec7 s\u1ed1 t\u1ef1 do: \\( -5 + 2 = -3 \\). Khi l\u1ea5y modulo 8, ta c\u00f3 \\(-3 \\equiv 5 \\pmod{8}\\).\n\nV\u1eady t\u1ed5ng c\u1ee7a hai \u0111a th\u1ee9c l\u00e0 \\( 2x^2 + 0x + 5 \\equiv 2x^2 + 5 \\).\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 A: \\( 2x^2 + 5 \\).",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_22",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | B\u1ea5t k\u1ef3 t\u1eadp h\u1ee3p hai vector n\u00e0o trong R^2 \u0111\u1ec1u \u0111\u1ed9c l\u1eadp tuy\u1ebfn t\u00ednh. Tuy\u00ean b\u1ed1 2 | N\u1ebfu V = span(v1, ... , vk) v\u00e0 {v1, ... , vk} l\u00e0 \u0111\u1ed9c l\u1eadp tuy\u1ebfn t\u00ednh, th\u00ec dim(V) = k.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Sai, \u0110\u00fang\n\nTuy\u00ean b\u1ed1 1 l\u00e0 sai v\u00ec trong R^2, b\u1ea5t k\u1ef3 hai vector n\u00e0o c\u0169ng c\u00f3 th\u1ec3 kh\u00f4ng \u0111\u1ed9c l\u1eadp tuy\u1ebfn t\u00ednh n\u1ebfu ch\u00fang c\u00f9ng ph\u01b0\u01a1ng (t\u1ee9c l\u00e0 m\u1ed9t vector l\u00e0 b\u1ed9i s\u1ed1 c\u1ee7a vector kia).\n\nTuy\u00ean b\u1ed1 2 l\u00e0 \u0111\u00fang v\u00ec n\u1ebfu V = span(v1, ..., vk) v\u00e0 {v1, ..., vk} l\u00e0 \u0111\u1ed9c l\u1eadp tuy\u1ebfn t\u00ednh, th\u00ec s\u1ed1 chi\u1ec1u c\u1ee7a kh\u00f4ng gian V (dim(V)) ch\u00ednh l\u00e0 k.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_23",
+    "lang": "vi",
+    "prompt": "Question: T\u1eadp h\u1ee3p t\u1ea5t c\u1ea3 c\u00e1c c\u0103n b\u1eadc n c\u1ee7a \u0111\u01a1n v\u1ecb d\u01b0\u1edbi ph\u00e9p nh\u00e2n c\u1ee7a c\u00e1c s\u1ed1 ph\u1ee9c t\u1ea1o th\u00e0nh m\u1ed9t\nChoice A: b\u00e1n nh\u00f3m v\u1edbi ph\u1ea7n t\u1eed \u0111\u01a1n v\u1ecb\nChoice B: b\u00e1n nh\u00f3m giao ho\u00e1n v\u1edbi ph\u1ea7n t\u1eed \u0111\u01a1n v\u1ecb\nChoice C: nh\u00f3m\nChoice D: nh\u00f3m abel\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Answer: D: nh\u00f3m abel",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_24",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ecdi l\u00fd t\u01b0\u1edfng t\u1ed1i \u0111\u1ea1i \u0111\u1ec1u l\u00e0 l\u00fd t\u01b0\u1edfng nguy\u00ean t\u1ed1. Tuy\u00ean b\u1ed1 2 | N\u1ebfu I l\u00e0 l\u00fd t\u01b0\u1edfng t\u1ed1i \u0111\u1ea1i c\u1ee7a m\u1ed9t v\u00e0nh giao ho\u00e1n R, th\u00ec R/I l\u00e0 tr\u01b0\u1eddng.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: \u0110\u00fang, \u0110\u00fang\n\nTuy\u00ean b\u1ed1 1 l\u00e0 \u0111\u00fang v\u00ec trong m\u1ed9t v\u00e0nh giao ho\u00e1n, m\u1ecdi l\u00fd t\u01b0\u1edfng t\u1ed1i \u0111\u1ea1i \u0111\u1ec1u l\u00e0 l\u00fd t\u01b0\u1edfng nguy\u00ean t\u1ed1. Tuy\u00ean b\u1ed1 2 l\u00e0 \u0111\u00fang v\u00ec n\u1ebfu I l\u00e0 l\u00fd t\u01b0\u1edfng t\u1ed1i \u0111\u1ea1i c\u1ee7a m\u1ed9t v\u00e0nh giao ho\u00e1n R, th\u00ec v\u00e0nh th\u01b0\u01a1ng R/I l\u00e0 m\u1ed9t tr\u01b0\u1eddng.",
+    "prediction": "A",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_25",
+    "lang": "vi",
+    "prompt": "Question: Cho G l\u00e0 t\u1eadp h\u1ee3p t\u1ea5t c\u1ea3 c\u00e1c ma tr\u1eadn n x n kh\u00f4ng suy bi\u1ebfn v\u1edbi c\u00e1c s\u1ed1 h\u1eefu t\u1ef7 l\u00e0m ph\u1ea7n t\u1eed. V\u1eady d\u01b0\u1edbi ph\u00e9p nh\u00e2n G l\u00e0 m\u1ed9t\nChoice A: nh\u00f3m con\nChoice B: nh\u00f3m abel h\u1eefu h\u1ea1n\nChoice C: nh\u00f3m v\u00f4 h\u1ea1n, kh\u00f4ng abel\nChoice D: v\u00f4 h\u1ea1n, abel\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: nh\u00f3m v\u00f4 h\u1ea1n, kh\u00f4ng abel",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_26",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ecdi nh\u00f3m c\u00f3 b\u1eadc 42 \u0111\u1ec1u c\u00f3 m\u1ed9t nh\u00f3m con chu\u1ea9n t\u1eafc c\u00f3 b\u1eadc 7. Tuy\u00ean b\u1ed1 2 | M\u1ecdi nh\u00f3m c\u00f3 b\u1eadc 42 \u0111\u1ec1u c\u00f3 m\u1ed9t nh\u00f3m con chu\u1ea9n t\u1eafc c\u00f3 b\u1eadc 8.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u0110\u00fang, Sai",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_27",
+    "lang": "vi",
+    "prompt": "Question: X\u00e1c \u0111\u1ecbnh xem \u0111a th\u1ee9c trong Z[x] c\u00f3 th\u1ecfa m\u00e3n ti\u00eau chu\u1ea9n Eisenstein v\u1ec1 t\u00ednh kh\u00f4ng th\u1ec3 ph\u00e2n t\u00edch tr\u00ean Q hay kh\u00f4ng. 8x^3 + 6x^2 - 9x + 24\nChoice A: C\u00f3, v\u1edbi p=2.\nChoice B: C\u00f3, v\u1edbi p=3.\nChoice C: C\u00f3, v\u1edbi p=5.\nChoice D: Kh\u00f4ng.\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 x\u00e1c \u0111\u1ecbnh xem \u0111a th\u1ee9c \\(8x^3 + 6x^2 - 9x + 24\\) c\u00f3 th\u1ecfa m\u00e3n ti\u00eau chu\u1ea9n Eisenstein hay kh\u00f4ng, ta c\u1ea7n ki\u1ec3m tra c\u00e1c \u0111i\u1ec1u ki\u1ec7n sau v\u1edbi m\u1ed9t s\u1ed1 nguy\u00ean t\u1ed1 \\(p\\):\n\n1. \\(p\\) chia h\u1ebft t\u1ea5t c\u1ea3 c\u00e1c h\u1ec7 s\u1ed1 ngo\u1ea1i tr\u1eeb h\u1ec7 s\u1ed1 cao nh\u1ea5t.\n2. \\(p\\) kh\u00f4ng chia h\u1ebft h\u1ec7 s\u1ed1 cao nh\u1ea5t.\n3. \\(p^2\\) kh\u00f4ng chia h\u1ebft h\u1ec7 s\u1ed1 t\u1ef1 do.\n\nX\u00e9t t\u1eebng l\u1ef1a ch\u1ecdn:\n\n- **Choice A: C\u00f3, v\u1edbi \\(p=2\\).**\n\n  - H\u1ec7 s\u1ed1 cao nh\u1ea5t l\u00e0 8, kh\u00f4ng chia h\u1ebft cho 2 (sai).\n  - H\u1ec7 s\u1ed1 t\u1ef1 do l\u00e0 24, \\(2^2 = 4\\) chia h\u1ebft cho 24 (sai).\n\n- **Choice B: C\u00f3, v\u1edbi \\(p=3\\).**\n\n  - H\u1ec7 s\u1ed1 cao nh\u1ea5t l\u00e0 8, kh\u00f4ng chia h\u1ebft cho 3 (\u0111\u00fang).\n  - C\u00e1c h\u1ec7 s\u1ed1 c\u00f2n l\u1ea1i: 6, -9, 24 \u0111\u1ec1u chia h\u1ebft cho 3 (\u0111\u00fang).\n  - H\u1ec7 s\u1ed1 t\u1ef1 do l\u00e0 24, \\(3^2 = 9\\) kh\u00f4ng chia h\u1ebft cho 24 (\u0111\u00fang).\n\n- **Choice C: C\u00f3, v\u1edbi \\(p=5\\).**\n\n  - H\u1ec7 s\u1ed1 cao nh\u1ea5t l\u00e0 8, kh\u00f4ng chia h\u1ebft cho 5 (\u0111\u00fang).\n  - H\u1ec7 s\u1ed1 6 kh\u00f4ng chia h\u1ebft cho 5 (sai).\n\n- **Choice D: Kh\u00f4ng.**\n\nD\u1ef1a tr\u00ean ph\u00e2n t\u00edch tr\u00ean, ch\u1ec9 c\u00f3 l\u1ef1a ch\u1ecdn B th\u1ecfa m\u00e3n ti\u00eau chu\u1ea9n Eisenstein. Do \u0111\u00f3, \u0111\u00e1p \u00e1n l\u00e0:\n\nB",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_28",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | H\u00ecnh \u1ea3nh c\u1ee7a m\u1ed9t nh\u00f3m g\u1ed3m 6 ph\u1ea7n t\u1eed d\u01b0\u1edbi m\u1ed9t \u0111\u1ed3ng c\u1ea5u c\u00f3 th\u1ec3 c\u00f3 12 ph\u1ea7n t\u1eed. Tuy\u00ean b\u1ed1 2 | C\u00f3 m\u1ed9t \u0111\u1ed3ng c\u1ea5u c\u1ee7a m\u1ed9t nh\u00f3m g\u1ed3m 6 ph\u1ea7n t\u1eed v\u00e0o m\u1ed9t nh\u00f3m g\u1ed3m 12 ph\u1ea7n t\u1eed.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Sai, \u0110\u00fang\n\nTuy\u00ean b\u1ed1 1 l\u00e0 sai v\u00ec h\u00ecnh \u1ea3nh c\u1ee7a m\u1ed9t nh\u00f3m d\u01b0\u1edbi m\u1ed9t \u0111\u1ed3ng c\u1ea5u kh\u00f4ng th\u1ec3 c\u00f3 nhi\u1ec1u ph\u1ea7n t\u1eed h\u01a1n nh\u00f3m ban \u0111\u1ea7u. Tuy\u00ean b\u1ed1 2 l\u00e0 \u0111\u00fang v\u00ec c\u00f3 th\u1ec3 t\u1ed3n t\u1ea1i m\u1ed9t \u0111\u1ed3ng c\u1ea5u t\u1eeb m\u1ed9t nh\u00f3m c\u00f3 6 ph\u1ea7n t\u1eed v\u00e0o m\u1ed9t nh\u00f3m c\u00f3 12 ph\u1ea7n t\u1eed, v\u00ed d\u1ee5 nh\u01b0 \u0111\u1ed3ng c\u1ea5u t\u1ea7m th\u01b0\u1eddng (g\u1eedi m\u1ecdi ph\u1ea7n t\u1eed c\u1ee7a nh\u00f3m \u0111\u1ea7u ti\u00ean \u0111\u1ebfn ph\u1ea7n t\u1eed \u0111\u01a1n v\u1ecb c\u1ee7a nh\u00f3m th\u1ee9 hai).",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_29",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | \u1ea2nh \u0111\u1ed3ng c\u1ea5u c\u1ee7a m\u1ed9t nh\u00f3m tu\u1ea7n ho\u00e0n l\u00e0 tu\u1ea7n ho\u00e0n. Tuy\u00ean b\u1ed1 2 | \u1ea2nh \u0111\u1ed3ng c\u1ea5u c\u1ee7a m\u1ed9t nh\u00f3m Abel l\u00e0 Abel.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: \u0110\u00fang, \u0110\u00fang",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_30",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | N\u1ebfu H l\u00e0 m\u1ed9t nh\u00f3m con c\u1ee7a nh\u00f3m G v\u00e0 a thu\u1ed9c v\u1ec1 G, th\u00ec aH = Ha. Tuy\u00ean b\u1ed1 2 | N\u1ebfu H l\u00e0 nh\u00f3m con chu\u1ea9n c\u1ee7a G v\u00e0 a thu\u1ed9c v\u1ec1 G, th\u00ec ah = ha \u0111\u1ed1i v\u1edbi m\u1ecdi h trong H.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Sai, \u0110\u00fang",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_31",
+    "lang": "vi",
+    "prompt": "Question: N\u1ebfu (G, .) l\u00e0 m\u1ed9t nh\u00f3m sao cho (ab)^-1 = a^-1b^-1, v\u1edbi m\u1ecdi a, b trong G, th\u00ec G l\u00e0 m\u1ed9t\nChoice A: n\u1eeda nh\u00f3m giao ho\u00e1n\nChoice B: nh\u00f3m abelian\nChoice C: nh\u00f3m kh\u00f4ng abelian\nChoice D: Kh\u00f4ng ph\u1ea3i nh\u1eefng c\u00e1i n\u00e0y\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: nh\u00f3m abelian",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_32",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | Trong m\u1ed9t kh\u00f4ng gian vector c\u00f3 chi\u1ec1u h\u1eefu h\u1ea1n, m\u1ecdi t\u1eadp h\u1ee3p vector \u0111\u1ed9c l\u1eadp tuy\u1ebfn t\u00ednh \u0111\u1ec1u n\u1eb1m trong m\u1ed9t c\u01a1 s\u1edf. Tuy\u00ean b\u1ed1 2 | N\u1ebfu B_1 v\u00e0 B_2 l\u00e0 c\u00e1c c\u01a1 s\u1edf cho c\u00f9ng m\u1ed9t kh\u00f4ng gian vector, th\u00ec |B_1| = |B_2|.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: \u0110\u00fang, \u0110\u00fang",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_33",
+    "lang": "vi",
+    "prompt": "Question: M\u1ed9t nh\u00f3m (G, 0) \u0111\u01b0\u1ee3c bi\u1ebft l\u00e0 nh\u00f3m abelian. V\u1eady \u0111i\u1ec1u n\u00e0o sau \u0111\u00e2y l\u00e0 \u0110\u00daNG \u0111\u1ed1i v\u1edbi G?\nChoice A: g = g^-1 \u0111\u1ed1i v\u1edbi m\u1ecdi g trong G\nChoice B: g = g^2 \u0111\u1ed1i v\u1edbi m\u1ecdi g trong G\nChoice C: (g o h)^2 = g^2 o h^2 \u0111\u1ed1i v\u1edbi m\u1ecdi g,h trong G\nChoice D: G c\u00f3 b\u1eadc h\u1eefu h\u1ea1n\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: (g o h)^2 = g^2 o h^2 \u0111\u1ed1i v\u1edbi m\u1ecdi g,h trong G\n\nGi\u1ea3i th\u00edch: V\u00ec G l\u00e0 nh\u00f3m abelian, n\u00ean ph\u00e9p to\u00e1n trong nh\u00f3m l\u00e0 giao ho\u00e1n, t\u1ee9c l\u00e0 g o h = h o g \u0111\u1ed1i v\u1edbi m\u1ecdi g, h trong G. Do \u0111\u00f3, (g o h)^2 = (g o h) o (g o h) = g o h o g o h = g o g o h o h = g^2 o h^2.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_34",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | N\u1ebfu T: V -> W l\u00e0 m\u1ed9t ph\u00e9p bi\u1ebfn \u0111\u1ed5i tuy\u1ebfn t\u00ednh v\u00e0 dim(V) < dim(W) < 1, th\u00ec T ph\u1ea3i l\u00e0 ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u01a1n \u00e1nh. Tuy\u00ean b\u1ed1 2 | Gi\u1ea3 s\u1eed dim(V) = n v\u00e0 T: V -> V l\u00e0 tuy\u1ebfn t\u00ednh. N\u1ebfu T l\u00e0 ph\u00e9p bi\u1ebfn \u0111\u1ed5i \u0111\u01a1n \u00e1nh, th\u00ec n\u00f3 l\u00e0 m\u1ed9t ph\u00e9p bi\u1ebfn \u0111\u1ed5i song \u00e1nh.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Sai, \u0110\u00fang\n\nTuy\u00ean b\u1ed1 1 l\u00e0 sai v\u00ec n\u1ebfu dim(V) < dim(W), \u0111i\u1ec1u n\u00e0y kh\u00f4ng \u0111\u1ea3m b\u1ea3o r\u1eb1ng T ph\u1ea3i l\u00e0 \u0111\u01a1n \u00e1nh. M\u1ed9t ph\u00e9p bi\u1ebfn \u0111\u1ed5i tuy\u1ebfn t\u00ednh t\u1eeb kh\u00f4ng gian c\u00f3 s\u1ed1 chi\u1ec1u nh\u1ecf h\u01a1n sang kh\u00f4ng gian c\u00f3 s\u1ed1 chi\u1ec1u l\u1edbn h\u01a1n c\u00f3 th\u1ec3 kh\u00f4ng ph\u1ea3i l\u00e0 \u0111\u01a1n \u00e1nh.\n\nTuy\u00ean b\u1ed1 2 l\u00e0 \u0111\u00fang. N\u1ebfu T: V -> V l\u00e0 m\u1ed9t ph\u00e9p bi\u1ebfn \u0111\u1ed5i tuy\u1ebfn t\u00ednh v\u00e0 V c\u00f3 s\u1ed1 chi\u1ec1u h\u1eefu h\u1ea1n n, th\u00ec n\u1ebfu T l\u00e0 \u0111\u01a1n \u00e1nh, n\u00f3 c\u0169ng ph\u1ea3i l\u00e0 to\u00e0n \u00e1nh, do \u0111\u00f3 T l\u00e0 song \u00e1nh. \u0110i\u1ec1u n\u00e0y l\u00e0 do trong kh\u00f4ng gian vector h\u1eefu h\u1ea1n chi\u1ec1u, m\u1ed9t \u00e1nh x\u1ea1 tuy\u1ebfn t\u00ednh l\u00e0 \u0111\u01a1n \u00e1nh n\u1ebfu v\u00e0 ch\u1ec9 n\u1ebfu n\u00f3 l\u00e0 to\u00e0n \u00e1nh.",
+    "prediction": "D",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_35",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm b\u1eadc c\u1ee7a m\u1edf r\u1ed9ng tr\u01b0\u1eddng cho Q(sqrt(2), sqrt(3)) tr\u00ean Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm b\u1eadc c\u1ee7a m\u1edf r\u1ed9ng tr\u01b0\u1eddng \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) tr\u00ean \\(\\mathbb{Q}\\), ta c\u1ea7n x\u00e1c \u0111\u1ecbnh b\u1eadc c\u1ee7a m\u1edf r\u1ed9ng \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) qua \\(\\mathbb{Q}\\).\n\nTr\u01b0\u1edbc ti\u00ean, ta x\u00e9t m\u1edf r\u1ed9ng \\(\\mathbb{Q}(\\sqrt{2})\\) tr\u00ean \\(\\mathbb{Q}\\). B\u1eadc c\u1ee7a m\u1edf r\u1ed9ng n\u00e0y l\u00e0 2 v\u00ec \\(\\sqrt{2}\\) l\u00e0 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh b\u1eadc hai t\u1ed1i gi\u1ea3n \\(x^2 - 2 = 0\\) v\u1edbi h\u1ec7 s\u1ed1 trong \\(\\mathbb{Q}\\).\n\nTi\u1ebfp theo, ta x\u00e9t m\u1edf r\u1ed9ng \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) tr\u00ean \\(\\mathbb{Q}(\\sqrt{2})\\). B\u1eadc c\u1ee7a m\u1edf r\u1ed9ng n\u00e0y c\u0169ng l\u00e0 2 v\u00ec \\(\\sqrt{3}\\) l\u00e0 nghi\u1ec7m c\u1ee7a ph\u01b0\u01a1ng tr\u00ecnh b\u1eadc hai t\u1ed1i gi\u1ea3n \\(x^2 - 3 = 0\\) v\u1edbi h\u1ec7 s\u1ed1 trong \\(\\mathbb{Q}(\\sqrt{2})\\).\n\nDo \u0111\u00f3, b\u1eadc c\u1ee7a m\u1edf r\u1ed9ng \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) tr\u00ean \\(\\mathbb{Q}\\) l\u00e0 t\u00edch c\u1ee7a hai b\u1eadc tr\u00ean:\n\n\\[\n[\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) : \\mathbb{Q}] = [\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) : \\mathbb{Q}(\\sqrt{2})] \\times [\\mathbb{Q}(\\sqrt{2}) : \\mathbb{Q}] = 2 \\times 2 = 4\n\\]\n\nV\u1eady, b\u1eadc c\u1ee7a m\u1edf r\u1ed9ng tr\u01b0\u1eddng l\u00e0 4.\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 B.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_36",
+    "lang": "vi",
+    "prompt": "Question: T\u00ednh t\u00edch trong v\u00e0nh \u0111\u00e3 cho. (20)(-8) trong Z_26\nChoice A: 0\nChoice B: 1\nChoice C: 11\nChoice D: 22\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the product of \\( (20)(-8) \\) in \\( \\mathbb{Z}_{26} \\), we first calculate the product normally:\n\n\\[ 20 \\times (-8) = -160. \\]\n\nNext, we need to find the equivalent of \\(-160\\) in \\( \\mathbb{Z}_{26}\\). This is done by finding the remainder when \\(-160\\) is divided by 26.\n\nFirst, calculate \\(-160 \\mod 26\\):\n\n1. Find the positive equivalent of \\(-160\\) by adding a multiple of 26:\n   \\[\n   -160 + 26 \\times 7 = -160 + 182 = 22.\n   \\]\n\nThus, \\(-160 \\equiv 22 \\pmod{26}\\).\n\nTherefore, the product \\( (20)(-8) \\equiv 22 \\pmod{26} \\).\n\nThe correct answer is:\n\nChoice D: 22",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_37",
+    "lang": "vi",
+    "prompt": "Question: X\u00e1c \u0111\u1ecbnh xem \u0111a th\u1ee9c trong Z[x] c\u00f3 th\u1ecfa m\u00e3n ti\u00eau chu\u1ea9n Eisenstein v\u1ec1 t\u00ednh kh\u00f4ng th\u1ec3 ph\u00e2n t\u00edch tr\u00ean Q hay kh\u00f4ng. x^2 - 12\nChoice A: C\u00f3, v\u1edbi p=2.\nChoice B: C\u00f3, v\u1edbi p=3.\nChoice C: C\u00f3, v\u1edbi p=5.\nChoice D: Kh\u00f4ng.\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 x\u00e1c \u0111\u1ecbnh xem \u0111a th\u1ee9c \\(x^2 - 12\\) c\u00f3 th\u1ecfa m\u00e3n ti\u00eau chu\u1ea9n Eisenstein hay kh\u00f4ng, ch\u00fang ta c\u1ea7n ki\u1ec3m tra c\u00e1c \u0111i\u1ec1u ki\u1ec7n c\u1ee7a ti\u00eau chu\u1ea9n n\u00e0y v\u1edbi m\u1ed9t s\u1ed1 nguy\u00ean t\u1ed1 \\(p\\).\n\nTi\u00eau chu\u1ea9n Eisenstein n\u00f3i r\u1eb1ng m\u1ed9t \u0111a th\u1ee9c \\(a_n x^n + a_{n-1} x^{n-1} + \\ldots + a_1 x + a_0\\) l\u00e0 kh\u00f4ng th\u1ec3 ph\u00e2n t\u00edch tr\u00ean \\(\\mathbb{Q}\\) n\u1ebfu t\u1ed3n t\u1ea1i m\u1ed9t s\u1ed1 nguy\u00ean t\u1ed1 \\(p\\) sao cho:\n1. \\(p\\) kh\u00f4ng chia \\(a_n\\),\n2. \\(p\\) chia t\u1ea5t c\u1ea3 c\u00e1c h\u1ec7 s\u1ed1 \\(a_{n-1}, a_{n-2}, \\ldots, a_1, a_0\\),\n3. \\(p^2\\) kh\u00f4ng chia \\(a_0\\).\n\n\u00c1p d\u1ee5ng ti\u00eau chu\u1ea9n n\u00e0y cho \u0111a th\u1ee9c \\(x^2 - 12\\), ta c\u00f3:\n- \\(a_2 = 1\\), \\(a_1 = 0\\), \\(a_0 = -12\\).\n\nB\u00e2y gi\u1edd, ki\u1ec3m tra t\u1eebng l\u1ef1a ch\u1ecdn:\n- V\u1edbi \\(p = 2\\):\n  - \\(2\\) kh\u00f4ng chia \\(1\\) (\u0111i\u1ec1u ki\u1ec7n 1 th\u1ecfa m\u00e3n),\n  - \\(2\\) chia \\(0\\) v\u00e0 \\(-12\\) (\u0111i\u1ec1u ki\u1ec7n 2 th\u1ecfa m\u00e3n),\n  - \\(2^2 = 4\\) kh\u00f4ng chia \\(-12\\) (\u0111i\u1ec1u ki\u1ec7n 3 th\u1ecfa m\u00e3n).\n\n- V\u1edbi \\(p = 3\\):\n  - \\(3\\) kh\u00f4ng chia \\(1\\) (\u0111i\u1ec1u ki\u1ec7n 1 th\u1ecfa m\u00e3n),\n  - \\(3\\) chia \\(0\\) v\u00e0 \\(-12\\) (\u0111i\u1ec1u ki\u1ec7n 2 th\u1ecfa m\u00e3n),\n  - \\(3^2 = 9\\) kh\u00f4ng chia \\(-12\\) (\u0111i\u1ec1u ki\u1ec7n 3 th\u1ecfa m\u00e3n).\n\n- V\u1edbi \\(p = 5\\):\n  - \\(5\\) kh\u00f4ng chia \\(1\\) (\u0111i\u1ec1u ki\u1ec7n 1 th\u1ecfa m\u00e3n),\n  - \\(5\\) chia \\(0\\) nh\u01b0ng kh\u00f4ng chia \\(-12\\) (\u0111i\u1ec1u ki\u1ec7n 2 kh\u00f4ng th\u1ecfa m\u00e3n).\n\nV\u1eady, \u0111a th\u1ee9c \\(x^2 - 12\\) th\u1ecfa m\u00e3n ti\u00eau chu\u1ea9n Eisenstein v\u1edbi \\(p = 2\\) v\u00e0 \\(p = 3\\).\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 B: C\u00f3, v\u1edbi \\(p=3\\).",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_38",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm b\u1ed9 sinh cho tr\u01b0\u1eddng h\u1eefu h\u1ea1n Z_7.\nChoice A: 1\nChoice B: 2\nChoice C: 3\nChoice D: 4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm b\u1ed9 sinh cho tr\u01b0\u1eddng h\u1eefu h\u1ea1n \\(\\mathbb{Z}_7\\), ta c\u1ea7n t\u00ecm m\u1ed9t ph\u1ea7n t\u1eed c\u00f3 b\u1eadc b\u1eb1ng 6 (v\u00ec \\(\\mathbb{Z}_7^*\\) l\u00e0 nh\u00f3m cyclic b\u1eadc 6).\n\nTa ki\u1ec3m tra t\u1eebng ph\u1ea7n t\u1eed:\n\n- \\(1^1 = 1\\), b\u1eadc c\u1ee7a 1 l\u00e0 1.\n- \\(2^1 = 2\\), \\(2^2 = 4\\), \\(2^3 = 8 \\equiv 1 \\pmod{7}\\), b\u1eadc c\u1ee7a 2 l\u00e0 3.\n- \\(3^1 = 3\\), \\(3^2 = 9 \\equiv 2 \\pmod{7}\\), \\(3^3 = 27 \\equiv 6 \\pmod{7}\\), \\(3^4 = 81 \\equiv 4 \\pmod{7}\\), \\(3^5 = 243 \\equiv 5 \\pmod{7}\\), \\(3^6 = 729 \\equiv 1 \\pmod{7}\\), b\u1eadc c\u1ee7a 3 l\u00e0 6.\n- \\(4^1 = 4\\), \\(4^2 = 16 \\equiv 2 \\pmod{7}\\), \\(4^3 = 64 \\equiv 1 \\pmod{7}\\), b\u1eadc c\u1ee7a 4 l\u00e0 3.\n\nNh\u01b0 v\u1eady, ph\u1ea7n t\u1eed 3 c\u00f3 b\u1eadc 6, do \u0111\u00f3 3 l\u00e0 b\u1ed9 sinh c\u1ee7a \\(\\mathbb{Z}_7^*\\).\n\nV\u1eady \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 C.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_39",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ecdi ho\u00e1n v\u1ecb \u0111\u1ec1u l\u00e0 m\u1ed9t chu k\u1ef3. Tuy\u00ean b\u1ed1 2 | M\u1ecdi chu k\u1ef3 \u0111\u1ec1u l\u00e0 m\u1ed9t ho\u00e1n v\u1ecb.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Sai, \u0110\u00fang\n\nTuy\u00ean b\u1ed1 1 l\u00e0 sai v\u00ec kh\u00f4ng ph\u1ea3i m\u1ecdi ho\u00e1n v\u1ecb \u0111\u1ec1u l\u00e0 m\u1ed9t chu k\u1ef3. M\u1ed9t ho\u00e1n v\u1ecb c\u00f3 th\u1ec3 l\u00e0 s\u1ef1 k\u1ebft h\u1ee3p c\u1ee7a nhi\u1ec1u chu k\u1ef3. V\u00ed d\u1ee5, ho\u00e1n v\u1ecb (1 2)(3 4) kh\u00f4ng ph\u1ea3i l\u00e0 m\u1ed9t chu k\u1ef3 \u0111\u01a1n l\u1ebb m\u00e0 l\u00e0 s\u1ef1 k\u1ebft h\u1ee3p c\u1ee7a hai chu k\u1ef3.\n\nTuy\u00ean b\u1ed1 2 l\u00e0 \u0111\u00fang v\u00ec m\u1ecdi chu k\u1ef3 \u0111\u1ec1u l\u00e0 m\u1ed9t ho\u00e1n v\u1ecb. M\u1ed9t chu k\u1ef3 l\u00e0 m\u1ed9t ho\u00e1n v\u1ecb \u0111\u1eb7c bi\u1ec7t trong \u0111\u00f3 m\u1ed9t s\u1ed1 ph\u1ea7n t\u1eed \u0111\u01b0\u1ee3c ho\u00e1n \u0111\u1ed5i v\u1ecb tr\u00ed theo m\u1ed9t v\u00f2ng l\u1eb7p, v\u00e0 c\u00e1c ph\u1ea7n t\u1eed c\u00f2n l\u1ea1i gi\u1eef nguy\u00ean v\u1ecb tr\u00ed.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_40",
+    "lang": "vi",
+    "prompt": "Question: T\u1eadp h\u1ee3p c\u00e1c s\u1ed1 nguy\u00ean Z v\u1edbi ph\u00e9p to\u00e1n nh\u1ecb ph\u00e2n \"*\" \u0111\u01b0\u1ee3c \u0111\u1ecbnh ngh\u0129a l\u00e0 a*b =a +b+ 1 cho a, b trong Z, l\u00e0 m\u1ed9t nh\u00f3m. Ph\u1ea7n t\u1eed \u0111\u01a1n v\u1ecb c\u1ee7a nh\u00f3m n\u00e0y l\u00e0\nChoice A: 0\nChoice B: 1\nChoice C: -1\nChoice D: 12\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm ph\u1ea7n t\u1eed \u0111\u01a1n v\u1ecb c\u1ee7a nh\u00f3m v\u1edbi ph\u00e9p to\u00e1n nh\u1ecb ph\u00e2n \"*\", ta c\u1ea7n t\u00ecm m\u1ed9t ph\u1ea7n t\u1eed e trong Z sao cho v\u1edbi m\u1ecdi ph\u1ea7n t\u1eed a trong Z, ta c\u00f3 a * e = a v\u00e0 e * a = a.\n\nTheo \u0111\u1ecbnh ngh\u0129a c\u1ee7a ph\u00e9p to\u00e1n \"*\", ta c\u00f3:\n- a * e = a + e + 1\n- e * a = e + a + 1\n\n\u0110\u1ec3 a * e = a, ta c\u1ea7n:\na + e + 1 = a\n=> e + 1 = 0\n=> e = -1\n\n\u0110\u1ec3 e * a = a, ta c\u1ea7n:\ne + a + 1 = a\n=> e + 1 = 0\n=> e = -1\n\nV\u1eady ph\u1ea7n t\u1eed \u0111\u01a1n v\u1ecb e l\u00e0 -1.\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 C: -1.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_41",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm \u0111\u1eb7c \u0111i\u1ec3m c\u1ee7a v\u00f2ng Z_3 x 3Z.\nChoice A: 0\nChoice B: 3\nChoice C: 12\nChoice D: 30\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the number of elements in the ring \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\), we need to understand the structure of this ring.\n\n1. \\( \\mathbb{Z}_3 \\) is the ring of integers modulo 3, which has 3 elements: \\{0, 1, 2\\}.\n2. \\( 3\\mathbb{Z} \\) is the set of all integer multiples of 3, which is an infinite set.\n\nThe ring \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\) is the Cartesian product of these two sets. The number of elements in this ring is the product of the number of elements in each set.\n\n- \\( \\mathbb{Z}_3 \\) has 3 elements.\n- \\( 3\\mathbb{Z} \\) is infinite.\n\nTherefore, the ring \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\) is infinite, as it is the product of a finite set and an infinite set.\n\nNone of the given choices (A: 0, B: 3, C: 12, D: 30) represent an infinite set. However, if the question is asking for the number of elements in a finite context or a specific property, it might be misinterpreted. Based on the information given, the correct understanding is that the ring is infinite.\n\nIf the question is asking for a specific property or characteristic that matches one of the choices, please provide more context or clarify the question. Otherwise, the answer is that the ring is infinite, which does not match any of the given choices.",
+    "prediction": "D",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_42",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ed9t nh\u00f3m abelian c\u00f3 b\u1eadc 45 c\u00f3 m\u1ed9t nh\u00f3m con c\u00f3 b\u1eadc 10. Tuy\u00ean b\u1ed1 2 | M\u1ed9t nh\u00f3m con H c\u1ee7a m\u1ed9t nh\u00f3m G l\u00e0 m\u1ed9t nh\u00f3m con chu\u1ea9n t\u1eafc n\u1ebfu v\u00e0 ch\u1ec9 n\u1ebfu s\u1ed1 l\u01b0\u1ee3ng coset tr\u00e1i c\u1ee7a H b\u1eb1ng v\u1edbi s\u1ed1 l\u01b0\u1ee3ng coset ph\u1ea3i c\u1ee7a H.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u0110\u00fang, Sai",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_43",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ecdi mi\u1ec1n nguy\u00ean v\u1edbi \u0111\u1eb7c tr\u01b0ng 0 \u0111\u1ec1u l\u00e0 v\u00f4 h\u1ea1n. Tuy\u00ean b\u1ed1 2 | M\u1ecdi mi\u1ec1n nguy\u00ean v\u1edbi \u0111\u1eb7c tr\u01b0ng nguy\u00ean t\u1ed1 \u0111\u1ec1u l\u00e0 h\u1eefu h\u1ea1n.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u0110\u00fang, Sai",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_44",
+    "lang": "vi",
+    "prompt": "Question: Cho A v\u00e0 B l\u00e0 c\u00e1c t\u1eadp h\u1ee3p, f: A -> B v\u00e0 g: B -> A l\u00e0 c\u00e1c h\u00e0m s\u1ed1 sao cho v\u1edbi m\u1ecdi a \\in A, g(f(a)) = a. M\u1ec7nh \u0111\u1ec1 1 | H\u00e0m s\u1ed1 f nh\u1ea5t thi\u1ebft ph\u1ea3i l\u00e0 \u0111\u01a1n \u00e1nh. M\u1ec7nh \u0111\u1ec1 2 | H\u00e0m s\u1ed1 f nh\u1ea5t thi\u1ebft ph\u1ea3i l\u00e0 to\u00e0n \u00e1nh.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 n\u00e0y, ch\u00fang ta c\u1ea7n xem x\u00e9t c\u00e1c t\u00ednh ch\u1ea5t c\u1ee7a h\u00e0m s\u1ed1 f v\u00e0 g d\u1ef1a tr\u00ean \u0111i\u1ec1u ki\u1ec7n g(f(a)) = a v\u1edbi m\u1ecdi a \\in A.\n\n1. M\u1ec7nh \u0111\u1ec1 1: H\u00e0m s\u1ed1 f nh\u1ea5t thi\u1ebft ph\u1ea3i l\u00e0 \u0111\u01a1n \u00e1nh.\n   - \u0110\u1ec3 f l\u00e0 \u0111\u01a1n \u00e1nh, v\u1edbi m\u1ecdi a1, a2 \\in A, n\u1ebfu f(a1) = f(a2) th\u00ec a1 ph\u1ea3i b\u1eb1ng a2.\n   - Gi\u1ea3 s\u1eed f(a1) = f(a2), \u00e1p d\u1ee5ng g v\u00e0o c\u1ea3 hai v\u1ebf, ta c\u00f3 g(f(a1)) = g(f(a2)).\n   - Theo \u0111i\u1ec1u ki\u1ec7n g(f(a)) = a, ta c\u00f3 g(f(a1)) = a1 v\u00e0 g(f(a2)) = a2.\n   - Do \u0111\u00f3, a1 = a2, ch\u1ee9ng t\u1ecf f l\u00e0 \u0111\u01a1n \u00e1nh.\n\n2. M\u1ec7nh \u0111\u1ec1 2: H\u00e0m s\u1ed1 f nh\u1ea5t thi\u1ebft ph\u1ea3i l\u00e0 to\u00e0n \u00e1nh.\n   - \u0110\u1ec3 f l\u00e0 to\u00e0n \u00e1nh, v\u1edbi m\u1ecdi b \\in B, t\u1ed3n t\u1ea1i \u00edt nh\u1ea5t m\u1ed9t a \\in A sao cho f(a) = b.\n   - Tuy nhi\u00ean, \u0111i\u1ec1u ki\u1ec7n g(f(a)) = a kh\u00f4ng \u0111\u1ea3m b\u1ea3o r\u1eb1ng m\u1ecdi b \\in B \u0111\u1ec1u c\u00f3 m\u1ed9t a \\in A sao cho f(a) = b.\n   - V\u00ed d\u1ee5, n\u1ebfu A = {1, 2}, B = {3, 4}, f(1) = 3, f(2) = 3, v\u00e0 g(3) = 1, g(4) = 2, th\u00ec g(f(1)) = 1 v\u00e0 g(f(2)) = 2, nh\u01b0ng f kh\u00f4ng ph\u1ea3i l\u00e0 to\u00e0n \u00e1nh v\u00ec kh\u00f4ng c\u00f3 a \\in A sao cho f(a) = 4.\n\nV\u00ec v\u1eady, m\u1ec7nh \u0111\u1ec1 1 l\u00e0 \u0111\u00fang v\u00e0 m\u1ec7nh \u0111\u1ec1 2 l\u00e0 sai. Do \u0111\u00f3, \u0111\u00e1p \u00e1n l\u00e0 C: \u0110\u00fang, Sai.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_45",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | \u0110\u1ed1i v\u1edbi b\u1ea5t k\u1ef3 hai nh\u00f3m G v\u00e0 G', t\u1ed3n t\u1ea1i m\u1ed9t \u0111\u1ed3ng c\u1ea5u c\u1ee7a G v\u00e0o G'. Tuy\u00ean b\u1ed1 2 | M\u1ecdi \u0111\u1ed3ng c\u1ea5u \u0111\u1ec1u l\u00e0 m\u1ed9t \u00e1nh x\u1ea1 m\u1ed9t-m\u1ed9t.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: Sai, Sai",
+    "prediction": "B",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_46",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | M\u1ed9t homomorphism c\u00f3 th\u1ec3 c\u00f3 m\u1ed9t kernel r\u1ed7ng. Tuy\u00ean b\u1ed1 2 | Kh\u00f4ng th\u1ec3 c\u00f3 m\u1ed9t homomorphism kh\u00f4ng t\u1ea7m th\u01b0\u1eddng c\u1ee7a m\u1ed9t nh\u00f3m h\u1eefu h\u1ea1n v\u00e0o m\u1ed9t nh\u00f3m v\u00f4 h\u1ea1n.\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u0110\u00fang, Sai\n\nTuy\u00ean b\u1ed1 1 l\u00e0 \u0111\u00fang v\u00ec m\u1ed9t homomorphism c\u00f3 th\u1ec3 c\u00f3 m\u1ed9t kernel r\u1ed7ng, \u0111i\u1ec1u n\u00e0y x\u1ea3y ra khi homomorphism l\u00e0 \u0111\u01a1n \u00e1nh (injective).\n\nTuy\u00ean b\u1ed1 2 l\u00e0 sai v\u00ec c\u00f3 th\u1ec3 c\u00f3 m\u1ed9t homomorphism kh\u00f4ng t\u1ea7m th\u01b0\u1eddng t\u1eeb m\u1ed9t nh\u00f3m h\u1eefu h\u1ea1n v\u00e0o m\u1ed9t nh\u00f3m v\u00f4 h\u1ea1n. V\u00ed d\u1ee5, x\u00e9t homomorphism t\u1eeb nh\u00f3m h\u1eefu h\u1ea1n v\u00e0o nh\u00f3m v\u00f4 h\u1ea1n m\u00e0 \u00e1nh x\u1ea1 t\u1ea5t c\u1ea3 c\u00e1c ph\u1ea7n t\u1eed c\u1ee7a nh\u00f3m h\u1eefu h\u1ea1n v\u00e0o m\u1ed9t ph\u1ea7n t\u1eed duy nh\u1ea5t kh\u00e1c v\u1edbi ph\u1ea7n t\u1eed \u0111\u01a1n v\u1ecb trong nh\u00f3m v\u00f4 h\u1ea1n.",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_47",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm t\u1ea5t c\u1ea3 c trong Z_3 sao cho Z_3[x]/(x^3 + x^2 + c) l\u00e0 m\u1ed9t tr\u01b0\u1eddng.\nChoice A: 0\nChoice B: 2\nChoice C: 1\nChoice D: 3\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To determine which values of \\( c \\) in \\( \\mathbb{Z}_3 \\) make \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + c) \\) a field, we need to check when the polynomial \\( x^3 + x^2 + c \\) is irreducible over \\( \\mathbb{Z}_3 \\).\n\nA polynomial is irreducible over a field if it cannot be factored into polynomials of lower degree with coefficients in that field. For \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + c) \\) to be a field, \\( x^3 + x^2 + c \\) must be irreducible over \\( \\mathbb{Z}_3 \\).\n\nLet's check each value of \\( c \\) in \\( \\mathbb{Z}_3 = \\{0, 1, 2\\}\\):\n\n1. **For \\( c = 0 \\):** The polynomial becomes \\( x^3 + x^2 \\), which can be factored as \\( x^2(x + 1) \\). This is reducible.\n\n2. **For \\( c = 1 \\):** The polynomial becomes \\( x^3 + x^2 + 1 \\). We need to check if it has any roots in \\( \\mathbb{Z}_3 \\):\n   - For \\( x = 0 \\): \\( 0^3 + 0^2 + 1 = 1 \\neq 0 \\).\n   - For \\( x = 1 \\): \\( 1^3 + 1^2 + 1 = 3 \\equiv 0 \\pmod{3} \\).\n   - For \\( x = 2 \\): \\( 2^3 + 2^2 + 1 = 8 + 4 + 1 = 13 \\equiv 1 \\pmod{3} \\neq 0 \\).\n\n   Since \\( x = 1 \\) is a root, \\( x^3 + x^2 + 1 \\) is reducible.\n\n3. **For \\( c = 2 \\):** The polynomial becomes \\( x^3 + x^2 + 2 \\). We need to check if it has any roots in \\( \\mathbb{Z}_3 \\):\n   - For \\( x = 0 \\): \\( 0^3 + 0^2 + 2 = 2 \\neq 0 \\).\n   - For \\( x = 1 \\): \\( 1^3 + 1^2 + 2 = 4 \\equiv 1 \\pmod{3} \\neq 0 \\).\n   - For \\( x = 2 \\): \\( 2^3 + 2^2 + 2 = 8 + 4 + 2 = 14 \\equiv 2 \\pmod{3} \\neq 0 \\).\n\n   Since there are no roots, \\( x^3 + x^2 + 2 \\) is irreducible over \\( \\mathbb{Z}_3 \\).\n\nTherefore, the value of \\( c \\) that makes \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + c) \\) a field is \\( c = 2 \\).\n\nThe correct answer is **B**.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_48",
+    "lang": "vi",
+    "prompt": "Question: Tuy\u00ean b\u1ed1 1 | N\u1ebfu m\u1ed9t R l\u00e0 m\u1ed9t mi\u1ec1n nguy\u00ean, th\u00ec R[x] l\u00e0 m\u1ed9t mi\u1ec1n nguy\u00ean. Tuy\u00ean b\u1ed1 2 | N\u1ebfu R l\u00e0 m\u1ed9t v\u00e0nh v\u00e0 f(x) v\u00e0 g(x) n\u1eb1m trong R[x], th\u00ec deg (f(x)g(x)) = deg f(x) + deg g(x).\nChoice A: \u0110\u00fang, \u0110\u00fang\nChoice B: Sai, Sai\nChoice C: \u0110\u00fang, Sai\nChoice D: Sai, \u0110\u00fang\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u0110\u00fang, Sai",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_49",
+    "lang": "vi",
+    "prompt": "Question: T\u00ecm b\u1eadc l\u1edbn nh\u1ea5t c\u00f3 th\u1ec3 c\u00f3 c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong Z_8 x Z_10 x Z_24.\nChoice A: 8\nChoice B: 120\nChoice C: 240\nChoice D: 24\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\u0110\u1ec3 t\u00ecm b\u1eadc l\u1edbn nh\u1ea5t c\u00f3 th\u1ec3 c\u00f3 c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\), ta c\u1ea7n t\u00ecm b\u1ed9i chung nh\u1ecf nh\u1ea5t (LCM) c\u1ee7a c\u00e1c b\u1eadc l\u1edbn nh\u1ea5t c\u00f3 th\u1ec3 c\u00f3 c\u1ee7a c\u00e1c ph\u1ea7n t\u1eed trong t\u1eebng nh\u00f3m con.\n\n1. B\u1eadc l\u1edbn nh\u1ea5t c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong \\( \\mathbb{Z}_8 \\) l\u00e0 8.\n2. B\u1eadc l\u1edbn nh\u1ea5t c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong \\( \\mathbb{Z}_{10} \\) l\u00e0 10.\n3. B\u1eadc l\u1edbn nh\u1ea5t c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong \\( \\mathbb{Z}_{24} \\) l\u00e0 24.\n\nB\u00e2y gi\u1edd, ta t\u00ednh LCM c\u1ee7a 8, 10 v\u00e0 24:\n\n- Ph\u00e2n t\u00edch th\u1eeba s\u1ed1 nguy\u00ean t\u1ed1:\n  - \\( 8 = 2^3 \\)\n  - \\( 10 = 2 \\times 5 \\)\n  - \\( 24 = 2^3 \\times 3 \\)\n\n- LCM l\u00e0 t\u00edch c\u1ee7a c\u00e1c th\u1eeba s\u1ed1 nguy\u00ean t\u1ed1 v\u1edbi s\u1ed1 m\u0169 l\u1edbn nh\u1ea5t:\n  - \\( 2^3 = 8 \\)\n  - \\( 3^1 = 3 \\)\n  - \\( 5^1 = 5 \\)\n\n- LCM = \\( 2^3 \\times 3 \\times 5 = 8 \\times 3 \\times 5 = 120 \\).\n\nV\u1eady b\u1eadc l\u1edbn nh\u1ea5t c\u00f3 th\u1ec3 c\u00f3 c\u1ee7a m\u1ed9t ph\u1ea7n t\u1eed trong \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\) l\u00e0 120.\n\nDo \u0111\u00f3, \u0111\u00e1p \u00e1n \u0111\u00fang l\u00e0 B: 120.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  }
+]

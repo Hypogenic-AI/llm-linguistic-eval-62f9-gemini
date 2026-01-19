@@ -1,0 +1,13 @@
+\section{Related Work}
+
+Our research builds upon four distinct strands of literature: linguistic discrimination, internal model mechanisms, multilingual benchmarking, and comprehensive surveys of the field.
+
+\textbf{Linguistic Discrimination and Safety.} \cite{dong2024evaluating} define and evaluate ``linguistic discrimination'' in LLMs, highlighting severe disparities in both safety and utility. They show that low-resource languages (e.g., Bengali, Zulu) suffer from significantly higher jailbreak rates (27.7\% vs 1.04\% for English) and lower utility. Their proposed mitigation, LDFighter, explicitly leverages translation to pivot languages, reinforcing the utility of translation-based approaches.
+
+\textbf{Internal Multilingual Mechanisms.} \cite{zhao2024how} propose the ``Multilingual Workflow'' (MWork) hypothesis, positing that LLMs internally convert non-English queries into English for reasoning. By identifying and manipulating language-specific neurons, they demonstrate that deactivating these neurons causes massive performance drops in multilingual tasks while leaving English performance relatively intact. This mechanistic view strongly supports our behavioral hypothesis of implicit translation.
+
+\textbf{Multilingual Benchmarking.} The evaluation of multilingual capabilities has evolved from simple translation tasks to complex reasoning. \cite{han2025mubench} introduce MuBench, a robust benchmark across 61 languages that ensures cross-lingual alignment, enabling the direct comparisons we perform in this study. Similarly, \cite{luo2025gloteval} present GlotEval, a comprehensive test suite covering 9 task categories, emphasizing the need for standardized ISO codes and diverse task types beyond simple QA.
+
+\textbf{Surveys and Training Data.} \cite{xu2024survey} provide a broad survey of the multilingual LLM landscape, identifying the ``curse of multilinguality'' where adding too many languages can degrade performance due to capacity dilution. They highlight the extreme imbalance in training corpora (e.g., Common Crawl is $>$45\% English) as the root cause of the behaviors we observe.
+
+Our work differentiates itself by moving beyond aggregate accuracy scores. We leverage the aligned nature of MuBench to perform a sample-level consistency analysis, quantifying the ``Same Mistake Ratio'' to infer the presence of shared reasoning pathways.

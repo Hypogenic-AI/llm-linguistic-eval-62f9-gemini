@@ -1,0 +1,15 @@
+\section{Introduction}
+
+The rapid global deployment of Large Language Models (LLMs) has outpaced our understanding of their cross-lingual mechanisms. While state-of-the-art models like GPT-4o demonstrate impressive fluency in dozens of languages, their training data remains overwhelmingly English-centric \cite{xu2024survey}. This disparity raises a critical question: Do these models genuinely acquire multilingual reasoning capabilities, or do they rely on an ``implicit internal translation'' mechanism where non-English inputs are mapped to an English-dominated latent space for processing?
+
+Understanding this mechanism is vital for addressing ``linguistic discrimination''---the phenomenon where non-English users receive not only lower quality responses but also different safety and reliability guarantees \cite{dong2024evaluating}. If models primarily ``translate'' internally, their non-English performance is strictly upper-bounded by their translation quality and English reasoning capabilities. Conversely, if they develop independent representations for different languages, they might exhibit unique failure modes or cultural nuances.
+
+Existing research has identified the existence of language-specific neurons and suggested a ``Multilingual Workflow'' where concepts are unified into a shared representation \cite{zhao2024how}. However, empirical evaluations often treat the model as a black box, focusing solely on accuracy benchmarks without probing the correlation between English and non-English outputs on identical inputs.
+
+In this work, we systematically test the ``implicit translation'' hypothesis using the MuBench dataset \cite{han2025mubench}, which provides parallel, aligned multiple-choice questions across languages. We evaluate GPT-4o on 12 languages spanning High, Mid, and Low resource levels. By comparing ``Native Inference'' (prompting in the target language) with ``English Inference'' (prompting in English) on the exact same questions, we introduce two key metrics:
+\begin{itemize}
+    \item \textbf{Agreement with English}: The frequency with which the model provides the exact same answer choice in both languages.
+    \item \textbf{Same Mistake Ratio}: The conditional probability that, given the model is wrong in both languages, it makes the \textit{same} error.
+\end{itemize}
+
+Our findings reveal a resource-dependent dichotomy. For high and mid-resource languages, the model behaves as if it is translating: it makes the same specific errors as it does in English. For low-resource languages, this coupling breaks down, resulting in uncorrelated, lower-quality failures. This suggests that the ``implicit translation'' bridge is robust for some languages but non-existent for others, necessitating different strategies for model improvement.

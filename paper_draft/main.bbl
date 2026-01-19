@@ -1,0 +1,38 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Dong et~al.(2024)Dong, Wang, Sun, and Wang]{dong2024evaluating}
+Guoliang Dong, Haoyu Wang, Jun Sun, and Xinyu Wang.
+\newblock Evaluating and mitigating linguistic discrimination in large language
+  models.
+\newblock \emph{arXiv preprint arXiv:2404.18534}, 2024.
+
+\bibitem[Han et~al.(2025)Han, Zhang, et~al.]{han2025mubench}
+Wenhan Han, Yifan Zhang, et~al.
+\newblock Mubench: Assessment of multilingual capabilities of large language
+  models across 61 languages.
+\newblock \emph{arXiv preprint arXiv:2506.19468}, 2025.
+
+\bibitem[Luo et~al.(2025)Luo, Li, et~al.]{luo2025gloteval}
+Hengyu Luo, Zihao Li, et~al.
+\newblock Gloteval: A test suite for massively multilingual evaluation of large
+  language models.
+\newblock \emph{arXiv preprint arXiv:2504.04155}, 2025.
+
+\bibitem[Xu et~al.(2024)Xu, Hu, Zhao, Qiu, Xu, Ye, and Gu]{xu2024survey}
+Yuemei Xu, Ling Hu, Jiayi Zhao, Zihan Qiu, Kexin Xu, Yuqi Ye, and Hanwen Gu.
+\newblock A survey on multilingual large language models: Corpora, alignment,
+  and bias.
+\newblock \emph{arXiv preprint arXiv:2404.00929}, 2024.
+
+\bibitem[Zhao et~al.(2024)Zhao, Zhang, Chen, Kawaguchi, and Bing]{zhao2024how}
+Yiran Zhao, Wenxuan Zhang, Guizhen Chen, Kenji Kawaguchi, and Lidong Bing.
+\newblock How do large language models handle multilingualism?
+\newblock In \emph{Proceedings of the 38th Conference on Neural Information
+  Processing Systems (NeurIPS 2024)}, 2024.
+
+\end{thebibliography}

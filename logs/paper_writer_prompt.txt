@@ -1,0 +1,569 @@
+You are an academic paper writer. Generate a complete NEURIPS style paper
+based on the experiment results provided.
+
+════════════════════════════════════════════════════════════════════════════════
+                            EXPERIMENT REPORT
+════════════════════════════════════════════════════════════════════════════════
+
+# Research Report: Evaluating Linguistic Performance and Implicit Translation in LLMs
+
+## 1. Executive Summary
+This research investigates the performance of GPT-4o across 12 languages to test the hypothesis that Large Language Models (LLMs) rely on &#34;implicit internal translation&#34; when processing non-English inputs. Using the MuBench (MMLU) dataset, we found that high and mid-resource languages (Spanish, French, Vietnamese) achieve accuracy parity with English (~66-72%) and exhibit high response agreement (76-78%) and shared error patterns (47-64%) with English. In contrast, low-resource languages (Tamil, Swahili) show significant performance degradation (52-56%) and lower error correlation, suggesting that while the model may effectively &#34;translate&#34; or share representations for well-supported languages, it fails to do so for under-represented ones, leading to independent and uncorrelated failures.
+
+## 2. Goal
+**Research Question**: Do English-centric Large Language Models exhibit an &#34;implicit internal translation&#34; mechanism when processing non-English languages?
+
+**Motivation**: LLMs are deployed globally but trained primarily on English. If models implicitly translate, their non-English performance is bounded by their translation quality and English reasoning. Understanding this helps diagnose &#34;linguistic discrimination&#34; and inform deployment in non-English markets.
+
+## 3. Data Construction
+**Dataset**: [MuBench](https://huggingface.co/datasets/aialt/MuBench) (MMLU subset).
+-   **Source**: Aligned version of the Massive Multitask Language Understanding (MMLU) benchmark.
+-   **Languages Evaluated (12)**:
+    -   High Resource: English (en), Chinese (zh), Spanish (es), French (fr)
+    -   Mid Resource: Arabic (ar), Indonesian (id), Vietnamese (vi), Korean (ko)
+    -   Low Resource: Swahili (sw), Bengali (bn), Telugu (te), Tamil (ta)
+-   **Sample Size**: 50 aligned samples per language (Total 600 queries).
+-   **Alignment**: The dataset guarantees that `test_0` in English corresponds to `test_0` in other languages, allowing direct comparison of answers.
+
+## 4. Experiment Description
+**Methodology**:
+We performed a comparative analysis between &#34;Native Inference&#34; (prompting in target language) and &#34;English Inference&#34; (prompting in English on the same question).
+
+**Model**: GPT-4o (via API).
+
+**Metrics**:
+1.  **Accuracy**: Correctness on the standard MMLU task.
+2.  **Agreement with English**: The proportion of times the model gives the *exact same answer* (A/B/C/D) in Language X and English, regardless of correctness.
+3.  **Same Mistake Ratio**: When both the English and Native model are wrong, how often do they make the *same* wrong guess? (Random baseline = 33%).
+
+## 5. Result Analysis
+
+### Key Findings
+
+| Language | Resource Level | Accuracy | Agreement with En | Same Mistake Ratio |
+|----------|----------------|----------|-------------------|--------------------|
+| **English** | High | 0.66 | 1.00 | N/A |
+| **French** | High | 0.70 | 0.78 | 0.61 |
+| **Spanish** | High | 0.68 | 0.78 | 0.47 |
+| **Vietnamese** | Mid | 0.72 | 0.78 | 0.54 |
+| **Bengali** | Low* | 0.68 | 0.74 | 0.43 |
+| **Korean** | Mid | 0.64 | 0.76 | 0.64 |
+| **Indonesian** | Mid | 0.64 | 0.76 | 0.53 |
+| **Arabic** | Mid | 0.62 | 0.72 | 0.47 |
+| **Chinese** | High | 0.60 | 0.70 | 0.47 |
+| **Telugu** | Low | 0.60 | 0.70 | 0.38 |
+| **Swahili** | Low | 0.56 | 0.68 | 0.53 |
+| **Tamil** | Low | 0.52 | 0.58 | 0.33 |
+
+*Note: Bengali performed surprisingly well, possibly due to high representation in common crawl or specific task ease.*
+
+### Hypothesis Testing: Implicit Translation
+The data supports the &#34;Implicit Translation&#34; (or Shared Representation) hypothesis for High/Mid resource languages but less so for Low resource ones.
+
+1.  **High Agreement**: French, Spanish, Vietnamese, and Korean match English answers &gt;75% of the time. This is significantly higher than what accuracy alone would predict if errors were independent.
+2.  **Shared Hallucinations**: The &#34;Same Mistake Ratio&#34; is the strongest evidence. For Korean (0.64) and French (0.61), when the model gets it wrong in the native language, it almost always makes the *exact same error* as it did in English (nearly double the random chance of 0.33). This strongly implies the underlying reasoning path—or the specific confusion—is identical, likely processed through a shared English-centric latent space.
+3.  **Breakdown at Low Resource**: Tamil (0.52 Acc) shows the lowest agreement (0.58) and a &#34;Same Mistake Ratio&#34; of 0.33, which is exactly random. This suggests that for Tamil, the model isn&#39;t &#34;translating and failing&#34;; it&#39;s simply flailing. It likely doesn&#39;t map the Tamil input to the correct English concept effectively enough to even reproduce the English error.
+
+### Visualizations
+Plots are saved in `results/plots/`:
+-   `accuracy_by_lang.png`: Shows the drop-off for Swahili and Tamil.
+-   `acc_vs_agreement.png`: Scatter plot showing strong correlation between performance and alignment with English.
+
+## 6. Conclusions
+GPT-4o exhibits strong evidence of English-centric processing. For well-supported languages, it behaves like an English reasoner wrapped in a translator: it succeeds when English succeeds and fails in the same way when English fails. For poorly-supported languages (Tamil), this mechanism breaks down, resulting in independent, lower-quality failure modes.
+
+**Implication**: Improving non-English performance likely requires better &#34;alignment/translation&#34; to the core English reasoning engine for mid-resource languages, but requires fundamental representation learning for low-resource languages where the mapping doesn&#39;t even exist.
+
+## 7. Next Steps
+1.  **Expand Sample Size**: Increase from N=50 to N=1000 to validate the &#34;Same Mistake Ratio&#34; with higher statistical power.
+2.  **Explicit Translation Control**: Run `Translate(X-&gt;En) -&gt; Model(En)` explicitly to see if it outperforms the internal mechanism for Tamil.
+3.  **Logit Analysis**: Look at the probability distribution over tokens. If the logits for A/B/C/D are identical across languages, the evidence for shared representation is irrefutable.
+
+
+════════════════════════════════════════════════════════════════════════════════
+                            RESEARCH PLAN
+════════════════════════════════════════════════════════════════════════════════
+
+# Research Plan: Evaluating Linguistic Performance and Implicit Translation in LLMs
+
+## Motivation &amp; Novelty Assessment
+
+### Why This Research Matters
+Large language models (LLMs) are increasingly deployed globally, yet their training data remains predominantly English-centric. This creates a risk of &#34;linguistic discrimination&#34; where non-English users receive inferior service or safety guarantees. Understanding whether models truly &#34;understand&#34; other languages or merely translate them internally to English is crucial for:
+1.  **Reliability**: Knowing if errors are due to reasoning failures or translation artifacts.
+2.  **Efficiency**: Determining if native-language processing is viable or if explicit translation wrappers are necessary.
+3.  **Equity**: Quantifying the performance gap affecting billions of non-English speakers.
+
+### Gap in Existing Work
+While benchmarks like MMLU and FLORES exists, there is limited systematic analysis comparing &#34;Direct Inference&#34; in native languages against &#34;Explicit Translation&#34; baselines across a spectrum of resource levels (High, Mid, Low). Most evaluations treat the model as a black box without probing the &#34;implicit translation&#34; hypothesis—the idea that models internalize non-English input, process it in an &#34;English-like&#34; latent space, and decode it back.
+
+### Our Novel Contribution
+We will explicitly test the &#34;implicit translation&#34; hypothesis by comparing:
+1.  **Direct Inference**: Evaluating the model directly in target languages.
+2.  **English Pivot**: Translating queries to English (simulated by using aligned English samples), solving in English, and comparing performance.
+This allows us to quantify the &#34;Translation Tax&#34; the model pays when operating in non-English languages and infer if its internal mechanism mimics a translation pipeline.
+
+### Experiment Justification
+-   **Experiment 1 (Multilingual Performance Profiling)**: Establish a baseline of performance across 8 diverse languages to quantify the &#34;English-centric bias&#34;.
+-   **Experiment 2 (Implicit vs Explicit Translation)**: Compare native performance against an English-pivot baseline. If the model&#39;s native performance tracks closely with English performance (adjusted for translation difficulty), it supports the internal translation hypothesis.
+
+## Research Question
+Do English-centric Large Language Models exhibit an &#34;implicit internal translation&#34; mechanism when processing non-English languages, and how does the performance gap between English and non-English languages vary across resource levels?
+
+## Proposed Methodology
+
+### Approach
+We will use the **MuBench** dataset (specifically the MMLU subset), which provides parallel/aligned questions across languages. This alignment allows us to treat the English version of a question as a &#34;perfect translation&#34; of the non-English version, enabling a clean comparison between &#34;Native Processing&#34; and &#34;English Processing&#34;.
+
+### Experimental Steps
+1.  **Data Loading**: Load aligned MMLU examples from MuBench for 8 selected languages:
+    -   **High Resource**: English (en), Chinese (zh), Spanish (es)
+    -   **Mid Resource**: Arabic (ar), Indonesian (id), Vietnamese (vi)
+    -   **Low Resource**: Bengali (bn), Swahili (sw)
+2.  **Model Inference**:
+    -   Use **GPT-4o** (via OpenRouter/OpenAI API) as the representative SOTA model.
+    -   For each language, prompt the model to answer the multiple-choice questions.
+3.  **Evaluation**:
+    -   Calculate accuracy for each language.
+    -   Calculate &#34;Consistency&#34;: Does the model give the same answer (A/B/C/D) for the aligned question in Language X and English?
+
+### Baselines
+-   **English Baseline**: The performance on the English dataset serves as the &#34;ceiling&#34; or &#34;gold standard&#34;.
+-   **Random Baseline**: 25% accuracy (for 4-choice MMLU).
+
+### Evaluation Metrics
+-   **Accuracy**: Percentage of correct answers.
+-   **Performance Drop**: `(Acc_En - Acc_Lang) / Acc_En`.
+-   **Alignment Score**: Percentage of times `Answer(Lang) == Answer(En)`. High alignment suggests the model might be reasoning similarly (or translating) across languages.
+
+### Statistical Analysis Plan
+-   Compute 95% confidence intervals for accuracy.
+-   Pearson correlation between &#34;Resource Level&#34; (proxy) and Accuracy.
+-   Paired t-tests to compare Native vs English accuracy on the same question set.
+
+## Expected Outcomes
+-   **Hypothesis Supported**: If `Acc(Lang)` is highly correlated with `Acc(En)` but lower, and `Alignment Score` is high, it suggests the model relies on English-centric reasoning.
+-   **Hypothesis Refuted**: If `Acc(Lang)` is uncorrelated or if `Alignment Score` is low (model gives different *wrong* answers), it suggests independent (and likely poorer) representations for non-English languages.
+
+## Timeline and Milestones
+-   **Phase 2**: Environment Setup (Completed).
+-   **Phase 3 (1 hour)**: Implement data loader and inference script.
+-   **Phase 4 (1.5 hours)**: Run experiments on ~100-200 samples per language (to save time/cost while maintaining statistical relevance).
+-   **Phase 5 (0.5 hours)**: Analyze results and generate plots.
+-   **Phase 6 (0.5 hours)**: Write report.
+
+## Potential Challenges
+-   **API Costs/Limits**: We will limit sample size to ~100 per language initially.
+-   **Data Quality**: Translations in MuBench might be imperfect. We assume they are high quality as per the paper.
+-   **Rate Limiting**: Implement robust retry logic.
+
+## Success Criteria
+-   Successful execution of evaluation across 8 languages.
+-   Clear quantitative evidence (plots/tables) showing the gap between English and non-English performance.
+-   A conclusion regarding the &#34;implicit translation&#34; hypothesis based on the alignment/consistency data.
+
+════════════════════════════════════════════════════════════════════════════════
+                          LITERATURE REVIEW
+════════════════════════════════════════════════════════════════════════════════
+
+# Literature Review: Evaluating Linguistic Performance in LLMs
+
+## Research Area Overview
+
+This literature review examines recent research on evaluating and understanding multilingual capabilities of Large Language Models (LLMs). The central research hypothesis under investigation is that LLMs trained predominantly on English data may underperform when deployed in non-English-speaking contexts, and that these models may possess implicit internal translation mechanisms that convert non-English inputs to English for processing.
+
+The reviewed papers span four main areas:
+1. **Linguistic discrimination in LLMs** - Safety and quality disparities across languages
+2. **Internal multilingual processing mechanisms** - How LLMs handle non-English inputs
+3. **Multilingual evaluation benchmarks** - Standardized frameworks for cross-lingual assessment
+4. **Comprehensive surveys** - Corpora, alignment, and bias in multilingual LLMs
+
+---
+
+## Key Papers
+
+### Paper 1: Evaluating and Mitigating Linguistic Discrimination in Large Language Models
+
+- **Authors**: Guoliang Dong, Haoyu Wang, Jun Sun, Xinyu Wang
+- **Year**: 2024
+- **Source**: arXiv:2404.18534
+- **PDF**: papers/evaluating_linguistic_discrimination.pdf
+
+**Key Contribution**: Systematically evaluates linguistic discrimination from both safety and quality perspectives, proposing LDFighter as a mitigation strategy.
+
+**Methodology**:
+- Evaluated 4 LLMs: Llama2-13b, Gemma-7b, GPT-3.5-turbo, Gemini-pro
+- Used AdvBench (harmful queries) and NQ (natural questions) datasets
+- Assessed 74 languages for safety (jailbreak rate) and quality (F1 score)
+
+**Key Findings**:
+- **Safety disparities**: High-resource languages (English, French, Russian, Spanish) show 1.04% average jailbreak rate; low-resource languages (Bengali, Georgian, Nepali, Maithili) show 27.7% jailbreak rate
+- **Quality disparities**: English, Danish, Czech, Slovenian achieve 0.1494 average F1; Kannada, Southern Pashto, Tajik, Telugu achieve only 0.0341 average F1
+- **Correlation with training data**: Languages with &gt;0.005% share in pretraining data show better safety performance
+
+**Proposed Solution**: LDFighter - translates queries to top-k languages, gets responses, translates back to pivot language (English), uses similarity-based voting for final answer
+
+**Code Available**: Not mentioned in paper
+
+**Relevance to Hypothesis**: Directly supports the hypothesis - demonstrates significant performance gaps between English and low-resource languages across both safety and quality metrics.
+
+---
+
+### Paper 2: How do Large Language Models Handle Multilingualism?
+
+- **Authors**: Yiran Zhao, Wenxuan Zhang, Guizhen Chen, Kenji Kawaguchi, Lidong Bing
+- **Year**: 2024 (NeurIPS 2024)
+- **Source**: arXiv:2402.18815
+- **PDF**: papers/how_llms_handle_multilingualism.pdf
+
+**Key Contribution**: Proposes and validates the Multilingual Workflow (MWork) hypothesis - that LLMs internally convert non-English queries to English for processing.
+
+**Methodology**:
+- Developed Parallel Language-specific Neuron Detection (PLND) to identify language-specific neurons
+- Tested on multiple benchmarks: XQuAD (understanding), MGSM (reasoning), X-CSQA (knowledge), XLSum (generation)
+- Deactivated language-specific neurons to verify functionality
+
+**Key Findings**:
+- **Three-stage workflow confirmed**:
+  1. **Understanding**: Non-English queries converted to unified (English-centric) representation
+  2. **Task-solving**: Reasoning in English (self-attention) + knowledge extraction (feed-forward)
+  3. **Generation**: Output converted back to original query language
+- Only 0.13% of neurons are language-specific, yet deactivating them causes 99% performance drop on multilingual summarization
+- Deactivating understanding layer neurons: English stable, non-English -14%
+
+**Practical Application**: Fine-tuning language-specific neurons with 400 documents improves high-resource languages by 3.6% and low-resource languages by 2.3%
+
+**Code Available**: https://github.com/DAMO-NLP-SG/multilingual_analysis
+
+**Relevance to Hypothesis**: Strongly supports the hypothesis about implicit translation mechanisms - demonstrates LLMs convert multilingual inputs to English internally for processing.
+
+---
+
+### Paper 3: MuBench: Assessment of Multilingual Capabilities Across 61 Languages
+
+- **Authors**: Wenhan Han, Yifan Zhang, et al.
+- **Year**: 2025
+- **Source**: arXiv:2506.19468
+- **PDF**: papers/mubench.pdf
+
+**Key Contribution**: Comprehensive multilingual benchmark with cross-lingual alignment, introducing Multilingual Consistency (MLC) as a complementary metric.
+
+**Methodology**:
+- 61 languages covering &gt;60% global population
+- Translated widely-used English benchmarks with rigorous quality control
+- Includes code-switched variants for mixed-language evaluation
+- Human evaluation across 16 languages
+
+**Tasks Covered**:
+- Natural Language Understanding: SNLI, MultiNLI, WinoGrande
+- Commonsense Reasoning: HellaSwag, StoryCloze
+- Factual Recall: BMLAMA
+- Knowledge-based QA: MMLU, MMLU Pro
+- Academic &amp; Technical Reasoning: GPQA, ARC-Easy, ARC-Challenge
+- Truthfulness: TruthfulQA
+
+**Key Findings**:
+- Models fall short of claimed multilingual coverage
+- Persistent performance gap between English and low-resource languages
+- Gap does not consistently narrow with increased model size
+- Larger models not necessarily more robust in code-switched settings
+- Parallel corpora improve both accuracy and consistency
+
+**Dataset Available**: https://huggingface.co/datasets/aialt/MuBench
+
+**Relevance to Hypothesis**: Provides empirical evidence for English-centric bias across a wide range of tasks and languages.
+
+---
+
+### Paper 4: GlotEval: A Test Suite for Massively Multilingual Evaluation
+
+- **Authors**: Hengyu Luo, Zihao Li, et al.
+- **Year**: 2025
+- **Source**: arXiv:2504.04155
+- **PDF**: papers/gloteval.pdf
+
+**Key Contribution**: Unified evaluation framework integrating 27 benchmarks with ISO 639-3 standardization, supporting non-English-centric evaluation.
+
+**Methodology**:
+- Standardized all benchmarks to ISO 639-3 language codes
+- Supports 9 key tasks spanning dozens to hundreds of languages
+- Language-specific prompt templates
+- Non-English-centered machine translation evaluation
+
+**Tasks Supported**:
+1. Machine Translation
+2. Text Classification
+3. Summarization
+4. Open-ended Generation
+5. Reading Comprehension
+6. Sequence Labeling
+7. Intrinsic Evaluation
+8. Instruction Following
+9. Reasoning
+
+**Key Features**:
+- Cross-benchmark analysis by language/language group
+- Microsoft Translator integration for prompt propagation (130+ languages)
+- Any language can serve as pivot for translation evaluation
+
+**Code Available**: https://github.com/MaLA-LM/GlotEval
+
+**Relevance to Hypothesis**: Provides the evaluation infrastructure needed to systematically test multilingual LLM performance across diverse languages.
+
+---
+
+### Paper 5: A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias
+
+- **Authors**: Yuemei Xu, Ling Hu, Jiayi Zhao, Zihan Qiu, Kexin Xu, Yuqi Ye, Hanwen Gu
+- **Year**: 2024
+- **Source**: arXiv:2404.00929
+- **PDF**: papers/multilingual_llm_survey.pdf
+
+**Key Contribution**: Comprehensive survey covering MLLMs&#39; evolution, training corpora, multilingual representations, and bias.
+
+**Topics Covered**:
+
+1. **MLLM Overview**: Evolution from mBERT to BLOOM/LLaMA, key techniques, multilingual capacities
+
+2. **Training Corpora Analysis**:
+   - ChatGPT: 92.099% English, only 0.16% Chinese
+   - Language imbalance in major corpora (Wikipedia, Common Crawl)
+   - &#34;Curse of multilinguality&#34;: more languages help low-resource up to a point, then overall performance decreases
+
+3. **Multilingual Alignment**:
+   - Static, contextual, and combined multilingual representations
+   - Factors affecting alignment: initial alignment solution, mapping linearity, typological distance, pretraining data
+
+4. **Bias in MLLMs**:
+   - Categories of bias
+   - Evaluation metrics
+   - Debiasing techniques
+   - Most bias studies limited to English
+
+**Key Insights**:
+- Scale, quality, and diversity of corpora significantly impact MLLM performance
+- Under-representation of low-resource languages leads to poor performance
+- Universal language representation remains challenging
+
+**Relevance to Hypothesis**: Provides foundational context explaining why LLMs exhibit English-centric bias (training data imbalance) and the challenges in achieving cross-lingual transfer.
+
+---
+
+## Common Methodologies
+
+### Evaluation Approaches
+- **Cross-lingual benchmarks**: Translate English benchmarks to target languages
+- **Language-specific metrics**: Jailbreak rate, F1 score, accuracy by language
+- **Consistency metrics**: Multilingual Consistency (MLC) for aligned samples
+
+### Models Commonly Evaluated
+- GPT-3.5-turbo, GPT-4
+- Gemini-pro
+- LLaMA-2 (7B, 13B)
+- Gemma (7B)
+- BLOOM, BLOOMZ
+- Vicuna
+- Qwen
+
+### Language Categorization
+- **High-resource**: English, French, Spanish, Russian, German, Chinese, Japanese
+- **Mid-resource**: Arabic, Korean, Portuguese, Turkish, Vietnamese, Indonesian
+- **Low-resource**: Bengali, Nepali, Georgian, Maithili, Kannada, Telugu
+
+---
+
+## Standard Baselines
+
+| Baseline Type | Common Approaches |
+|--------------|-------------------|
+| Translation-based | Translate query to English, process, translate back |
+| Direct inference | Run model directly on target language |
+| Zero-shot | No target language examples |
+| Few-shot | Include examples in target language |
+
+---
+
+## Evaluation Metrics
+
+| Metric | Description | Use Case |
+|--------|-------------|----------|
+| Accuracy | Correct answers / Total | General task performance |
+| F1 Score | Harmonic mean of precision/recall | QA tasks |
+| Jailbreak Rate | Successful harmful responses / Total | Safety evaluation |
+| BLEU/chrF++ | Translation quality | Machine translation |
+| Multilingual Consistency (MLC) | Consistency across languages for aligned samples | Cross-lingual transfer |
+
+---
+
+## Datasets in the Literature
+
+### Benchmark Datasets
+| Dataset | Languages | Task | Used By |
+|---------|-----------|------|---------|
+| MMLU | 61 (MuBench) | Knowledge QA | Papers 3, 4 |
+| XNLI | 15 | NLI | Paper 4 |
+| XQuAD | 10 | Reading comprehension | Paper 2 |
+| MGSM | 10 | Math reasoning | Paper 2 |
+| Belebele | 122 | Reading comprehension | Paper 4 |
+| AdvBench | Multi | Safety (jailbreak) | Paper 1 |
+| NQ | Multi | Open-domain QA | Paper 1 |
+| FLORES-200 | 200 | Translation | Paper 4 |
+
+### Training Corpora
+- Common Crawl (mC4, CC-100)
+- Wikipedia (various languages)
+- ROOTS (BLOOM&#39;s corpus)
+- Parallel corpora (OPUS, CCAligned)
+
+---
+
+## Gaps and Opportunities
+
+1. **Limited low-resource language evaluation**: Most benchmarks still focus on high-resource languages
+2. **Cultural bias**: Many benchmarks have Western-centric content
+3. **Code-switching**: Mixed-language scenarios underexplored
+4. **Dynamic evaluation**: Most benchmarks are static; no evaluation of adaptation
+5. **Safety in low-resource**: Limited safety evaluation for underrepresented languages
+6. **Mechanistic understanding**: Internal multilingual processing needs more investigation
+
+---
+
+## Recommendations for Our Experiment
+
+### Recommended Datasets
+1. **MuBench** (Primary): 61 languages, multiple tasks, aligned samples, available on HuggingFace
+2. **MMLU (Multilingual)**: Standard knowledge benchmark, well-established
+3. **FLORES-200**: For translation-based evaluation
+4. **Belebele**: For broad language coverage reading comprehension
+
+### Recommended Baselines
+1. Direct inference in target language
+2. English translation → inference → back-translation
+3. Compare open models (LLaMA, Gemma) vs. closed (GPT-4, Claude)
+
+### Recommended Metrics
+1. **Accuracy per language** - Primary performance metric
+2. **Multilingual Consistency (MLC)** - Cross-lingual transfer assessment
+3. **Performance gap ratio** - (English accuracy - Target accuracy) / English accuracy
+
+### Methodological Considerations
+1. **Language selection**: Include high/mid/low-resource languages from different families
+2. **Task diversity**: Test both understanding and generation tasks
+3. **Prompt language**: Test both English prompts and target language prompts
+4. **Internal analysis**: Consider probing hidden states for language representation (per Paper 2)
+
+---
+
+## References
+
+1. Dong, G., et al. (2024). Evaluating and Mitigating Linguistic Discrimination in Large Language Models. arXiv:2404.18534
+2. Zhao, Y., et al. (2024). How do Large Language Models Handle Multilingualism? NeurIPS 2024. arXiv:2402.18815
+3. Han, W., et al. (2025). MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages. arXiv:2506.19468
+4. Luo, H., et al. (2025). GlotEval: A Test Suite for Massively Multilingual Evaluation of Large Language Models. arXiv:2504.04155
+5. Xu, Y., et al. (2024). A Survey on Multilingual Large Language Models: Corpora, Alignment, and Bias. arXiv:2404.00929
+
+
+════════════════════════════════════════════════════════════════════════════════
+                          PAPER REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+Generate a complete academic paper with the following structure:
+
+1. TITLE
+   - Clear, specific, informative
+   - Should convey main finding or contribution
+
+2. ABSTRACT (150-250 words)
+   - Problem statement
+   - Approach
+   - Key results
+   - Significance
+
+3. INTRODUCTION
+   - Research problem and motivation
+   - Gap in existing work
+   - Our contribution (be specific)
+   - Paper organization
+
+4. RELATED WORK
+   - Organized by theme/approach
+   - Position our work relative to prior work
+   - Cite papers from literature review
+
+5. METHODOLOGY
+   - Clear description of approach
+   - Experimental setup
+   - Datasets used
+   - Evaluation metrics
+   - Baselines
+
+6. RESULTS
+   - Present results with tables and figures
+   - Statistical analysis
+   - Comparison to baselines
+   - Ablation studies (if applicable)
+
+7. DISCUSSION
+   - Interpretation of results
+   - Limitations
+   - Broader implications
+
+8. CONCLUSION
+   - Summary of contributions
+   - Key findings
+   - Future work
+
+9. REFERENCES
+   - BibTeX format
+   - All cited papers
+
+════════════════════════════════════════════════════════════════════════════════
+                          OUTPUT FORMAT
+════════════════════════════════════════════════════════════════════════════════
+
+Create a MODULAR LaTeX project with the following directory structure:
+
+paper_draft/
+├── main.tex              # Main file that imports all sections
+├── references.bib        # BibTeX references
+├── sections/
+│   ├── abstract.tex      # Abstract content
+│   ├── introduction.tex  # Introduction section
+│   ├── related_work.tex  # Related work section
+│   ├── methodology.tex   # Methodology section
+│   ├── results.tex       # Results section
+│   ├── discussion.tex    # Discussion section
+│   └── conclusion.tex    # Conclusion section
+├── figures/              # Directory for any generated figures
+├── tables/               # Directory for complex standalone tables
+└── appendix/             # Directory for appendix sections (if needed)
+
+INSTRUCTIONS:
+1. First, create the directory structure above (mkdir -p paper_draft/sections paper_draft/figures paper_draft/tables paper_draft/appendix)
+2. Write main.tex that:
+   - Uses \documentclass[final]{neurips_2025} (or appropriate style)
+   - Includes necessary packages
+   - Uses \input{sections/abstract.tex} etc. to include each section
+   - Uses \bibliography{references} for references
+3. Write each section file with COMPLETE content (no placeholders)
+4. Each section file should include its \section{} command
+5. Write references.bib with all citations in BibTeX format
+6. After writing all files, compile the paper:
+   cd paper_draft && pdflatex -interaction=nonstopmode main.tex && bibtex main && pdflatex -interaction=nonstopmode main.tex && pdflatex -interaction=nonstopmode main.tex
+
+This modular structure allows humans to easily:
+- Edit individual sections without navigating a large file
+- Track changes per section
+- Reuse sections across different paper versions
+
+════════════════════════════════════════════════════════════════════════════════
+                          QUALITY REQUIREMENTS
+════════════════════════════════════════════════════════════════════════════════
+
+- Academic tone throughout
+- All claims must be supported by data from the experiment report
+- Proper citations using \cite{} commands
+- Clear figures and tables with proper captions
+- NO placeholder text - every section must have real content
+- The paper MUST compile without errors
+- If compilation fails, debug and fix the LaTeX errors

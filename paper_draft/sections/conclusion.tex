@@ -1,0 +1,9 @@
+\section{Conclusion}
+
+This study provides empirical evidence for the ``implicit translation'' hypothesis in Large Language Models, but with a critical caveat: it is a resource-dependent phenomenon. We showed that for well-supported languages, GPT-4o acts as an English reasoner wrapped in a translator, sharing both correct answers and specific hallucinations with its English counterpart. For poorly-supported languages, this mechanism collapses, leading to independent failure modes.
+
+Our findings suggest that ``linguistic discrimination'' is not just a matter of performance degradation, but a fundamental difference in how the model processes information. Addressing this requires a bifurcated approach: better alignment for mid-resource languages, and fundamental representation learning for the ``tail'' of low-resource languages. Future work should verify these findings using logit-level analysis to measure the probability distribution similarity across languages directly.
+
+\begin{ack}
+We thank the open-source community for the development of MuBench and the diverse language datasets that made this research possible.
+\end{ack}

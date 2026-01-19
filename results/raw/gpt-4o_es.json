@@ -1,811 +1,452 @@
-{
-  "model": "gpt-4o",
-  "language": "es",
-  "resource_level": "high",
-  "total_questions": 100,
-  "correct": 82,
-  "accuracy": 0.82,
-  "responses": [
-    {
-      "question_id": "test_4223",
-      "prompt": "Question: \u00bfCu\u00e1l de los siguientes NO es un argumento para restringir el comercio?\nChoice A: Proteger la industria naciente\nChoice B: Promover el empleo\nChoice C: Combatir la inflaci\u00f3n\nChoice D: Promov...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10406",
-      "prompt": "Question: El 1 de enero del a\u00f1o 1, una empresa compr\u00f3 equipo por $100 millones. El equipo consta de cuatro componentes principales, de los cuales dos componentes comprenden el 80% del costo total y ca...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1304",
-      "prompt": "Question: Una causa fundamental de la fatiga en el ejercicio de alta intensidad es:\nChoice A: una ca\u00edda en la concentraci\u00f3n celular de ADP.\nChoice B: inhibici\u00f3n de la producci\u00f3n de ATP.\nChoice C: fall...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1419",
-      "prompt": "Question: Un espectr\u00f3metro de rejilla apenas puede resolver dos longitudes de onda de 500 nm y 502 nm, respectivamente. \u00bfCu\u00e1l de las siguientes opciones da el poder de resoluci\u00f3n del espectr\u00f3metro?\nCh...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13632",
-      "prompt": "Question: \u00bfCu\u00e1l fue la diferencia clave entre la expansi\u00f3n de EE.UU. antes y despu\u00e9s de 1865?\nChoice A: La expansi\u00f3n de EE.UU. se bas\u00f3 en el territorio en lugar de los mercados despu\u00e9s de 1865\nChoice ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8862",
-      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/mi) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1145",
-      "prompt": "Question: Si f: R -> R es una funci\u00f3n acotada que es integrable en el sentido de Lebesgue, \u00bfcu\u00e1l de las siguientes afirmaciones debe ser verdadera?\nChoice A: f es integrable en el sentido de Riemann.\n...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9815",
-      "prompt": "Question: Seg\u00fan la teor\u00eda de Brandt, una regla moral ideal es aquella que:\nChoice A: maximiza la utilidad positiva, ignorando la utilidad negativa.\nChoice B: minimiza la utilidad negativa, ignorando l...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2081",
-      "prompt": "Question: Encuentra la mediana en el conjunto de datos 23, 13, 18, 29, 32, 25.\nChoice A: 18\nChoice B: 24\nChoice C: 25\nChoice D: 29\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2125",
-      "prompt": "Question: Encuentra 4 sobre 7 + 2 sobre 7.\nChoice A: 6 sobre 14\nChoice B: 8 sobre 49\nChoice C: 14 sobre 28\nChoice D: 6 sobre 7\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12346",
-      "prompt": "Question: Una mujer de 19 a\u00f1os que es una paciente regular viene a la consulta para su examen f\u00edsico anual y citolog\u00eda cervical. Ella te dice que no ha tenido un per\u00edodo menstrual en los \u00faltimos 6 mes...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8598",
-      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/mi) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10101",
-      "prompt": "Question: La cr\u00eda dirigida de plantas y animales por los humanos se llama:\nChoice A: recolecci\u00f3n.\nChoice B: selecci\u00f3n artificial.\nChoice C: selecci\u00f3n natural.\nChoice D: pastoreo.\nAnswer with A, B, C o...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2756",
-      "prompt": "Question: \u00bfCu\u00e1l de los siguientes principios NO forma parte de la teor\u00eda de la evoluci\u00f3n por selecci\u00f3n natural de Darwin?\nChoice A: La evoluci\u00f3n es un proceso gradual que ocurre durante un largo per\u00edo...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4633",
-      "prompt": "Question: Un monopolio que discrimina precios se diferencia de un monopolio que no discrimina porque un monopolio que discrimina\nChoice A: tiene una curva de demanda que es m\u00e1s el\u00e1stica que un monopol...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9729",
-      "prompt": "Question: Berkeley cree que las cosas sensibles no pueden existir excepto en _____.\nChoice A: una mente\nChoice B: existencia absoluta\nChoice C: sustancia material\nChoice D: un universo material\nAnswer...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11233",
-      "prompt": "Question: Mientras se relajaba junto a la piscina un domingo por la tarde, un propietario fue golpeado por una pelota de golf lanzada por un ni\u00f1o de 14 a\u00f1os que estaba jugando en el noveno hoyo del ca...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7558",
-      "prompt": "Question: \u00bfCu\u00e1l era la esperanza de vida promedio de los hombres blancos nacidos en los EE. UU. justo antes de la Guerra Civil?\nChoice A: 40 a\u00f1os\nChoice B: 50 a\u00f1os\nChoice C: 60 a\u00f1os\nChoice D: 70 a\u00f1os\n...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_3563",
-      "prompt": "Question: \u00bfCu\u00e1l de los siguientes pa\u00edses NO es un estado federal?\nChoice A: Canad\u00e1\nChoice B: Estados Unidos\nChoice C: Francia\nChoice D: Rep\u00fablica Popular China\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9924",
-      "prompt": "Question: Epicteto recomienda que actuemos:\nChoice A: de acuerdo a nuestras pasiones.\nChoice B: de manera que hagamos lo que nos venga naturalmente, sin mucho pensamiento.\nChoice C: solo despu\u00e9s de un...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13594",
-      "prompt": "Question: La 'Gran Migraci\u00f3n' de 1916-1919 signific\u00f3 que Chicago se convirti\u00f3 en una ciudad \u00e9tnicamente diversa. La consecuencia de esto fue:\nChoice A: asimilaci\u00f3n: todas las fronteras raciales fueron...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12880",
-      "prompt": "Question: El patr\u00f3n cl\u00e1sico de envejecimiento se define como 2 declive en qu\u00e9 subprueba(s) de la Escala de Inteligencia para Adultos de Wechsler-Revisada\nChoice A: Todas las subpruebas Verbales\nChoice...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3358",
-      "prompt": "Question: Esta pregunta se refiere a la siguiente informaci\u00f3n.\nLea las siguientes memorias.\nNo solo esperaba que todas las personas de distinci\u00f3n asistieran continuamente a la Corte, sino que tambi\u00e9n ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13282",
-      "prompt": "Question: \u00bfDe qu\u00e9 maneras est\u00e1 limitada la argumentaci\u00f3n a favor de la intervenci\u00f3n humanitaria, tal como se describe en este cap\u00edtulo?\nChoice A: No es evidente por s\u00ed mismo que los individuos tengan ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5427",
-      "prompt": "Question: Una cr\u00edtica com\u00fan a etiquetar a los estudiantes como discapacitados es que los individuos tienden a actuar de acuerdo con las caracter\u00edsticas asociadas con una etiqueta. \u00bfC\u00f3mo se conoce este...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7126",
-      "prompt": "Question: \u00bfCu\u00e1l de los siguientes se refiere a mensajes electr\u00f3nicos no solicitados?\nChoice A: Correo electr\u00f3nico de suscripci\u00f3n.\nChoice B: Marketing de consentimiento.\nChoice C: Correo basura.\nChoice...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12554",
-      "prompt": "Question: El modelo de etapas de cambio (transtheoretical) de Prochaska y DiClemente (1982) predice que una persona en la etapa de ________ planea tomar medidas dentro de los pr\u00f3ximos seis meses que a...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12177",
-      "prompt": "Question: Un ni\u00f1o de 15 a\u00f1os es llevado al departamento de emergencias por sus padres debido a una historia de 2 horas de confusi\u00f3n y agitaci\u00f3n. Tambi\u00e9n ha tenido fiebre, dolor de cabeza, rigidez en e...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6700",
-      "prompt": "Question: \u00bfCu\u00e1l de las siguientes opciones describe mejor la falacia de ep\u00edtetos que suplican la pregunta?\nChoice A: Tratar algo que existe en la mente como si fuera un objeto real.\nChoice B: Una form...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7870",
-      "prompt": "Question: Si alguien tiene cataratas, \u00bfqu\u00e9 parte de su cuerpo podr\u00eda necesitar una operaci\u00f3n?\nChoice A: o\u00eddo\nChoice B: mano\nChoice C: ojo\nChoice D: rodilla\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9560",
-      "prompt": "Question: \u00bfCu\u00e1l es la unidad funcional b\u00e1sica del tejido muscular esquel\u00e9tico?\nChoice A: la fibra muscular\nChoice B: el sarc\u00f3mero\nChoice C: la miofibrilla\nChoice D: el ret\u00edculo sarcopl\u00e1smico\nAnswer wi...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_8139",
-      "prompt": "Question: \u00bfCu\u00e1l era el nombre de nacimiento del l\u00edder de los derechos civiles Malcolm?\nChoice A: Michael Brown\nChoice B: Malcolm Little\nChoice C: Malcolm Lincoln\nChoice D: Michael Lloyd\nAnswer with A,...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2001",
-      "prompt": "Question: Seg\u00fan el modelo de Bohr, un electr\u00f3n gana o pierde energ\u00eda solo por\nChoice A: moverse m\u00e1s r\u00e1pido o m\u00e1s lento en una \u00f3rbita permitida.\nChoice B: saltar de una \u00f3rbita permitida a otra.\nChoice ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4339",
-      "prompt": "Question: \u00bfCu\u00e1l es el menor cuadrado perfecto con 3 factores primos diferentes?\nChoice A: 300\nChoice B: 9\nChoice C: 900\nChoice D: 666\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3939",
-      "prompt": "Question: Un choque de oferta negativo o contractivo\nChoice A: desplazar\u00e1 la curva de Phillips hacia la izquierda.\nChoice B: desplazar\u00e1 la curva de demanda de inversi\u00f3n hacia la derecha.\nChoice C: des...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1061",
-      "prompt": "Question: Sea T(n) definido por T(1) = 7 y T(n + 1) = 3n + T(n) para todos los enteros n \u2265 1. \u00bfCu\u00e1l de las siguientes opciones representa el orden de crecimiento de T(n) como una funci\u00f3n de n?\nChoice ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6029",
-      "prompt": "Question: Esta pregunta se refiere a la siguiente informaci\u00f3n.\n\"Por lo tanto, fue declarado por los representantes mencionados anteriormente del citado Rey y Reina de Castilla, Le\u00f3n, Arag\u00f3n, Sicilia, ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_347",
-      "prompt": "Question: \u00bfPor qu\u00e9 vemos esencialmente la misma cara de la Luna en todo momento?\nChoice A: porque la Luna tiene una \u00f3rbita casi circular alrededor de la Tierra\nChoice B: porque la Luna no rota\nChoice ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10836",
-      "prompt": "Question: Una mujer es la propietaria registrada de una parcela de tierra designada como \"A\". Es la m\u00e1s alta de tres propiedades vecinas en una monta\u00f1a. La hermana de la mujer posee la parcela \"C\", qu...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_10172",
-      "prompt": "Question: \u00bfCu\u00e1l es la diferencia entre una fecha absoluta y una fecha relativa?\nChoice A: Una fecha absoluta es conocida por todos, mientras que una fecha relativa var\u00eda entre 30 y 50 a\u00f1os.\nChoice B: ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4031",
-      "prompt": "Question: \u00bfCu\u00e1l de las siguientes opciones es m\u00e1s probable que cree la mayor disminuci\u00f3n en el PIB real?\nChoice A: El gobierno disminuye el gasto acompa\u00f1ado de una disminuci\u00f3n de impuestos.\nChoice B: ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10845",
-      "prompt": "Question: Cuatro hombres firmaron un contrato de arrendamiento como inquilinos de una casa de cinco habitaciones. Cada uno ten\u00eda una habitaci\u00f3n separada y usaban la quinta habitaci\u00f3n como laboratorio ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3858",
-      "prompt": "Question: El PIB mide I. producci\u00f3n II. ingresos obtenidos durante el proceso de producci\u00f3n III. gasto de consumidores, empresas, gobiernos y extranjeros\nChoice A: Solo I es correcto.\nChoice B: Solo I...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_117",
-      "prompt": "Question: \u00bfLas hormonas masculinas son producidas por cu\u00e1l de los siguientes?\nChoice A: Glande\nChoice B: Prepucio\nChoice C: Pr\u00f3stata\nChoice D: Test\u00edculos\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1175",
-      "prompt": "Question: Declaraci\u00f3n 1 | Si A est\u00e1 conectado, el cierre de A debe estar conectado. Declaraci\u00f3n 2 | Toda funci\u00f3n continua f : (0, 1) \u2192 (0, 1) tiene un punto fijo.\nChoice A: Verdadero, Verdadero\nChoice...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13191",
-      "prompt": "Question: \u00bfCu\u00e1les son los problemas pr\u00e1cticos asociados con la aplicaci\u00f3n de la diplomacia coercitiva en Occidente?\nChoice A: Diferentes naturalezas de los adversarios complican el uso de la coerci\u00f3n ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_11759",
-      "prompt": "Question: Un m\u00e9dico es acusado del asesinato de su esposa. La fiscal\u00eda alega que asesin\u00f3 a su esposa administr\u00e1ndole una inyecci\u00f3n masiva de succinilcolina mientras ella dorm\u00eda. La succinilcolina es u...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_976",
-      "prompt": "Question: \u00bfCu\u00e1l de los siguientes iones met\u00e1licos no puede ser utilizado como un apagador paramagn\u00e9tico?\nChoice A: Ti3+\nChoice B: Cr3+\nChoice C: Fe3+\nChoice D: Zn2+\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_4011",
-      "prompt": "Question: \u00bfCu\u00e1l de los siguientes desplazar\u00eda la curva de demanda agregada hacia la izquierda?\nChoice A: Un aumento en la confianza del consumidor.\nChoice B: Las empresas esperan menores ventas en el ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1116",
-      "prompt": "Question: Si v es un vector propio de una matriz invertible A, \u00bfcu\u00e1l de las siguientes afirmaciones es necesariamente verdadera?\nI. v es tambi\u00e9n un vector propio de 2A.\nII. v es tambi\u00e9n un vector prop...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_524",
-      "prompt": "Question: \u00bfCu\u00e1l de los siguientes libera m\u00e1s energ\u00eda cuando se oxida completamente en el cuerpo?\nChoice A: Un gramo de glucosa\nChoice B: Un gramo de \u00e1cido palm\u00edtico\nChoice C: Un gramo de leucina\nChoic...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5857",
-      "prompt": "Question: Esta pregunta se refiere a la siguiente informaci\u00f3n.\nAmbos autores a continuaci\u00f3n estaban hablando de la Revoluci\u00f3n Francesa.\nEra el mejor de los tiempos, era el peor de los tiempos, era la ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1172",
-      "prompt": "Question: Enunciado 1 | Supongamos que f : [a, b] es una funci\u00f3n y supongamos que f tiene un m\u00e1ximo local. \u00bfDebe existir f'(x) y ser igual a 0? Enunciado 2 | Existen mapas continuos no constantes de R...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9503",
-      "prompt": "Question: \u00bfCu\u00e1l es una limitaci\u00f3n importante del uso del IMC (\u00edndice de masa corporal) como m\u00e9todo de medici\u00f3n de la grasa corporal?\nChoice A: No es una medida precisa para personas promedio\nChoice B:...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4168",
-      "prompt": "Question: Si se a\u00f1adieran $100 de nueva inversi\u00f3n privada aut\u00f3noma a una econom\u00eda con una propensi\u00f3n marginal a consumir de .90, \u00bfen cu\u00e1nto se desplazar\u00eda la demanda agregada hacia la derecha?\nChoice ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4855",
-      "prompt": "Question: La masa de la Tierra es 5.97 \u00d7 10^24 kg. La Luna, cuyo centro est\u00e1 a 3.84 \u00d7 10^8 m del centro de la Tierra, tiene una masa de 7.35 \u00d7 10^22 kg. \u00bfCu\u00e1l de las siguientes es la mejor estimaci\u00f3n ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12507",
-      "prompt": "Question: Durante la segunda etapa del nivel preconvencional de desarrollo moral de Kohlberg, los ni\u00f1os obedecen las reglas porque:\nChoice A: sienten que tienen un deber personal de respetar las regla...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8853",
-      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/m\u00ed) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_3612",
-      "prompt": "Question: Ralph compra fertilizante para el jard\u00edn en la tienda de jardiner\u00eda cercana en lugar de conducir 50 millas hasta la ciudad vecina para el mismo producto. \u00bfEsto refleja qu\u00e9 tipo de interacci\u00f3...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9923",
-      "prompt": "Question: Seg\u00fan Parfit, la obligaci\u00f3n de dar prioridad al bienestar de los hijos es:\nChoice A: relativa al agente.\nChoice B: neutral al agente.\nChoice C: absoluta.\nChoice D: ninguna de las anteriores....",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2197",
-      "prompt": "Question: \u00bfCu\u00e1l es la estimaci\u00f3n m\u00e1s razonable de la longitud de la piscina de una ciudad?\nChoice A: 1 metro\nChoice B: 25 metros\nChoice C: 1 kil\u00f3metro\nChoice D: 25 kil\u00f3metros\nAnswer with A, B, C or D:...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13464",
-      "prompt": "Question: Seg\u00fan Hakim (1995, 1996), la mayor\u00eda del trabajo a tiempo parcial es realizado por mujeres porque:\nChoice A: los trabajos a tiempo parcial pagan salarios relativamente altos y por lo tanto s...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10476",
-      "prompt": "Question: Mast Co. cambi\u00f3 del m\u00e9todo FIFO para la valoraci\u00f3n de inventarios al m\u00e9todo LIFO para prop\u00f3sitos de estados financieros y fiscales. Durante un per\u00edodo de inflaci\u00f3n, \u00bfser\u00edan el inventario fin...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10574",
-      "prompt": "Question: En el a\u00f1o actual, Vinton intercambi\u00f3 un terreno sin mejoras por un edificio de apartamentos. El terreno ten\u00eda una base de $300000 y un valor de mercado justo (FMV) de $420000 y estaba gravad...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8535",
-      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/mi) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_4258",
-      "prompt": "Question: \u00bfCu\u00e1l es el d\u00edgito de las unidades de $1 \\cdot 2 \\cdot 3 \\cdot 4 \\cdot 5 \\cdot 6 \\cdot 7 \\cdot 8 \\cdot 9$?\nChoice A: 1\nChoice B: 2\nChoice C: 0\nChoice D: 5\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8541",
-      "prompt": "Question: \u00bfEn cu\u00e1l de estos dos escenarios el personaje principal (que usa yo/me/mi) hace algo claramente moralmente incorrecto, seg\u00fan los est\u00e1ndares morales ordinarios en los EE.UU. en 2020? Escenari...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7260",
-      "prompt": "Question: Durante la etapa __________ del proceso de adopci\u00f3n, la innovaci\u00f3n se prueba por primera vez. Las promociones de ventas se utilizan a menudo como muestras para permitir que las personas prue...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_3173",
-      "prompt": "Question: SO2Cl2 \u2192 SO2(g) + Cl2(g) A 600 K, SO2Cl2 se descompondr\u00e1 para formar di\u00f3xido de azufre y gas de cloro a trav\u00e9s de la ecuaci\u00f3n anterior. Si se encuentra que la reacci\u00f3n es de primer orden en ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1563",
-      "prompt": "Question: \u00bfC\u00f3mo se detecta la suplantaci\u00f3n de direcciones IP?\nChoice A: Instalando y configurando un IDS que pueda leer el encabezado IP\nChoice B: Comparando los valores TTL de las direcciones reales ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1606",
-      "prompt": "Question: Cuando un elemento expulsa una part\u00edcula alfa, el n\u00famero at\u00f3mico del elemento resultante\nChoice A: se reduce en 2\nChoice B: se reduce en 4\nChoice C: aumenta en 2\nChoice D: aumenta en 4\nAnswe...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12332",
-      "prompt": "Question: Un ni\u00f1o de 10 meses es llevado al m\u00e9dico debido a una historia de fiebre y tos de 4 d\u00edas. Su enfermedad comenz\u00f3 con fiebre leve y abundante secreci\u00f3n nasal clara. Hace dos d\u00edas desarroll\u00f3 un...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7720",
-      "prompt": "Question: \u00bfQui\u00e9n cant\u00f3 como vocalista principal para la banda Big Brother and the Holding Company?\nChoice A: Grace Slick\nChoice B: Janis Joplin\nChoice C: Mama Cass\nChoice D: Karen Carpenter\nAnswer wit...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6343",
-      "prompt": "Question: Las secreciones del l\u00edquido de la gl\u00e1ndula de Cowper en la punta del pene son evidentes por primera vez:\nChoice A: despu\u00e9s del orgasmo\nChoice B: inmediatamente antes del orgasmo\nChoice C: an...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7566",
-      "prompt": "Question: Los acompa\u00f1amientos simples, la textura ligera y las melod\u00edas suaves son cualidades de\nChoice A: estilo galante\nChoice B: partitas\nChoice C: Sturm und Drang\nChoice D: serenata\nAnswer with A,...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7327",
-      "prompt": "Question: Una mutaci\u00f3n sin sentido implica:\nChoice A: una secuencia reguladora.\nChoice B: un sitio de aceptaci\u00f3n de empalme AG.\nChoice C: la creaci\u00f3n de un amino\u00e1cido diferente.\nChoice D: la creaci\u00f3n ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8421",
-      "prompt": "Question: \u00bfPor qu\u00e9 los animales no pueden ser portadores de derechos seg\u00fan Cohen?\nChoice A: porque los derechos son esencialmente humanos\nChoice B: porque los animales carecen de cualquier tipo de rac...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13578",
-      "prompt": "Question: Goldthorpe identific\u00f3 la 'clase de servicio' como:\nChoice A: aquellos en ocupaciones no manuales, ejerciendo autoridad en nombre del estado\nChoice B: personas que trabajan en empresas de con...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_899",
-      "prompt": "Question: Cuando la siguiente ecuaci\u00f3n est\u00e1 balanceada, \u00bfcu\u00e1l de las siguientes afirmaciones es verdadera?\n__ MnO4\u2212 + __ I\u2212 + __ H+ <-> __ Mn2+ + __ IO3\u2212 + __ H2O\nChoice A: La proporci\u00f3n de I\u2212 : IO3\u2212 ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_12582",
-      "prompt": "Question: Al evaluar la competencia de un acusado para ser juzgado, el enfoque de la evaluaci\u00f3n est\u00e1 en:\nChoice A: su capacidad para distinguir entre el bien y el mal.\nChoice B: su capacidad para comp...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12238",
-      "prompt": "Question: Una mujer de 23 a\u00f1os con insuficiencia de m\u00e9dula \u00f3sea es tratada con una gran dosis de globulina antitimoc\u00edtica de conejo. Diez d\u00edas despu\u00e9s, desarrolla fiebre, linfadenopat\u00eda, artralgias y ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12100",
-      "prompt": "Question: Un juez prominente viv\u00eda al lado de un padre. Recientemente, el juez hab\u00eda sentenciado al hijo del padre a seis meses de prisi\u00f3n por un cargo de narc\u00f3ticos. Una tarde, mientras el juez corta...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1630",
-      "prompt": "Question: El campo el\u00e9ctrico dentro de la c\u00fapula de un generador de Van de Graaff es cero cuando la c\u00fapula est\u00e1\nChoice A: cargada\nChoice B: sin carga\nChoice C: Una de estas\nChoice D: Ninguna de estas\n...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1005",
-      "prompt": "Question: Suponga que el intercambio de archivos en una estructura de directorio multinivel se logra con entradas de directorio que son enlaces que apuntan a un nodo que contiene informaci\u00f3n sobre un ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7186",
-      "prompt": "Question: Antes de comenzar el proceso de segmentaci\u00f3n de mercado, una empresa deber\u00eda:\nChoice A: Identificar bases para segmentar mercados.\nChoice B: Prever el potencial total del mercado.\nChoice C: ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13560",
-      "prompt": "Question: Warner y Myrdal afirmaron que los antiguos esclavos negros no se estaban uniendo al 'crisol \u00e9tnico' de las ciudades norteamericanas porque:\nChoice A: la poblaci\u00f3n blanca no cre\u00eda en la liber...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6055",
-      "prompt": "Question: Esta pregunta se refiere a la siguiente informaci\u00f3n.\nYi Yin sacrific\u00f3 al antiguo rey y present\u00f3 al rey heredero reverentemente ante el santuario de su abuelo. . . . Yi Yin luego describi\u00f3 cl...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1809",
-      "prompt": "Question: \u00bfCu\u00e1l de las siguientes afirmaciones es falsa con respecto al modelo de probabilidad lineal?\nChoice A: No hay nada en el modelo que asegure que las probabilidades estimadas se encuentren ent...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4351",
-      "prompt": "Question: Cuando $(x\\sqrt{x^3})^4$ se simplifica, \u00bfcu\u00e1l es el exponente de $x$?\nChoice A: 5\nChoice B: 10\nChoice C: 2\nChoice D: 12\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_3193",
-      "prompt": "Question: Hist\u00f3ricamente, se ha observado que las velocidades de procesamiento de las computadoras tienden a duplicarse cada dos a\u00f1os. \u00bfCu\u00e1l de las siguientes opciones describe mejor c\u00f3mo las empresas...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3170",
-      "prompt": "Question: Una cierta reacci\u00f3n no es espont\u00e1nea en condiciones est\u00e1ndar, pero se vuelve espont\u00e1nea a temperaturas m\u00e1s altas. \u00bfQu\u00e9 conclusiones se pueden sacar en condiciones est\u00e1ndar?\nChoice A: \u0394H < 0,...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9875",
-      "prompt": "Question: Seg\u00fan S\u00f3crates, el valor o la calidad de la vida de una persona depende de entender los principios de, o la raz\u00f3n b\u00e1sica de la existencia humana. Sin tal conocimiento (sugiere) la vida carec...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_8083",
-      "prompt": "Question: \u00bfQu\u00e9 principio explica por qu\u00e9 la comida fr\u00eda se calienta y la comida caliente se enfr\u00eda cuando se almacena a temperatura ambiente?\nChoice A: entrop\u00eda\nChoice B: equilibrio qu\u00edmico\nChoice C: ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2339",
-      "prompt": "Question: El precio original de una bicicleta nueva es $138.00. Si la bicicleta tiene un descuento del 15%, \u00bfcu\u00e1l es el nuevo precio?\nChoice A: $20.70\nChoice B: $117.30\nChoice C: $123.00\nChoice D: $15...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7529",
-      "prompt": "Question: \u00bfQu\u00e9 es tu hallux?\nChoice A: l\u00f3bulo de la oreja\nChoice B: lengua\nChoice C: p\u00e1rpado\nChoice D: dedo gordo del pie\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3059",
-      "prompt": "Question: Una muestra de 25 g de un s\u00f3lido se calent\u00f3 a 100 \u00b0C y luego se transfiri\u00f3 r\u00e1pidamente a un recipiente aislado que conten\u00eda 100 g de agua a 26 \u00b0C. La temperatura de la mezcla aument\u00f3 hasta a...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4856",
-      "prompt": "Question: Un objeto de volumen 2 \u00d7 10^-3 m^3 y peso 6 N se coloca en un tanque de agua, donde flota. \u00bfQu\u00e9 porcentaje del volumen del objeto est\u00e1 por encima de la superficie del agua?\nChoice A: 12%\nCho...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_8339",
-      "prompt": "Question: Carens acepta que es posible que la apertura repentina de las fronteras de un pa\u00eds haga m\u00e1s da\u00f1o que bien desde una perspectiva igualitaria liberal. Sin embargo, \u00e9l argumenta que\nChoice A: e...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4373",
-      "prompt": "Question: El \u00e1rea delimitada por la par\u00e1bola y = x^2 y las l\u00edneas y = 1 y y = 9 es igual a\nChoice A: 8\nChoice B: 84/3\nChoice C: 64\\sqrt{2}/3\nChoice D: 104/3\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1248",
-      "prompt": "Question: \u00bfAproximadamente cu\u00e1ntos kJ de energ\u00eda se gastan si la absorci\u00f3n de ox\u00edgeno a ritmo constante de un atleta promedia 3.0 l/min durante 5 minutos de ejercicio?\nChoice A: 60 kJ\nChoice B: 150 kJ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "C",
-      "is_correct": false
-    }
-  ],
-  "timestamp": "2026-01-18T22:08:23.937157"
-}
+[
+  {
+    "id": "test_0",
+    "lang": "es",
+    "prompt": "Question: Encuentra el grado de la extensi\u00f3n de campo dada Q(sqrt(2), sqrt(3), sqrt(18)) sobre Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el grado de la extensi\u00f3n de campo \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) sobre \\(\\mathbb{Q}\\), primero simplificamos \\(\\sqrt{18}\\) como \\(\\sqrt{18} = \\sqrt{9 \\cdot 2} = 3\\sqrt{2}\\). Por lo tanto, \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18}) = \\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\).\n\nAhora, consideramos la extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\). Primero, \\(\\mathbb{Q}(\\sqrt{2})\\) es una extensi\u00f3n de grado 2 sobre \\(\\mathbb{Q}\\) porque \\(\\sqrt{2}\\) es ra\u00edz de \\(x^2 - 2\\), un polinomio irreducible en \\(\\mathbb{Q}\\).\n\nLuego, consideramos \\(\\mathbb{Q}(\\sqrt{2})(\\sqrt{3})\\). El elemento \\(\\sqrt{3}\\) es ra\u00edz de \\(x^2 - 3\\), que es irreducible sobre \\(\\mathbb{Q}(\\sqrt{2})\\) porque no hay un elemento en \\(\\mathbb{Q}(\\sqrt{2})\\) cuyo cuadrado sea 3. Por lo tanto, \\(\\mathbb{Q}(\\sqrt{2})(\\sqrt{3})\\) es una extensi\u00f3n de grado 2 sobre \\(\\mathbb{Q}(\\sqrt{2})\\).\n\nFinalmente, el grado de la extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sobre \\(\\mathbb{Q}\\) es el producto de los grados de las extensiones intermedias: \\(2 \\times 2 = 4\\).\n\nPor lo tanto, el grado de la extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) sobre \\(\\mathbb{Q}\\) es 4.\n\nLa respuesta correcta es B: 4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_1",
+    "lang": "es",
+    "prompt": "Question: Sea p = (1, 2, 5, 4)(2, 3) en S_5. Encuentra el \u00edndice de  en S_5.\nChoice A: 8\nChoice B: 2\nChoice C: 24\nChoice D: 120\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el \u00edndice de un elemento en el grupo sim\u00e9trico \\( S_5 \\), primero necesitamos determinar el orden del elemento dado. El elemento \\( p = (1, 2, 5, 4)(2, 3) \\) es una permutaci\u00f3n en \\( S_5 \\).\n\nPrimero, descomponemos \\( p \\) en ciclos disjuntos. Observamos que:\n\n- El ciclo \\( (1, 2, 5, 4) \\) es un ciclo de longitud 4.\n- El ciclo \\( (2, 3) \\) es un ciclo de longitud 2.\n\nPara encontrar el orden de \\( p \\), calculamos el m\u00ednimo com\u00fan m\u00faltiplo (m.c.m.) de las longitudes de los ciclos disjuntos. Aqu\u00ed, los ciclos son \\( (1, 2, 5, 4) \\) de longitud 4 y \\( (2, 3) \\) de longitud 2.\n\nEl m.c.m. de 4 y 2 es 4. Por lo tanto, el orden de \\( p \\) es 4.\n\nEl \u00edndice de un elemento en un grupo es el cociente del orden del grupo por el orden del elemento. El orden del grupo \\( S_5 \\) es \\( 5! = 120 \\).\n\nPor lo tanto, el \u00edndice de \\( p \\) en \\( S_5 \\) es:\n\n\\[\n\\frac{120}{4} = 30\n\\]\n\nSin embargo, parece que hay un error en las opciones proporcionadas, ya que ninguna de ellas es 30. Asegur\u00e9monos de que el c\u00e1lculo es correcto. El \u00edndice de \\( p \\) deber\u00eda ser 30, pero dado que las opciones no incluyen 30, parece que hay un error en las opciones proporcionadas.\n\nPor lo tanto, ninguna de las opciones A, B, C o D es correcta.",
+    "prediction": "D",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_2",
+    "lang": "es",
+    "prompt": "Question: Encuentra todos los ceros en el campo finito indicado del polinomio dado con coeficientes en ese campo. x^5 + 3x^3 + x^2 + 2x en Z_5\nChoice A: 0\nChoice B: 1\nChoice C: 0,1\nChoice D: 0,4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar los ceros del polinomio \\( f(x) = x^5 + 3x^3 + x^2 + 2x \\) en el campo finito \\( \\mathbb{Z}_5 \\), evaluamos el polinomio en cada elemento del campo \\( \\mathbb{Z}_5 = \\{0, 1, 2, 3, 4\\} \\).\n\n1. \\( f(0) = 0^5 + 3 \\cdot 0^3 + 0^2 + 2 \\cdot 0 = 0 \\)\n2. \\( f(1) = 1^5 + 3 \\cdot 1^3 + 1^2 + 2 \\cdot 1 = 1 + 3 + 1 + 2 = 7 \\equiv 2 \\pmod{5} \\)\n3. \\( f(2) = 2^5 + 3 \\cdot 2^3 + 2^2 + 2 \\cdot 2 = 32 + 24 + 4 + 4 = 64 \\equiv 4 \\pmod{5} \\)\n4. \\( f(3) = 3^5 + 3 \\cdot 3^3 + 3^2 + 2 \\cdot 3 = 243 + 81 + 9 + 6 = 339 \\equiv 4 \\pmod{5} \\)\n5. \\( f(4) = 4^5 + 3 \\cdot 4^3 + 4^2 + 2 \\cdot 4 = 1024 + 192 + 16 + 8 = 1240 \\equiv 0 \\pmod{5} \\)\n\nLos ceros del polinomio en \\( \\mathbb{Z}_5 \\) son \\( x = 0 \\) y \\( x = 4 \\).\n\nPor lo tanto, la respuesta correcta es la opci\u00f3n D: 0,4.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_3",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Un grupo factor de un grupo no abeliano es no abeliano. Declaraci\u00f3n 2 | Si K es un subgrupo normal de H y H es un subgrupo normal de G, entonces K es un subgrupo normal de G.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Falso, Verdadero\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: Falso. Un grupo factor de un grupo no abeliano puede ser abeliano. Por ejemplo, considera el grupo sim\u00e9trico \\( S_3 \\), que es no abeliano. Su grupo factor \\( S_3 / A_3 \\) (donde \\( A_3 \\) es el subgrupo alternante) es isomorfo a \\( \\mathbb{Z}_2 \\), que es abeliano.\n\nDeclaraci\u00f3n 2: Verdadero. Si \\( K \\) es un subgrupo normal de \\( H \\) y \\( H \\) es un subgrupo normal de \\( G \\), entonces \\( K \\) es un subgrupo normal de \\( G \\). Esto se debe a que la normalidad es transitiva en este contexto.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_4",
+    "lang": "es",
+    "prompt": "Question: Encuentra el producto de los polinomios dados en el anillo de polinomios dado. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 en Z_8[x].\nChoice A: 2x^2 + 5\nChoice B: 6x^2 + 4x + 6\nChoice C: 0\nChoice D: x^2 + 1\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el producto de los polinomios \\( f(x) = 4x - 5 \\) y \\( g(x) = 2x^2 - 4x + 2 \\) en el anillo \\( \\mathbb{Z}_8[x] \\), multiplicamos los polinomios y luego reducimos los coeficientes m\u00f3dulo 8.\n\nPrimero, multiplicamos los polinomios:\n\n\\[\nf(x) \\cdot g(x) = (4x - 5)(2x^2 - 4x + 2)\n\\]\n\nDistribuimos cada t\u00e9rmino:\n\n\\[\n= 4x \\cdot (2x^2 - 4x + 2) - 5 \\cdot (2x^2 - 4x + 2)\n\\]\n\nCalculamos cada parte:\n\n1. \\( 4x \\cdot 2x^2 = 8x^3 \\)\n2. \\( 4x \\cdot (-4x) = -16x^2 \\)\n3. \\( 4x \\cdot 2 = 8x \\)\n\n4. \\( -5 \\cdot 2x^2 = -10x^2 \\)\n5. \\( -5 \\cdot (-4x) = 20x \\)\n6. \\( -5 \\cdot 2 = -10 \\)\n\nSumamos todos los t\u00e9rminos:\n\n\\[\n8x^3 - 16x^2 + 8x - 10x^2 + 20x - 10\n\\]\n\nAgrupamos t\u00e9rminos semejantes:\n\n\\[\n8x^3 + (-16x^2 - 10x^2) + (8x + 20x) - 10\n\\]\n\n\\[\n= 8x^3 - 26x^2 + 28x - 10\n\\]\n\nAhora, reducimos cada coeficiente m\u00f3dulo 8:\n\n1. \\( 8x^3 \\equiv 0 \\pmod{8} \\)\n2. \\( -26x^2 \\equiv 6x^2 \\pmod{8} \\) (porque \\(-26 \\equiv 6 \\pmod{8}\\))\n3. \\( 28x \\equiv 4x \\pmod{8} \\) (porque \\(28 \\equiv 4 \\pmod{8}\\))\n4. \\( -10 \\equiv 6 \\pmod{8} \\)\n\nPor lo tanto, el producto de los polinomios en \\( \\mathbb{Z}_8[x] \\) es:\n\n\\[\n0x^3 + 6x^2 + 4x + 6\n\\]\n\nLa respuesta correcta es la opci\u00f3n B: \\( 6x^2 + 4x + 6 \\).\n\n**Respuesta: B**",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_5",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Si un grupo tiene un elemento de orden 15, debe tener al menos 8 elementos de orden 15. Declaraci\u00f3n 2 | Si un grupo tiene m\u00e1s de 8 elementos de orden 15, debe tener al menos 16 elementos de orden 15.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para analizar las declaraciones, consideremos las propiedades de los grupos y los elementos de orden dado.\n\n**Declaraci\u00f3n 1:** Si un grupo tiene un elemento de orden 15, debe tener al menos 8 elementos de orden 15.\n\nUn elemento de orden 15 genera un subgrupo c\u00edclico de orden 15. En un grupo c\u00edclico de orden 15, los elementos de orden 15 son aquellos que son generadores del grupo. El n\u00famero de generadores de un grupo c\u00edclico de orden \\( n \\) es \\(\\varphi(n)\\), donde \\(\\varphi\\) es la funci\u00f3n phi de Euler. Para \\( n = 15 \\), \\(\\varphi(15) = \\varphi(3) \\cdot \\varphi(5) = 2 \\cdot 4 = 8\\). Por lo tanto, un grupo c\u00edclico de orden 15 tiene exactamente 8 elementos de orden 15. Sin embargo, la declaraci\u00f3n dice \"al menos 8\", lo cual es cierto en el contexto de un grupo que tiene un subgrupo c\u00edclico de orden 15. Por lo tanto, la declaraci\u00f3n 1 es verdadera.\n\n**Declaraci\u00f3n 2:** Si un grupo tiene m\u00e1s de 8 elementos de orden 15, debe tener al menos 16 elementos de orden 15.\n\nSi un grupo tiene m\u00e1s de 8 elementos de orden 15, entonces no puede ser simplemente un grupo c\u00edclico de orden 15, ya que un grupo c\u00edclico de orden 15 tiene exactamente 8 elementos de orden 15. Sin embargo, la declaraci\u00f3n no proporciona suficiente informaci\u00f3n para concluir que debe haber al menos 16 elementos de orden 15. Podr\u00eda haber, por ejemplo, 9, 10, 11, etc., elementos de orden 15 sin llegar necesariamente a 16. Por lo tanto, la declaraci\u00f3n 2 es falsa.\n\nLa respuesta correcta es C: Verdadero, Falso.",
+    "prediction": "C",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_6",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Cada imagen homom\u00f3rfica de un grupo G es isom\u00f3rfica a un grupo cociente de G. Declaraci\u00f3n 2 | Las im\u00e1genes homom\u00f3rficas de un grupo G son las mismas (hasta isomorfismo) que los grupos cocientes de G.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice C: Verdadero, Falso\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: Verdadero. Cada imagen homom\u00f3rfica de un grupo \\( G \\) es isom\u00f3rfica a un grupo cociente de \\( G \\). Esto se debe al teorema del primer isomorfismo, que establece que si \\( f: G \\to H \\) es un homomorfismo de grupos, entonces \\( G/\\ker(f) \\) es isom\u00f3rfico a la imagen de \\( f \\).\n\nDeclaraci\u00f3n 2: Falso. Aunque cada imagen homom\u00f3rfica de \\( G \\) es isom\u00f3rfica a un grupo cociente de \\( G \\), no todos los grupos cocientes de \\( G \\) son necesariamente im\u00e1genes homom\u00f3rficas distintas. Diferentes subgrupos normales pueden dar lugar a grupos cocientes que son isomorfos entre s\u00ed. Por lo tanto, las im\u00e1genes homom\u00f3rficas de \\( G \\) no son necesariamente las mismas (hasta isomorfismo) que todos los grupos cocientes de \\( G \\).",
+    "prediction": "C",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_7",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Un homomorfismo de anillos es uno a uno si y solo si el n\u00facleo es {0}. Declaraci\u00f3n 2 | Q es un ideal en R.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Verdadero, Falso\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: Un homomorfismo de anillos \\( f: R \\to S \\) es uno a uno (inyectivo) si y solo si su n\u00facleo es \\(\\{0\\}\\). Esto es cierto porque el n\u00facleo de un homomorfismo es el conjunto de elementos en \\( R \\) que se mapean al elemento neutro aditivo en \\( S \\). Si el n\u00facleo es solo \\(\\{0\\}\\), entonces no hay dos elementos distintos en \\( R \\) que se mapeen al mismo elemento en \\( S \\), lo que implica que \\( f \\) es inyectivo.\n\nDeclaraci\u00f3n 2: \\( \\mathbb{Q} \\) (el conjunto de n\u00fameros racionales) no es un ideal en \\( \\mathbb{R} \\) (el conjunto de n\u00fameros reales) porque un ideal en un anillo debe ser un subconjunto del anillo que es cerrado bajo la multiplicaci\u00f3n por cualquier elemento del anillo. Sin embargo, \\( \\mathbb{Q} \\) no es cerrado bajo la multiplicaci\u00f3n por elementos irracionales de \\( \\mathbb{R} \\). Por lo tanto, la declaraci\u00f3n es falsa.",
+    "prediction": "C",
+    "ground_truth": "D",
+    "correct": false
+  },
+  {
+    "id": "test_8",
+    "lang": "es",
+    "prompt": "Question: Encuentra el grado de la extensi\u00f3n de campo dada Q(sqrt(2) + sqrt(3)) sobre Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el grado de la extensi\u00f3n de campo \\(\\mathbb{Q}(\\sqrt{2} + \\sqrt{3})\\) sobre \\(\\mathbb{Q}\\), primero consideramos el elemento \\(\\alpha = \\sqrt{2} + \\sqrt{3}\\).\n\nEl grado de la extensi\u00f3n \\(\\mathbb{Q}(\\alpha)\\) sobre \\(\\mathbb{Q}\\) es el grado del polinomio m\u00ednimo de \\(\\alpha\\) sobre \\(\\mathbb{Q}\\).\n\nPara encontrar el polinomio m\u00ednimo, primero calculamos \\(\\alpha^2\\):\n\n\\[\n\\alpha^2 = (\\sqrt{2} + \\sqrt{3})^2 = 2 + 2\\sqrt{6} + 3 = 5 + 2\\sqrt{6}\n\\]\n\nDe aqu\u00ed, podemos despejar \\(\\sqrt{6}\\):\n\n\\[\n\\alpha^2 - 5 = 2\\sqrt{6} \\implies \\sqrt{6} = \\frac{\\alpha^2 - 5}{2}\n\\]\n\nElevamos al cuadrado ambos lados para eliminar el radical:\n\n\\[\n6 = \\left(\\frac{\\alpha^2 - 5}{2}\\right)^2\n\\]\n\nMultiplicamos ambos lados por 4 para deshacernos del denominador:\n\n\\[\n24 = (\\alpha^2 - 5)^2\n\\]\n\nExpandimos el cuadrado:\n\n\\[\n24 = \\alpha^4 - 10\\alpha^2 + 25\n\\]\n\nReordenamos para obtener el polinomio:\n\n\\[\n\\alpha^4 - 10\\alpha^2 + 1 = 0\n\\]\n\nEste es un polinomio de grado 4. Ahora, debemos verificar si es irreducible sobre \\(\\mathbb{Q}\\). Para ello, podemos usar el criterio de Eisenstein o verificar que no tiene ra\u00edces racionales (usando el teorema de la ra\u00edz racional).\n\nEl polinomio no tiene ra\u00edces racionales (ya que las posibles ra\u00edces racionales son \\(\\pm 1\\), y ninguna satisface el polinomio). Adem\u00e1s, no se puede factorizar en polinomios de menor grado con coeficientes racionales.\n\nPor lo tanto, el polinomio es irreducible sobre \\(\\mathbb{Q}\\), y el grado de la extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{2} + \\sqrt{3})\\) sobre \\(\\mathbb{Q}\\) es 4.\n\nLa respuesta correcta es:\n\nB: 4",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_9",
+    "lang": "es",
+    "prompt": "Question: Encuentra todos los ceros en el campo finito indicado del polinomio dado con coeficientes en ese campo. x^3 + 2x + 2 en Z_7\nChoice A: 1\nChoice B: 2\nChoice C: 2,3\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar los ceros del polinomio \\(x^3 + 2x + 2\\) en el campo finito \\(\\mathbb{Z}_7\\), debemos evaluar el polinomio en cada elemento del campo \\(\\mathbb{Z}_7\\), que son los enteros \\{0, 1, 2, 3, 4, 5, 6\\}, y ver cu\u00e1les de ellos hacen que el polinomio sea igual a cero.\n\nEvaluamos el polinomio para cada valor:\n\n1. Para \\(x = 0\\):\n   \\[\n   0^3 + 2 \\cdot 0 + 2 = 2 \\neq 0\n   \\]\n\n2. Para \\(x = 1\\):\n   \\[\n   1^3 + 2 \\cdot 1 + 2 = 1 + 2 + 2 = 5 \\neq 0\n   \\]\n\n3. Para \\(x = 2\\):\n   \\[\n   2^3 + 2 \\cdot 2 + 2 = 8 + 4 + 2 = 14 \\equiv 0 \\pmod{7}\n   \\]\n\n4. Para \\(x = 3\\):\n   \\[\n   3^3 + 2 \\cdot 3 + 2 = 27 + 6 + 2 = 35 \\equiv 0 \\pmod{7}\n   \\]\n\n5. Para \\(x = 4\\):\n   \\[\n   4^3 + 2 \\cdot 4 + 2 = 64 + 8 + 2 = 74 \\equiv 4 \\pmod{7} \\neq 0\n   \\]\n\n6. Para \\(x = 5\\):\n   \\[\n   5^3 + 2 \\cdot 5 + 2 = 125 + 10 + 2 = 137 \\equiv 4 \\pmod{7} \\neq 0\n   \\]\n\n7. Para \\(x = 6\\):\n   \\[\n   6^3 + 2 \\cdot 6 + 2 = 216 + 12 + 2 = 230 \\equiv 6 \\pmod{7} \\neq 0\n   \\]\n\nLos valores de \\(x\\) que hacen que el polinomio sea cero son \\(x = 2\\) y \\(x = 3\\).\n\nPor lo tanto, la respuesta correcta es la opci\u00f3n C: 2,3.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_10",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Si H es un subgrupo de G y a pertenece a G entonces |aH| = |Ha|. Declaraci\u00f3n 2 | Si H es un subgrupo de G y a y b pertenecen a G, entonces aH y Hb son id\u00e9nticos o disjuntos.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La respuesta correcta es Choice A: Verdadero, Verdadero.\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: Si \\( H \\) es un subgrupo de \\( G \\) y \\( a \\) pertenece a \\( G \\), entonces \\( |aH| = |Ha| \\). Esto es cierto porque el n\u00famero de elementos en el coset izquierdo \\( aH \\) es igual al n\u00famero de elementos en el coset derecho \\( Ha \\), ya que ambos son simplemente permutaciones de los elementos de \\( H \\) por el elemento \\( a \\).\n\nDeclaraci\u00f3n 2: Si \\( H \\) es un subgrupo de \\( G \\) y \\( a \\) y \\( b \\) pertenecen a \\( G \\), entonces \\( aH \\) y \\( Hb \\) son id\u00e9nticos o disjuntos. Esto tambi\u00e9n es cierto. Dos cosets (izquierdos o derechos) de un subgrupo son o bien id\u00e9nticos o bien disjuntos, ya que si tienen alg\u00fan elemento en com\u00fan, entonces deben ser iguales.\n\nPor lo tanto, ambas declaraciones son verdaderas.",
+    "prediction": "A",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_11",
+    "lang": "es",
+    "prompt": "Question: Si A = {1, 2, 3} entonces la relaci\u00f3n S = {(1, 1), (2, 2)} es\nChoice A: solo sim\u00e9trica\nChoice B: solo anti-sim\u00e9trica\nChoice C: tanto sim\u00e9trica como anti-sim\u00e9trica\nChoice D: una relaci\u00f3n de equivalencia\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: tanto sim\u00e9trica como anti-sim\u00e9trica",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_12",
+    "lang": "es",
+    "prompt": "Question: Encuentra el orden del grupo factor (Z_11 x Z_15)/(<1, 1>)\nChoice A: 1\nChoice B: 2\nChoice C: 5\nChoice D: 11\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el orden del grupo cociente \\((\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}) / \\langle (1, 1) \\rangle\\), primero determinamos el orden del subgrupo \\(\\langle (1, 1) \\rangle\\).\n\nEl grupo \\(\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}\\) tiene orden \\(11 \\times 15 = 165\\).\n\nEl subgrupo \\(\\langle (1, 1) \\rangle\\) est\u00e1 generado por el elemento \\((1, 1)\\). El orden de \\((1, 1)\\) es el m\u00ednimo com\u00fan m\u00faltiplo de los \u00f3rdenes de \\(1\\) en \\(\\mathbb{Z}_{11}\\) y \\(\\mathbb{Z}_{15}\\).\n\n- En \\(\\mathbb{Z}_{11}\\), el orden de \\(1\\) es \\(11\\).\n- En \\(\\mathbb{Z}_{15}\\), el orden de \\(1\\) es \\(15\\).\n\nPor lo tanto, el orden de \\((1, 1)\\) es \\(\\text{mcm}(11, 15) = 165\\).\n\nAs\u00ed, el subgrupo \\(\\langle (1, 1) \\rangle\\) tiene orden \\(165\\).\n\nEl orden del grupo cociente \\((\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}) / \\langle (1, 1) \\rangle\\) es:\n\n\\[\n\\frac{|\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}|}{|\\langle (1, 1) \\rangle|} = \\frac{165}{165} = 1\n\\]\n\nPor lo tanto, la respuesta correcta es la opci\u00f3n A.\n\nAnswer: A",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_13",
+    "lang": "es",
+    "prompt": "Question: El polinomio x^3 + 2x^2 + 2x + 1 se puede factorizar en factores lineales en Z_7[x]. Encuentra esta factorizaci\u00f3n.\nChoice A: (x \u2212 2)(x + 2)(x \u2212 1)\nChoice B: (x + 1)(x + 4)(x \u2212 2)\nChoice C: (x + 1)(x \u2212 4)(x \u2212 2)\nChoice D: (x - 1)(x \u2212 4)(x \u2212 2)\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para factorizar el polinomio \\(x^3 + 2x^2 + 2x + 1\\) en \\(\\mathbb{Z}_7[x]\\), primero debemos encontrar sus ra\u00edces en \\(\\mathbb{Z}_7\\). Esto significa que buscamos valores de \\(x\\) en el conjunto \\(\\{0, 1, 2, 3, 4, 5, 6\\}\\) que hagan que el polinomio sea igual a cero.\n\nEvaluamos el polinomio en cada uno de estos valores:\n\n- Para \\(x = 0\\): \\(0^3 + 2 \\cdot 0^2 + 2 \\cdot 0 + 1 = 1 \\neq 0\\)\n- Para \\(x = 1\\): \\(1^3 + 2 \\cdot 1^2 + 2 \\cdot 1 + 1 = 1 + 2 + 2 + 1 = 6 \\equiv -1 \\pmod{7} \\neq 0\\)\n- Para \\(x = 2\\): \\(2^3 + 2 \\cdot 2^2 + 2 \\cdot 2 + 1 = 8 + 8 + 4 + 1 = 21 \\equiv 0 \\pmod{7}\\)\n- Para \\(x = 3\\): \\(3^3 + 2 \\cdot 3^2 + 2 \\cdot 3 + 1 = 27 + 18 + 6 + 1 = 52 \\equiv 3 \\pmod{7} \\neq 0\\)\n- Para \\(x = 4\\): \\(4^3 + 2 \\cdot 4^2 + 2 \\cdot 4 + 1 = 64 + 32 + 8 + 1 = 105 \\equiv 0 \\pmod{7}\\)\n- Para \\(x = 5\\): \\(5^3 + 2 \\cdot 5^2 + 2 \\cdot 5 + 1 = 125 + 50 + 10 + 1 = 186 \\equiv 0 \\pmod{7}\\)\n- Para \\(x = 6\\): \\(6^3 + 2 \\cdot 6^2 + 2 \\cdot 6 + 1 = 216 + 72 + 12 + 1 = 301 \\equiv 6 \\equiv -1 \\pmod{7} \\neq 0\\)\n\nLas ra\u00edces del polinomio en \\(\\mathbb{Z}_7\\) son \\(x = 2\\), \\(x = 4\\) y \\(x = 5\\). Por lo tanto, el polinomio se puede factorizar como \\((x - 2)(x - 4)(x - 5)\\).\n\nSin embargo, en \\(\\mathbb{Z}_7\\), \\(x - 5\\) es equivalente a \\(x + 2\\) porque \\(-5 \\equiv 2 \\pmod{7}\\).\n\nPor lo tanto, la factorizaci\u00f3n correcta es \\((x - 2)(x - 4)(x + 2)\\).\n\nLa opci\u00f3n correcta es la C: \\((x + 1)(x - 4)(x - 2)\\).",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_14",
+    "lang": "es",
+    "prompt": "Question: Encuentra el orden m\u00e1ximo posible para un elemento de S_n para n = 10.\nChoice A: 6\nChoice B: 12\nChoice C: 30\nChoice D: 105\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el orden m\u00e1ximo posible de un elemento en el grupo sim\u00e9trico \\( S_n \\), donde \\( n = 10 \\), debemos encontrar el m\u00ednimo com\u00fan m\u00faltiplo (mcm) de los ciclos en una descomposici\u00f3n en ciclos disjuntos de una permutaci\u00f3n que cubra todos los elementos de \\( \\{1, 2, \\ldots, 10\\} \\).\n\nPara maximizar el orden, queremos que los ciclos sean lo m\u00e1s largos posible. Una buena estrategia es usar los n\u00fameros primos m\u00e1s grandes que sumen hasta 10 o menos. En este caso, podemos usar los ciclos de longitud 5, 3 y 2, ya que \\( 5 + 3 + 2 = 10 \\).\n\nEl orden de una permutaci\u00f3n es el mcm de las longitudes de sus ciclos. As\u00ed que calculamos:\n\n\\[\n\\text{mcm}(5, 3, 2) = 30\n\\]\n\nPor lo tanto, el orden m\u00e1ximo posible para un elemento de \\( S_{10} \\) es 30.\n\nLa respuesta correcta es la opci\u00f3n C: 30.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_15",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | R es un campo de descomposici\u00f3n de alg\u00fan polinomio sobre Q. Declaraci\u00f3n 2 | Hay un campo con 60 elementos.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Verdadero, Falso\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: Verdadero. El conjunto de los n\u00fameros reales \\( \\mathbb{R} \\) es un campo de descomposici\u00f3n del polinomio \\( x^2 + 1 \\) sobre \\( \\mathbb{Q} \\), ya que \\( \\mathbb{R} \\) contiene todas las ra\u00edces de este polinomio (que son \\( i \\) y \\( -i \\), los n\u00fameros imaginarios) y es el campo m\u00e1s peque\u00f1o que contiene \\( \\mathbb{Q} \\) y estas ra\u00edces.\n\nDeclaraci\u00f3n 2: Falso. No existe un campo con 60 elementos. Los campos finitos tienen un n\u00famero de elementos que es una potencia de un n\u00famero primo, es decir, \\( p^n \\) donde \\( p \\) es un n\u00famero primo y \\( n \\) es un entero positivo. 60 no es una potencia de un n\u00famero primo, por lo tanto, no puede haber un campo con 60 elementos.",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_16",
+    "lang": "es",
+    "prompt": "Question: El inverso de -i en el grupo multiplicativo, {1, -1, i, -i} es\nChoice A: 1\nChoice B: -1\nChoice C: i\nChoice D: -i\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el inverso de \\(-i\\) en el grupo multiplicativo \\(\\{1, -1, i, -i\\}\\), debemos encontrar un elemento \\(x\\) en el grupo tal que \\((-i) \\cdot x = 1\\).\n\nMultiplicamos \\(-i\\) por \\(i\\):\n\n\\[\n(-i) \\cdot i = -i^2\n\\]\n\nSabemos que \\(i^2 = -1\\), por lo tanto:\n\n\\[\n-i^2 = -(-1) = 1\n\\]\n\nPor lo tanto, el inverso de \\(-i\\) es \\(i\\).\n\nLa respuesta correcta es la opci\u00f3n C: i.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_17",
+    "lang": "es",
+    "prompt": "Question: Calcule el producto en el anillo dado. (2,3)(3,5) en Z_5 x Z_9\nChoice A: (1,1)\nChoice B: (3,1)\nChoice C: (1,6)\nChoice D: (3,6)\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para calcular el producto en el anillo \\( \\mathbb{Z}_5 \\times \\mathbb{Z}_9 \\), multiplicamos las componentes correspondientes de los pares ordenados y luego tomamos el resultado m\u00f3dulo 5 para la primera componente y m\u00f3dulo 9 para la segunda componente.\n\nDado el par \\((2,3)\\) en \\( \\mathbb{Z}_5 \\times \\mathbb{Z}_9\\) y el par \\((3,5)\\) en \\( \\mathbb{Z}_5 \\times \\mathbb{Z}_9\\), calculamos:\n\n1. Primera componente: \\(2 \\times 3 = 6\\). Luego, \\(6 \\mod 5 = 1\\).\n2. Segunda componente: \\(3 \\times 5 = 15\\). Luego, \\(15 \\mod 9 = 6\\).\n\nPor lo tanto, el producto es \\((1, 6)\\).\n\nLa respuesta correcta es la opci\u00f3n C: (1,6).",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_18",
+    "lang": "es",
+    "prompt": "Question: El conjunto de todos los n\u00fameros reales bajo la operaci\u00f3n usual de multiplicaci\u00f3n no es un grupo porque\nChoice A: la multiplicaci\u00f3n no es una operaci\u00f3n binaria\nChoice B: la multiplicaci\u00f3n no es asociativa\nChoice C: no existe un elemento identidad\nChoice D: el cero no tiene inverso\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: el cero no tiene inverso",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_19",
+    "lang": "es",
+    "prompt": "Question: Enunciado 1| Todo grupo de orden p^2 donde p es primo es Abeliano. Enunciado 2 | Para un primo fijo p, un subgrupo de Sylow p de un grupo G es un subgrupo normal de G si y solo si es el \u00fanico subgrupo de Sylow p de G.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice A: Verdadero, Verdadero\n\nEnunciado 1: Todo grupo de orden \\( p^2 \\) donde \\( p \\) es primo es Abeliano. Esto es verdadero. Seg\u00fan el teorema de clasificaci\u00f3n de grupos de orden \\( p^2 \\), cualquier grupo de tal orden es isomorfo a \\( \\mathbb{Z}_{p^2} \\) o \\( \\mathbb{Z}_p \\times \\mathbb{Z}_p \\), ambos de los cuales son abelianos.\n\nEnunciado 2: Para un primo fijo \\( p \\), un subgrupo de Sylow \\( p \\) de un grupo \\( G \\) es un subgrupo normal de \\( G \\) si y solo si es el \u00fanico subgrupo de Sylow \\( p \\) de \\( G \\). Esto tambi\u00e9n es verdadero. Seg\u00fan el teorema de Sylow, un subgrupo de Sylow \\( p \\) es normal si y solo si es el \u00fanico subgrupo de Sylow \\( p \\) en el grupo.\n\nPor lo tanto, la respuesta correcta es A: Verdadero, Verdadero.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_20",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Para grupos finitos G y H, |G + H| = |G||H|. (G + H es el producto directo interno.) Declaraci\u00f3n 2 | Si r divide m y s divide n entonces Z_m + Z_n tiene un subgrupo isomorfo a Z_r + Z_s.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La Declaraci\u00f3n 1 es falsa. Para grupos finitos \\( G \\) y \\( H \\), el producto directo \\( G \\times H \\) tiene un orden igual al producto de los \u00f3rdenes de \\( G \\) y \\( H \\), es decir, \\(|G \\times H| = |G||H|\\). Sin embargo, la notaci\u00f3n \\( G + H \\) no es est\u00e1ndar para denotar el producto directo, y en el contexto de grupos, el s\u00edmbolo \\( + \\) generalmente se refiere a la suma de grupos abelianos, lo cual no es aplicable aqu\u00ed. Por lo tanto, la declaraci\u00f3n es incorrecta tal como est\u00e1 formulada.\n\nLa Declaraci\u00f3n 2 es verdadera. Si \\( r \\) divide \\( m \\) y \\( s \\) divide \\( n \\), entonces existen subgrupos de \\( \\mathbb{Z}_m \\) y \\( \\mathbb{Z}_n \\) isomorfos a \\( \\mathbb{Z}_r \\) y \\( \\mathbb{Z}_s \\), respectivamente. El producto directo \\( \\mathbb{Z}_m \\times \\mathbb{Z}_n \\) tendr\u00e1 un subgrupo isomorfo a \\( \\mathbb{Z}_r \\times \\mathbb{Z}_s \\).\n\nPor lo tanto, la respuesta correcta es D: Falso, Verdadero.",
+    "prediction": "D",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_21",
+    "lang": "es",
+    "prompt": "Question: Encuentra la suma de los polinomios dados en el anillo de polinomios dado. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 en Z_8[x].\nChoice A: 2x^2 + 5\nChoice B: 6x^2 + 4x + 6\nChoice C: 0\nChoice D: x^2 + 1\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar la suma de los polinomios \\( f(x) = 4x - 5 \\) y \\( g(x) = 2x^2 - 4x + 2 \\) en el anillo de polinomios \\( \\mathbb{Z}_8[x] \\), sumamos los coeficientes correspondientes de los polinomios y luego tomamos el resultado m\u00f3dulo 8.\n\n1. Sumar los t\u00e9rminos de \\( x^2 \\):\n   - \\( 0 + 2x^2 = 2x^2 \\)\n\n2. Sumar los t\u00e9rminos de \\( x \\):\n   - \\( 4x - 4x = 0 \\)\n\n3. Sumar los t\u00e9rminos constantes:\n   - \\( -5 + 2 = -3 \\)\n\nAhora, tomamos cada coeficiente m\u00f3dulo 8:\n\n- Para \\( 2x^2 \\), el coeficiente es 2, y \\( 2 \\mod 8 = 2 \\).\n- Para \\( 0x \\), el coeficiente es 0, y \\( 0 \\mod 8 = 0 \\).\n- Para el t\u00e9rmino constante, \\(-3 \\mod 8 = 5\\) (ya que \\(-3 + 8 = 5\\)).\n\nPor lo tanto, la suma de los polinomios es \\( 2x^2 + 5 \\).\n\nLa respuesta correcta es la opci\u00f3n A: \\( 2x^2 + 5 \\).",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_22",
+    "lang": "es",
+    "prompt": "Question: Enunciado 1 | Cualquier conjunto de dos vectores en R^2 es linealmente independiente. Enunciado 2 | Si V = span(v1, ... , vk) y {v1, ... , vk} son linealmente independientes, entonces dim(V) = k.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Falso, Verdadero\n\nEnunciado 1 es falso porque en \\(\\mathbb{R}^2\\), dos vectores pueden ser linealmente dependientes si uno es un m\u00faltiplo escalar del otro. Enunciado 2 es verdadero porque si \\(V = \\text{span}(v_1, \\ldots, v_k)\\) y los vectores \\(\\{v_1, \\ldots, v_k\\}\\) son linealmente independientes, entonces forman una base de \\(V\\) y, por lo tanto, la dimensi\u00f3n de \\(V\\) es \\(k\\).",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_23",
+    "lang": "es",
+    "prompt": "Question: El conjunto de todas las ra\u00edces n-\u00e9simas de la unidad bajo la multiplicaci\u00f3n de n\u00fameros complejos forma un/a\nChoice A: semi grupo con identidad\nChoice B: semigrupos conmutativos con identidad\nChoice C: grupo\nChoice D: grupo abeliano\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: grupo abeliano",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_24",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Todo ideal maximal es un ideal primo. Declaraci\u00f3n 2 | Si I es un ideal maximal de un anillo conmutativo R, entonces R/I es un campo.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice A: Verdadero, Verdadero\n\nLa Declaraci\u00f3n 1 es verdadera porque en un anillo conmutativo, todo ideal maximal es un ideal primo. Esto se debe a que si \\( I \\) es un ideal maximal y \\( ab \\in I \\), entonces \\( a \\in I \\) o \\( b \\in I \\) porque de lo contrario, los ideales generados por \\( I \\) y \\( a \\) o \\( b \\) ser\u00edan el anillo completo, contradiciendo la maximalidad de \\( I \\).\n\nLa Declaraci\u00f3n 2 es verdadera porque si \\( I \\) es un ideal maximal de un anillo conmutativo \\( R \\), entonces el anillo cociente \\( R/I \\) es un campo. Esto se debe a que la maximalidad de \\( I \\) implica que no hay ideales propios entre \\( I \\) y \\( R \\), lo que significa que cualquier elemento no cero en \\( R/I \\) tiene un inverso, cumpliendo as\u00ed la definici\u00f3n de campo.",
+    "prediction": "A",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_25",
+    "lang": "es",
+    "prompt": "Question: Sea G el conjunto de todas las matrices no singulares de n x n con n\u00fameros racionales como entradas. Entonces, bajo multiplicaci\u00f3n G es un/a\nChoice A: subgrupo\nChoice B: grupo abeliano finito\nChoice C: grupo infinito, no abeliano\nChoice D: infinito, abeliano\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: grupo infinito, no abeliano",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_26",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Cada grupo de orden 42 tiene un subgrupo normal de orden 7. Declaraci\u00f3n 2 | Cada grupo de orden 42 tiene un subgrupo normal de orden 8.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para resolver este problema, utilizaremos el teorema de Sylow y algunas propiedades de los grupos.\n\n**Declaraci\u00f3n 1:** Cada grupo de orden 42 tiene un subgrupo normal de orden 7.\n\n- El orden de un grupo es 42, que se puede descomponer en factores primos como \\(42 = 2 \\times 3 \\times 7\\).\n- Seg\u00fan el teorema de Sylow, el n\u00famero de subgrupos de Sylow de orden 7, denotado como \\(n_7\\), debe dividir 6 (el cociente de 42 entre 7) y ser congruente con 1 m\u00f3dulo 7.\n- Los divisores de 6 son 1, 2, 3, 6. De estos, solo 1 es congruente con 1 m\u00f3dulo 7.\n- Por lo tanto, \\(n_7 = 1\\), lo que significa que hay exactamente un subgrupo de Sylow de orden 7, y este subgrupo es normal.\n\n**Declaraci\u00f3n 2:** Cada grupo de orden 42 tiene un subgrupo normal de orden 8.\n\n- No es posible tener un subgrupo de orden 8 en un grupo de orden 42, ya que 8 no divide 42. Los subgrupos deben tener un orden que divida el orden del grupo.\n\nPor lo tanto, la Declaraci\u00f3n 1 es verdadera y la Declaraci\u00f3n 2 es falsa.\n\nLa respuesta correcta es la opci\u00f3n C: Verdadero, Falso.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_27",
+    "lang": "es",
+    "prompt": "Question: Determina si el polinomio en Z[x] satisface un criterio de Eisenstein para la irreducibilidad sobre Q. 8x^3 + 6x^2 - 9x + 24\nChoice A: S\u00ed, con p=2.\nChoice B: S\u00ed, con p=3.\nChoice C: S\u00ed, con p=5.\nChoice D: No.\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para determinar si el polinomio \\(8x^3 + 6x^2 - 9x + 24\\) satisface el criterio de Eisenstein, debemos encontrar un n\u00famero primo \\(p\\) que cumpla con las siguientes condiciones:\n\n1. \\(p\\) divide a todos los coeficientes excepto al coeficiente principal.\n2. \\(p\\) no divide al coeficiente principal.\n3. \\(p^2\\) no divide al t\u00e9rmino independiente.\n\nAnalicemos cada opci\u00f3n:\n\n- **Opci\u00f3n A: \\(p = 2\\)**\n  - \\(2\\) no divide al coeficiente principal \\(8\\), por lo que no cumple con el criterio de Eisenstein.\n\n- **Opci\u00f3n B: \\(p = 3\\)**\n  - \\(3\\) no divide al coeficiente principal \\(8\\), por lo que no cumple con el criterio de Eisenstein.\n\n- **Opci\u00f3n C: \\(p = 5\\)**\n  - \\(5\\) no divide al coeficiente principal \\(8\\), por lo que no cumple con el criterio de Eisenstein.\n\n- **Opci\u00f3n D: No.**\n  - Ninguno de los n\u00fameros primos propuestos satisface el criterio de Eisenstein.\n\nPor lo tanto, la respuesta correcta es:\n\nD: No.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_28",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | La imagen de un grupo de 6 elementos bajo un homomorfismo puede tener 12 elementos. Declaraci\u00f3n 2 | Existe un homomorfismo de alg\u00fan grupo de 6 elementos en alg\u00fan grupo de 12 elementos.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La Declaraci\u00f3n 1 es falsa. Un homomorfismo de grupos mapea el grupo original a un subgrupo del grupo de llegada. Si el grupo original tiene 6 elementos, su imagen bajo un homomorfismo no puede tener m\u00e1s de 6 elementos, ya que la imagen es un subgrupo del grupo de llegada y su orden debe dividir el orden del grupo original (por el teorema del homomorfismo). Por lo tanto, la imagen no puede tener 12 elementos.\n\nLa Declaraci\u00f3n 2 es verdadera. Es posible definir un homomorfismo de un grupo de 6 elementos a un grupo de 12 elementos. Por ejemplo, el homomorfismo trivial que mapea todos los elementos del grupo de 6 elementos al elemento identidad del grupo de 12 elementos es un homomorfismo v\u00e1lido.\n\nPor lo tanto, la respuesta correcta es D: Falso, Verdadero.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_29",
+    "lang": "es",
+    "prompt": "Question: Enunciado 1 | La imagen homom\u00f3rfica de un grupo c\u00edclico es c\u00edclica. Enunciado 2 | La imagen homom\u00f3rfica de un grupo abeliano es abeliano.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: Verdadero, Verdadero",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_30",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Si H es un subgrupo de un grupo G y a pertenece a G, entonces aH = Ha. Declaraci\u00f3n 2 | Si H es normal de G y a pertenece a G, entonces ah = ha para todo h en H.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La respuesta correcta es la opci\u00f3n D: Falso, Verdadero.\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: \"Si H es un subgrupo de un grupo G y a pertenece a G, entonces aH = Ha.\" Esta declaraci\u00f3n es falsa en general. Para que aH = Ha para todo a en G, H debe ser un subgrupo normal de G. No todos los subgrupos son normales, por lo que esta declaraci\u00f3n es falsa.\n\nDeclaraci\u00f3n 2: \"Si H es normal de G y a pertenece a G, entonces ah = ha para todo h en H.\" Esta declaraci\u00f3n es verdadera. Si H es un subgrupo normal de G, por definici\u00f3n, para todo a en G y para todo h en H, se cumple que aH = Ha, lo que implica que ah = ha para todo h en H.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_31",
+    "lang": "es",
+    "prompt": "Question: Si (G, .) es un grupo tal que (ab)^-1 = a^-1b^-1, para todos a, b en G, entonces G es un/an\nChoice A: semigrupo conmutativo\nChoice B: grupo abeliano\nChoice C: grupo no abeliano\nChoice D: Ninguno de estos\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: grupo abeliano",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_32",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | En un espacio vectorial de dimensi\u00f3n finita, todo conjunto de vectores linealmente independientes est\u00e1 contenido en una base. Declaraci\u00f3n 2 | Si B_1 y B_2 son bases para el mismo espacio vectorial, entonces |B_1| = |B_2|.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: Verdadero, Verdadero\n\nAmbas declaraciones son verdaderas. En un espacio vectorial de dimensi\u00f3n finita, cualquier conjunto de vectores linealmente independientes puede extenderse a una base del espacio, lo que hace que la Declaraci\u00f3n 1 sea verdadera. Adem\u00e1s, todas las bases de un espacio vectorial de dimensi\u00f3n finita tienen el mismo n\u00famero de elementos, lo que hace que la Declaraci\u00f3n 2 tambi\u00e9n sea verdadera.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_33",
+    "lang": "es",
+    "prompt": "Question: Se sabe que alg\u00fan grupo (G, 0) es abeliano. Entonces, \u00bfcu\u00e1l de las siguientes opciones es VERDADERA para G?\nChoice A: g = g^-1 para cada g en G\nChoice B: g = g^2 para cada g en G\nChoice C: (g o h)^2 = g^2 o h^2 para cada g,h en G\nChoice D: G es de orden finito\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La opci\u00f3n correcta es la **C**: \\((g \\circ h)^2 = g^2 \\circ h^2\\) para cada \\(g, h\\) en \\(G\\).\n\nExplicaci\u00f3n:\n\n- **Opci\u00f3n A**: \\(g = g^{-1}\\) para cada \\(g\\) en \\(G\\) implica que cada elemento es su propio inverso, lo cual no es necesariamente cierto para todos los grupos abelianos.\n\n- **Opci\u00f3n B**: \\(g = g^2\\) para cada \\(g\\) en \\(G\\) implica que cada elemento es idempotente, lo cual no es una propiedad general de los grupos abelianos.\n\n- **Opci\u00f3n C**: \\((g \\circ h)^2 = g^2 \\circ h^2\\) es verdadera para grupos abelianos. Esto se debe a que en un grupo abeliano, los elementos conmutan, es decir, \\(g \\circ h = h \\circ g\\). Por lo tanto, \\((g \\circ h)^2 = (g \\circ h) \\circ (g \\circ h) = g \\circ h \\circ g \\circ h = g \\circ g \\circ h \\circ h = g^2 \\circ h^2\\).\n\n- **Opci\u00f3n D**: G es de orden finito no es necesariamente cierto, ya que un grupo abeliano puede ser de orden infinito.\n\nPor lo tanto, la opci\u00f3n correcta es la **C**.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_34",
+    "lang": "es",
+    "prompt": "Question: Enunciado 1 | Si T: V -> W es una transformaci\u00f3n lineal y dim(V) < dim(W) < 1, entonces T debe ser inyectiva. Enunciado 2 | Sea dim(V) = n y supongamos que T: V -> V es lineal. Si T es inyectiva, entonces es una biyecci\u00f3n.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La respuesta correcta es D: Falso, Verdadero.\n\nExplicaci\u00f3n:\n\nEnunciado 1: \"Si T: V -> W es una transformaci\u00f3n lineal y dim(V) < dim(W) < \u221e, entonces T debe ser inyectiva.\" Este enunciado es falso. Si la dimensi\u00f3n de V es menor que la de W, no necesariamente implica que T sea inyectiva. De hecho, es m\u00e1s com\u00fan que T no sea inyectiva en este caso, ya que hay m\u00e1s espacio en W que en V, lo que permite que diferentes elementos de V se mapeen al mismo elemento en W.\n\nEnunciado 2: \"Sea dim(V) = n y supongamos que T: V -> V es lineal. Si T es inyectiva, entonces es una biyecci\u00f3n.\" Este enunciado es verdadero. Si T es una transformaci\u00f3n lineal de un espacio vectorial V en s\u00ed mismo y es inyectiva, entonces tambi\u00e9n es sobreyectiva, debido a que la dimensi\u00f3n del espacio de salida es igual a la dimensi\u00f3n del espacio de entrada. Por lo tanto, T es una biyecci\u00f3n.",
+    "prediction": "D",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_35",
+    "lang": "es",
+    "prompt": "Question: Encuentra el grado de la extensi\u00f3n de campo Q(sqrt(2), sqrt(3)) sobre Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el grado de la extensi\u00f3n de campo \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sobre \\(\\mathbb{Q}\\), primero consideramos las extensiones intermedias. \n\n1. La extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{2})\\) sobre \\(\\mathbb{Q}\\) tiene grado 2, porque \\(\\sqrt{2}\\) es ra\u00edz de \\(x^2 - 2\\), un polinomio irreducible en \\(\\mathbb{Q}\\).\n\n2. La extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{3})\\) sobre \\(\\mathbb{Q}\\) tambi\u00e9n tiene grado 2, porque \\(\\sqrt{3}\\) es ra\u00edz de \\(x^2 - 3\\), otro polinomio irreducible en \\(\\mathbb{Q}\\).\n\n3. Ahora consideramos la extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sobre \\(\\mathbb{Q}(\\sqrt{2})\\). El elemento \\(\\sqrt{3}\\) no est\u00e1 en \\(\\mathbb{Q}(\\sqrt{2})\\), ya que no puede ser expresado como una combinaci\u00f3n lineal de 1 y \\(\\sqrt{2}\\) con coeficientes racionales. Por lo tanto, \\(\\sqrt{3}\\) es algebraico sobre \\(\\mathbb{Q}(\\sqrt{2})\\) y el polinomio m\u00ednimo de \\(\\sqrt{3}\\) sobre \\(\\mathbb{Q}(\\sqrt{2})\\) es \\(x^2 - 3\\), que sigue siendo irreducible en \\(\\mathbb{Q}(\\sqrt{2})\\).\n\nPor lo tanto, el grado de la extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sobre \\(\\mathbb{Q}(\\sqrt{2})\\) es 2.\n\nFinalmente, aplicando la f\u00f3rmula del grado de una extensi\u00f3n de torres, tenemos:\n\n\\[\n[\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) : \\mathbb{Q}] = [\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) : \\mathbb{Q}(\\sqrt{2})] \\cdot [\\mathbb{Q}(\\sqrt{2}) : \\mathbb{Q}] = 2 \\cdot 2 = 4\n\\]\n\nPor lo tanto, el grado de la extensi\u00f3n \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sobre \\(\\mathbb{Q}\\) es 4.\n\nLa respuesta correcta es B: 4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_36",
+    "lang": "es",
+    "prompt": "Question: Calcule el producto en el anillo dado. (20)(-8) en Z_26\nChoice A: 0\nChoice B: 1\nChoice C: 11\nChoice D: 22\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para calcular el producto en el anillo \\( \\mathbb{Z}_{26} \\), primero multiplicamos los n\u00fameros dados:\n\n\\[\n20 \\times (-8) = -160\n\\]\n\nAhora, necesitamos encontrar el equivalente de \\(-160\\) en \\( \\mathbb{Z}_{26} \\). Esto se hace calculando el residuo de \\(-160\\) al dividirlo por 26.\n\nPrimero, calculamos el residuo de 160 al dividirlo por 26:\n\n\\[\n160 \\div 26 \\approx 6.1538\n\\]\n\nEl cociente entero es 6, as\u00ed que:\n\n\\[\n160 = 26 \\times 6 + r\n\\]\n\nCalculamos \\( r \\):\n\n\\[\nr = 160 - 26 \\times 6 = 160 - 156 = 4\n\\]\n\nPor lo tanto, \\( 160 \\equiv 4 \\pmod{26} \\).\n\nDado que estamos trabajando con \\(-160\\), el residuo ser\u00e1 el complemento de 4 en 26:\n\n\\[\n-160 \\equiv -4 \\equiv 26 - 4 \\equiv 22 \\pmod{26}\n\\]\n\nPor lo tanto, el producto \\((20)(-8)\\) en \\( \\mathbb{Z}_{26} \\) es equivalente a 22.\n\nLa respuesta correcta es:\n\nD: 22",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_37",
+    "lang": "es",
+    "prompt": "Question: Determina si el polinomio en Z[x] satisface un criterio de Eisenstein para la irreducibilidad sobre Q. x^2 - 12\nChoice A: S\u00ed, con p=2.\nChoice B: S\u00ed, con p=3.\nChoice C: S\u00ed, con p=5.\nChoice D: No.\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para determinar si el polinomio \\(x^2 - 12\\) satisface el criterio de Eisenstein, debemos encontrar un n\u00famero primo \\(p\\) tal que:\n\n1. \\(p\\) divide a todos los coeficientes excepto al coeficiente principal.\n2. \\(p\\) no divide al coeficiente principal.\n3. \\(p^2\\) no divide al t\u00e9rmino independiente.\n\nEl polinomio dado es \\(x^2 - 12\\), que tiene los coeficientes: \\(a_2 = 1\\), \\(a_1 = 0\\), \\(a_0 = -12\\).\n\n- Para \\(p = 2\\):\n  1. \\(2\\) no divide \\(1\\) (coeficiente principal), pero divide \\(0\\) y \\(-12\\).\n  2. \\(2^2 = 4\\) divide \\(-12\\).\n\n- Para \\(p = 3\\):\n  1. \\(3\\) no divide \\(1\\) (coeficiente principal), pero divide \\(0\\) y \\(-12\\).\n  2. \\(3^2 = 9\\) no divide \\(-12\\).\n\n- Para \\(p = 5\\):\n  1. \\(5\\) no divide \\(1\\) (coeficiente principal), pero no divide \\(0\\) ni \\(-12\\).\n\nPor lo tanto, el polinomio \\(x^2 - 12\\) satisface el criterio de Eisenstein con \\(p = 3\\).\n\nLa respuesta correcta es: B.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_38",
+    "lang": "es",
+    "prompt": "Question: Encuentra el generador para el campo finito Z_7.\nChoice A: 1\nChoice B: 2\nChoice C: 3\nChoice D: 4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar un generador del campo finito \\(\\mathbb{Z}_7\\), necesitamos encontrar un n\u00famero \\(g\\) tal que sus potencias generen todos los elementos no cero del campo. En \\(\\mathbb{Z}_7\\), los elementos son \\(\\{1, 2, 3, 4, 5, 6\\}\\).\n\nProbemos con cada opci\u00f3n:\n\n- **Opci\u00f3n A: 1**\n  - \\(1^1 = 1\\)\n  - No genera todos los elementos, solo genera 1.\n\n- **Opci\u00f3n B: 2**\n  - \\(2^1 = 2\\)\n  - \\(2^2 = 4\\)\n  - \\(2^3 = 8 \\equiv 1 \\pmod{7}\\)\n  - \\(2^4 = 16 \\equiv 2 \\pmod{7}\\)\n  - \\(2^5 = 32 \\equiv 4 \\pmod{7}\\)\n  - \\(2^6 = 64 \\equiv 1 \\pmod{7}\\)\n  - No genera todos los elementos, solo genera 1, 2, y 4.\n\n- **Opci\u00f3n C: 3**\n  - \\(3^1 = 3\\)\n  - \\(3^2 = 9 \\equiv 2 \\pmod{7}\\)\n  - \\(3^3 = 27 \\equiv 6 \\pmod{7}\\)\n  - \\(3^4 = 81 \\equiv 4 \\pmod{7}\\)\n  - \\(3^5 = 243 \\equiv 5 \\pmod{7}\\)\n  - \\(3^6 = 729 \\equiv 1 \\pmod{7}\\)\n  - Genera todos los elementos: 1, 2, 3, 4, 5, 6.\n\n- **Opci\u00f3n D: 4**\n  - \\(4^1 = 4\\)\n  - \\(4^2 = 16 \\equiv 2 \\pmod{7}\\)\n  - \\(4^3 = 64 \\equiv 1 \\pmod{7}\\)\n  - No genera todos los elementos, solo genera 1, 2, y 4.\n\nPor lo tanto, el generador del campo finito \\(\\mathbb{Z}_7\\) es 3.\n\nRespuesta: C",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_39",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Cada permutaci\u00f3n es un ciclo. Declaraci\u00f3n 2 | Cada ciclo es una permutaci\u00f3n.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Falso, Verdadero\n\nExplicaci\u00f3n:\n- Declaraci\u00f3n 1: Falso. No todas las permutaciones son ciclos. Una permutaci\u00f3n es una reordenaci\u00f3n de elementos, y puede consistir en uno o m\u00e1s ciclos. Por ejemplo, la permutaci\u00f3n (1 2 3) es un ciclo, pero la permutaci\u00f3n (1 2)(3 4) no es un solo ciclo, sino dos ciclos disjuntos.\n- Declaraci\u00f3n 2: Verdadero. Cada ciclo es una permutaci\u00f3n, ya que un ciclo es una forma espec\u00edfica de reordenar elementos dentro de un conjunto.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_40",
+    "lang": "es",
+    "prompt": "Question: El conjunto de enteros Z con la operaci\u00f3n binaria \"*\" definida como a*b =a +b+ 1 para a, b en Z, es un grupo. El elemento identidad de este grupo es\nChoice A: 0\nChoice B: 1\nChoice C: -1\nChoice D: 12\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para determinar el elemento identidad del conjunto de enteros \\( \\mathbb{Z} \\) con la operaci\u00f3n binaria \\( a * b = a + b + 1 \\), necesitamos encontrar un elemento \\( e \\) tal que para cualquier entero \\( a \\), se cumpla:\n\n\\[ a * e = a \\quad \\text{y} \\quad e * a = a \\]\n\nDado que la operaci\u00f3n est\u00e1 definida como \\( a * b = a + b + 1 \\), sustituimos en la ecuaci\u00f3n:\n\n1. \\( a * e = a \\) implica \\( a + e + 1 = a \\)\n2. \\( e * a = a \\) implica \\( e + a + 1 = a \\)\n\nResolvamos la primera ecuaci\u00f3n:\n\n\\[ a + e + 1 = a \\]\n\nRestando \\( a \\) de ambos lados, obtenemos:\n\n\\[ e + 1 = 0 \\]\n\nPor lo tanto, \\( e = -1 \\).\n\nVerifiquemos la segunda ecuaci\u00f3n:\n\n\\[ e + a + 1 = a \\]\n\nSustituyendo \\( e = -1 \\):\n\n\\[ -1 + a + 1 = a \\]\n\nEsto se simplifica a:\n\n\\[ a = a \\]\n\nAmbas condiciones se satisfacen con \\( e = -1 \\). Por lo tanto, el elemento identidad es \\(-1\\).\n\nLa respuesta correcta es la opci\u00f3n C: -1.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_41",
+    "lang": "es",
+    "prompt": "Question: Encuentra la caracter\u00edstica del anillo Z_3 x 3Z.\nChoice A: 0\nChoice B: 3\nChoice C: 12\nChoice D: 30\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar la caracter\u00edstica del anillo \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\), debemos determinar el menor n\u00famero positivo \\( n \\) tal que \\( n(a, b) = (0, 0) \\) para todo \\( (a, b) \\in \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\).\n\n1. En \\( \\mathbb{Z}_3 \\), la caracter\u00edstica es 3, ya que \\( 3a \\equiv 0 \\pmod{3} \\) para cualquier \\( a \\in \\mathbb{Z}_3 \\).\n\n2. En \\( 3\\mathbb{Z} \\), la caracter\u00edstica es 3, ya que cualquier m\u00faltiplo de 3 es cero en este conjunto.\n\nPara el producto \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\), la caracter\u00edstica ser\u00e1 el m\u00ednimo com\u00fan m\u00faltiplo de las caracter\u00edsticas de \\( \\mathbb{Z}_3 \\) y \\( 3\\mathbb{Z} \\), que es \\( \\text{mcm}(3, 3) = 3 \\).\n\nPor lo tanto, la caracter\u00edstica del anillo \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\) es 3.\n\nLa respuesta correcta es B.",
+    "prediction": "B",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_42",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Alg\u00fan grupo abeliano de orden 45 tiene un subgrupo de orden 10. Declaraci\u00f3n 2 | Un subgrupo H de un grupo G es un subgrupo normal si y solo si el n\u00famero de cosets izquierdos de H es igual al n\u00famero de cosets derechos de H.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para evaluar las declaraciones, consideremos lo siguiente:\n\n**Declaraci\u00f3n 1:** Alg\u00fan grupo abeliano de orden 45 tiene un subgrupo de orden 10.\n\nUn grupo abeliano de orden 45 puede descomponerse en un producto directo de grupos c\u00edclicos primos, ya que 45 = 3^2 * 5. Seg\u00fan el teorema de Cauchy, un grupo de orden 45 tiene subgrupos de \u00f3rdenes que dividen 45. Sin embargo, 10 no divide 45, por lo que no puede haber un subgrupo de orden 10 en un grupo de orden 45. Por lo tanto, la Declaraci\u00f3n 1 es falsa.\n\n**Declaraci\u00f3n 2:** Un subgrupo H de un grupo G es un subgrupo normal si y solo si el n\u00famero de cosets izquierdos de H es igual al n\u00famero de cosets derechos de H.\n\nPor definici\u00f3n, un subgrupo H es normal en G si y solo si para todo g en G, gH = Hg. Esto implica que el n\u00famero de cosets izquierdos de H es igual al n\u00famero de cosets derechos de H. Por lo tanto, la Declaraci\u00f3n 2 es verdadera.\n\nDado lo anterior, la respuesta correcta es:\n\n**D: Falso, Verdadero**",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_43",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Todo dominio integral con caracter\u00edstica 0 es infinito. Declaraci\u00f3n 2 | Todo dominio integral con caracter\u00edstica prima es finito.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Verdadero, Falso\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: Todo dominio integral con caracter\u00edstica 0 es infinito. Esto es verdadero. Un dominio integral con caracter\u00edstica 0 no puede ser finito porque, en un anillo finito, el elemento 1 sumado consigo mismo un n\u00famero finito de veces debe dar 0, lo que implicar\u00eda que la caracter\u00edstica es un n\u00famero primo, no 0.\n\nDeclaraci\u00f3n 2: Todo dominio integral con caracter\u00edstica prima es finito. Esto es falso. Un ejemplo de un dominio integral con caracter\u00edstica prima que es infinito es el anillo de polinomios con coeficientes en un campo finito, como \\(\\mathbb{F}_p[x]\\), donde \\(\\mathbb{F}_p\\) es un campo finito de caracter\u00edstica \\(p\\).",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_44",
+    "lang": "es",
+    "prompt": "Question: Sean A y B conjuntos, f: A -> B y g: B -> A funciones tales que para todo a \\in A, g(f(a)) = a. Declaraci\u00f3n 1 | La funci\u00f3n f debe ser necesariamente inyectiva. Declaraci\u00f3n 2 | La funci\u00f3n f debe ser necesariamente suprayectiva.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La declaraci\u00f3n 1 es verdadera. Si \\( g(f(a)) = a \\) para todo \\( a \\in A \\), entonces \\( f \\) debe ser inyectiva. Esto se debe a que si \\( f(a_1) = f(a_2) \\), entonces \\( g(f(a_1)) = g(f(a_2)) \\), lo que implica que \\( a_1 = a_2 \\).\n\nLa declaraci\u00f3n 2 es falsa. La funci\u00f3n \\( f \\) no necesita ser suprayectiva. La condici\u00f3n \\( g(f(a)) = a \\) no garantiza que cada elemento de \\( B \\) tenga un preimagen en \\( A \\) bajo \\( f \\).\n\nPor lo tanto, la respuesta correcta es:\n\nChoice C: Verdadero, Falso",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_45",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Para cualquier dos grupos G y G', existe un homomorfismo de G en G'. Declaraci\u00f3n 2 | Todo homomorfismo es una funci\u00f3n uno a uno.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La respuesta correcta es B: Falso, Falso.\n\nDeclaraci\u00f3n 1: Falso. No siempre existe un homomorfismo entre dos grupos arbitrarios G y G'. Un homomorfismo debe respetar la estructura del grupo, y no todos los grupos tienen estructuras compatibles que permitan la existencia de un homomorfismo entre ellos.\n\nDeclaraci\u00f3n 2: Falso. No todo homomorfismo es una funci\u00f3n uno a uno (inyectiva). Un homomorfismo puede ser no inyectivo si su n\u00facleo (el conjunto de elementos que se mapean al elemento identidad del grupo de llegada) contiene m\u00e1s de un elemento.",
+    "prediction": "B",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_46",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Un homomorfismo puede tener un n\u00facleo vac\u00edo. Declaraci\u00f3n 2 | No es posible tener un homomorfismo no trivial de alg\u00fan grupo finito en alg\u00fan grupo infinito.\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Falso, Verdadero\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: Un homomorfismo de grupos \\( f: G \\to H \\) tiene un n\u00facleo definido como \\( \\ker(f) = \\{ g \\in G \\mid f(g) = e_H \\} \\), donde \\( e_H \\) es el elemento identidad del grupo \\( H \\). El n\u00facleo nunca puede ser vac\u00edo porque al menos contiene el elemento identidad del grupo \\( G \\), ya que \\( f(e_G) = e_H \\). Por lo tanto, la declaraci\u00f3n 1 es falsa.\n\nDeclaraci\u00f3n 2: Un homomorfismo no trivial de un grupo finito a un grupo infinito implicar\u00eda que la imagen del homomorfismo es un subgrupo de \\( H \\) que es isomorfo a un cociente de \\( G \\). Sin embargo, un grupo finito no puede tener un subgrupo isomorfo a un grupo infinito, ya que los subgrupos de un grupo finito tambi\u00e9n son finitos. Por lo tanto, la declaraci\u00f3n 2 es verdadera.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_47",
+    "lang": "es",
+    "prompt": "Question: Encuentra todos los c en Z_3 tales que Z_3[x]/(x^3 + x^2 + c) sea un campo.\nChoice A: 0\nChoice B: 2\nChoice C: 1\nChoice D: 3\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para que \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + c) \\) sea un campo, el polinomio \\( x^3 + x^2 + c \\) debe ser irreducible sobre \\( \\mathbb{Z}_3 \\).\n\nPrimero, probamos cada valor de \\( c \\) en \\( \\mathbb{Z}_3 \\) (es decir, \\( c = 0, 1, 2 \\)) y verificamos si el polinomio es irreducible.\n\n1. **Para \\( c = 0 \\):**\n   \\[\n   x^3 + x^2 = x^2(x + 1)\n   \\]\n   Este polinomio es claramente reducible, ya que se puede factorizar.\n\n2. **Para \\( c = 1 \\):**\n   \\[\n   x^3 + x^2 + 1\n   \\]\n   Verificamos si tiene ra\u00edces en \\( \\mathbb{Z}_3 \\):\n   - Para \\( x = 0 \\): \\( 0^3 + 0^2 + 1 = 1 \\neq 0 \\)\n   - Para \\( x = 1 \\): \\( 1^3 + 1^2 + 1 = 3 \\equiv 0 \\pmod{3} \\)\n   - Para \\( x = 2 \\): \\( 2^3 + 2^2 + 1 = 8 + 4 + 1 = 13 \\equiv 1 \\pmod{3} \\neq 0 \\)\n\n   El polinomio tiene una ra\u00edz en \\( x = 1 \\), por lo que es reducible.\n\n3. **Para \\( c = 2 \\):**\n   \\[\n   x^3 + x^2 + 2\n   \\]\n   Verificamos si tiene ra\u00edces en \\( \\mathbb{Z}_3 \\):\n   - Para \\( x = 0 \\): \\( 0^3 + 0^2 + 2 = 2 \\neq 0 \\)\n   - Para \\( x = 1 \\): \\( 1^3 + 1^2 + 2 = 4 \\equiv 1 \\pmod{3} \\neq 0 \\)\n   - Para \\( x = 2 \\): \\( 2^3 + 2^2 + 2 = 8 + 4 + 2 = 14 \\equiv 2 \\pmod{3} \\neq 0 \\)\n\n   No tiene ra\u00edces en \\( \\mathbb{Z}_3 \\), por lo que es irreducible.\n\nPor lo tanto, el \u00fanico valor de \\( c \\) para el cual \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + c) \\) es un campo es \\( c = 2 \\).\n\nLa respuesta correcta es \\( \\text{B} \\).",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_48",
+    "lang": "es",
+    "prompt": "Question: Declaraci\u00f3n 1 | Si un R es un dominio integral, entonces R[x] es un dominio integral. Declaraci\u00f3n 2 | Si R es un anillo y f(x) y g(x) est\u00e1n en R[x], entonces deg (f(x)g(x)) = deg f(x) + deg g(x).\nChoice A: Verdadero, Verdadero\nChoice B: Falso, Falso\nChoice C: Verdadero, Falso\nChoice D: Falso, Verdadero\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Verdadero, Falso\n\nExplicaci\u00f3n:\n\nDeclaraci\u00f3n 1: Verdadero. Si \\( R \\) es un dominio integral, entonces \\( R[x] \\), el anillo de polinomios con coeficientes en \\( R \\), tambi\u00e9n es un dominio integral. Esto se debe a que la propiedad de ser un dominio integral (no tener divisores de cero) se preserva al pasar a los polinomios.\n\nDeclaraci\u00f3n 2: Falso. La declaraci\u00f3n es generalmente verdadera solo si los polinomios \\( f(x) \\) y \\( g(x) \\) no son el polinomio cero. Si uno de los polinomios es el polinomio cero, entonces el producto tambi\u00e9n es el polinomio cero, y la definici\u00f3n de grado para el polinomio cero es \\(-\\infty\\), lo que no coincide con la suma de los grados de \\( f(x) \\) y \\( g(x) \\) si ambos son no cero.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_49",
+    "lang": "es",
+    "prompt": "Question: Encuentra el orden m\u00e1ximo posible para alg\u00fan elemento de Z_8 x Z_10 x Z_24.\nChoice A: 8\nChoice B: 120\nChoice C: 240\nChoice D: 24\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Para encontrar el orden m\u00e1ximo posible de un elemento en el grupo \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\), debemos considerar los \u00f3rdenes de los elementos en cada componente y luego calcular el m\u00ednimo com\u00fan m\u00faltiplo (mcm) de estos \u00f3rdenes.\n\n1. **\u00d3rdenes posibles en \\( \\mathbb{Z}_8 \\):** Los elementos de \\( \\mathbb{Z}_8 \\) pueden tener \u00f3rdenes 1, 2, 4, o 8.\n\n2. **\u00d3rdenes posibles en \\( \\mathbb{Z}_{10} \\):** Los elementos de \\( \\mathbb{Z}_{10} \\) pueden tener \u00f3rdenes 1, 2, 5, o 10.\n\n3. **\u00d3rdenes posibles en \\( \\mathbb{Z}_{24} \\):** Los elementos de \\( \\mathbb{Z}_{24} \\) pueden tener \u00f3rdenes 1, 2, 3, 4, 6, 8, 12, o 24.\n\nPara maximizar el orden de un elemento \\((a, b, c)\\) en \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\), buscamos maximizar el mcm de los \u00f3rdenes de \\(a\\), \\(b\\), y \\(c\\).\n\n- Supongamos que \\(a\\) tiene orden 8 en \\( \\mathbb{Z}_8 \\).\n- Supongamos que \\(b\\) tiene orden 10 en \\( \\mathbb{Z}_{10} \\).\n- Supongamos que \\(c\\) tiene orden 24 en \\( \\mathbb{Z}_{24} \\).\n\nEl orden del elemento \\((a, b, c)\\) es \\( \\text{mcm}(8, 10, 24) \\).\n\nCalculemos el mcm:\n\n- Descomposici\u00f3n en factores primos:\n  - \\(8 = 2^3\\)\n  - \\(10 = 2 \\times 5\\)\n  - \\(24 = 2^3 \\times 3\\)\n\n- Para el mcm, tomamos el mayor exponente de cada factor primo:\n  - \\(2^3\\) (de 8 y 24)\n  - \\(3^1\\) (de 24)\n  - \\(5^1\\) (de 10)\n\nPor lo tanto, el mcm es \\(2^3 \\times 3^1 \\times 5^1 = 8 \\times 3 \\times 5 = 120\\).\n\nPor lo tanto, el orden m\u00e1ximo posible de un elemento en \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\) es 120.\n\nLa respuesta correcta es \\( \\text{B} \\).",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  }
+]

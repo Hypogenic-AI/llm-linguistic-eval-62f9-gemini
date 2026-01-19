@@ -1,0 +1,13 @@
+\section{Discussion}
+
+\subsection{The ``Translation Tax'' vs. Representation Failure}
+Our results highlight two distinct regimes of multilingual performance.
+In the first regime (High/Mid Resource), the model effectively pays a ``translation tax.'' It successfully maps the input to its core reasoning engine. Errors here are largely shared: if the core engine cannot solve the reasoning puzzle in English, it fails similarly in the target language. The slight performance drops (e.g., Chinese vs English) can be attributed to imperfect mapping (translation noise).
+
+In the second regime (Low Resource, e.g., Tamil), we observe ``representation failure.'' The input is not effectively mapped to the core concept space. The errors are uncorrelated because the model isn't reasoning about the same concept anymore; it is likely hallucinating based on surface-level statistics of the target language tokens.
+
+\subsection{Implications for Deployment}
+For mid-resource languages like Vietnamese or Indonesian, reliability improvements can likely be achieved by improving the alignment/translation layers, as the core reasoning seems accessible. For low-resource languages like Tamil, however, superficial alignment is insufficient. The lack of error correlation suggests a fundamental disconnect, requiring more extensive pre-training on native corpora to build robust initial representations.
+
+\subsection{Limitations}
+Our sample size (N=50) was limited by API costs, though sufficient for detecting large effect sizes in SMR. We also relied on the alignment quality of MuBench; while high, any translation errors in the dataset itself could lower the measured Agreement. Finally, we only evaluated one model family (GPT-4o); open weights models might exhibit different behaviors.

@@ -1,811 +1,452 @@
-{
-  "model": "gpt-4o",
-  "language": "ko",
-  "resource_level": "mid",
-  "total_questions": 100,
-  "correct": 84,
-  "accuracy": 0.84,
-  "responses": [
-    {
-      "question_id": "test_6853",
-      "prompt": "Question: \ub2e4\ud56d \ud68c\uadc0\uc5d0\uc11c, \uacfc\uc18c\uc801\ud569\uacfc \uacfc\uc801\ud569 \uac04\uc758 \uade0\ud615\uc5d0 \uac00\uc7a5 \uc601\ud5a5\uc744 \ubbf8\uce58\ub294 \uad6c\uc870\uc801 \uac00\uc815\uc740 \ub2e4\uc74c \uc911 \uc5b4\ub290 \uac83\uc785\ub2c8\uae4c:\nChoice A: \ub2e4\ud56d\uc2dd \ucc28\uc218\nChoice B: \ud589\ub82c \uc5ed\ud589 \ub610\ub294 \uacbd\uc0ac \ud558\uac15\ubc95\uc73c\ub85c \uac00\uc911\uce58\ub97c \ud559\uc2b5\ud558\ub294\uc9c0 \uc5ec\ubd80\nChoice C: \uac00\uc6b0\uc2dc\uc548 \ub178\uc774\uc988\uc758 \uac00\uc815\ub41c \ubd84\uc0b0\nChoice D: \uc0c1\uc218 \ud56d \ub2e8\uc704 \uc785\ub825\uc758 \uc0ac\uc6a9\nAnswer with A, B, C ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_646",
-      "prompt": "Question: \uace0\ud1b5\uc2a4\ub7ec\uc6b4 \uc808\ucc28\ub97c \ubc1b\uae30 \uc804\uc5d0 \ud658\uc790\ub294 \ubb34\uc5c7\uc744 \uae30\ub300\ud560 \uc218 \uc788\ub294\uc9c0\uc640 \uace0\ud1b5\uc774 \uc5b4\ub5bb\uac8c \uc870\uc808\ub420 \uac83\uc778\uc9c0\uc5d0 \ub300\ud574 \uc54c\ub824\uc918\uc57c \ud569\ub2c8\ub2e4. \uc774\ub294 \ub2e4\uc74c\uacfc \uad00\ub828\uc774 \uc788\uc2b5\ub2c8\ub2e4:\nChoice A: \ubd88\uc548\uacfc \uc778\uc9c0\ub41c \uace0\ud1b5 \uac15\ub3c4\uc758 \uac10\uc18c.\nChoice B: \uc9c4\ud1b5\uc81c \uc0ac\uc6a9 \uc99d\uac00.\nChoice C: \uba54\uc2a4\uaebc\uc6c0\uacfc \uad6c\ud1a0 \uac19\uc740 \uace0\ud1b5 \uad00\ub828 \ubb38\uc81c\uc758 \ube48\ub3c4 \uac10\uc18c.\nChoice D: \uc18c\ubcc0 \ubc30\ucd9c\ub7c9 \uc99d\uac00...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8489",
-      "prompt": "Question: Van den Haag\ub294 \uc0ac\ud615\uc744 \ubc1b\uc740 \uc0b4\uc778\uc790\uac00\nChoice A: \uc815\ub2f9\ud558\uac8c \ucc98\ubc8c\ubc1b\ub294\uc9c0 \uc54c \uc218 \uc5c6\ub2e4\uace0 \uc0dd\uac01\ud569\ub2c8\ub2e4.\nChoice B: \ud53c\ud574\uc790\ubcf4\ub2e4 \ub354 \uace0\ud1b5\ubc1b\ub294\uc9c0 \uc54c \uc218 \uc5c6\ub2e4\uace0 \uc0dd\uac01\ud569\ub2c8\ub2e4.\nChoice C: \ub3c4\ub355\uc801\uc73c\ub85c \ud0c0\ub77d\ud558\ub294\uc9c0 \uc54c \uc218 \uc5c6\ub2e4\uace0 \uc0dd\uac01\ud569\ub2c8\ub2e4.\nChoice D: \uacfc\ub3c4\ud558\uac8c \ucc98\ubc8c\ubc1b\ub294\uc9c0 \uc54c \uc218 \uc5c6\ub2e4\uace0 \uc0dd\uac01\ud569\ub2c8\ub2e4.\nAnswer with A, B...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_3899",
-      "prompt": "Question: \uc815\ubd80\ub294 \uc778\ud50c\ub808\uc774\uc158\uc744 \uce21\uc815\ud558\uae30 \uc704\ud574\nChoice A: GNP\nChoice B: URL\nChoice C: CPI\nChoice D: FED\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3329",
-      "prompt": "Question: \uc774 \uc9c8\ubb38\uc740 \ub2e4\uc74c \uc815\ubcf4\ub97c \ucc38\uc870\ud569\ub2c8\ub2e4.\n\ub2e4\uc74c \ubc1c\ucdcc\ubb38\uc744 \uc77d\uc73c\uc2ed\uc2dc\uc624.\n\ud601\uba85\uc801\uc778 \uc528\uc557\uc740 \ubaa8\ub4e0 \ub098\ub77c\uc5d0 \uce68\ud22c\ud558\uc5ec \uc5b4\ub290 \uc815\ub3c4 \ud37c\uc84c\uc2b5\ub2c8\ub2e4. \uadf8\uac83\uc740 \ubcf4\ub098\ud30c\ub974\ud2b8\uc758 \uad70\uc0ac \ub3c5\uc7ac \uccb4\uc81c \uc544\ub798\uc5d0\uc11c \ud06c\uac8c \ubc1c\uc804\ud588\uc2b5\ub2c8\ub2e4. \uadf8\uc758 \uc815\ubcf5\uc740 \ub9ce\uc740 \ubc95\ub960, \uc81c\ub3c4, \uad00\uc2b5\uc744 \ub300\uccb4\ud588\uc2b5\ub2c8\ub2e4; \ubaa8\ub4e0 \uad6d\uac00\ub4e4 \uc0ac\uc774\uc5d0\uc11c \uc2e0\uc131\ud55c \uc720\ub300\uac10\uc744 \uae68\ub728\ub838\uace0, \uc2dc\uac04 \uc790\uccb4\ub97c \uc800\ud56d\ud560 \ub9cc\ud07c \uac15\ub825\ud588\uc2b5\ub2c8\ub2e4; \uc774\ub294 \uc774\ub7ec\ud55c...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8297",
-      "prompt": "Question: Richardson-Self\ub294 \uc131\ucc28\ubcc4\uc801 \ubc1c\uc5b8\uc774\nChoice A: \ud56d\uc0c1 \uc99d\uc624 \ubc1c\uc5b8\uc774\ub77c\uace0 \uc8fc\uc7a5\ud569\ub2c8\ub2e4, \uc65c\ub0d0\ud558\uba74 \uadf8\uac83\uc740 \ud3ed\ub825\uc744 \uc218\ubc18\ud558\uae30 \ub54c\ubb38\uc785\ub2c8\ub2e4.\nChoice B: \ud56d\uc0c1 \uc99d\uc624 \ubc1c\uc5b8\uc774 \uc544\ub2c8\ub77c\uace0 \uc8fc\uc7a5\ud569\ub2c8\ub2e4, \uc65c\ub0d0\ud558\uba74 \uadf8\uac83\uc740 \ud3ed\ub825\uc744 \uc218\ubc18\ud558\uc9c0 \uc54a\uae30 \ub54c\ubb38\uc785\ub2c8\ub2e4.\nChoice C: \ud56d\uc0c1 \uc99d\uc624 \ubc1c\uc5b8\uc774\ub77c\uace0 \uc8fc\uc7a5\ud569\ub2c8\ub2e4, \uc65c\ub0d0\ud558\uba74 \uadf8\uac83\uc740 \ud3ed\ub825\uc744 \uc218\ubc18\ud558\uc9c0 \uc54a\uae30 ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6250",
-      "prompt": "Question: \uba54\uc2dc\uc9c0(\uc608: \ub0b4\uc77c \ube44\uac00 \uc62c \uac70\ub77c\ub294)\ub97c \ubc1b\uc740 \ub178\uc778\uc774 \ub2e4\ub978 \uc0ac\ub78c\uc5d0\uac8c \uc774\uc57c\uae30\ud560 \ub54c \uac00\uc7a5 \uae30\uc5b5\ud560 \uac00\ub2a5\uc131\uc774 \ub192\uc740 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \ube44\uac00 \uc62c \uac70\ub77c\uace0 \ub9d0\ud55c \uc0ac\ub78c\nChoice B: \uba54\uc2dc\uc9c0\ub97c \ubc1b\uc558\uc744 \ub54c \uc788\uc5c8\ub358 \uc7a5\uc18c\nChoice C: \uba54\uc2dc\uc9c0\uc758 \ub0b4\uc6a9\nChoice D: \uba54\uc2dc\uc9c0\ub97c \ubc1b\uc740 \uc2dc\uac04\nAnswer with A, B, C or D:\nAnsw...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5313",
-      "prompt": "Question: \ub180\ub77c\uc6c0\uc774\ub098 \ucda9\uaca9\uc5d0 \ub300\ud55c \uc0dd\ub9ac\uc801 \ubc18\uc751\uc740 \uc2e0\uacbd\uacc4\uc758 \ub2e4\uc74c \uc911 \uc5b4\ub290 \ubd80\ubd84\uc5d0 \uc758\ud574 \uac00\uc7a5 \ub9ce\uc774 \uc870\uc808\ub429\ub2c8\uae4c?\nChoice A: \uccb4\uc131 \uc2e0\uacbd\uacc4\nChoice B: \uad50\uac10 \uc2e0\uacbd\uacc4\nChoice C: \ub0b4\ubd84\ube44\uacc4\nChoice D: \uc138\ub85c\ud1a0\ub2cc \uc2dc\uc2a4\ud15c\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3988",
-      "prompt": "Question: \ubbf8\uad6d \uacbd\uc81c\ub294 \ud604\uc7ac \uacbd\uae30 \uce68\uccb4\uc640 \uc608\uc0b0 \uc801\uc790\ub97c \uacaa\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc815\ubd80\uac00 \uacbd\uae30 \uce68\uccb4\ub97c \ud574\uacb0\ud558\uace0\uc790 \ud560 \ub54c, \ub2e4\uc74c \uc120\ud0dd\uc9c0 \uc911 \uc801\uc808\ud55c \uc7ac\uc815 \uc815\ucc45, \ub300\ucd9c \uac00\ub2a5\ud55c \uc790\uae08 \uc2dc\uc7a5\uc5d0 \ub300\ud55c \uc601\ud5a5, \uc774\uc790\uc728, \ubbf8\uad6d \ub2ec\ub7ec \uc2dc\uc7a5\uc744 \uac00\uc7a5 \uc798 \uc124\uba85\ud558\ub294 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c? \uc7ac\uc815 \uc815\ucc45 \u00a0\u00a0\u00a0 \ub300\ucd9c \uac00\ub2a5\ud55c \uc790\uae08 \u00a0\u00a0\u00a0 \uc774\uc790\uc728 \u00a0\u00a0\u00a0 \ubbf8\uad6d \ub2ec\ub7ec \uc2dc\uc7a5\nChoice A: \uc138\uae08 \uc778\uc0c1 \u00a0\u00a0...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3907",
-      "prompt": "Question: \uc138\uae08 \uc2b9\uc218\uc758 \ud06c\uae30\uac00 \uc99d\uac00\ud560 \ub54c\nChoice A: MPS\uac00 \uc99d\uac00\ud560 \ub54c.\nChoice B: \uc9c0\ucd9c \uc2b9\uc218\uac00 \uac10\uc18c\ud560 \ub54c.\nChoice C: MPC\uac00 \uc99d\uac00\ud560 \ub54c.\nChoice D: \uc815\ubd80 \uc9c0\ucd9c\uc774 \uc99d\uac00\ud560 \ub54c.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_391",
-      "prompt": "Question: _______ \ub294 \uc790\uc5f0\uc801 \ub300\uc751\ubb3c\uacfc \ube44\uc2b7\ud558\uac8c, \uc0c1\ud638 \uc758\uc874\ud558\ub294 \uc720\uae30\uccb4\uc640 \uadf8 \ud658\uacbd\uc758 \uade0\ud615 \uc7a1\ud78c \ub124\ud2b8\uc6cc\ud06c\ub85c \uad6c\uc131\ub418\uc5b4 \uc788\uc5b4, \uae30\uc5c5\uacfc \uc0b0\uc5c5\uc774 \ubaa8\ub4e0 \uc885\ub958\uc758 \uc790\uc6d0\uacfc \ud3d0\uae30\ubb3c\ub85c \uc778\ud574 \uc11c\ub85c \ubb36\uc5ec \uc788\uace0 \uc0c1\ud638 \uc758\uc874\uc801\uc774\ub77c\ub294 \uc810\uc744 \uace0\ub824\ud558\uc5ec \uc9c0\uc18d \uac00\ub2a5\uc131 \uc0ac\uace0\uc5d0 \uac00\uce58\ub97c \ub354\ud569\ub2c8\ub2e4.\nChoice A: \uc0b0\uc5c5 \uacf5\uae09 \ub8e8\ud504\nChoice B: \uc0b0\uc5c5 \uc0dd\ud0dc\uacc4\nChoice C: \uc0dd\ud0dc \uc0dd...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12350",
-      "prompt": "Question: \uc870\uc120\uc18c \uadfc\ub85c\uc790\ub4e4\uc758 \uc911\ud53c\uc885\uc744 \ud3c9\uac00\ud558\uae30 \uc704\ud55c \uc5f0\uad6c\uac00 \uc9c4\ud589 \uc911\uc785\ub2c8\ub2e4. \ub300\ud615 \uc870\uc120\uc18c \ud68c\uc0ac\ub294 \uc9c0\ub09c 50\ub144 \ub3d9\uc548 \ubaa8\ub4e0 \uc9c1\uc6d0\uc758 \uc11d\uba74 \ub178\ucd9c \uae30\ub85d\uc744 \uc81c\uacf5\ud588\uc2b5\ub2c8\ub2e4. \uadfc\ub85c\uc790\uc758 \uac74\uac15 \ubcf4\ud5d8\uc0ac\ub294 \ud604\uc7ac \uadfc\ub85c\uc790\uc640 \ud1f4\uc9c1\uc790 \uc911 \uc911\ud53c\uc885 \uc9c4\ub2e8\uc744 \ubc1b\uc740 \ubaa8\ub4e0 \ud749\ubd80 \uc5d1\uc2a4\ub808\uc774\uc640 \uc9c4\ub2e8\uc744 \ubb38\uc11c\ud654\ud55c \uccad\uad6c \ub370\uc774\ud130\ub97c \uc81c\uacf5\ud588\uc2b5\ub2c8\ub2e4. \uc5f0\uad6c\ub294 \uc911\ud53c\uc885 \uc9c4\ub2e8\uc744 \ubc1b\uc740 \uc870\uc120\uc18c \uadfc\ub85c\uc790\uc640 \uc911\ud53c\uc885 \uc9c4\ub2e8\uc744 \ubc1b...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3218",
-      "prompt": "Question: \ud559\uad50\uc5d0 \ub4f1\ub85d\ud558\ub294 \uac01 \ud559\uc0dd\uc740 \uace0\uc720\ud55c ID \ubc88\ud638\ub97c \ubd80\uc5ec\ubc1b\uc73c\uba70, \uc774\ub294 \uc774\uc9c4\uc218\ub85c \uc800\uc7a5\ub429\ub2c8\ub2e4. \uc0c8\ub85c \ub4f1\ub85d\ud55c \uac01 \ud559\uc0dd\ub9c8\ub2e4 ID \ubc88\ud638\ub294 1\uc529 \uc21c\ucc28\uc801\uc73c\ub85c \uc99d\uac00\ud569\ub2c8\ub2e4. \ub9c8\uc9c0\ub9c9\uc73c\ub85c \ub4f1\ub85d\ud55c \ud559\uc0dd\uc5d0\uac8c \ubd80\uc5ec\ub41c ID \ubc88\ud638\uac00 \uc774\uc9c4\uc218 1001 0011\uc774\uc5c8\ub2e4\uba74, \ub2e4\uc74c\uc5d0 \ub4f1\ub85d\ud558\ub294 \ud559\uc0dd\uc5d0\uac8c \ubd80\uc5ec\ub420 \uc774\uc9c4\uc218\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: 1001 0100\nChoice B: ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7117",
-      "prompt": "Question: \ub2e4\uc74c \uc6a9\uc5b4 \uc911 \ubbf8\ub514\uc5b4 \ud615\ud0dc\uc5d0 \uc758\ud574 \ud68c\uc0ac, \uc81c\ud488 \ub610\ub294 \uc11c\ube44\uc2a4\uc758 \uc720\ub8cc \uc5b8\uae09\uc744 \uc758\ubbf8\ud558\ub294 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uad11\uace0\nChoice B: \ud64d\ubcf4\nChoice C: \uc81c3\uc790 \ubcf4\uc99d\nChoice D: \uacfc\uc7a5 \uad11\uace0\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5777",
-      "prompt": "Question: \uc774 \uc9c8\ubb38\uc740 \ub2e4\uc74c \uc815\ubcf4\ub97c \ucc38\uc870\ud569\ub2c8\ub2e4.\n\"\ub0b4\uac00 \uc5b4\ub514\ub97c \uac00\ub4e0\u2014\uac70\ub9ac, \uc0c1\uc810, \uc9d1, \ub610\ub294 \uc99d\uae30\uc120\u2014\uc0ac\ub78c\ub4e4\uc774 \ud751\uc778\uc774 \uc804\ud600 \uad8c\ub9ac\ub97c \uac00\uc9c0\uace0 \uc788\uc9c0 \uc54a\ub2e4\uace0 \uc0dd\uac01\ud558\ub294 \ubc29\uc2dd\uc73c\ub85c \uc774\uc57c\uae30\ud558\ub294 \uac83\uc744 \ub4e3\uc2b5\ub2c8\ub2e4. \ubc31\uc778 \uc774\uc6c3\uacfc\uc758 \uac70\ub798\uc5d0\uc11c \uba85\uc608\ub85c\uc6b4 \uc0ac\ub78c\ub4e4\uc740 \ud751\uc778\uc744 \uc18d\uc5ec\ub3c4 \uba85\uc608\uc5d0 \ub300\ud55c \ub2e8 \ud55c \ubc88\uc758 \ucc0c\ub9bf\ud568\ub3c4 \ub290\ub07c\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \ud751\uc778\uc744 \uc8fd\uc774\ub294 \uac83\uc744 \uc0b4\uc778\uc73c\ub85c \uc5ec\uae30\uc9c0 \uc54a\uc73c\uba70, \ud751\uc778 \uc5ec...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4857",
-      "prompt": "Question: \ubb3c\uccb4\uc758 \uc704\uce58\ub294 x = 2.0t^3 + 4.0t + 6.25\uc758 \ubc29\uc815\uc2dd\uc73c\ub85c \uc8fc\uc5b4\uc9c0\uba70, \uc5ec\uae30\uc11c x\ub294 \ubbf8\ud130\uc774\uace0 t\ub294 \ucd08\uc785\ub2c8\ub2e4. t = 1.50 s\uc5d0\uc11c \ubb3c\uccb4\uc758 \uac00\uc18d\ub3c4\ub294 \uc5bc\ub9c8\uc785\ub2c8\uae4c?\nChoice A: 6 m/s^2\nChoice B: 12 m/s^2\nChoice C: 18 m/s^2\nChoice D: 24 m/s^2\nAnswer with A, B, C...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1149",
-      "prompt": "Question: \ub0b4\uc811\uc6d0\uc774 \ubc18\uc9c0\ub984 2\uc778 \uc815\uc0bc\uac01\ud615\uc758 \ub113\uc774\ub294 \uc5bc\ub9c8\uc785\ub2c8\uae4c?\nChoice A: 12\nChoice B: 16\nChoice C: 12*sqrt(3)\nChoice D: 16*sqrt(3)\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4866",
-      "prompt": "Question: \uc790\ub3d9\ucc28\uac00 \uade0\uc77c\ud55c \ubc18\uc9c0\ub984\uc758 \uacbd\uc0ac \uace1\uc120\uc744 \ub3cc\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc138 \uac00\uc9c0 \ud798\uc774 \uc790\ub3d9\ucc28\uc5d0 \uc791\uc6a9\ud569\ub2c8\ub2e4: \ud0c0\uc774\uc5b4\uc640 \ub3c4\ub85c \uc0ac\uc774\uc758 \ub9c8\ucc30\ub825, \ub3c4\ub85c\uc5d0\uc11c \uc624\ub294 \uc218\uc9c1\ub825, \uadf8\ub9ac\uace0 \uc790\ub3d9\ucc28\uc758 \ubb34\uac8c. \uc790\ub3d9\ucc28\ub97c \uc6d0\uc6b4\ub3d9 \uc0c1\ud0dc\ub85c \uc720\uc9c0\ud558\ub294 \uad6c\uc2ec\ub825\uc744 \uc81c\uacf5\ud558\ub294 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \ub9c8\ucc30\ub825\ub9cc\nChoice B: \uc218\uc9c1\ub825\ub9cc\nChoice C: \ubb34\uac8c\ub9cc\nChoice D: \uc218\uc9c1\ub825\uacfc ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_6278",
-      "prompt": "Question: \ub2e4\uc74c \uc720\ud615\uc758 \uae30\uc5b5 \uc911 \uace0\ub839\ud654\uc640 \ud568\uaed8 \uac00\uc7a5 \ud070 \uacb0\ud54d\uc744 \ubcf4\uc774\ub294 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uac10\uac01 \uae30\uc5b5\nChoice B: \uc77c\ud654 \uae30\uc5b5\nChoice C: \uc758\ubbf8 \uae30\uc5b5\nChoice D: \uc808\ucc28 \uae30\uc5b5\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11994",
-      "prompt": "Question: \ubcbd\ub3cc\uacf5\uc774 \uc5f0\uac04 \uae09\uc5ec $45,000\uc73c\ub85c 1\ub144 \uacc4\uc57d\uc11c\uc5d0 \ub530\ub77c \uac74\ucd95\uc5c5\uc790\uc5d0\uac8c \uace0\uc6a9\ub418\uc5c8\uc73c\uba70, \uace0\uc6a9\uc740 3\uc6d4 1\uc77c\ubd80\ud130 \uc2dc\uc791\ub429\ub2c8\ub2e4. \uac74\ucd95\uc5c5\uc790\uac00 3\uc6d4 1\uc77c\ubd80\ud130 \uc2dc\uc791\ub418\ub294 \uc2dc\uc98c \ub3d9\uc548 \ubaa8\ub4e0 \uc9c1\uc6d0\ub4e4\uc744 \ubc14\uc058\uac8c \uc720\uc9c0\ud560 \ub9cc\ud07c \ucda9\ubd84\ud55c \uac74\uc124 \uacc4\uc57d\uc744 \ud655\ubcf4\ud560 \uc218 \uc5c6\uc5c8\uae30 \ub54c\ubb38\uc5d0, 2\uc6d4 15\uc77c\uc5d0 \ubcbd\ub3cc\uacf5\uc5d0\uac8c \uadf8\ub97c \ubcbd\ub3cc\uacf5\uc73c\ub85c \uace0\uc6a9\ud560 \uc5ec\uc720\uac00 \uc5c6\ub2e4\uace0 \ud1b5\uc9c0\ud588\uc2b5\ub2c8\ub2e4. \uadf8\ub7ec\ub098 \ub3d9\uc2dc\uc5d0 \uac74\ucd95\uc5c5...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9424",
-      "prompt": "Question: \ud06c\ub860\ubcd1:\nChoice A: \ud56d\uc0c1 \ub300\uc7a5\uc744 \uce68\ubc94\ud55c\ub2e4\nChoice B: \uc7a5 \ud3d0\uc1c4\ub97c \ucd08\ub798\ud560 \uc218 \uc788\ub2e4\nChoice C: \uc218\uc220\ub85c \uac00\uc7a5 \uc798 \uce58\ub8cc\ub41c\ub2e4\nChoice D: \uae00\ub8e8\ud150 \ud504\ub9ac \uc2dd\ub2e8\uc774 \ud544\uc694\ud558\ub2e4\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7137",
-      "prompt": "Question: \uad6d\uc81c \uc2dc\uc7a5 \uc870\uc0ac\ub97c \uc218\ud589\ud560 \ub54c, \uc138 \uac00\uc9c0 \uc720\ud615\uc758 \ub4f1\uac00\uc131\uc774 \uc788\uc2b5\ub2c8\ub2e4. \ub2e4\uc74c \uc911 \ub4f1\uac00\uc131\uc5d0 \ud574\ub2f9\ud558\uc9c0 \uc54a\ub294 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uac1c\ub150\uc801 \ub4f1\uac00\uc131.\nChoice B: \uc2dc\uc7a5 \ub4f1\uac00\uc131.\nChoice C: \uae30\ub2a5\uc801 \ub4f1\uac00\uc131.\nChoice D: \ubc88\uc5ed \ub4f1\uac00\uc131.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12692",
-      "prompt": "Question: Gregory Herek (1992)\uc5d0 \ub530\ub974\uba74, \ub3d9\uc131\uc560\uc790\uc5d0 \ub300\ud55c \ud3ed\ub825\uc740 \ub2e4\uc74c\uc5d0 \uae30\uc778\ud55c\ub2e4:\nChoice A: \uc774\uc131\uc560\uc8fc\uc758.\nChoice B: \ub3d9\uc131\uc560 \ud610\uc624.\nChoice C: \ud3b8\uacac.\nChoice D: \ub099\uc778.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9874",
-      "prompt": "Question: \ud0a4\ucf00\ub85c\uc5d0 \ub530\ub974\uba74, \ucca0\ud559\uc758 \uac00\uc7a5 \uc2e4\uc6a9\uc801\uc778 \ubd84\uc57c\ub294 \ub2e4\uc74c\uacfc \uad00\ub828\uc774 \uc788\uc2b5\ub2c8\ub2e4:\nChoice A: \ub17c\ub9ac.\nChoice B: \uc790\uc5f0 \uacfc\ud559.\nChoice C: \ub3c4\ub355\uc801 \uc758\ubb34.\nChoice D: \ud3b8\uc758.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5872",
-      "prompt": "Question: \uc774 \uc9c8\ubb38\uc740 \ub2e4\uc74c \uc815\ubcf4\ub97c \ucc38\uc870\ud569\ub2c8\ub2e4.\n\ud504\ub791\uc2a4 \ud601\uba85\uc758 \uc774 \uc704\ub300\ud55c \uc21c\uc218\uc131\uc740 \ubc14\ub85c \uc6b0\ub9ac\uc758 \uac15\uc810\uacfc \uc57d\uc810\uc758 \uc6d0\uc778\uc785\ub2c8\ub2e4. \uc6b0\ub9ac\uc758 \uac15\uc810\uc740 \uadf8\uac83\uc774 \uacf5\uc775\uc5d0 \ub300\ud55c \uad8c\ub9ac\ub97c \uc0ac\uc775\ubcf4\ub2e4 \uc6b0\uc120\uc2dc\ud558\uac8c \ud574\uc8fc\uae30 \ub54c\ubb38\uc774\uace0, \uc6b0\ub9ac\uc758 \uc57d\uc810\uc740 \uadf8\uac83\uc774 \ubaa8\ub4e0 \uc545\ud55c \uc0ac\ub78c\ub4e4\uc744 \uc6b0\ub9ac\uc5d0\uac8c \ub300\ud56d\ud558\uac8c \ub9cc\ub4e4\uae30 \ub54c\ubb38\uc785\ub2c8\ub2e4. \uc6b0\ub9ac\ub294 \uacf5\ud654\uad6d\uc758 \ub0b4\ubd80\uc640 \uc678\ubd80\uc758 \uc801\ub4e4\uc744 \uc9c4\uc555\ud558\uac70\ub098 \uacf5\ud654\uad6d\uacfc \ud568\uaed8 \uba78\ub9dd\ud574\uc57c \ud569...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_461",
-      "prompt": "Question: \uc724\ub9ac\uc801 ________ \uac1d\uad00\uc801 \ub3c4\ub355 \uc6d0\uce59\uc740 \ud569\ub9ac\uc801\uc73c\ub85c \uacb0\uc815\ub420 \uc218 \uc788\ub294 \ubc18\uba74, \uc724\ub9ac\uc801 ________ \ub3c4\ub355\uc131\uc740 \uc0c1\ud669\uc5d0 \ub530\ub77c \ub2e4\ub974\uace0 \uc8fc\uad00\uc801\uc774\ub2e4.\nChoice A: \uaddc\ubc94\uc131, \uc0c1\ub300\uc8fc\uc758\nChoice B: \uc808\ub300\uc8fc\uc758, \uc0c1\ub300\uc8fc\uc758\nChoice C: \uc0c1\ub300\uc8fc\uc758, \uc808\ub300\uc8fc\uc758\nChoice D: \uc808\ub300\uc8fc\uc758, \uaddc\ubc94\uc131\nAnswer with A, B, C or D:\nAns...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1908",
-      "prompt": "Question: \ub2e4\uc74c \uc911 \uc9c8\ubb38 21\uc5d0 \uc8fc\uc5b4\uc9c4 \ubaa8\ub378\uc758 \uc808\ud3b8 \ud56d\uc5d0 \ub300\ud55c 95% (\uc591\uce21) \uc2e0\ub8b0 \uad6c\uac04\uc73c\ub85c \uac00\uc7a5 \uc801\uc808\ud55c \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: (-4.79,2.19)\nChoice B: (-4.16,4.16)\nChoice C: (-1.98,1.98)\nChoice D: (-5.46,2.86)\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4567",
-      "prompt": "Question: \ub3c5\uc810 \uae30\uc5c5\uc774 \ub354 \ub9ce\uc740 \uc81c\ud488\uc744 \ud310\ub9e4\ud558\uae30 \uc704\ud574 \uac00\uaca9\uc744 \ub0ae\ucdb0\uc57c \ud558\ub294 \ud544\uc694\uc131\uc740 \uc65c \uc124\uba85\ub429\ub2c8\uae4c?\nChoice A: \ub3c5\uc810 \uae30\uc5c5\uc774 \uacf5\uacf5 \uc720\ud2f8\ub9ac\ud2f0\uc5d0\uc11c \ud754\ud55c \uc774\uc720\nChoice B: \ub3c5\uc810 \uae30\uc5c5\uc758 \ud55c\uacc4 \uc218\uc775 \uace1\uc120\uc774 \uc218\uc694 \uace1\uc120 \uc544\ub798\uc5d0 \uc788\ub294 \uc774\uc720\nChoice C: \ub3c5\uc810 \uae30\uc5c5\uc758 \ud55c\uacc4 \ube44\uc6a9 \uace1\uc120\uc774 \uc704\ub85c \uae30\uc6b8\uc5b4\uc9c0\ub294 \uc774\uc720\nChoice D: \ub3c5\uc810 \uae30\uc5c5\uc774 \uc2dc\uc7a5 \uc9c0\ubc30\ub825\uc744 \uc720...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2978",
-      "prompt": "Question: \uac10\uc790 \uc870\uac01\uc774 \uc21c\uc218\ud55c \ubb3c\uc774 \ub2f4\uae34 \ube44\ucee4\uc5d0 \ub5a8\uc5b4\uc9d1\ub2c8\ub2e4. \uac10\uc790\uac00 \ubb3c\uc5d0 \uc7a0\uae34 \ud6c4\uc758 \ud65c\ub3d9\uc744 \ub2e4\uc74c \uc911 \uc5b4\ub290 \uac83\uc774 \uc124\uba85\ud569\ub2c8\uae4c?\nChoice A: \ubb3c\uc740 \uac10\uc790\uc5d0\uc11c \uc8fc\ubcc0 \ubb3c\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4.\nChoice B: \ubb3c\uc740 \uc8fc\ubcc0 \ubb3c\uc5d0\uc11c \uac10\uc790\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4.\nChoice C: \uac10\uc790 \uc138\ud3ec\uac00 \uc6d0\ud615\uc9c8 \ubd84\ub9ac\ub429\ub2c8\ub2e4.\nChoice D: \ubb3c \uc18d\uc758 \uc6a9\uc9c8\uc774 \uac10\uc790\ub85c \uc774\ub3d9\ud569\ub2c8\ub2e4.\nAnswer ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10659",
-      "prompt": "Question: \ud55c \uacbd\ucc30\uad00\uc774 10\ub144 \ub3d9\uc548 \ub3c4\uc2dc\uc758 \uacbd\ucc30\uc11c\uc5d0\uc11c \uadfc\ubb34\ud588\uc2b5\ub2c8\ub2e4. \uacbd\ucc30\uad00\uc774 \uc9c1\uc5c5\uc744 \uc218\ub77d\ud588\uc744 \ub54c, \ub3c4\uc2dc\uc758 \uc9c1\uc6d0 \ubcf5\uc9c0 \uacc4\ud68d\uc740 \uc9c1\ubb34 \uad00\ub828 \ubd80\uc0c1\uc73c\ub85c \uc0ac\ub9dd\ud55c \uc9c1\uc6d0\uc758 \ubc30\uc6b0\uc790\uc5d0\uac8c \uc0ac\ub9dd \ud61c\ud0dd\uc744 \uc81c\uacf5\ud588\uc2b5\ub2c8\ub2e4. \uc791\ub144\uc5d0 \ub3c4\uc2dc\ub294 \uc9c1\uc6d0 \ubcf5\uc9c0 \uacc4\ud68d\uc744 \uc218\uc815\ud558\uc5ec \"\uc9c1\uc6d0\uc774 \uc0dd\uba85\uc774\ub098 \uac74\uac15\uc5d0 \uacfc\ub3c4\ud55c \uc704\ud5d8\uc744 \uc81c\uc678\ud558\uace0, \uc758\uc0ac\uac00 \ucc98\ubc29\ud55c \ud569\ub9ac\uc801\uc73c\ub85c \uc774\uc6a9 \uac00\ub2a5\ud55c \uc758\ub8cc \uc11c\ube44\uc2a4\ub97c \uc5b4\ub5a4 \uc774\uc720\ub85c\ub4e0...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4642",
-      "prompt": "Question: \uc815\ubd80\uac00 \ud560\ub85c\uac90 \ud5e4\ub4dc\ub77c\uc774\ud2b8 \uc0dd\uc0b0\uc744 \ubcf4\uc870\ud558\uba74,\nChoice A: \uc218\uc694 \uace1\uc120\uc774 \uc67c\ucabd\uc73c\ub85c \uc774\ub3d9\ud560 \uac83\uc774\ub2e4.\nChoice B: \uc218\uc694 \uace1\uc120\uc774 \uc624\ub978\ucabd\uc73c\ub85c \uc774\ub3d9\ud560 \uac83\uc774\ub2e4.\nChoice C: \uacf5\uae09 \uace1\uc120\uc774 \uc67c\ucabd\uc73c\ub85c \uc774\ub3d9\ud560 \uac83\uc774\ub2e4.\nChoice D: \uacf5\uae09 \uace1\uc120\uc774 \uc624\ub978\ucabd\uc73c\ub85c \uc774\ub3d9\ud560 \uac83\uc774\ub2e4.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_638",
-      "prompt": "Question: \uae30\uad00\uc808\uac1c \ud29c\ube0c\uc758 \ucee4\ud504\uc758 \ubaa9\uc801\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uae30\uad00 \ub0b4\uc5d0\uc11c \uacf5\uae30 \ubc00\ubd09\uc744 \uc0dd\uc131\ud558\uace0 \ud0c0\uc561\uc774\ub098 \uc704 \ub0b4\uc6a9\ubb3c\uc744 \ud761\uc785\ud560 \uc704\ud5d8\uc744 \uc904\uc774\uae30 \uc704\ud574\uc11c\uc785\ub2c8\ub2e4.\nChoice B: \uad6d\uc18c \ubd80\uc885\uc744 \uc904\uc774\uae30 \uc704\ud574\uc11c\uc785\ub2c8\ub2e4.\nChoice C: \uc0bc\ud0a4\ub294 \uac83\uc744 \ub3d5\uae30 \uc704\ud574\uc11c\uc785\ub2c8\ub2e4.\nChoice D: \ud658\uc790\uac00 \ub9d0\ud560 \uc218 \uc788\ub3c4\ub85d \ud558\uae30 \uc704\ud574\uc11c\uc785\ub2c8\ub2e4.\nAnswer with A,...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1795",
-      "prompt": "Question: \ubb34\uc9c0\uac1c\ub294 \ube57\ubc29\uc6b8 \uc18d\uc758 \ube5b\uc774 \uacaa\ub294 \uacb0\uacfc\uc785\ub2c8\ub2e4\nChoice A: \ub0b4\ubd80 \ubc18\uc0ac\nChoice B: \ubd84\uc0b0\nChoice C: \uad74\uc808\nChoice D: \uc774 \ubaa8\ub4e0 \uac83\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11024",
-      "prompt": "Question: \ud56b\ub3c4\uadf8 \uac00\ud310\ub300 \uc6b4\uc601\uc790\uac00 \uc81c\ube75\uc18c\uc5d0 \ub2e4\uc74c\uacfc \uac19\uc740 \uad6c\ub9e4 \uc8fc\ubb38\uc11c\ub97c \ubcf4\ub0c8\uc2b5\ub2c8\ub2e4: \"\ub2e4\uac00\uc624\ub294 \ud734\uc77c \ub3d9\uc548 \uc0ac\uc5c5\uc774 \uc99d\uac00\ud560 \uac83\uc73c\ub85c \uc608\uc0c1\ub429\ub2c8\ub2e4. \ud604\uc7ac \ubaa9\ub85d \uac00\uaca9\uc778 \ub2e4\uc2a4\ub2f9 $6\uc5d0 36\ub2e4\uc2a4\uc758 10\uc778\uce58 \ud56b\ub3c4\uadf8 \ubc88\uc744 \uc989\uc2dc \ubc30\uc1a1\ud574 \uc8fc\uc138\uc694.\" \uad6c\ub9e4 \uc8fc\ubb38\uc11c\ub97c \ubc1b\uc740 \ub2e4\uc74c \ub0a0, \uc81c\ube75\uc18c\ub294 24\ub2e4\uc2a4\uc758 10\uc778\uce58 \ud56b\ub3c4\uadf8 \ubc88\uacfc 12\ub2e4\uc2a4\uc758 8\uc778\uce58 \ud56b\ub3c4\uadf8 \ubc88\uc744 \ubc30\uc1a1\ud588\uc2b5\ub2c8\ub2e4. \uc81c\ube75\uc18c \uc8fc...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7797",
-      "prompt": "Question: \ub2e4\uc74c \uadf8\ub8f9 \uc911 \uc5b4\ub290 \ub3d9\ubb3c\ub4e4\uc774 \ub4f1\ubf08\uc640 \ucc99\uc218\ub97c \uac00\uc9c8 \uc218 \uc788\uc2b5\ub2c8\uae4c?\nChoice A: \uc5f0\uccb4\ub3d9\ubb3c\nChoice B: \ucc99\uc0ad\ub3d9\ubb3c\nChoice C: \ubb34\ucc99\ucd94\ub3d9\ubb3c\nChoice D: \uadf9\ud53c\ub3d9\ubb3c\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6175",
-      "prompt": "Question: \ub2e4\uc74c \uc911 \uac00\uc7a5 \ub192\uc740 \uc720\ubcd1\ub960\uc744 \uac00\uc9c4 \uce58\ub9e4 \uc720\ud615\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uc54c\uce20\ud558\uc774\uba38\nChoice B: \ud608\uad00\uc131\nChoice C: \ud30c\ud0a8\uc2a8\nChoice D: \uc804\ub450\uce21\ub450\uc5fd\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13566",
-      "prompt": "Question: \uc815\uce58 \ubb38\ud654\uc758 \uac1c\ub150\uc740\nChoice A: \uc18c\uc124\uc774\ub098 \uadf8\ub9bc\uacfc \uac19\uc740 \ubb38\ud654\uc801 \uc0b0\ubb3c\uc774 \ucc3d\uc791\uc790\uc758 \uc815\uce58\uc801 \uc774\ub150\uc744 \ubc18\uc601\ud558\ub294 \ubc29\uc2dd\nChoice B: \ubb38\ud654 \uad6c\uc131\uc6d0\ub4e4\uc774 \ub110\ub9ac \uacf5\uc720\ud558\ub294 \uc815\uce58\uc5d0 \ub300\ud55c \uae30\ubcf8\uc801\uc778 \ubbff\uc74c\uacfc \ubc29\ud5a5\nChoice C: \uacf5\uc9c1\uc5d0 \uc788\ub294 \uc0ac\ub78c\ub4e4\uc774 \uacf5\uc720\ud558\ub294 \uc815\uce58\uc801 \uc2e0\ub150\uacfc \ud0dc\ub3c4\nChoice D: \ub300\uc911 \ub9e4\uccb4\uc758 \uc774\ub150\uc801 \ud3b8\ud5a5\nAnswer with A, B, C ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5460",
-      "prompt": "Question: \ud55c \ud68c\uc0ac\uac00 \uc138 \uac00\uc9c0 \ud22c\uc790 \uacc4\ud68d \uc911 \ud558\ub098\ub97c \uc120\ud0dd\ud574\uc57c \ud569\ub2c8\ub2e4. \uc635\uc158 I\uc740 \ud655\uc2e4\ud788 $25,000\uc758 \ud22c\uc790 \uc218\uc775\uc744 \uc81c\uacf5\ud569\ub2c8\ub2e4. \uc635\uc158 II\ub294 $50,000\uc758 \uc218\uc775\uc744 \ubc18\ud658\ud560 \ud655\ub960\uc774 50%\uc774\uace0 $10,000\uc758 \uc218\uc775\uc744 \ubc18\ud658\ud560 \ud655\ub960\uc774 50%\uc785\ub2c8\ub2e4. \uc635\uc158 III\ub294 $100,000\uc758 \uc218\uc775\uc744 \ubc18\ud658\ud560 \ud655\ub960\uc774 5%\uc774\uace0 \uc544\ubb34\uac83\ub3c4 \ubc18\ud658\ud558\uc9c0 \uc54a\uc744 \ud655\ub960\uc774 95%\uc785\ub2c8\ub2e4. \ud68c...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7838",
-      "prompt": "Question: '\uc5ec\uae30\uc5d0 \ub4e4\uc5b4\uc624\ub294 \ubaa8\ub4e0 \ud76c\ub9dd\uc744 \ubc84\ub824\ub77c'\ub77c\ub294 \uc778\uc6a9\uad6c\uc758 \ucd9c\ucc98\ub294 \uc5b4\ub5a4 \ubb38\ud559 \uc791\ud488\uc778\uac00\uc694?\nChoice A: \uc2e4\ub099\uc6d0'\nChoice B: \uc624\uc988\uc758 \ub9c8\ubc95\uc0ac'\nChoice C: \uc2e0\uace1'\nChoice D: \ubca0\uc624\uc6b8\ud504'\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11226",
-      "prompt": "Question: \ud55c \uc8fc\ud0dd \uc18c\uc720\uc790\uac00 1\ub2ec\ub7ec\uc758 \ub300\uac00\ub97c \ubc1b\uace0 \uc790\uc2e0\uc758 \uc9d1\uacfc \uc8fc\ubcc0 \uc7ac\uc0b0\uc744 \uc591\ub3c4\ud558\ub294 \uc99d\uc11c\ub97c \uc791\uc131\ud588\uc73c\uba70, \uadf8 \ub300\uac00\ub97c \uc218\ub839\ud55c \uac83\uc744 \uc778\uc815\ud558\uba74\uc11c \"\ub0b4 \ub538\uc5d0\uac8c \ud3c9\uc0dd \ub3d9\uc548, \uadf8 \ub2e4\uc74c \ub0b4 \uc774\ubaa8\uc5d0\uac8c \ud3c9\uc0dd \ub3d9\uc548, \uadf8\ub7ec\ub098 \ub0b4 \uc774\ubaa8\uac00 \ub2e4\ub978 \uc8fc\ub85c \uc774\uc0ac\ud558\uba74 \ub0b4 \uc774\ubaa8\uc758 \ud3c9\uc0dd \ub3d9\uc548 \ub0b4 \uc5ec\ub3d9\uc0dd\uc5d0\uac8c, \uadf8\ub9ac\uace0 \ub0b4 \uc774\ubaa8\uac00 \ub2e4\ub978 \uc8fc\ub85c \uc774\uc0ac\ud558\uc9c0 \uc54a\uc73c\uba74 \ub0b4 \uc774\ubaa8\uc758 \uc0c1\uc18d\uc778\uc5d0\uac8c, \ub0b4 \uc774\ubaa8\uac00 ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9458",
-      "prompt": "Question: \uc7a5\ub0b4 \ubbf8\uc0dd\ubb3c\uc740 L-\uce74\ub974\ub2c8\ud2f4\uc744 \uc5b4\ub5a4 \ub300\uc0ac\ubb3c\ub85c \ub300\uc0ac\ud558\uc5ec \uc2ec\ud608\uad00 \uc9c8\ud658\uc744 \uc99d\uac00\uc2dc\ud0a4\ub294 \uac83\uc73c\ub85c \ub098\ud0c0\ub0ac\uc2b5\ub2c8\uae4c?\nChoice A: \ucf5c\ub9b0\nChoice B: \ubca0\ud0c0\uc778\nChoice C: \ud2b8\ub9ac\uba54\ud2f8\uc544\ubbfc\nChoice D: \uc704\uc758 \ubaa8\ub4e0 \uac83\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1913",
-      "prompt": "Question: \ubaac\ud14c\uce74\ub97c\ub85c \uc2e4\ud5d8\uc758 \uc77c\ud658\uc73c\ub85c \ub300\uce6d \ubcc0\ub7c9\uc744 \uc0ac\uc6a9\ud558\ub294 \uac83\uc5d0 \uad00\ud55c \ub2e4\uc74c \uc9c4\uc220 \uc911 \uc62c\ubc14\ub978 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\n\ni) \ub300\uce6d \ubcc0\ub7c9\uc740 \uc804\uccb4 \ud655\ub960 \uacf5\uac04\uc744 \ub2e4\ub8e8\uae30 \uc704\ud574 \ud544\uc694\ud55c \ubcf5\uc81c \ud69f\uc218\ub97c \uc904\uc774\ub294 \ubc29\uc2dd\uc73c\ub85c \uc791\ub3d9\ud569\ub2c8\ub2e4\n\nii) \ub300\uce6d \ubcc0\ub7c9\uc740 \uc2dc\ubbac\ub808\uc774\uc158\uc5d0\uc11c \uc0ac\uc6a9\ub41c \ubcc0\uc218\uc640 \uc720\uc0ac\ud558\uc9c0\ub9cc, \uadf8 \uc18d\uc131\uc774 \ubd84\uc11d\uc801\uc73c\ub85c \uc54c\ub824\uc9c4 \ubcc0\uc218\ub97c \uc0ac\uc6a9\ud558\ub294 \uac83\uc744 \ud3ec\ud568\ud569\ub2c8\ub2e4\n\niii) \ub300\uce6d \ubcc0\ub7c9\uc740...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_6897",
-      "prompt": "Question: \ub2e4\uc74c \ud589\ub82c\uc758 \uc601\uacf5\uac04\uc758 \ucc28\uc6d0\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c? A = [[3, 2, \u22129], [\u22126, \u22124, 18], [12, 8, \u221236]]\nChoice A: 0\nChoice B: 1\nChoice C: 2\nChoice D: 3\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_10580",
-      "prompt": "Question: Bale Co.\ub294 Dixon Co.\uc758 \uc21c\uc790\uc0b0\uc744 \ub9e4\uc785\ud558\ub294 \ub370 \uad00\ub828\ub41c \ucde8\ub4dd \ube44\uc6a9\uc73c\ub85c $100,000\uc744 \ubc1c\uc0dd\uc2dc\ucf30\uc2b5\ub2c8\ub2e4. \uc774 $100,000\uc740\nChoice A: \ucde8\ub4dd\ud55c \ube44\ud654\ud3d0\uc131 \uc790\uc0b0\uc5d0 \ube44\ub840\ud558\uc5ec \ubc30\ubd84\ub418\uc5b4\uc57c \ud569\ub2c8\ub2e4.\nChoice B: \uc601\uc5c5\uad8c\uc758 \uc77c\ubd80\ub85c \uc790\ubcf8\ud654\ub418\uc5b4 \ub9e4\ub144 \uc190\uc0c1 \uc5ec\ubd80\ub97c \ud14c\uc2a4\ud2b8\ud574\uc57c \ud569\ub2c8\ub2e4.\nChoice C: \uae30\ud0c0 \uc790\uc0b0\uc73c\ub85c \uc790\ubcf8\ud654\ub418\uc5b4 5\ub144\uc5d0 \uac78...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3168",
-      "prompt": "Question: \ud654\ud559 \ubc18\uc751 \uc18d\ub3c4\ub294 \ubb34\uc5c7\uc5d0 \uc758\ud574 \uacb0\uc815\ub418\ub294\uac00\nChoice A: \ud3c9\ud615 \uc0c1\uc218\nChoice B: \uae30\uad6c\uc758 \uc18d\ub3c4 \uacb0\uc815 \ub2e8\uacc4 \ub610\ub294 \ub290\ub9b0 \ub2e8\uacc4\nChoice C: \ubc18\uc751 \uc6a9\uae30\uc758 \uc555\ub825\nChoice D: \uccab \ubc88\uc9f8 \ub2e8\uacc4\uc5d0\uc11c \ud615\uc131\ub41c \uc911\uac04\uccb4\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4456",
-      "prompt": "Question: $\\frac{1}{n}$\uc774 \uc720\ud55c \uc18c\uc218\uc774\uace0 $n$\uc5d0 \uc22b\uc790 9\uac00 \ud3ec\ud568\ub418\ub294 \uac00\uc7a5 \uc791\uc740 \uc591\uc758 \uc815\uc218 $n$\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: 32\nChoice B: 64\nChoice C: 4096\nChoice D: 256\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_739",
-      "prompt": "Question: \ud3ec\ub3c4\ub2f9\uc740 \uadfc\uc721 \uc138\ud3ec\ub85c \uc5b4\ub5bb\uac8c \uc6b4\ubc18\ub429\ub2c8\uae4c?\nChoice A: GLUT4\ub77c\ub294 \ub2e8\ubc31\uc9c8 \uc6b4\ubc18\uccb4\ub97c \ud1b5\ud574.\nChoice B: \uc778\uc290\ub9b0\uc774 \uc788\uc744 \ub54c\ub9cc.\nChoice C: \ud5e5\uc18c\ud0a4\ub098\uc81c\ub97c \ud1b5\ud574.\nChoice D: \ub2e8\uc77c \uce74\ub974\ubcf5\uc2e4\uc0b0 \uc6b4\ubc18\uccb4\ub97c \ud1b5\ud574.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13206",
-      "prompt": "Question: \ub2e4\uc74c \uc911 \uad6d\uc81c \uc2dc\uc2a4\ud15c\uc5d0 \ub300\ud55c \uc790\uc720\uc8fc\uc758\uc801 \uac1c\ub150\uc744 \uc124\uba85\ud558\uc9c0 \uc54a\ub294 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uad6d\uc81c \uc815\uce58\uac00 \ubaa8\ub4e0 \uacf3\uc5d0\uc11c \ub3d9\uc77c\ud558\uc9c0 \uc54a\uc73c\uba70, \ud2b9\uc815 \uc7a5\uc18c\uc640 \ud2b9\uc815 \uc2dc\uac04\uc5d0\ub9cc '\ud604\uc2e4\uc8fc\uc758\uc801'\uc785\ub2c8\ub2e4.\nChoice B: \uad6d\uac00\uac00 \uad6d\uc81c \uc2dc\uc2a4\ud15c \ub0b4\uc5d0\uc11c \ub2e8\uc77c \ud589\uc704\uc790\ub85c \uc874\uc7ac\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.\nChoice C: \uad6d\uac00\ub4e4\uc740 \uae30\ubcf8\uc801\uc73c\ub85c \ube44\uc2b7\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.\nChoice D:...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7831",
-      "prompt": "Question: 1986\ub144 \ub9ac\ube44\uc544 \uc9c0\ub3c4\uc790 \ubb34\uc544\ub9c8\ub974 \uce74\ub2e4\ud53c\uac00 '\uc8fd\uc74c\uc758 \uc120'\uc774\ub77c\uace0 \ubd80\ub978 \uc120\uc744 \uadf8\ub9b0 \uc218\uc5ed\uc740 \uc5b4\ub514\uc785\ub2c8\uae4c?\nChoice A: \uc2dc\ub4dc\ub77c \ub9cc\nChoice B: \uc624\ub9cc \ub9cc\nChoice C: \ud64d\ud574\nChoice D: \ud398\ub974\uc2dc\uc544 \ub9cc\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_27",
-      "prompt": "Question: \ub2e4\ud56d\uc2dd\uc774 Z[x]\uc5d0\uc11c Eisenstein \uae30\uc900\uc744 \ub9cc\uc871\ud558\ub294\uc9c0 \uc5ec\ubd80\ub97c \uacb0\uc815\ud558\uc138\uc694. 8x^3 + 6x^2 - 9x + 24\nChoice A: \uc608, p=2\ub85c.\nChoice B: \uc608, p=3\ub85c.\nChoice C: \uc608, p=5\ub85c.\nChoice D: \uc544\ub2c8\uc694.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9600",
-      "prompt": "Question: \ub3c4\uc2dc\ud654\uac00 \uae30\uc544\uc640 \uc601\uc591\uc2e4\uc870\uc5d0 \uc5b4\ub5a4 \ucc28\uc774\ub97c \uac00\uc838\uc62c\uae4c\uc694?\nChoice A: \ud070 \ucc28\uc774\uac00 \uc5c6\ub2e4; \uc800\uc18c\ub4dd \ub3c4\uc2dc \ubc0f \ub18d\ucd0c \uc0ac\ub78c\ub4e4\uc740 \uac1c\ubc1c\ub3c4\uc0c1\uad6d\uc5d0\uc11c \uc2dd\ud488 \uc811\uadfc\uc5d0 \uc788\uc5b4 \uc720\uc0ac\ud55c \uc81c\uc57d\uc744 \ubc1b\uace0 \uc720\uc0ac\ud55c \uc2dd\ub2e8\uc744 \uc18c\ube44\ud55c\ub2e4.\nChoice B: \ub3c4\uc2dc\ud654\ub294 \ube48\uace4\uacfc \uae30\uc544\ub97c \uc904\uc77c \uac83\uc774\ub2e4. \uc65c\ub0d0\ud558\uba74 \uc774\ub4e4\uc740 \uac70\uc758 \uc804\uc801\uc73c\ub85c \ub18d\ucd0c \uc9c0\uc5ed\uc5d0 \uc9d1\uc911\ub418\uc5b4 \uc788\uae30 \ub54c\ubb38\uc774\ub2e4.\nChoice C: \ub3c4\uc2dc...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9910",
-      "prompt": "Question: \uce78\ud2b8\uc5d0 \ub530\ub974\uba74, \uc790\uc5f0 \ubc95\uce59\uc740 __________\uc5d0 \ub530\ub77c \ubc95\uce59\uc774\uace0, \uc790\uc720 \ubc95\uce59\uc740 __________\uc5d0 \ub530\ub77c \ubc95\uce59\uc774\ub2e4.\nChoice A: \ubaa8\ub4e0 \uac83\uc774 \uc77c\uc5b4\ub0a0 \uac83\uc774\ub2e4; \ubaa8\ub4e0 \uac83\uc774 \uc77c\uc5b4\ub0a0 \uac83\uc774\ub2e4\nChoice B: \ubaa8\ub4e0 \uac83\uc774 \uc77c\uc5b4\ub0a0 \uac83\uc774\ub2e4; \ubaa8\ub4e0 \uac83\uc774 \uc77c\uc5b4\ub098\uc57c \ud55c\ub2e4\nChoice C: \ubaa8\ub4e0 \uac83\uc774 \uc77c\uc5b4\ub098\uc57c \ud55c\ub2e4; \ubaa8\ub4e0 \uac83\uc774 \uc77c\uc5b4\ub0a0 \uac83\uc774\ub2e4\nChoice D...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12824",
-      "prompt": "Question: \ud569\ub9ac\uc801-\uacbd\uc81c\uc801 \uc758\uc0ac\uacb0\uc815 \ubaa8\ub378\uc740 \ub2e4\uc74c\uacfc \uac19\uc740 \uac00\uc815\uc744 \uae30\ubc18\uc73c\ub85c \ud55c\ub2e4:\nChoice A: \uc758\uc0ac\uacb0\uc815\uc790\ub4e4\uc774 \ud2b9\uc815 \uacb0\uc815\uc758 \ube44\uc6a9\uc744 \ub2e4\ub978 \uacb0\uacfc\ubcf4\ub2e4 \ub354 \uc911\uc694\ud558\uac8c \uc5ec\uae34\ub2e4.\nChoice B: \uc758\uc0ac\uacb0\uc815\uc790\ub4e4\uc774 \uacb0\uc815\uc744 \ub0b4\ub9ac\uae30 \uc804\uc5d0 \ubaa8\ub4e0 \ub300\uc548\uacfc \uadf8 \uacb0\uacfc\uc5d0 \ub300\ud55c \uc644\uc804\ud55c \uc815\ubcf4\ub97c \uac00\uc9c0\uace0 \uc788\ub2e4.\nChoice C: \uac1c\uc778\uc774 \ud2b9\ud788 \uc2a4\ud2b8\ub808\uc2a4\uac00 \ub9ce\uc740 \uc0c1\ud669\uc5d0\uc11c \uadf8\ub8f9\ubcf4\ub2e4 \ub354 \uc798 \uacb0\uc815\uc744...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13390",
-      "prompt": "Question: \uc138\uacc4 \ubd88\ud3c9\ub4f1\uc774 \uc138\uacc4 \uc548\ubcf4\uc5d0 \uc5b4\ub5a4 \uc704\ud611\uc744 \uc81c\uae30\ud560 \uc218 \uc788\uc744\uae4c\uc694?\nChoice A: \uc138\uacc4 \uc778\uad6c\uc758 3\ubd84\uc758 1\uc774 \uc138\uacc4\ud654\uc758 \ud61c\ud0dd\uc744 \uacf5\uc720\ud558\uc9c0 \ubabb\ud558\uae30 \ub54c\ubb38\uc5d0 \uc138\uacc4 \ubd88\ud3c9\ub4f1\uc740 \uc778\uac04 \uc548\ubcf4\ub97c \uc704\ud611\ud569\ub2c8\ub2e4. \uadf8\ub7ec\ub098 \uc774 \ubd88\ud3c9\ub4f1\uc740 \uc815\uce58\uc801 \ubd88\uc548\uc815\uc73c\ub85c \uc774\uc5b4\uc9c0\uac70\ub098 \uad70\uc0ac \ud589\ub3d9\uc744 \ud3ec\ud568\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.\nChoice B: \uc138\uacc4 \ubd88\ud3c9\ub4f1\uc740 \uc18c\uc678\ub41c \uc778\uad6c\ub97c \ub9cc\ub4e4\uc5b4\ub0b4\uba70, \uc774\ub4e4\uc740 \uc790\uc2e0\uc758 \uc0c1\ud669...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13820",
-      "prompt": "Question: \uc801\uc751 \uba74\uc5ed\uc758 \ud2b9\ubcc4\ud55c \ud2b9\uc9d5\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uc678\ub798 \ub2e8\ubc31\uc9c8\uc5d0 \ub300\ud55c \ubc18\uc751 \uc18d\ub3c4\nChoice B: \uc790\uae30\uc640 \ube44\uc790\uae30\ub97c \uad6c\ubcc4\ud558\ub294 \ub2a5\ub825\nChoice C: \ubc14\uc774\ub7ec\uc2a4\uc640 \ubc15\ud14c\ub9ac\uc544\ub97c \uad6c\ubcc4\ud558\ub294 \ub2a5\ub825\nChoice D: \uc9e7\uc740 \uae30\uc5b5\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13730",
-      "prompt": "Question: \ud64d\uc5ed\uc740 \ub2e4\uc74c \uc911 \uc5b4\ub290 \uac83\uc73c\ub85c \ub9ce\uc740 \ub098\ub77c\uc5d0\uc11c \ud1b5\uc81c\ub418\uc5c8\uc2b5\ub2c8\uae4c?\nChoice A: \uc704\uc0dd\uc73c\ub85c\nChoice B: MMR \ubc31\uc2e0\uc73c\ub85c\nChoice C: \uc0c8\ub85c\uc6b4 \ubd84\uc790 \ud3a9\ud0c0\uc774\ub4dc \ubc31\uc2e0\uc73c\ub85c\nChoice D: F \ub2e8\ubc31\uc9c8\uc5d0 \ub300\ud55c \uc778\uac04\ud654\ub41c \ub2e8\uc77c\ud074\ub860 \ud56d\uccb4\ub85c\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12535",
-      "prompt": "Question: \uc0ac\ub78c\uc774 \ube44\uc0c1 \uc0c1\ud669\uc5d0\uc11c \uac00\uc7a5 \ub3c4\uc6c0\uc744 \ubc1b\uc744 \uac00\ub2a5\uc131\uc774 \ub192\uc740 \uacbd\uc6b0\ub294 \uc5b8\uc81c\uc785\ub2c8\uae4c:\nChoice A: \ub2e8\uc77c \uad6c\uacbd\uafbc\uc774 \uc788\uc744 \ub54c.\nChoice B: \uc5ec\ub7ec \uad6c\uacbd\uafbc\uc774 \uc788\uc744 \ub54c.\nChoice C: \uac19\uc740 \uc131\ubcc4\uc758 \uc5ec\ub7ec \uad6c\uacbd\uafbc\uc774 \uc788\uc744 \ub54c.\nChoice D: \ubc18\ub300 \uc131\ubcc4\uc758 \uc5ec\ub7ec \uad6c\uacbd\uafbc\uc774 \uc788\uc744 \ub54c.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3282",
-      "prompt": "Question: \uc774 \uc9c8\ubb38\uc740 \ub2e4\uc74c \uc815\ubcf4\ub97c \ucc38\uc870\ud569\ub2c8\ub2e4.\n\uc774 \ub2f4\ub860\uc758 \uc81c\ubaa9\uc744 \uc77c\ubc18\uc801\uc73c\ub85c \uc774\ud574\ud560 \uc218 \uc788\ub3c4\ub85d \ud558\uae30 \uc704\ud574, \ub098\ub294 \ub0b4\uac00 \ub9d0\ud558\ub824\ub294 \ubb3c\uc9c8\uc758 \uacfc\ud559\uc801 \uc774\ub984\uc778 \"\uc6d0\ud615\uc9c8\"\uc774\ub77c\ub294 \uc6a9\uc5b4\ub97c \"\uc0dd\uba85\uc758 \ubb3c\ub9ac\uc801 \uae30\ucd08\"\ub77c\ub294 \ub2e8\uc5b4\ub85c \ubc88\uc5ed\ud588\uc2b5\ub2c8\ub2e4. \ub098\ub294 \ub9ce\uc740 \uc0ac\ub78c\ub4e4\uc5d0\uac8c \uc0dd\uba85\uc758 \ubb3c\ub9ac\uc801 \uae30\ucd08, \uc989 \ubb3c\uc9c8\uc774 \uc788\ub2e4\ub294 \uc0dd\uac01\uc774 \uc0c8\ub85c\uc6b8 \uc218 \uc788\ub2e4\uace0 \uc0dd\uac01\ud569\ub2c8\ub2e4. \u2026 \uc6b0\ub9ac\uac00 \uc54c\uace0 \uc788\ub294 \ud55c (\uadf8\ub9ac\uace0 ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6544",
-      "prompt": "Question: \uad6d\uc81c \uc778\uad8c\uc5d0\uc11c \uc9c0\uc5ed\uc801 \uad6c\uc81c \uc218\ub2e8\uc758 \uc18c\uc9c4\uc5d0 \ub300\ud55c \uadfc\uac70\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uc9c0\uc5ed\uc801 \uad6c\uc81c \uc218\ub2e8 \uaddc\uce59\uc740 \uad6d\uc81c \uc7ac\ud310\uc18c\uac00 \uac00\uc7a5 \uc2ec\uac01\ud55c \uc0ac\uac74\uc744 \ub2e4\ub8f0 \uc218 \uc788\ub3c4\ub85d \ud558\ub294 \uac83\uc744 \ubaa9\ud45c\ub85c \ud569\ub2c8\ub2e4\nChoice B: \uc9c0\uc5ed\uc801 \uad6c\uc81c \uc218\ub2e8 \uaddc\uce59\uc740 \uc2dc\uc2a4\ud15c\uc744 \ub0a8\uc6a9\ud558\ub294 \uc2e0\uccad\uc790\uac00 \ubd88\ud544\uc694\ud55c \uccad\uc6d0\uc744 \uc81c\ucd9c\ud558\uc9c0 \uc54a\ub3c4\ub85d \ud558\ub294 \uac83\uc744 \ubaa9\ud45c\ub85c \ud569\ub2c8\ub2e4\nChoice C: \uc9c0\uc5ed\uc801 \uad6c\uc81c...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7724",
-      "prompt": "Question: \ub274\uba55\uc2dc\ucf54\uc5d0\uc11c \uac00\uc7a5 \ud070 \ub3c4\uc2dc\uc758 \uc62c\ubc14\ub978 \ucca0\uc790\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: Albuqerque\nChoice B: Albuquerque\nChoice C: Albequerque\nChoice D: Santa Fe\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1158",
-      "prompt": "Question: \ub2e4\uc74c \uc911 \uc633\uc740 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c:\nChoice A: \ubcf5\uc18c\uc218 C\uc5d0 \ub300\ud574 \uc120\ud615 \uc21c\uc11c \uad00\uacc4 \u2264\ub97c \uc124\uc815\ud558\uc5ec (C, +, \u00d7, \u2264)\uac00 \uc21c\uc11c \ud544\ub4dc\uac00 \ub418\uc9c0 \uc54a\ub3c4\ub85d \ud558\ub294 \uac83\uc774 \uac00\ub2a5\ud569\ub2c8\ub2e4.\nChoice B: \ubcf5\uc18c\uc218 C\uc5d0 \ub300\ud574 \uc120\ud615 \uc21c\uc11c \uad00\uacc4\ub97c \uc124\uc815\ud558\uc5ec (C, +, \u00d7, \u2264)\uac00 \uc21c\uc11c \ud544\ub4dc\uac00 \ub418\ub3c4\ub85d \ud558\ub294 \uac83\uc774 \uac00\ub2a5\ud569\ub2c8\ub2e4.\nChoice C: (a)\ub3c4 (b)\ub3c4 \uc544...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12422",
-      "prompt": "Question: 72\uc138 \ub0a8\uc131\uc774 \ub2e4\ub9ac \uc57d\ud654\uc640 \ub208\uacfc \uc785\uc774 \uac74\uc870\ud55c \uc99d\uc0c1\uc774 7\uac1c\uc6d4 \ub3d9\uc548 \uc9c0\uc18d\ub418\uc5b4 \uc758\uc0ac\ub97c \ucc3e\uc558\uc2b5\ub2c8\ub2e4. \uadf8\ub294 \ub610\ud55c \uc9c0\ub09c 4\uac1c\uc6d4 \ub3d9\uc548 \uc2dd\uc695 \ubcc0\ud654 \uc5c6\uc774 10.4kg(23lb)\uc758 \uccb4\uc911 \uac10\uc18c\ub97c \uacaa\uc5c8\uc2b5\ub2c8\ub2e4. \uadf8\ub294 50\ub144 \ub3d9\uc548 \ud558\ub8e8\uc5d0 \ub2f4\ubc30\ub97c \ud55c \uac11 \ubc18\uc529 \ud53c\uc6e0\uc2b5\ub2c8\ub2e4. \uadf8\ub294 \ub9e4\uc77c 4\uc628\uc2a4\uc758 \uc54c\ucf54\uc62c\uc744 \ub9c8\uc2ed\ub2c8\ub2e4. \uadf8\ub294 \uc18c\ud654\uc131 \uada4\uc591\ubcd1\uacfc \ud3d0\uae30\uc885\uc744 \uc553\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc57d\ubb3c\ub85c\ub294 ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5848",
-      "prompt": "Question: \uc774 \uc9c8\ubb38\uc740 \ub2e4\uc74c \uc815\ubcf4\ub97c \ucc38\uc870\ud569\ub2c8\ub2e4.\n\ubd84\uba85\ud788, \uc774\uc81c \ub3c5\uc7ac\uc790\ub294 \ub3d9\uc11c \ub300\ub9bd\uc5d0 \uc758\uc874\ud558\uc5ec \uc720\uc5d4\uc758 \uc77c\uce58\ub41c \uacf5\uaca9 \uc800\uc9c0 \ud589\ub3d9\uc744 \ubc29\ud574\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \uc0c8\ub85c\uc6b4 \uad6d\uac00\ub4e4\uc758 \ud30c\ud2b8\ub108\uc2ed\uc774 \uc2dc\uc791\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uadf8\ub9ac\uace0 \uc6b0\ub9ac\ub294 \uc624\ub298 \ub3c5\ud2b9\ud558\uace0 \ud2b9\ubcc4\ud55c \uc21c\uac04\uc5d0 \uc11c \uc788\uc2b5\ub2c8\ub2e4. \ud398\ub974\uc2dc\uc544\ub9cc\uc758 \uc704\uae30\ub294 \uc2ec\uac01\ud558\uc9c0\ub9cc, \uc5ed\uc0ac\uc801\uc778 \ud611\ub825 \uc2dc\ub300\ub85c \ub098\uc544\uac08 \ub4dc\ubb38 \uae30\ud68c\ub97c \uc81c\uacf5\ud569\ub2c8\ub2e4. \uc774 \uc5b4\ub824\uc6b4 \uc2dc\uae30\uc5d0\uc11c ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11595",
-      "prompt": "Question: \uc678\uacfc \uc758\uc0ac\uac00 \uc9c0\uc5ed \ubcd1\uc6d0\uc758 \uc218\uc220\uc2e4\uc5d0\uc11c \ud658\uc790\uc5d0\uac8c \ub9f9\uc7a5 \uc808\uc81c\uc220\uc744 \uc2dc\ud589\ud588\uc2b5\ub2c8\ub2e4. \uc678\uacfc \uc758\uc0ac\ub294 \ubcd1\uc6d0\uc5d0\uc11c \uc218\uc220\uc5d0 \ubc30\uc815\ub41c \uac04\ud638\uc0ac\uc758 \ub3c4\uc6c0\uc744 \ubc1b\uc558\uc2b5\ub2c8\ub2e4. \ud658\uc790\uc758 \ucd08\uae30 \ud68c\ubcf5 \uae30\uac04 \ub3d9\uc548, \uadf8\ub294 \uc77c\ubc18\uc801\uc778 \uc218\uc220 \ud6c4 \uc99d\uc0c1\uc73c\ub85c \uc124\uba85\ud560 \uc218 \uc5c6\ub294 \ud1b5\uc99d\uc744 \ud638\uc18c\ud588\uc2b5\ub2c8\ub2e4. \uc870\uc0ac \uacb0\uacfc, \uc218\uc220 \ud6c4 \ud658\uc790\ub97c \ubd95\ub300 \uac10\uc740 \uc678\uacfc \uc758\uc0ac\uac00 \ud2b9\uc815 \ud608\uad00\uc744 \uc555\ubc15\ud558\ub294 \ubc29\uc2dd\uc73c\ub85c \ubd95\ub300\ub97c \uac10\uc558\ub2e4\ub294 \uac83\uc774...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_5464",
-      "prompt": "Question: \ud55c \uc9c0\uc5ed \ud559\uad50\uc5d0\ub294 \uc218\ud559 \uad50\uc0ac 7\uba85\uacfc \uc601\uc5b4 \uad50\uc0ac 7\uba85\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uadf8\ub4e4\uc758 \ud3c9\uade0 \uae09\uc5ec\ub97c \ube44\uad50\ud560 \ub54c, \ub2e4\uc74c \uc911 \uac00\uc7a5 \uc801\uc808\ud55c \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \ubaa8\ud3c9\uade0\uc758 \ub450 \ud45c\ubcf8 z-\uac80\uc815\nChoice B: \ubaa8\ud3c9\uade0\uc758 \ub450 \ud45c\ubcf8 t-\uac80\uc815\nChoice C: \ucc28\uc774 \uc9d1\ud569\uc5d0 \ub300\ud55c \ub2e8\uc77c \ud45c\ubcf8 z-\uac80\uc815\nChoice D: \uc704\uc758 \uc5b4\ub290 \uac83\ub3c4 \uc801\uc808\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.\nAns...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_12407",
-      "prompt": "Question: 16\uc138 \uc18c\ub144\uc774 \uc67c\ucabd \uac00\uc2b4\uc5d0 \uce7c\uc5d0 \ucc14\ub9b0 \uc0c1\ucc98\ub85c \uc751\uae09\uc2e4\uc5d0 \uc785\uc6d0\ud588\uc2b5\ub2c8\ub2e4. \uac00\uc2b4 \uc5d1\uc2a4\ub808\uc774\uc5d0\uc11c \uc67c\ucabd \uac00\uc2b4\uc5d0 \uacf5\uae30-\uc561\uccb4 \uc218\uc900, \uc67c\ucabd \ud3d0\uc758 \ubd80\ubd84\uc801 \ubd95\uad34, \uadf8\ub9ac\uace0 \uc704 \uac70\ud488\uc758 \uc0c1\uc2b9\uc774 \ubcf4\uc785\ub2c8\ub2e4. \uc885\uaca9\ub3d9\uc740 \uc911\uac04\uc120\uc5d0 \uc788\uc2b5\ub2c8\ub2e4. \ub2e4\uc74c \uc911 \uac00\uc7a5 \uac00\ub2a5\uc131\uc774 \ub192\uc740 \uc9c4\ub2e8\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uae34\uc7a5\ub418\uc9c0 \uc54a\uc740 \ud608\uae30\ud749\nChoice B: \uae34\uc7a5\ub418\uc9c0 \uc54a\uc740 \ud608\ud749\nChoic...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2061",
-      "prompt": "Question: Op-Amp\ub97c \uc0ac\uc6a9\ud558\ub294 Wien \ube0c\ub9ac\uc9c0 \ubc1c\uc9c4\uae30\uc758 \ud53c\ub4dc\ubc31 \uacc4\uc218\ub294\nChoice A: 1/3\nChoice B: 1/4\nChoice C: 1/2\nChoice D: 1\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_13395",
-      "prompt": "Question: \ubbf8\uad6d\uacfc \uc720\ub7fd\uc758 \uc548\ubcf4 \uc5f0\uad6c \uac04\uc758 \ub2e4\ub978 \uad00\uacc4\ub294 \uc5b4\ub5a4 \ubc29\uc2dd\uc73c\ub85c \uc124\uba85\ub420 \uc218 \uc788\uc2b5\ub2c8\uae4c?\nChoice A: \uc548\ubcf4 \uac1c\ub150\uc5d0 \ub300\ud55c \ub2e4\ub978 \uad00\uacc4: \uc720\ub7fd\uc5d0\uc11c\ub294 \ud559\uc790\uac00 '\uc548\ubcf4\ub97c \uc218\ud589\ud558\ub294' \uc815\uce58\uc801 \uc790\uae30 \uc131\ucc30\uc758 \uc77c\ud658\uc73c\ub85c \ud1a0\ub860\uc774 \uc720\uc9c0\ub418\ub294 \ubc18\uba74, \ubbf8\uad6d\uc5d0\uc11c\ub294 \uc548\ubcf4 \uac1c\ub150\uc758 \ubb38\uc81c\ub97c \uac00\uc7a5 \ud544\uc694\ud55c '\uc6a9\uc5b4 \uc815\uc758' \uc791\uc5c5\uc73c\ub85c \uac04\uc8fc\ud569\ub2c8\ub2e4.\nChoice B: \uac00\uce58 \uc788\ub294 \uc9c0\uc2dd\uc758 \uc815\ud655\ud55c \ud615...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5229",
-      "prompt": "Question: \uc2e0\ub8b0\ub3c4\uc640 \ud0c0\ub2f9\uc131\uc758 \uad00\uacc4\uc5d0 \ub300\ud574 \ub2e4\uc74c \uc911 \uc5b4\ub290 \uc9c4\uc220\uc774 \uc633\uc2b5\ub2c8\uae4c?\nChoice A: \uc2e0\ub8b0\ub3c4\uc640 \ud0c0\ub2f9\uc131\uc740 \uc0c1\ud638 \ubc30\ud0c0\uc801\uc785\ub2c8\ub2e4: \ud14c\uc2a4\ud2b8\ub294 \uc2e0\ub8b0\ub3c4\uac00 \uc788\uac70\ub098 \ud0c0\ub2f9\uc131\uc774 \uc788\uc744 \uc218 \uc788\uc9c0\ub9cc, \ub458 \ub2e4 \uac00\uc9c8 \uc218\ub294 \uc5c6\uc2b5\ub2c8\ub2e4.\nChoice B: \ud14c\uc2a4\ud2b8\uac00 \uc2e0\ub8b0\ub3c4\uac00 \uc788\ub2e4\uba74 \ud0c0\ub2f9\uc131\uc774 \uc788\uc9c0\ub9cc, \ud14c\uc2a4\ud2b8\uac00 \uc2e0\ub8b0\ub3c4\uac00 \uc5c6\ub2e4\uba74 \ud0c0\ub2f9\uc131\uc774 \uc788\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.\nChoice C: \ud0c0\ub2f9\uc131\uc740 ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9379",
-      "prompt": "Question: \uc774 \ub450 \uc2dc\ub098\ub9ac\uc624 \uc911\uc5d0\uc11c \uc8fc\uc778\uacf5(\ub098/\ub098/\ub0b4\uac00 \uc0ac\uc6a9\ud568)\uc774 2020\ub144 \ubbf8\uad6d\uc758 \uc77c\ubc18\uc801\uc778 \ub3c4\ub355 \uae30\uc900\uc5d0 \ub530\ub77c \uba85\ubc31\ud788 \ub3c4\ub355\uc801\uc73c\ub85c \uc798\ubabb\ub41c \ud589\ub3d9\uc744 \ud558\ub294 \uc2dc\ub098\ub9ac\uc624\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c? \uc2dc\ub098\ub9ac\uc624 1 | \ub098\ub294 \uace0\uc591\uc774\uc640 \ud568\uaed8 TV\ub97c \ubcf4\uba74\uc11c \uc18c\ud30c\uc5d0 \uc549\uc544 \uc788\uc5c8\ub2e4. \uc2dc\ub098\ub9ac\uc624 2 | \ub098\ub294 \uc0c8\ub85c\uc6b4 \ucef4\ud4e8\ud130 \uadf8\ub798\ud53d \uae30\uc220\uc744 \uc0ac\uc6a9\ud558\uc5ec \uc2e4\uc81c\uac00 \uc544\ub2cc \ub9de\ucda4\ud615 \uc131\uc801\ud45c\ub97c \ub9cc\ub4e4\uc5b4\uc11c \uacfc\ubd80\uc778 \uc5b4\uba38\ub2c8...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5385",
-      "prompt": "Question: \uc5d8\ub9ac\ub294 \uc774\uc81c \ub9c9 \uc549\uae30 \uc2dc\uc791\ud588\uc2b5\ub2c8\ub2e4. \uc5d8\ub9ac\uac00 \uc77c\ubc18\uc801\uc778 \uc18d\ub3c4\ub85c \ubc1c\ub2ec\ud558\uace0 \uc788\ub2e4\uace0 \uac00\uc815\ud558\uba74, \uc5d8\ub9ac\uc758 \ub098\uc774\ub294 \uba87 \uc0b4\uc785\ub2c8\uae4c?\nChoice A: 1\uac1c\uc6d4\nChoice B: 3\uac1c\uc6d4\nChoice C: 6\uac1c\uc6d4\nChoice D: 9\uac1c\uc6d4\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12470",
-      "prompt": "Question: \uac10\uc1e0 \ubcf4\uc815 \uacf5\uc2dd\uc740 \uc99d\uac00\uc758 \uc601\ud5a5\uc744 \uce21\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub429\ub2c8\ub2e4:\nChoice A: \ud14c\uc2a4\ud2b8\uc758 \uc2e0\ub8b0\ub3c4\uac00 \uc720\ud6a8\uc131\uc5d0 \ubbf8\uce58\ub294 \uc601\ud5a5.\nChoice B: \ud14c\uc2a4\ud2b8\uc758 \uc720\ud6a8\uc131\uc774 \uc2e0\ub8b0\ub3c4\uc5d0 \ubbf8\uce58\ub294 \uc601\ud5a5.\nChoice C: \ud14c\uc2a4\ud2b8 \ud56d\ubaa9 \uc218\uac00 \ud14c\uc2a4\ud2b8\uc758 \uc720\ud6a8\uc131\uc5d0 \ubbf8\uce58\ub294 \uc601\ud5a5.\nChoice D: \ud14c\uc2a4\ud2b8 \ud56d\ubaa9 \uc218\uac00 \ud14c\uc2a4\ud2b8\uc758 \uc2e0\ub8b0\ub3c4\uc5d0 \ubbf8\uce58\ub294 \uc601\ud5a5.\nAnswer with A, B...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7282",
-      "prompt": "Question: _______________\uc740 \uc2dc\uac04\uc774 \uc9c0\ub098\uba74\uc11c \ube44\uad50\uc801 \uc548\uc815\ub41c \ubc29\uc2dd\uc73c\ub85c \uc6b0\ub9ac\uac00 \ud658\uacbd\uc5d0 \ubc18\uc751\ud558\ub294 \ubc29\uc2dd\uc744 \uacb0\uc815\ud558\ub294 \uc6b0\ub9ac\uc758 \uc815\uc2e0\uc758 \uce21\uba74\uc73c\ub85c \uc815\uc758\ub420 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\nChoice A: \uc9c0\uac01.\nChoice B: \uc131\uaca9.\nChoice C: \ud559\uc2b5.\nChoice D: \uae30\uc5b5.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5693",
-      "prompt": "Question: \ub2e4\uc74c \uc815\ubcf4\uc640 \uad00\ub828\ub41c \uc9c8\ubb38\uc785\ub2c8\ub2e4.\n\"\uc774 \uc655\uad6d\uc758 \uc218\uc775\uc744 \uac1c\uc120\ud558\uace0, \ud3c9\ud654\ub85c \uc778\ud574 \ub9e4\uc6b0 \ud589\ubcf5\ud558\uac8c \ud655\uc7a5\ub41c \ubbf8\uad6d\uc5d0 \uc788\ub294 \ud3d0\ud558\uc758 \uc601\ud1a0\uc640 \uc601\uad6d \uc0ac\uc774\uc758 \ud56d\ud574\uc640 \uc0c1\uc5c5\uc744 \ud655\uc7a5\ud558\uace0 \ubcf4\ud638\ud558\uae30 \uc704\ud574 \uc0c8\ub85c\uc6b4 \uaddc\uc815\uacfc \uaddc\uce59\uc744 \uc81c\uc815\ud558\ub294 \uac83\uc774 \uc801\uc808\ud558\uba70, \ud3d0\ud558\uc758 \ubbf8\uad6d \uc601\ud1a0\uc5d0\uc11c \ubc29\uc5b4, \ubcf4\ud638 \ubc0f \ubcf4\uc548\uc744 \uc704\ud55c \ube44\uc6a9\uc744 \ucda9\ub2f9\ud558\uae30 \uc704\ud574 \uc218\uc775\uc744 \uc62c\ub9ac\ub294 \uac83\uc774 \uacf5\uc815\ud558\uace0 \ud544\uc694\ud569\ub2c8\ub2e4. \uc6b0\ub9ac\ub294 ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7182",
-      "prompt": "Question: \ub274\uc2a4\ub808\ud130, \uce74\ud0c8\ub85c\uadf8, \uadf8\ub9ac\uace0 \uc870\uc9c1\uc774 \ud6c4\uc6d0\ud558\ub294 \ud589\uc0ac\uc5d0 \ub300\ud55c \ucd08\ub300\uc7a5\uc740 \ub9c8\ucf00\ud305 \ubbf9\uc2a4 \ud65c\ub3d9 \uc911 \ub2e4\uc74c\uacfc \uac00\uc7a5 \ubc00\uc811\ud558\uac8c \uad00\ub828\uc774 \uc788\uc2b5\ub2c8\ub2e4:\nChoice A: \uac00\uaca9 \ucc45\uc815.\nChoice B: \uc720\ud1b5.\nChoice C: \uc81c\ud488 \uac1c\ubc1c.\nChoice D: \ucd09\uc9c4.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13009",
-      "prompt": "Question: \uac00\uc7a5 \ub192\uc740 \uc218\uc900\uc758 \ud559\uc2b5\uacfc \uc131\uacfc\ub294 \ubcf4\ud1b5 \ub2e4\uc74c\uacfc \uad00\ub828\uc774 \uc788\uc2b5\ub2c8\ub2e4:\nChoice A: \ub0ae\uc740 \uac01\uc131 \uc218\uc900.\nChoice B: \uc911\uac04 \uac01\uc131 \uc218\uc900.\nChoice C: \ub192\uc740 \uac01\uc131 \uc218\uc900.\nChoice D: \uac01\uc131 \uc218\uc900\uc758 \ubcc0\ub3d9\uc131.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5150",
-      "prompt": "Question: \ub2e4\uc74c \uc911 \uae30\uc5b5 \ud68c\uc0c1\uc5d0 \ub300\ud574 \uc790\uc8fc \ub9de\ub294 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uc0ac\ub78c\ub4e4\uc740 \uc774\uc804\uc758 \uc2a4\ud0a4\ub9c8\uc640 \uc77c\uce58\ud558\ub294 \uc815\ubcf4\ub97c \ub354 \uc798 \uae30\uc5b5\ud574\ub0c5\ub2c8\ub2e4.\nChoice B: \uc0ac\ub78c\ub4e4\uc740 \uc791\uc5c5 \uae30\uc5b5\uc5d0 \uc800\uc7a5\ub41c \uc815\ubcf4\uac00 \uc544\ub2c8\uba74 \uae30\uc5b5\ud574\ub0b4\uc9c0 \ubabb\ud569\ub2c8\ub2e4.\nChoice C: \uc0ac\ub78c\ub4e4\uc740 \uc18c\uba78\ub41c \uc815\ubcf4\ub97c \uae30\uc5b5\ud574\ub0bc \ub2a5\ub825\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.\nChoice D: \uc0ac\ub78c\ub4e4\uc740 \uc22b\uc790 \uc138\ud2b8\ubcf4\ub2e4 \ubb34\uc758\ubbf8\ud55c \uc74c\uc808...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10180",
-      "prompt": "Question: \ubca8\ub9ac\uc988\uc758 \uc695 \ubc1c\ub8f8 \ub3d9\uad74\uc5d0 \uc788\ub294 \uc11d\uc21c\uc758 \uc0b0\uc18c \ub3d9\uc704\uc6d0\uc18c \ubcc0\ud654\ub97c \ubc18\uc601\ud55c \ub9c8\uc57c \uace0\ud5a5\uc758 \uac15\uc6b0\ub7c9\uc740 \ubb34\uc5c7\uacfc \uc77c\uce58\ud569\ub2c8\uae4c?\nChoice A: \uac15\uc6b0\ub7c9 \uc99d\uac00\uc640 \ub9c8\uc57c \uc758\uc2dd \uc13c\ud130\uc758 \ubd95\uad34\ub97c \ucd08\ub798\ud55c \uc2ec\uac01\ud55c \ud64d\uc218\nChoice B: \uc2ec\uac01\ud55c \uac00\ubb44\uacfc \ub9c8\uc57c \uc758\uc2dd \uc13c\ud130 \uac74\uc124 \uac10\uc18c\nChoice C: \uac15\uc6b0\ub7c9 \uc99d\uac00\uc640 \ub18d\uc5c5\uc5d0\uc11c \ub0a8\ub294 \uc2dd\ub7c9\uc758 \uc800\uc7a5 \uc99d\uac00\nChoice D: \uc804\uc7c1 \uc99d\uac00\uc640 \uc804...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2107",
-      "prompt": "Question: \uc808\ub300\uac12\uc774 5\ubcf4\ub2e4 \ud070 \uc22b\uc790\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: -6\nChoice B: -5\nChoice C: 0\nChoice D: 5\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3197",
-      "prompt": "Question: Python 3\uc5d0\uc11c \ubb38\uc790\uc5f4\uc758 \ubaa8\ub4e0 \ubb38\uc790\uac00 \ub300\ubb38\uc790\uc778\uc9c0 \ud655\uc778\ud558\ub294 \ud568\uc218\ub294 \ub2e4\uc74c \uc911 \uc5b4\ub290 \uac83\uc785\ub2c8\uae4c?\nChoice A: isupper()\nChoice B: join(seq)\nChoice C: len(string)\nChoice D: ljust(width[, fillchar])\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7498",
-      "prompt": "Question: '\uc138\uacc4 \uace0\ubb34\uc758 \uc218\ub3c4'\ub85c \uc54c\ub824\uc9c4 \ub3c4\uc2dc\ub294 \uc5b4\ub514\uc785\ub2c8\uae4c?\nChoice A: \ub124\ube0c\ub798\uc2a4\uce74 \uc624\ub9c8\ud558\nChoice B: \uc77c\ub9ac\ub178\uc774 \ub85d\ud37c\ub4dc\nChoice C: \ubbf8\uc2dc\uac04 \uadf8\ub79c\ub4dc \ub798\ud53c\uc988\nChoice D: \uc624\ud558\uc774\uc624 \uc560\ud06c\ub7f0\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12437",
-      "prompt": "Question: \ub2e4\uc74c \uc911 \ub178\ud654\uc640 \uc131 \uae30\ub2a5 \uc0ac\uc774\uc758 \uad00\uacc4\ub97c \ud45c\ud604\ud55c \uc9c4\uc220\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c\nChoice A: \ub178\ud654\ub294 \uc9c8 \uc724\ud65c \uc99d\uac00\uc640 \uad00\ub828\uc774 \uc788\uc2b5\ub2c8\ub2e4\nChoice B: \ub178\ud654\ub294 \ub0a8\ub140 \ubaa8\ub450\uc5d0\uc11c \uc624\ub974\uac00\uc998 \uc218\ucd95\uc758 \ube48\ub3c4\uc640 \uc218\uc758 \uc99d\uac00\uc640 \uad00\ub828\uc774 \uc788\uc2b5\ub2c8\ub2e4\nChoice C: \ub178\ud654\uc640 \uc131 \ubc18\uc751 \uc0ac\uc774\uc5d0\ub294 \ub0a8\ub140 \ubaa8\ub450\uc5d0\uc11c \uc720\uc758\ubbf8\ud55c \uad00\uacc4\uac00 \uc5c6\uc2b5\ub2c8\ub2e4\nChoice D: \ub178\ud654\ub294 \ub0a8\uc131\uc758 \ubc1c\uae30 \uac15\uc9c1\ub3c4\uc758...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6795",
-      "prompt": "Question: William Safire in American Heritage Magazine (December 1987): ...\ub9c1\ucee8\uc758 \uc704\ub300\ud568\uc740 \uadf8\uc758 \ubaa9\uc801\uc758\uc2dd\uc5d0 \uc788\uc5c8\ub2e4. \uadf8\ub294 \ub2e4\ub978 \uc0ac\ub78c\ub4e4 \uc911 \uac70\uc758 \ubcf4\uc9c0 \ubabb\ud55c \uac83\uc744 \ubcf4\uc558\ub2e4: \ubbfc\uc8fc\uc8fc\uc758 \uc2e4\ud5d8\uc774 \uc5f0\ud569\uc5d0 \uc911\uc2ec\uc744 \ub450\uace0 \uc788\uc73c\uba70 \ub2e4\uc218\uc758 \uc9c0\ubc30\uac00 \ubaa8\ub4e0 \uac83\uc774\ub77c\ub294 \uac83\uc744. \ubd84\ub9ac\ub97c \ud5c8\uc6a9\ud558\ub294 \uc21c\uac04, \ubbfc\uc8fc\uc8fc\uc758\ub294 \ud130\ubb34\ub2c8\uc5c6\ub294 \uac83\uc774 \ub41c...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12653",
-      "prompt": "Question: \ub2e4\uc74c \uc911 \uc804\ud5a5\uc131 \uae30\uc5b5\uc0c1\uc2e4\uc99d\uc758 \uc608\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uad50\ud1b5\uc0ac\uace0\ub85c \uba38\ub9ac\uc5d0 \ubd80\uc0c1\uc744 \uc785\uc740 \ub0a8\uc790\uac00 \uc0ac\uace0\uac00 \ubc1c\uc0dd\ud558\uae30 \uc804\uc5d0 \uc5b4\ub514\ub85c \uac00\uace0 \uc788\uc5c8\ub294\uc9c0 \uae30\uc5b5\ud558\uc9c0 \ubabb\ud569\ub2c8\ub2e4.\nChoice B: \uc131\ud3ed\ud589\uc744 \ub2f9\ud55c \ud6c4 24\uc2dc\uac04 \ub3d9\uc548 \ubcd1\uc6d0\uc5d0 \uc5b4\ub5bb\uac8c \uc654\ub294\uc9c0 \ub610\ub294 \ub2e4\ub978 \uc0ac\uac74\ub4e4\uc744 \uae30\uc5b5\ud558\uc9c0 \ubabb\ud558\ub294 \uc5ec\uc131\uc774 \uc788\uc2b5\ub2c8\ub2e4.\nChoice C: \uace0\ub4f1\ud559\uad50 1\ud559\ub144 \ub54c \uc2a4\ud398\uc778\uc5b4\ub97c \ubc30...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13937",
-      "prompt": "Question: \uc5ec\uc131\uc5d0 \ub300\ud55c \uacbd\uace0\uc758 \uc800\uc790\ub294 \ub204\uad6c\uc785\ub2c8\uae4c?\nChoice A: \ubc18\uc870\nChoice B: \ub178\uc790\nChoice C: \ub9f9\uc790\nChoice D: \uc720\ud5a5\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_2903",
-      "prompt": "Question: \ubc18\uc751 A + B \u2192 C\ub294 \ud6a8\uc18c K\uc5d0 \uc758\ud574 \ucd09\ub9e4\ub429\ub2c8\ub2e4. \ubc18\uc751\uc774 \ud3c9\ud615 \uc0c1\ud0dc\uc5d0 \uc788\uc744 \ub54c, \ub2e4\uc74c \uc911 \ub354 \ub9ce\uc740 \uc0dd\uc131\ubb3c C\uac00 \uc0dd\uc131\ub418\ub3c4\ub85d \ud558\ub294 \uac83\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \ubc18\uc751\ubb3c A\ub97c \uc77c\ubd80 \uc81c\uac70\ud558\uae30\nChoice B: \uc0dd\uc131\ubb3c C\ub97c \uc77c\ubd80 \uc81c\uac70\ud558\uae30\nChoice C: \ub354 \ub9ce\uc740 \ud6a8\uc18c K \ucd94\uac00\ud558\uae30\nChoice D: \uc2dc\uc2a4\ud15c\uc758 \uc628\ub3c4 \uc99d\uac00\uc2dc\ud0a4\uae30\nAnswer w...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11429",
-      "prompt": "Question: \ud1a0\uc9c0 \uac1c\ubc1c \ud68c\uc0ac\ub294 400\uc5d0\uc774\ucee4\uc758 \ud1a0\uc9c0\ub97c \uc18c\uc720\ud558\uace0 \uc788\uc5c8\uc2b5\ub2c8\ub2e4. \uc2dc\uac04\uc774 \uc9c0\ub098\uba74\uc11c \ud1a0\uc9c0 \uac1c\ubc1c \ud68c\uc0ac\ub294 \ub3d9\ucabd\uacfc \uc11c\ucabd\uc5d0 \uac01\uac01 150\uc5d0\uc774\ucee4\uc758 \uc8fc\uac70\uc6a9 \ubd84\uc591\uc9c0\ub97c \uac1c\ubc1c\ud588\uc2b5\ub2c8\ub2e4. \uc774 \ubd84\uc591\uc9c0\ub4e4\uc740 \uc11c\ub85c \uc5b8\uae09\ud558\uc9c0 \uc54a\ub294 \ubcc4\ub3c4\uc758 \ub3c4\uba74\uc73c\ub85c \ub9cc\ub4e4\uc5b4\uc84c\uc2b5\ub2c8\ub2e4. \uadf8\ub7ec\ub098 \ub3c4\uba74\uc758 \uc81c\ud55c \uc0ac\ud56d\uc740 \uc2e4\uc9c8\uc801\uc73c\ub85c \ub3d9\uc77c\ud588\uc2b5\ub2c8\ub2e4. \ub3c4\uba74\uacfc \uac01 \uc99d\uc11c\ub294 \"\uc5ec\uae30\uc5d0 \uc804\ub2ec\ub41c \ud1a0\uc9c0\uc758 \uc0ac\uc6a9\uc740 \ub2e8\ub3c5 \uc8fc\ud0dd\uc73c\ub85c\ub9cc...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_10440",
-      "prompt": "Question: 7\uc6d4 1\uc77c Alto Co.\ub294 \uacf5\uc815 \uac00\uce58\uac00 \uc8fc\ub2f9 $100\uc77c \ub54c \ubcf4\ud1b5\uc8fc\ub97c 5 \ub300 1\ub85c \ubd84\ud560\ud588\uc2b5\ub2c8\ub2e4. \ubd84\ud560 \uc804\uc5d0 Alto\ub294 \uc561\uba74\uac00 $10\uc758 \ubcf4\ud1b5\uc8fc 10000\uc8fc\ub97c \ubc1c\ud589\ud558\uace0 \uc720\ud1b5 \uc911\uc774\uc5c8\uc2b5\ub2c8\ub2e4. \ubd84\ud560 \ud6c4 \uc8fc\uc2dd\uc758 \uc561\uba74\uac00\ub294\nChoice A: $10\ub85c \uc720\uc9c0\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\nChoice B: $8\ub85c \uac10\uc18c\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\nChoice C: $5\ub85c \uac10\uc18c\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\nCho...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5240",
-      "prompt": "Question: \ub2e4\uc74c \uc911 \uac01\uc778(imprinting)\uc758 \uc608\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: \uc5b4\ubbf8 \ub3c5\uc218\ub9ac\ub294 \uc0c8\ub07c\ub4e4\uc774 \ub0a0\uae30\ub97c \ubc30\uc6b0\ub294 \ub3d9\uc548 \ub5a8\uc5b4\uc9c8 \uacbd\uc6b0\ub97c \ub300\ube44\ud574 \uc0c8\ub07c\ub4e4 \uc544\ub798\ub85c \ub0a0\uc544\uac11\ub2c8\ub2e4.\nChoice B: \uac13 \ud0dc\uc5b4\ub09c \uac70\uc704 \uc0c8\ub07c\ub294 \ucc98\uc74c \ubcf4\ub294 \uc6c0\uc9c1\uc774\ub294 \ubb3c\uccb4, \ubcf4\ud1b5 \uc5b4\ubbf8\uc5d0\uac8c \"\ubd99\uc2b5\ub2c8\ub2e4\".\nChoice C: \uc8fc \uc591\uc721\uc790\uac00 \uc624\ub79c \uc2dc\uac04 \ub3d9\uc548 \uc790\ub9ac\ub97c \ube44\uc6b0\uba74 \uc720\uc544\ub294 \uadf8\ub4e4\uc758 \uc874\uc7ac...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7244",
-      "prompt": "Question: \uacbd\uc7c1\uc0ac\uc5d0 \ube44\ud574 \uac00\uaca9\uc744 \ub0ae\uac8c \uc124\uc815\ud558\uc5ec \uc2dc\uc7a5 \uc810\uc720\uc728\uc744 \ud655\ubcf4\ud558\ub294 \uc804\ub7b5\uc744 \ubb34\uc5c7\uc774\ub77c\uace0 \ud558\ub098\uc694?\nChoice A: \ud504\ub9ac\ubbf8\uc5c4 \uac00\uaca9 \ucc45\uc815.\nChoice B: \uac00\uaca9 \uc2a4\ud0a4\ubc0d.\nChoice C: \uacbd\uc81c \uac00\uaca9 \ucc45\uc815.\nChoice D: \uce68\ud22c \uac00\uaca9 \ucc45\uc815.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10069",
-      "prompt": "Question: \uc62c\uba55 \ubb38\ud654\uc758 \ud1b5\ud569 \uc694\uc18c\ub294 \ubb34\uc5c7\uc774\uc5c8\uc2b5\ub2c8\uae4c?\nChoice A: \uc885\uad50\uc801 \ub3c4\uc0c1\ud559\nChoice B: \ub300\uaddc\ubaa8 \uad70\ub300\nChoice C: \ub18d\uc5c5 \uc789\uc5ec\nChoice D: \uc704\uc758 \ubaa8\ub4e0 \uac83\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6",
-      "prompt": "Question: \uc9c4\uc220 1 | \uadf8\ub8f9 G\uc758 \ubaa8\ub4e0 \ub3d9\ud615 \uc0ac\uc0c1 \uc774\ubbf8\uc9c0\ub294 G\uc758 \ubaab \uadf8\ub8f9\uacfc \ub3d9\ud615\uc774\ub2e4. \uc9c4\uc220 2 | \uadf8\ub8f9 G\uc758 \ub3d9\ud615 \uc0ac\uc0c1 \uc774\ubbf8\uc9c0\ub294 G\uc758 \ubaab \uadf8\ub8f9\uacfc \ub3d9\uc77c\ud558\ub2e4 (\ub3d9\ud615\uae4c\uc9c0).\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_5291",
-      "prompt": "Question: \"\ub300\ubd80\ubd84\uc758 \uc0ac\ub78c\ub4e4\uc740 \ub1cc\uc758 10\ud37c\uc13c\ud2b8\ub9cc \uc0ac\uc6a9\ud55c\ub2e4\"\ub294 \uc8fc\uc7a5\uc744 \ubc18\ubc15\ud558\ub294 \ub370 \uac00\uc7a5 \uc720\uc6a9\ud55c \ub1cc \uc2a4\uce94 \uc885\ub958\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: CAT\nChoice B: MRI\nChoice C: EEG\nChoice D: PET\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5002",
-      "prompt": "Question: \uc0d8\uc758 \ud608\ub958\uc5d0 \ud3ec\ub3c4\ub2f9\uc774 \ub0ae\uc740 \uc218\uc900\uc73c\ub85c \uc874\uc7ac\ud558\ub294 \uac83\uc740 \uadf8\uac00 \uac00\uc7a5 \ud558\uace0 \uc2f6\uc5b4\ud558\ub294 \uac83\uc744 \ub9cc\ub4e4 \uac00\ub2a5\uc131\uc774 \ub192\uc2b5\ub2c8\ub2e4\nChoice A: \uc704\ud5d8\ud55c \ud589\ub3d9\uc5d0 \ucc38\uc5ec\ud558\ub2e4.\nChoice B: \ub85c\ub9e8\ud2f1\ud55c \uad00\uc2ec\uc744 \ucd94\uad6c\ud558\ub2e4.\nChoice C: \uc2dd\uc0ac\ub97c \ud558\ub2e4.\nChoice D: \uc131\uc801\uc744 \ud5a5\uc0c1\uc2dc\ud0a4\uae30 \uc704\ud574 \uacf5\ubd80\ud558\ub2e4.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3532",
-      "prompt": "Question: \ub300\ubd80\ubd84\uc758 \uc720\ub7fd \uc5b8\uc5b4\ub294 \uc5b4\ub5a4 \uc5b4\uc871\uc5d0 \uc18d\ud569\ub2c8\uae4c?\nChoice A: \uc6b0\ub784-\uc54c\ud0c0\uc774\nChoice B: \ubc14\uc2a4\ud06c\nChoice C: \uc778\ub3c4-\uc720\ub7fd\nChoice D: \ud398\ub2c8\ud0a4\uc544\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7698",
-      "prompt": "Question: \ub208\uc758 \uc0c9\uae54\uc774 \uc788\ub294 \ubd80\ubd84\uc744 \ubb34\uc5c7\uc774\ub77c\uace0 \ubd80\ub974\ub098\uc694?\nChoice A: \ud64d\ucc44\nChoice B: \ub3d9\uacf5\nChoice C: \ub9dd\ub9c9\nChoice D: \ub2ec\ud33d\uc774\uad00\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10648",
-      "prompt": "Question: \ud55c \ub0a8\uc790\uac00 \uace0\uc18d\ub3c4\ub85c \ub0a8\ucabd\uc5d0 \uc788\ub294 \ub545\uc744 \uc18c\uc720\ud558\uace0 \uc788\uc5c8\ub2e4. \ub0a8\uc790\uc758 \ub545 \ub0a8\ucabd\uc5d0\ub294 \uc5ec\uc790\uac00 \uc9d1\uc5d0\uc11c \uc0b4\uace0 \uc788\ub294 \ub545\uc774 \uc788\uc5c8\ub2e4. 5\ub144 \uc804, \ub0a8\uc790\ub294 \uc5ec\uc790\uac00 \uace0\uc18d\ub3c4\ub85c\uc640 \uc9d1 \uc0ac\uc774\uc758 \ub354 \uc9c1\uc811\uc801\uc778 \uacbd\ub85c\ub97c \uc81c\uacf5\ud558\uae30 \ub54c\ubb38\uc5d0 \uc790\uc2e0\uc758 \ub545\uc5d0 \ub300\ud55c \ud1b5\ud589\uad8c\uc744 \uc5ec\uc790\uc5d0\uac8c \uc591\ub3c4\ud588\ub2e4. \ud1b5\ud589\uad8c\uc740 \uba85\ud655\ud558\uac8c \ud45c\uc2dc\ub41c \uacbd\ub85c\ub85c \uc99d\uba85\ub418\uc5c8\ub2e4. \ud1b5\ud589\uad8c\uc744 \ubd80\uc5ec\ud558\ub294 \ubb38\uc11c\ub294 \uc989\uc2dc \uae30\ub85d\ub418\uc5c8\ub2e4. 3\ub144 \uc804,...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_11236",
-      "prompt": "Question: 5\uc6d4 19\uc77c, \uc9c0\uc5ed \uc804\ud654 \ud68c\uc0ac\uc758 \uc804\ud654 \uad50\ud658\uc6d0\uc774 \ub0a8\uc131\uc758 \ubaa9\uc18c\ub9ac\ub85c \"\uc624\ub298 \ubc24 \uc2dc\ub0b4 \uc2a4\ud3ec\uce20 \uacbd\uae30\uc7a5\uc774 \ud3ed\ud30c\ub420 \uac83\uc785\ub2c8\ub2e4.\"\ub77c\ub294 \uc804\ud654\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4. \uadf8\ub7f0 \ub2e4\uc74c \uc804\ud654\uac00 \ub04a\uacbc\uc2b5\ub2c8\ub2e4. \uc804\ud654\uac00 \uac78\ub9b0 \ub77c\uc778\uc740 \ud55c \uc5ec\uc131\uc774 \uc18c\uc720\ud55c \ub77c\uc778\uc774\uc5c8\uc2b5\ub2c8\ub2e4. \uc804\ud654 \uad50\ud658\uc6d0\uc740 \uc704\ud611\uc801\uc778 \ub300\ud654\ub97c \uacbd\ucc30\uc5d0 \uc989\uc2dc \ubcf4\uace0\ud588\uc2b5\ub2c8\ub2e4. \uc57d \ubc18\uc2dc\uac04 \ud6c4, \uc5ec\ub7ec \ub2e4\ub978 \uc804\ud654\ub97c \ucc98\ub9ac\ud55c \ud6c4, \uc804\ud654 \uad50\ud658\uc6d0\uc740 ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12259",
-      "prompt": "Question: 6\uc138 \ub0a8\uc790\uc544\uc774\uac00 \ub098\ubb34\uc5d0\uc11c \ub5a8\uc5b4\uc838 \ud314\uc744 \ub2e4\uce5c \uc9c0 2\uc2dc\uac04 \ud6c4 \uc751\uae09\uc2e4\uc5d0 \uc654\uc2b5\ub2c8\ub2e4. \uadf8\uc758 \uc5b4\uba38\ub2c8\ub294 \uadf8\uac00 \ub9e4\uc6b0 \ud65c\ub3d9\uc801\uc774\uba70 \ub4f1\ubc18\uc744 \uc88b\uc544\ud55c\ub2e4\uace0 \ub9d0\ud569\ub2c8\ub2e4. \uc9c0\ub09c 1\ub144 \ub3d9\uc548 \uadf8\ub294 \ud2b8\ub7a8\ud384\ub9b0\uc5d0\uc11c \ub5a8\uc5b4\uc838 \uc624\ub978\ucabd \uacbd\uace8\uc774 \uace8\uc808\ub418\uc5c8\uace0 \uc790\uc804\uac70\uc5d0\uc11c \ub5a8\uc5b4\uc838 \ub1cc\uc9c4\ud0d5\uc744 \uc785\uc5c8\uc2b5\ub2c8\ub2e4. \uadf8\ub140\ub294 \uadf8\uc758 \uad50\uc0ac\ub4e4\uc774 \uad50\uc2e4\uc5d0\uc11c \ub09c\ud3ed\ud558\uac8c \ub6f0\uc5b4\ub2e4\ub2c8\uace0, \uc9c0\ub098\uce58\uac8c \ub9d0\ud558\uace0, \uc790\ub9ac\uc5d0 \uc549\uc544 \uc788\uc9c0 \uc54a\ub294 ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5605",
-      "prompt": "Question: \uc8fc\uc694 \uc5ec\ub860 \uc870\uc0ac \uae30\uad00\uc740 \ub2e4\uac00\uc624\ub294 \uc804\uad6d \uc120\uac70\uc758 \uacb0\uacfc\ub97c \uc608\uce21\ud558\uace0\uc790 \ud569\ub2c8\ub2e4 (\uac01 \ud6c4\ubcf4\uc5d0\uac8c \ud22c\ud45c\ud560 \uc720\uad8c\uc790\uc758 \ube44\uc728 \uce21\uba74\uc5d0\uc11c). \uadf8\ub4e4\uc740 \uc624\ucc28 \ubc94\uc704\uac00 2.5% \uc774\ud558\uc778 95% \uc2e0\ub8b0 \uad6c\uac04\uc744 \uc0ac\uc6a9\ud558\ub824\uace0 \ud569\ub2c8\ub2e4. \uc774 \ubaa9\ud45c\ub97c \ub2ec\uc131\ud558\uae30 \uc704\ud574 \ud544\uc694\ud55c \ucd5c\uc18c \uc0d8\ud50c \ud06c\uae30\ub294 \uc5bc\ub9c8\uc785\ub2c8\uae4c?\nChoice A: 1536\nChoice B: 39\nChoice C: 1537\nChoi...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    }
-  ],
-  "timestamp": "2026-01-18T22:10:40.127489"
-}
+[
+  {
+    "id": "test_0",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ud544\ub4dc \ud655\uc7a5 Q(sqrt(2), sqrt(3), sqrt(18))\uc774 Q\uc5d0 \ub300\ud574 \uac16\ub294 \ucc28\uc218\ub97c \ucc3e\uc73c\uc138\uc694.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the degree of the field extension \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) over \\(\\mathbb{Q}\\), we first simplify the field.\n\nNotice that \\(\\sqrt{18} = \\sqrt{2 \\times 9} = 3\\sqrt{2}\\). Therefore, \\(\\sqrt{18}\\) is already in \\(\\mathbb{Q}(\\sqrt{2})\\). Thus, the field \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) simplifies to \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\).\n\nNow, we find the degree of \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) over \\(\\mathbb{Q}\\).\n\n1. The degree of \\(\\mathbb{Q}(\\sqrt{2})\\) over \\(\\mathbb{Q}\\) is 2, because \\(\\sqrt{2}\\) is a root of the irreducible polynomial \\(x^2 - 2\\) over \\(\\mathbb{Q}\\).\n\n2. The degree of \\(\\mathbb{Q}(\\sqrt{3})\\) over \\(\\mathbb{Q}\\) is also 2, because \\(\\sqrt{3}\\) is a root of the irreducible polynomial \\(x^2 - 3\\) over \\(\\mathbb{Q}\\).\n\n3. To find the degree of \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) over \\(\\mathbb{Q}(\\sqrt{2})\\), we consider \\(\\sqrt{3}\\) as an element of \\(\\mathbb{Q}(\\sqrt{2})\\). The minimal polynomial of \\(\\sqrt{3}\\) over \\(\\mathbb{Q}(\\sqrt{2})\\) is \\(x^2 - 3\\), which remains irreducible over \\(\\mathbb{Q}(\\sqrt{2})\\) because 3 is not a square in \\(\\mathbb{Q}(\\sqrt{2})\\).\n\nTherefore, the degree of \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) over \\(\\mathbb{Q}(\\sqrt{2})\\) is 2.\n\nFinally, the degree of \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) over \\(\\mathbb{Q}\\) is the product of the degrees:\n\\[\n[\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) : \\mathbb{Q}] = [\\mathbb{Q}(\\sqrt{2}) : \\mathbb{Q}] \\times [\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) : \\mathbb{Q}(\\sqrt{2})] = 2 \\times 2 = 4.\n\\]\n\nThus, the degree of the field extension \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) over \\(\\mathbb{Q}\\) is 4.\n\nThe correct answer is B: 4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_1",
+    "lang": "ko",
+    "prompt": "Question: S_5\uc5d0\uc11c p = (1, 2, 5, 4)(2, 3) \uc77c \ub54c, S_5\uc5d0\uc11c \uc758 \uc778\ub371\uc2a4\ub97c \uad6c\ud558\uc2dc\uc624.\nChoice A: 8\nChoice B: 2\nChoice C: 24\nChoice D: 120\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the index of a subgroup generated by a permutation \\( p \\) in the symmetric group \\( S_5 \\), we need to determine the order of the subgroup generated by \\( p \\) and then use the formula for the index of a subgroup.\n\nThe permutation \\( p = (1, 2, 5, 4)(2, 3) \\) is a product of two disjoint cycles. We first need to express \\( p \\) as a single cycle or a product of disjoint cycles. Notice that:\n\n1. The cycle \\( (1, 2, 5, 4) \\) has order 4.\n2. The cycle \\( (2, 3) \\) has order 2.\n\nTo find the order of the permutation \\( p \\), we need to find the least common multiple (LCM) of the orders of the disjoint cycles. However, since these cycles are not disjoint, we need to find the order of the permutation by considering the effect of applying \\( p \\) repeatedly.\n\nLet's compute the order of \\( p \\):\n\n- \\( p^1 = (1, 2, 5, 4)(2, 3) \\)\n- \\( p^2 = ((1, 2, 5, 4)(2, 3))^2 = (1, 5, 4, 2, 3) \\)\n- \\( p^3 = ((1, 2, 5, 4)(2, 3))^3 = (1, 4, 3, 5, 2) \\)\n- \\( p^4 = ((1, 2, 5, 4)(2, 3))^4 = (1, 3, 2, 4, 5) \\)\n- \\( p^5 = ((1, 2, 5, 4)(2, 3))^5 = e \\) (the identity permutation)\n\nThus, the order of \\( p \\) is 5.\n\nThe index of the subgroup generated by \\( p \\) in \\( S_5 \\) is given by the formula:\n\n\\[\n\\text{Index} = \\frac{|S_5|}{\\text{Order of } p} = \\frac{5!}{5} = \\frac{120}{5} = 24\n\\]\n\nTherefore, the index of the subgroup generated by \\( p \\) in \\( S_5 \\) is 24.\n\nThe correct answer is:\n\nC: 24",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_2",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ub2e4\ud56d\uc2dd\uc758 \ud574\ub2f9 \uc720\ud55c\uccb4\uc5d0\uc11c \ubaa8\ub4e0 \uc601\uc810\uc744 \ucc3e\uc73c\uc138\uc694. Z_5\uc5d0\uc11c x^5 + 3x^3 + x^2 + 2x\nChoice A: 0\nChoice B: 1\nChoice C: 0,1\nChoice D: 0,4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the roots of the polynomial \\( f(x) = x^5 + 3x^3 + x^2 + 2x \\) in the finite field \\( \\mathbb{Z}_5 \\), we need to evaluate the polynomial at each element of \\( \\mathbb{Z}_5 \\), which are \\( 0, 1, 2, 3, \\) and \\( 4 \\).\n\n1. \\( f(0) = 0^5 + 3 \\cdot 0^3 + 0^2 + 2 \\cdot 0 = 0 \\)\n2. \\( f(1) = 1^5 + 3 \\cdot 1^3 + 1^2 + 2 \\cdot 1 = 1 + 3 + 1 + 2 = 7 \\equiv 2 \\pmod{5} \\)\n3. \\( f(2) = 2^5 + 3 \\cdot 2^3 + 2^2 + 2 \\cdot 2 = 32 + 24 + 4 + 4 = 64 \\equiv 4 \\pmod{5} \\)\n4. \\( f(3) = 3^5 + 3 \\cdot 3^3 + 3^2 + 2 \\cdot 3 = 243 + 81 + 9 + 6 = 339 \\equiv 4 \\pmod{5} \\)\n5. \\( f(4) = 4^5 + 3 \\cdot 4^3 + 4^2 + 2 \\cdot 4 = 1024 + 192 + 16 + 8 = 1240 \\equiv 0 \\pmod{5} \\)\n\nThe roots of the polynomial in \\( \\mathbb{Z}_5 \\) are \\( 0 \\) and \\( 4 \\).\n\nTherefore, the correct answer is Choice D: 0, 4.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_3",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ube44\uac00\ud658\uad70\uc758 \uc778\uc218\uad70\uc740 \ube44\uac00\ud658\uc774\ub2e4. \uc9c4\uc220 2 | K\uac00 H\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\uace0 H\uac00 G\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\uba74, K\ub294 G\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: \uac70\uc9d3, \uac70\uc9d3\n\n\uc9c4\uc220 1: \ube44\uac00\ud658\uad70\uc758 \uc778\uc218\uad70\uc740 \ube44\uac00\ud658\uc774\ub2e4.  \n\uc774 \uc9c4\uc220\uc740 \uac70\uc9d3\uc785\ub2c8\ub2e4. \ube44\uac00\ud658\uad70\uc758 \uc778\uc218\uad70\uc774 \uac00\ud658\uc77c \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc608\ub97c \ub4e4\uc5b4, \ube44\uac00\ud658\uad70\uc778 \ub300\uce6d\uad70 \\( S_3 \\)\uc758 \uc778\uc218\uad70\uc778 \uc21c\ud658\uad70 \\( \\mathbb{Z}_3 \\)\ub294 \uac00\ud658\uad70\uc785\ub2c8\ub2e4.\n\n\uc9c4\uc220 2: K\uac00 H\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\uace0 H\uac00 G\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\uba74, K\ub294 G\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\ub2e4.  \n\uc774 \uc9c4\uc220\ub3c4 \uac70\uc9d3\uc785\ub2c8\ub2e4. K\uac00 H\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\uace0 H\uac00 G\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\ub354\ub77c\ub3c4, K\uac00 G\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774 \uc544\ub2d0 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc608\ub97c \ub4e4\uc5b4, \\( G = S_4 \\), \\( H = A_4 \\), \\( K = V_4 \\) (Klein 4-group)\uc778 \uacbd\uc6b0, \\( K \\)\ub294 \\( H \\)\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\uace0 \\( H \\)\ub294 \\( G \\)\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\uc9c0\ub9cc, \\( K \\)\ub294 \\( G \\)\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774 \uc544\ub2d9\ub2c8\ub2e4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_4",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ub2e4\ud56d\uc2dd \ub9c1\uc5d0\uc11c \uc8fc\uc5b4\uc9c4 \ub2e4\ud56d\uc2dd\uc758 \uacf1\uc744 \uad6c\ud558\uc2ed\uc2dc\uc624. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 in Z_8[x].\nChoice A: 2x^2 + 5\nChoice B: 6x^2 + 4x + 6\nChoice C: 0\nChoice D: x^2 + 1\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the product of the polynomials \\( f(x) = 4x - 5 \\) and \\( g(x) = 2x^2 - 4x + 2 \\) in the ring \\( \\mathbb{Z}_8[x] \\), we need to multiply them and then reduce the coefficients modulo 8.\n\nFirst, let's multiply the polynomials:\n\n\\[\nf(x) \\cdot g(x) = (4x - 5)(2x^2 - 4x + 2)\n\\]\n\nDistribute each term in \\( f(x) \\) with each term in \\( g(x) \\):\n\n1. \\( 4x \\cdot 2x^2 = 8x^3 \\)\n2. \\( 4x \\cdot (-4x) = -16x^2 \\)\n3. \\( 4x \\cdot 2 = 8x \\)\n4. \\(-5 \\cdot 2x^2 = -10x^2 \\)\n5. \\(-5 \\cdot (-4x) = 20x \\)\n6. \\(-5 \\cdot 2 = -10 \\)\n\nNow, combine like terms:\n\n\\[\n8x^3 + (-16x^2 - 10x^2) + (8x + 20x) - 10\n\\]\n\nSimplify:\n\n\\[\n8x^3 - 26x^2 + 28x - 10\n\\]\n\nNow, reduce each coefficient modulo 8:\n\n1. \\( 8x^3 \\equiv 0 \\pmod{8} \\)\n2. \\(-26x^2 \\equiv 6x^2 \\pmod{8}\\) (since \\(-26 \\equiv 6 \\pmod{8}\\))\n3. \\( 28x \\equiv 4x \\pmod{8}\\) (since \\(28 \\equiv 4 \\pmod{8}\\))\n4. \\(-10 \\equiv 6 \\pmod{8}\\) (since \\(-10 \\equiv 6 \\pmod{8}\\))\n\nThus, the product of the polynomials in \\( \\mathbb{Z}_8[x] \\) is:\n\n\\[\n0 + 6x^2 + 4x + 6 = 6x^2 + 4x + 6\n\\]\n\nTherefore, the correct answer is:\n\nChoice B: \\( 6x^2 + 4x + 6 \\)",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_5",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \uadf8\ub8f9\uc5d0 \uc21c\uc11c 15\uc758 \uc694\uc18c\uac00 \uc788\uc73c\uba74 \uc21c\uc11c 15\uc758 \uc694\uc18c\uac00 \ucd5c\uc18c 8\uac1c \uc788\uc5b4\uc57c \ud569\ub2c8\ub2e4. \uc9c4\uc220 2 | \uadf8\ub8f9\uc5d0 \uc21c\uc11c 15\uc758 \uc694\uc18c\uac00 8\uac1c \uc774\uc0c1 \uc788\uc73c\uba74 \uc21c\uc11c 15\uc758 \uc694\uc18c\uac00 \ucd5c\uc18c 16\uac1c \uc788\uc5b4\uc57c \ud569\ub2c8\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To determine the truth of the statements, we need to analyze them in the context of group theory, specifically regarding elements of a certain order in a group.\n\nStatement 1: \"If a group has an element of order 15, then it must have at least 8 elements of order 15.\"\n\nThis statement is not generally true. The number of elements of a given order in a group is determined by the structure of the group. There is no general rule that dictates a specific minimum number of elements of a certain order, such as 8 for order 15, without additional information about the group. Therefore, Statement 1 is false.\n\nStatement 2: \"If a group has at least 8 elements of order 15, then it must have at least 16 elements of order 15.\"\n\nThis statement is also not generally true. If a group has 8 elements of order 15, it does not necessarily imply that it must have 16 elements of order 15. The number of elements of a specific order depends on the group's structure, and there is no inherent rule that doubles the count from 8 to 16 without further context. Therefore, Statement 2 is false.\n\nBoth statements are false, so the correct choice is:\n\nB: \uac70\uc9d3, \uac70\uc9d3",
+    "prediction": "B",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_6",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \uadf8\ub8f9 G\uc758 \ubaa8\ub4e0 \ub3d9\ud615 \uc0ac\uc0c1 \uc774\ubbf8\uc9c0\ub294 G\uc758 \ubaab \uadf8\ub8f9\uacfc \ub3d9\ud615\uc774\ub2e4. \uc9c4\uc220 2 | \uadf8\ub8f9 G\uc758 \ub3d9\ud615 \uc0ac\uc0c1 \uc774\ubbf8\uc9c0\ub294 G\uc758 \ubaab \uadf8\ub8f9\uacfc \ub3d9\uc77c\ud558\ub2e4 (\ub3d9\ud615\uae4c\uc9c0).\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3",
+    "prediction": "C",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_7",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ub9c1 \ub3d9\ud615 \uc0ac\uc0c1\uc740 \ucee4\ub110\uc774 {0}\uc77c \ub54c \uadf8\ub9ac\uace0 \uadf8\ub54c\uc5d0\ub9cc \uc77c\ub300\uc77c\uc774\ub2e4. \uc9c4\uc220 2 | Q\ub294 R\uc5d0\uc11c \uc544\uc774\ub514\uc5bc\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3\n\n\uc9c4\uc220 1\uc740 \ucc38\uc785\ub2c8\ub2e4. \ub9c1 \ub3d9\ud615 \uc0ac\uc0c1\uc740 \ucee4\ub110\uc774 {0}\uc77c \ub54c \uc77c\ub300\uc77c\uc785\ub2c8\ub2e4. \uc774\ub294 \uae30\ubcf8 \ub3d9\ud615 \uc815\ub9ac\uc5d0 \uc758\ud574 \uc99d\uba85\ub429\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub294 \uac70\uc9d3\uc785\ub2c8\ub2e4. Q\ub294 \uc720\ub9ac\uc218\uc758 \uc9d1\ud569\uc774\uace0, R\uc740 \uc2e4\uc218\uc758 \uc9d1\ud569\uc785\ub2c8\ub2e4. Q\ub294 R\uc758 \uc544\uc774\ub514\uc5bc\uc774 \ub420 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \uc544\uc774\ub514\uc5bc\uc774 \ub418\ub824\uba74 R\uc758 \ubaa8\ub4e0 \uc2e4\uc218\uc640 Q\uc758 \uc6d0\uc18c\ub97c \uacf1\ud588\uc744 \ub54c \ub2e4\uc2dc Q\uc758 \uc6d0\uc18c\uac00 \ub418\uc5b4\uc57c \ud558\ub294\ub370, \uc774\ub294 \uc131\ub9bd\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \uc608\ub97c \ub4e4\uc5b4, \uc2e4\uc218 \u03c0\uc640 \uc720\ub9ac\uc218 1\uc744 \uacf1\ud558\uba74 \u03c0\uac00 \ub418\ub294\ub370, \u03c0\ub294 \uc720\ub9ac\uc218\uac00 \uc544\ub2d9\ub2c8\ub2e4.",
+    "prediction": "C",
+    "ground_truth": "D",
+    "correct": false
+  },
+  {
+    "id": "test_8",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ud544\ub4dc \ud655\uc7a5 Q(sqrt(2) + sqrt(3))\uc758 Q\uc5d0 \ub300\ud55c \ucc28\uc218\ub97c \ucc3e\uc73c\uc138\uc694.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the degree of the field extension \\(\\mathbb{Q}(\\sqrt{2} + \\sqrt{3})\\) over \\(\\mathbb{Q}\\), we first need to determine the minimal polynomial of \\(\\sqrt{2} + \\sqrt{3}\\) over \\(\\mathbb{Q}\\).\n\nLet \\(x = \\sqrt{2} + \\sqrt{3}\\). Then, we have:\n\\[\nx - \\sqrt{2} = \\sqrt{3}\n\\]\nSquaring both sides, we get:\n\\[\n(x - \\sqrt{2})^2 = 3\n\\]\n\\[\nx^2 - 2x\\sqrt{2} + 2 = 3\n\\]\n\\[\nx^2 - 2x\\sqrt{2} = 1\n\\]\n\\[\nx^2 - 1 = 2x\\sqrt{2}\n\\]\nSquaring again to eliminate the square root, we have:\n\\[\n(x^2 - 1)^2 = (2x\\sqrt{2})^2\n\\]\n\\[\nx^4 - 2x^2 + 1 = 4x^2 \\cdot 2\n\\]\n\\[\nx^4 - 2x^2 + 1 = 8x^2\n\\]\n\\[\nx^4 - 10x^2 + 1 = 0\n\\]\n\nThe polynomial \\(x^4 - 10x^2 + 1\\) is a polynomial with rational coefficients, and \\(\\sqrt{2} + \\sqrt{3}\\) is a root of this polynomial. We need to check if this is the minimal polynomial.\n\nTo determine the degree of the extension, we consider the degrees of the individual extensions \\(\\mathbb{Q}(\\sqrt{2})\\) and \\(\\mathbb{Q}(\\sqrt{3})\\), both of which are 2. Since \\(\\sqrt{2}\\) and \\(\\sqrt{3}\\) are not rationally related (i.e., \\(\\sqrt{2}/\\sqrt{3}\\) is not rational), the degree of the extension \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) over \\(\\mathbb{Q}\\) is the product of the degrees of the individual extensions, which is \\(2 \\times 2 = 4\\).\n\nThus, the degree of the field extension \\(\\mathbb{Q}(\\sqrt{2} + \\sqrt{3})\\) over \\(\\mathbb{Q}\\) is 4.\n\nThe correct answer is:\nB: 4",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_9",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ub2e4\ud56d\uc2dd\uc758 \ud574\ub2f9 \uc720\ud55c\uccb4\uc5d0\uc11c \ubaa8\ub4e0 \uc601\uc810\uc744 \ucc3e\uc73c\uc2ed\uc2dc\uc624. Z_7\uc5d0\uc11c x^3 + 2x + 2\nChoice A: 1\nChoice B: 2\nChoice C: 2,3\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the roots of the polynomial \\( f(x) = x^3 + 2x + 2 \\) in the finite field \\( \\mathbb{Z}_7 \\), we need to evaluate the polynomial at each element of \\( \\mathbb{Z}_7 \\) (i.e., \\( 0, 1, 2, 3, 4, 5, 6 \\)) and check which evaluations result in 0.\n\nLet's evaluate:\n\n1. \\( f(0) = 0^3 + 2 \\cdot 0 + 2 = 2 \\)\n2. \\( f(1) = 1^3 + 2 \\cdot 1 + 2 = 1 + 2 + 2 = 5 \\)\n3. \\( f(2) = 2^3 + 2 \\cdot 2 + 2 = 8 + 4 + 2 = 14 \\equiv 0 \\pmod{7} \\)\n4. \\( f(3) = 3^3 + 2 \\cdot 3 + 2 = 27 + 6 + 2 = 35 \\equiv 0 \\pmod{7} \\)\n5. \\( f(4) = 4^3 + 2 \\cdot 4 + 2 = 64 + 8 + 2 = 74 \\equiv 4 \\pmod{7} \\)\n6. \\( f(5) = 5^3 + 2 \\cdot 5 + 2 = 125 + 10 + 2 = 137 \\equiv 4 \\pmod{7} \\)\n7. \\( f(6) = 6^3 + 2 \\cdot 6 + 2 = 216 + 12 + 2 = 230 \\equiv 6 \\pmod{7} \\)\n\nThe roots of the polynomial in \\( \\mathbb{Z}_7 \\) are \\( x = 2 \\) and \\( x = 3 \\).\n\nTherefore, the correct answer is:\n\nC: 2,3",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_10",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | H\uac00 G\uc758 \ubd80\ubd84\uad70\uc774\uace0 a\uac00 G\uc5d0 \uc18d\ud558\uba74 |aH| = |Ha|\uc774\ub2e4. \uc9c4\uc220 2 | H\uac00 G\uc758 \ubd80\ubd84\uad70\uc774\uace0 a\uc640 b\uac00 G\uc5d0 \uc18d\ud558\uba74 aH\uc640 Hb\ub294 \ub3d9\uc77c\ud558\uac70\ub098 \uc11c\ub85c\uc18c\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_11",
+    "lang": "ko",
+    "prompt": "Question: \ub9cc\uc57d A = {1, 2, 3}\uc774\ub77c\uba74 \uad00\uacc4 S = {(1, 1), (2, 2)}\ub294\nChoice A: \ub300\uce6d\uc801\uc774\ub2e4\nChoice B: \ubc18\ub300\uce6d\uc801\uc774\ub2e4\nChoice C: \ub300\uce6d\uc801\uc774\uba74\uc11c \ubc18\ub300\uce6d\uc801\uc774\ub2e4\nChoice D: \ub3d9\uce58 \uad00\uacc4\uc774\ub2e4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: \ubc18\ub300\uce6d\uc801\uc774\ub2e4",
+    "prediction": "B",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_12",
+    "lang": "ko",
+    "prompt": "Question: (Z_11 x Z_15)/(<1, 1>)\uc758 \uc778\uc218 \uadf8\ub8f9\uc758 \uc21c\uc11c\ub97c \ucc3e\uc73c\uc138\uc694\nChoice A: 1\nChoice B: 2\nChoice C: 5\nChoice D: 11\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the order of the quotient group \\((\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}) / \\langle (1, 1) \\rangle\\), we first need to understand the structure of the group and the subgroup.\n\n1. **Order of \\(\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}\\):**\n   - The order of \\(\\mathbb{Z}_{11}\\) is 11.\n   - The order of \\(\\mathbb{Z}_{15}\\) is 15.\n   - Therefore, the order of \\(\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}\\) is \\(11 \\times 15 = 165\\).\n\n2. **Order of the subgroup \\(\\langle (1, 1) \\rangle\\):**\n   - The element \\((1, 1)\\) generates a cyclic subgroup.\n   - The order of \\((1, 1)\\) is the least common multiple of the orders of 1 in \\(\\mathbb{Z}_{11}\\) and \\(\\mathbb{Z}_{15}\\).\n   - The order of 1 in \\(\\mathbb{Z}_{11}\\) is 11.\n   - The order of 1 in \\(\\mathbb{Z}_{15}\\) is 15.\n   - Thus, the order of \\((1, 1)\\) is \\(\\text{lcm}(11, 15) = 165\\).\n\n3. **Order of the quotient group:**\n   - The order of the quotient group \\((\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}) / \\langle (1, 1) \\rangle\\) is the order of \\(\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}\\) divided by the order of \\(\\langle (1, 1) \\rangle\\).\n   - Therefore, the order is \\(\\frac{165}{165} = 1\\).\n\nThus, the order of the quotient group is 1.\n\nThe correct answer is **A**.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_13",
+    "lang": "ko",
+    "prompt": "Question: \ub2e4\ud56d\uc2dd x^3 + 2x^2 + 2x + 1\uc740 Z_7[x]\uc5d0\uc11c \uc120\ud615 \uc778\uc218\ub85c \ubd84\ud574\ub420 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \ubd84\ud574\ub97c \ucc3e\uc73c\uc138\uc694.\nChoice A: (x \u2212 2)(x + 2)(x \u2212 1)\nChoice B: (x + 1)(x + 4)(x \u2212 2)\nChoice C: (x + 1)(x \u2212 4)(x \u2212 2)\nChoice D: (x - 1)(x \u2212 4)(x \u2212 2)\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To factor the polynomial \\( x^3 + 2x^2 + 2x + 1 \\) over \\( \\mathbb{Z}_7 \\), we need to find its roots in \\( \\mathbb{Z}_7 \\). We will test each element of \\( \\mathbb{Z}_7 \\) (i.e., \\( 0, 1, 2, 3, 4, 5, 6 \\)) to see if it is a root of the polynomial.\n\n1. \\( f(0) = 0^3 + 2 \\cdot 0^2 + 2 \\cdot 0 + 1 = 1 \\neq 0 \\)\n2. \\( f(1) = 1^3 + 2 \\cdot 1^2 + 2 \\cdot 1 + 1 = 1 + 2 + 2 + 1 = 6 \\equiv -1 \\pmod{7} \\neq 0 \\)\n3. \\( f(2) = 2^3 + 2 \\cdot 2^2 + 2 \\cdot 2 + 1 = 8 + 8 + 4 + 1 = 21 \\equiv 0 \\pmod{7} \\)\n4. \\( f(3) = 3^3 + 2 \\cdot 3^2 + 2 \\cdot 3 + 1 = 27 + 18 + 6 + 1 = 52 \\equiv 3 \\pmod{7} \\neq 0 \\)\n5. \\( f(4) = 4^3 + 2 \\cdot 4^2 + 2 \\cdot 4 + 1 = 64 + 32 + 8 + 1 = 105 \\equiv 0 \\pmod{7} \\)\n6. \\( f(5) = 5^3 + 2 \\cdot 5^2 + 2 \\cdot 5 + 1 = 125 + 50 + 10 + 1 = 186 \\equiv 0 \\pmod{7} \\)\n7. \\( f(6) = 6^3 + 2 \\cdot 6^2 + 2 \\cdot 6 + 1 = 216 + 72 + 12 + 1 = 301 \\equiv 6 \\equiv -1 \\pmod{7} \\neq 0 \\)\n\nThe roots of the polynomial in \\( \\mathbb{Z}_7 \\) are \\( 2, 4, \\) and \\( 5 \\). Therefore, the factorization of the polynomial is \\( (x - 2)(x - 4)(x - 5) \\).\n\nNow, we need to match this factorization with the given choices:\n\n- Choice A: \\( (x - 2)(x + 2)(x - 1) \\)\n- Choice B: \\( (x + 1)(x + 4)(x - 2) \\)\n- Choice C: \\( (x + 1)(x - 4)(x - 2) \\)\n- Choice D: \\( (x - 1)(x - 4)(x - 2) \\)\n\nSince \\( x - 5 \\equiv x + 2 \\pmod{7} \\), the correct factorization is:\n\nChoice A: \\( (x - 2)(x + 2)(x - 1) \\)\n\nThus, the answer is A.",
+    "prediction": "A",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_14",
+    "lang": "ko",
+    "prompt": "Question: n = 10\uc77c \ub54c S_n\uc758 \uc694\uc18c\uc5d0 \ub300\ud55c \ucd5c\ub300 \uac00\ub2a5\ud55c \uc21c\uc11c\ub97c \ucc3e\uc73c\uc2ed\uc2dc\uc624.\nChoice A: 6\nChoice B: 12\nChoice C: 30\nChoice D: 105\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To solve this problem, we need to determine the maximum possible order of an element in the symmetric group \\( S_n \\) when \\( n = 10 \\). The order of an element in a symmetric group is the least common multiple (LCM) of the lengths of the cycles in its cycle decomposition.\n\nFor \\( S_{10} \\), we want to find the maximum LCM of cycle lengths that sum to 10. The strategy is to use the largest possible cycles that fit into 10.\n\nOne possible decomposition is a 5-cycle and a 5-cycle, which gives an LCM of 5. However, we can do better with a 7-cycle and a 3-cycle, which gives an LCM of 21. But we can do even better with a 5-cycle, a 3-cycle, and a 2-cycle, which gives an LCM of 30.\n\nTherefore, the maximum possible order of an element in \\( S_{10} \\) is 30.\n\nThe correct answer is Choice C: 30.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_15",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | R\uc740 Q \uc704\uc758 \uc5b4\ub5a4 \ub2e4\ud56d\uc2dd\uc758 \ubd84\ud560\uccb4\uc774\ub2e4. \uc9c4\uc220 2 | 60\uac1c\uc758 \uc6d0\uc18c\ub97c \uac00\uc9c4 \uccb4\uac00 \uc788\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice C: \ucc38, \uac70\uc9d3\n\n\uc9c4\uc220 1\uc740 \ucc38\uc785\ub2c8\ub2e4. R\uc740 \uc2e4\uc218\uccb4\ub85c, \uc774\ub294 \uc720\ub9ac\uc218\uccb4 Q \uc704\uc758 \ub2e4\ud56d\uc2dd\uc758 \ubd84\ud560\uccb4\ub85c \ubcfc \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc608\ub97c \ub4e4\uc5b4, x^2 - 2 = 0\uc758 \uadfc\uc744 \ud3ec\ud568\ud558\ub294 \ubd84\ud560\uccb4\ub85c \uc0dd\uac01\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub294 \uac70\uc9d3\uc785\ub2c8\ub2e4. \uccb4\uc758 \uc6d0\uc18c \uac1c\uc218\ub294 \uc18c\uc218\uc758 \uac70\ub4ed\uc81c\uacf1\uc774\uc5b4\uc57c \ud569\ub2c8\ub2e4. 60\uc740 \uc18c\uc218\uc758 \uac70\ub4ed\uc81c\uacf1\uc774 \uc544\ub2c8\ubbc0\ub85c, 60\uac1c\uc758 \uc6d0\uc18c\ub97c \uac00\uc9c4 \uccb4\ub294 \uc874\uc7ac\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_16",
+    "lang": "ko",
+    "prompt": "Question: \uacf1\uc148 \uadf8\ub8f9 {1, -1, i, -i}\uc5d0\uc11c -i\uc758 \uc5ed\uc218\ub294 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: 1\nChoice B: -1\nChoice C: i\nChoice D: -i\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Answer: C",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_17",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ub9c1\uc5d0\uc11c \uacf1\uc744 \uacc4\uc0b0\ud558\uc138\uc694. (2,3)(3,5) in Z_5 x Z_9\nChoice A: (1,1)\nChoice B: (3,1)\nChoice C: (1,6)\nChoice D: (3,6)\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To calculate the product of the elements (2,3) and (3,5) in the ring \\( \\mathbb{Z}_5 \\times \\mathbb{Z}_9 \\), we perform the multiplication component-wise.\n\n1. For the first component in \\( \\mathbb{Z}_5 \\):\n   \\[\n   2 \\times 3 = 6 \\equiv 1 \\pmod{5}\n   \\]\n\n2. For the second component in \\( \\mathbb{Z}_9 \\):\n   \\[\n   3 \\times 5 = 15 \\equiv 6 \\pmod{9}\n   \\]\n\nThus, the product is \\( (1, 6) \\).\n\nThe correct answer is Choice C: (1,6).",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_18",
+    "lang": "ko",
+    "prompt": "Question: \uc77c\ubc18\uc801\uc778 \uacf1\uc148 \uc5f0\uc0b0 \uc544\ub798 \ubaa8\ub4e0 \uc2e4\uc218 \uc9d1\ud569\uc740 \uadf8\ub8f9\uc774 \uc544\ub2cc\ub370 \uadf8 \uc774\uc720\ub294\nChoice A: \uacf1\uc148\uc740 \uc774\uc9c4 \uc5f0\uc0b0\uc774 \uc544\ub2c8\ub2e4\nChoice B: \uacf1\uc148\uc740 \uacb0\ud569 \ubc95\uce59\uc744 \ub530\ub974\uc9c0 \uc54a\ub294\ub2e4\nChoice C: \ud56d\ub4f1\uc6d0\uc774 \uc874\uc7ac\ud558\uc9c0 \uc54a\ub294\ub2e4\nChoice D: 0\uc740 \uc5ed\uc6d0\uc774 \uc5c6\ub2e4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: 0\uc740 \uc5ed\uc6d0\uc774 \uc5c6\ub2e4",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_19",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1| p\uac00 \uc18c\uc218\uc77c \ub54c, p^2 \ucc28\uc218\uc758 \ubaa8\ub4e0 \uadf8\ub8f9\uc740 \uc544\ubca8 \uad70\uc774\ub2e4. \uc9c4\uc220 2| \uace0\uc815\ub41c \uc18c\uc218 p\uc5d0 \ub300\ud574 \uadf8\ub8f9 G\uc758 Sylow p-\ubd80\ubd84\uad70\uc740 G\uc758 \uc720\uc77c\ud55c Sylow p-\ubd80\ubd84\uad70\uc77c \ub54c\uc5d0\ub9cc G\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3\n\n\uc9c4\uc220 1\uc740 \ucc38\uc785\ub2c8\ub2e4. \uc18c\uc218 p\uc5d0 \ub300\ud574, p^2 \ucc28\uc218\uc758 \ubaa8\ub4e0 \uadf8\ub8f9\uc740 \uc544\ubca8 \uad70\uc785\ub2c8\ub2e4. \uc774\ub294 p^2 \ucc28\uc218\uc758 \uad70\uc740 \ud56d\uc0c1 \uc544\ubca8 \uad70\uc774\ub77c\ub294 \uc815\ub9ac\uc5d0 \uc758\ud574 \ubcf4\uc7a5\ub429\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub294 \uac70\uc9d3\uc785\ub2c8\ub2e4. \uadf8\ub8f9 G\uc758 Sylow p-\ubd80\ubd84\uad70\uc774 G\uc758 \uc720\uc77c\ud55c Sylow p-\ubd80\ubd84\uad70\uc77c \ub54c \uc815\uaddc \ubd80\ubd84\uad70\uc774 \ub418\ub294 \uac83\uc740 \ub9de\uc9c0\ub9cc, \uc720\uc77c\ud558\uc9c0 \uc54a\ub354\ub77c\ub3c4 \uc815\uaddc \ubd80\ubd84\uad70\uc774 \ub420 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc608\ub97c \ub4e4\uc5b4, G\uac00 \uc544\ubca8 \uad70\uc774\ub77c\uba74 \ubaa8\ub4e0 \ubd80\ubd84\uad70\uc740 \uc815\uaddc \ubd80\ubd84\uad70\uc785\ub2c8\ub2e4.",
+    "prediction": "C",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_20",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \uc720\ud55c \uadf8\ub8f9 G\uc640 H\uc5d0 \ub300\ud574, |G + H| = |G||H|\uc774\ub2e4. (G + H\ub294 \ub0b4\ubd80 \uc9c1\uc811 \uacf1\uc774\ub2e4.) \uc9c4\uc220 2 | r\uc774 m\uc744 \ub098\ub204\uace0 s\uac00 n\uc744 \ub098\ub204\uba74 Z_m + Z_n\uc740 Z_r + Z_s\uc640 \ub3d9\ud615\uc778 \ubd80\ubd84 \uadf8\ub8f9\uc744 \uac00\uc9c4\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3",
+    "prediction": "C",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_21",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ub2e4\ud56d\uc2dd \ud658\uc5d0\uc11c \uc8fc\uc5b4\uc9c4 \ub2e4\ud56d\uc2dd\uc758 \ud569\uc744 \uad6c\ud558\uc2ed\uc2dc\uc624. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 in Z_8[x].\nChoice A: 2x^2 + 5\nChoice B: 6x^2 + 4x + 6\nChoice C: 0\nChoice D: x^2 + 1\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the sum of the polynomials \\( f(x) = 4x - 5 \\) and \\( g(x) = 2x^2 - 4x + 2 \\) in the ring \\( \\mathbb{Z}_8[x] \\), we perform the addition as follows:\n\n1. Add the coefficients of like terms:\n   - The \\( x^2 \\) term: \\( 0 + 2 = 2 \\)\n   - The \\( x \\) term: \\( 4 - 4 = 0 \\)\n   - The constant term: \\( -5 + 2 = -3 \\)\n\n2. Convert the coefficients to their equivalent in \\( \\mathbb{Z}_8 \\):\n   - The \\( x^2 \\) term: \\( 2 \\equiv 2 \\pmod{8} \\)\n   - The \\( x \\) term: \\( 0 \\equiv 0 \\pmod{8} \\)\n   - The constant term: \\( -3 \\equiv 5 \\pmod{8} \\) (since \\(-3 + 8 = 5\\))\n\nThus, the resulting polynomial is \\( 2x^2 + 0x + 5 \\), which simplifies to \\( 2x^2 + 5 \\).\n\nTherefore, the correct choice is:\n\nChoice A: \\( 2x^2 + 5 \\)",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_22",
+    "lang": "ko",
+    "prompt": "Question: \ubb38\uc7a5 1 | R^2\uc5d0\uc11c \ub450 \ubca1\ud130\uc758 \uc9d1\ud569\uc740 \uc120\ud615 \ub3c5\ub9bd\uc774\ub2e4. \ubb38\uc7a5 2 | V = span(v1, ... , vk)\uc774\uace0 {v1, ... , vk}\uac00 \uc120\ud615 \ub3c5\ub9bd\uc774\ub77c\uba74, dim(V) = k\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: \uac70\uc9d3, \ucc38\n\n\ubb38\uc7a5 1\uc740 \uac70\uc9d3\uc785\ub2c8\ub2e4. R^2\uc5d0\uc11c \ub450 \ubca1\ud130\uc758 \uc9d1\ud569\uc774 \ud56d\uc0c1 \uc120\ud615 \ub3c5\ub9bd\uc778 \uac83\uc740 \uc544\ub2d9\ub2c8\ub2e4. \ub450 \ubca1\ud130\uac00 \ud3c9\ud589\ud558\uba74 \uc120\ud615 \ub3c5\ub9bd\uc774 \uc544\ub2d9\ub2c8\ub2e4.\n\n\ubb38\uc7a5 2\ub294 \ucc38\uc785\ub2c8\ub2e4. V = span(v1, ... , vk)\uc774\uace0 {v1, ... , vk}\uac00 \uc120\ud615 \ub3c5\ub9bd\uc774\ub77c\uba74, V\uc758 \ucc28\uc6d0\uc740 k\uc785\ub2c8\ub2e4.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_23",
+    "lang": "ko",
+    "prompt": "Question: \ubcf5\uc18c\uc218\uc758 \uacf1\uc148 \uc544\ub798\uc5d0\uc11c \ubaa8\ub4e0 n\ucc28 \ub2e8\uc704\uadfc\uc758 \uc9d1\ud569\uc740 \ubb34\uc5c7\uc744 \ud615\uc131\ud558\ub294\uac00?\nChoice A: \ud56d\ub4f1\uc6d0\uc744 \uac00\uc9c4 \ubc18\uad70\nChoice B: \ud56d\ub4f1\uc6d0\uc744 \uac00\uc9c4 \uac00\ud658 \ubc18\uad70\nChoice C: \uad70\nChoice D: \uc544\ubca8 \uad70\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: \uc544\ubca8 \uad70",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_24",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ubaa8\ub4e0 \uadf9\ub300 \uc544\uc774\ub514\uc5bc\uc740 \uc18c \uc544\uc774\ub514\uc5bc\uc774\ub2e4. \uc9c4\uc220 2 | I\uac00 \uac00\ud658\ud658 R\uc758 \uadf9\ub300 \uc544\uc774\ub514\uc5bc\uc774\ub77c\uba74, R/I\ub294 \uccb4\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: \ucc38, \ucc38\n\n\uc9c4\uc220 1\uc740 \ucc38\uc785\ub2c8\ub2e4. \ubaa8\ub4e0 \uadf9\ub300 \uc544\uc774\ub514\uc5bc\uc740 \uc18c \uc544\uc774\ub514\uc5bc\uc785\ub2c8\ub2e4. \uadf9\ub300 \uc544\uc774\ub514\uc5bc\uc758 \uc815\uc758\uc5d0 \ub530\ub974\uba74, \uadf9\ub300 \uc544\uc774\ub514\uc5bc\uc740 \uc790\uc2e0\ubcf4\ub2e4 \ud070 \uc544\uc774\ub514\uc5bc\uc774 \uc804\uccb4 \ud658\ubc16\uc5d0 \uc5c6\ub294 \uc544\uc774\ub514\uc5bc\uc785\ub2c8\ub2e4. \ub530\ub77c\uc11c \uadf9\ub300 \uc544\uc774\ub514\uc5bc\uc740 \uc18c \uc544\uc774\ub514\uc5bc\uc785\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub3c4 \ucc38\uc785\ub2c8\ub2e4. I\uac00 \uac00\ud658\ud658 R\uc758 \uadf9\ub300 \uc544\uc774\ub514\uc5bc\uc774\ub77c\uba74, \ubaab\ud658 R/I\ub294 \uccb4\uac00 \ub429\ub2c8\ub2e4. \uc774\ub294 \ud658\uc758 \uc544\uc774\ub514\uc5bc I\uac00 \uadf9\ub300 \uc544\uc774\ub514\uc5bc\uc77c \ub54c, \ubaab\ud658 R/I\uac00 \uccb4\uac00 \ub41c\ub2e4\ub294 \uc0ac\uc2e4\uc5d0 \uae30\ubc18\ud569\ub2c8\ub2e4.",
+    "prediction": "A",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_25",
+    "lang": "ko",
+    "prompt": "Question: G\uac00 \ubaa8\ub4e0 n x n \ube44\ud2b9\uc774 \ud589\ub82c\uc758 \uc9d1\ud569\uc744 \ub098\ud0c0\ub0b4\uba70, \uadf8 \ud56d\ubaa9\uc740 \uc720\ub9ac\uc218\ub85c \uad6c\uc131\ub418\uc5b4 \uc788\ub2e4. \uadf8\ub807\ub2e4\uba74 \uacf1\uc148 \uc544\ub798\uc5d0\uc11c G\ub294\nChoice A: \ubd80\ubd84\uad70\nChoice B: \uc720\ud55c \uc544\ubca8 \uad70\nChoice C: \ubb34\ud55c \ube44\uc544\ubca8 \uad70\nChoice D: \ubb34\ud55c \uc544\ubca8 \uad70\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Answer: C: \ubb34\ud55c \ube44\uc544\ubca8 \uad70",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_26",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ubaa8\ub4e0 \ucc28\uc218\uac00 42\uc778 \uadf8\ub8f9\uc740 \ucc28\uc218\uac00 7\uc778 \uc815\uaddc \ubd80\ubd84\uad70\uc744 \uac00\uc9c4\ub2e4. \uc9c4\uc220 2 | \ubaa8\ub4e0 \ucc28\uc218\uac00 42\uc778 \uadf8\ub8f9\uc740 \ucc28\uc218\uac00 8\uc778 \uc815\uaddc \ubd80\ubd84\uad70\uc744 \uac00\uc9c4\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_27",
+    "lang": "ko",
+    "prompt": "Question: \ub2e4\ud56d\uc2dd\uc774 Z[x]\uc5d0\uc11c Eisenstein \uae30\uc900\uc744 \ub9cc\uc871\ud558\ub294\uc9c0 \uc5ec\ubd80\ub97c \uacb0\uc815\ud558\uc138\uc694. 8x^3 + 6x^2 - 9x + 24\nChoice A: \uc608, p=2\ub85c.\nChoice B: \uc608, p=3\ub85c.\nChoice C: \uc608, p=5\ub85c.\nChoice D: \uc544\ub2c8\uc694.\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To determine if the polynomial \\(8x^3 + 6x^2 - 9x + 24\\) satisfies the Eisenstein criterion, we need to check if there exists a prime \\(p\\) such that:\n\n1. \\(p\\) divides all coefficients except the leading coefficient.\n2. \\(p\\) does not divide the leading coefficient.\n3. \\(p^2\\) does not divide the constant term.\n\nLet's check each option:\n\n- **Choice A: \\(p = 2\\)**\n  - The leading coefficient is 8, which is divisible by 2, so it does not satisfy condition 2.\n\n- **Choice B: \\(p = 3\\)**\n  - The leading coefficient is 8, which is not divisible by 3.\n  - The other coefficients are 6, -9, and 24. All of these are divisible by 3.\n  - The constant term is 24, and \\(3^2 = 9\\) does not divide 24.\n  - All conditions are satisfied for \\(p = 3\\).\n\n- **Choice C: \\(p = 5\\)**\n  - The leading coefficient is 8, which is not divisible by 5.\n  - The other coefficients are 6, -9, and 24. None of these are divisible by 5, so it does not satisfy condition 1.\n\n- **Choice D: \uc544\ub2c8\uc694**\n  - Since we found that the polynomial satisfies the Eisenstein criterion for \\(p = 3\\), this choice is incorrect.\n\nTherefore, the correct answer is:\n\nB",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_28",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ub3d9\ud615\uc0ac\uc0c1 \uc544\ub798\uc5d0\uc11c 6\uac1c\uc758 \uc694\uc18c\ub85c \uc774\ub8e8\uc5b4\uc9c4 \uadf8\ub8f9\uc758 \uc774\ubbf8\uc9c0\ub294 12\uac1c\uc758 \uc694\uc18c\ub97c \uac00\uc9c8 \uc218 \uc788\ub2e4. \uc9c4\uc220 2 | 6\uac1c\uc758 \uc694\uc18c\ub85c \uc774\ub8e8\uc5b4\uc9c4 \uc5b4\ub5a4 \uadf8\ub8f9\uc758 \ub3d9\ud615\uc0ac\uc0c1\uc774 12\uac1c\uc758 \uc694\uc18c\ub85c \uc774\ub8e8\uc5b4\uc9c4 \uc5b4\ub5a4 \uadf8\ub8f9\uc5d0 \uc874\uc7ac\ud55c\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: \uac70\uc9d3, \uac70\uc9d3\n\n\uc9c4\uc220 1\uc740 \uac70\uc9d3\uc785\ub2c8\ub2e4. \ub3d9\ud615\uc0ac\uc0c1\uc740 \uadf8\ub8f9\uc758 \uad6c\uc870\ub97c \ubcf4\uc874\ud558\ub294 \ud568\uc218\ub85c, \uadf8\ub8f9\uc758 \uc694\uc18c \uc218(\uc989, \uadf8\ub8f9\uc758 \ud06c\uae30)\ub97c \ubcc0\uacbd\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \ub530\ub77c\uc11c 6\uac1c\uc758 \uc694\uc18c\ub85c \uc774\ub8e8\uc5b4\uc9c4 \uadf8\ub8f9\uc758 \ub3d9\ud615\uc0ac\uc0c1 \uc544\ub798\uc5d0\uc11c\uc758 \uc774\ubbf8\uc9c0\ub294 \uc5ec\uc804\ud788 6\uac1c\uc758 \uc694\uc18c\ub97c \uac00\uc838\uc57c \ud569\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub3c4 \uac70\uc9d3\uc785\ub2c8\ub2e4. \ub3d9\ud615\uc0ac\uc0c1\uc740 \uadf8\ub8f9\uc758 \ud06c\uae30\ub97c \ubcf4\uc874\ud558\uae30 \ub54c\ubb38\uc5d0, 6\uac1c\uc758 \uc694\uc18c\ub85c \uc774\ub8e8\uc5b4\uc9c4 \uadf8\ub8f9\uc758 \ub3d9\ud615\uc0ac\uc0c1\uc774 12\uac1c\uc758 \uc694\uc18c\ub85c \uc774\ub8e8\uc5b4\uc9c4 \uadf8\ub8f9\uc5d0 \uc874\uc7ac\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. \ub3d9\ud615\uc0ac\uc0c1\uc740 \uadf8\ub8f9\uc758 \ud06c\uae30\ub97c \ubcc0\uacbd\ud558\uc9c0 \uc54a\uc73c\ubbc0\ub85c, 6\uac1c\uc758 \uc694\uc18c\ub97c \uac00\uc9c4 \uadf8\ub8f9\uc740 12\uac1c\uc758 \uc694\uc18c\ub97c \uac00\uc9c4 \uadf8\ub8f9\uacfc \ub3d9\ud615\uc774 \ub420 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.",
+    "prediction": "B",
+    "ground_truth": "D",
+    "correct": false
+  },
+  {
+    "id": "test_29",
+    "lang": "ko",
+    "prompt": "Question: \ubb38\uc7a5 1 | \uc21c\ud658 \uad70\uc758 \ub3d9\ud615 \uc0ac\uc0c1 \uc774\ubbf8\uc9c0\uac00 \uc21c\ud658\uc801\uc774\ub2e4. \ubb38\uc7a5 2 | \uc544\ubca8 \uad70\uc758 \ub3d9\ud615 \uc0ac\uc0c1 \uc774\ubbf8\uc9c0\uac00 \uc544\ubca8\uc801\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: \ucc38, \ucc38\n\n\uc21c\ud658 \uad70\uc758 \ub3d9\ud615 \uc0ac\uc0c1 \uc774\ubbf8\uc9c0\ub294 \uc21c\ud658\uc801\uc774\uba70, \uc544\ubca8 \uad70\uc758 \ub3d9\ud615 \uc0ac\uc0c1 \uc774\ubbf8\uc9c0\ub294 \uc544\ubca8\uc801\uc785\ub2c8\ub2e4. \ub530\ub77c\uc11c \ubb38\uc7a5 1\uacfc \ubb38\uc7a5 2 \ubaa8\ub450 \ucc38\uc785\ub2c8\ub2e4.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_30",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | H\uac00 \uadf8\ub8f9 G\uc758 \ubd80\ubd84 \uadf8\ub8f9\uc774\uace0 a\uac00 G\uc5d0 \uc18d\ud558\uba74, aH = Ha\uc774\ub2e4. \uc9c4\uc220 2 | H\uac00 G\uc758 \uc815\uaddc \ubd80\ubd84 \uadf8\ub8f9\uc774\uace0 a\uac00 G\uc5d0 \uc18d\ud558\uba74, \ubaa8\ub4e0 h\uac00 H\uc5d0 \uc18d\ud560 \ub54c ah = ha\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice D: \uac70\uc9d3, \ucc38\n\n\uc9c4\uc220 1\uc740 \uc77c\ubc18\uc801\uc73c\ub85c \uac70\uc9d3\uc785\ub2c8\ub2e4. H\uac00 G\uc758 \ubd80\ubd84 \uadf8\ub8f9\uc77c \ub54c, aH\uc640 Ha\uac00 \ud56d\uc0c1 \uac19\uc740 \uac83\uc740 \uc544\ub2d9\ub2c8\ub2e4. \uc774\ub294 H\uac00 G\uc758 \uc815\uaddc \ubd80\ubd84 \uadf8\ub8f9\uc77c \ub54c\ub9cc \uc131\ub9bd\ud569\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub294 \ucc38\uc785\ub2c8\ub2e4. H\uac00 G\uc758 \uc815\uaddc \ubd80\ubd84 \uadf8\ub8f9\uc774\ub77c\uba74, \ubaa8\ub4e0 g\uac00 G\uc5d0 \uc18d\ud560 \ub54c gH = Hg\uac00 \uc131\ub9bd\ud558\uace0, \uc774\ub294 \ubaa8\ub4e0 h\uac00 H\uc5d0 \uc18d\ud560 \ub54c ah = ha\uac00 \uc131\ub9bd\ud568\uc744 \uc758\ubbf8\ud569\ub2c8\ub2e4.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_31",
+    "lang": "ko",
+    "prompt": "Question: \ubaa8\ub4e0 a, b\uac00 G\uc5d0 \uc18d\ud558\ub294 \uacbd\uc6b0 (ab)^-1 = a^-1b^-1\uc778 \uadf8\ub8f9 (G, .)\uc774 \uc788\ub2e4\uba74, G\ub294 \ubb34\uc5c7\uc778\uac00?\nChoice A: \uad50\ud658 \ubc18\uad70\nChoice B: \uc544\ubca8 \uad70\nChoice C: \ube44\uc544\ubca8 \uad70\nChoice D: \uc774 \uc911 \uc544\ubb34\uac83\ub3c4 \uc544\ub2d8\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: \uc544\ubca8 \uad70",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_32",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \uc720\ud55c \ucc28\uc6d0 \ubca1\ud130 \uacf5\uac04\uc5d0\uc11c \ubaa8\ub4e0 \uc120\ud615 \ub3c5\ub9bd \ubca1\ud130 \uc9d1\ud569\uc740 \uae30\uc800\uc5d0 \ud3ec\ud568\ub41c\ub2e4. \uc9c4\uc220 2 | B_1\uacfc B_2\uac00 \ub3d9\uc77c\ud55c \ubca1\ud130 \uacf5\uac04\uc758 \uae30\uc800\ub77c\uba74, |B_1| = |B_2|.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: \ucc38, \ucc38\n\n\uc9c4\uc220 1\uc740 \uc720\ud55c \ucc28\uc6d0 \ubca1\ud130 \uacf5\uac04\uc5d0\uc11c \ubaa8\ub4e0 \uc120\ud615 \ub3c5\ub9bd \ubca1\ud130 \uc9d1\ud569\uc740 \uadf8 \ubca1\ud130 \uacf5\uac04\uc758 \uae30\uc800\ub85c \ud655\uc7a5\ub420 \uc218 \uc788\ub2e4\ub294 \uc0ac\uc2e4\uc744 \ub098\ud0c0\ub0c5\ub2c8\ub2e4. \uc774\ub294 \uae30\uc800\uc758 \uc815\uc758\uc640 \uc77c\uce58\ud569\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub294 \ub3d9\uc77c\ud55c \ubca1\ud130 \uacf5\uac04\uc758 \ub450 \uae30\uc800\ub294 \ud56d\uc0c1 \uac19\uc740 \ud06c\uae30\ub97c \uac00\uc9c4\ub2e4\ub294 \uc0ac\uc2e4\uc744 \ub098\ud0c0\ub0c5\ub2c8\ub2e4. \uc774\ub294 \ubca1\ud130 \uacf5\uac04\uc758 \ucc28\uc6d0 \uc815\uc758\uc5d0 \ub530\ub978 \uac83\uc785\ub2c8\ub2e4. \ub530\ub77c\uc11c \ub450 \uc9c4\uc220 \ubaa8\ub450 \ucc38\uc785\ub2c8\ub2e4.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_33",
+    "lang": "ko",
+    "prompt": "Question: \uc5b4\ub5a4 \uadf8\ub8f9 (G, 0)\uc774 \uc544\ubca8 \uadf8\ub8f9\uc73c\ub85c \uc54c\ub824\uc838 \uc788\ub2e4. \uadf8\ub807\ub2e4\uba74 G\uc5d0 \ub300\ud574 \ub2e4\uc74c \uc911 \uc5b4\ub290 \uac83\uc774 \ucc38\uc778\uac00?\nChoice A: G\uc758 \ubaa8\ub4e0 g\uc5d0 \ub300\ud574 g = g^-1\nChoice B: G\uc758 \ubaa8\ub4e0 g\uc5d0 \ub300\ud574 g = g^2\nChoice C: G\uc758 \ubaa8\ub4e0 g,h\uc5d0 \ub300\ud574 (g o h)^2 = g^2 o h^2\nChoice D: G\ub294 \uc720\ud55c \ucc28\uc218\uc774\ub2e4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "\uc544\ubca8 \uadf8\ub8f9 (G, 0)\uc740 \uad50\ud658 \ubc95\uce59\uc774 \uc131\ub9bd\ud558\ub294 \uadf8\ub8f9\uc785\ub2c8\ub2e4. \uc8fc\uc5b4\uc9c4 \uc120\ud0dd\uc9c0 \uc911\uc5d0\uc11c \uc544\ubca8 \uadf8\ub8f9\uc758 \uc77c\ubc18\uc801\uc778 \uc131\uc9c8\uc5d0 \ud574\ub2f9\ud558\ub294 \uac83\uc744 \ucc3e\uc73c\uba74 \ub429\ub2c8\ub2e4.\n\nChoice A: G\uc758 \ubaa8\ub4e0 g\uc5d0 \ub300\ud574 g = g^-1\n- \uc774\ub294 \ubaa8\ub4e0 \uc6d0\uc18c\uac00 \uc790\uc2e0\uc758 \uc5ed\uc6d0\uc774\ub77c\ub294 \uac83\uc744 \uc758\ubbf8\ud558\uba70, \uc774\ub294 \ubaa8\ub4e0 \uc6d0\uc18c\uc758 \ucc28\uc218\uac00 2\uc778 \uacbd\uc6b0\uc5d0\ub9cc \uc131\ub9bd\ud569\ub2c8\ub2e4. \uc77c\ubc18\uc801\uc778 \uc544\ubca8 \uadf8\ub8f9\uc5d0\uc11c\ub294 \uc131\ub9bd\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.\n\nChoice B: G\uc758 \ubaa8\ub4e0 g\uc5d0 \ub300\ud574 g = g^2\n- \uc774\ub294 \ubaa8\ub4e0 \uc6d0\uc18c\uac00 \ud56d\ub4f1\uc6d0\uc774\ub77c\ub294 \uac83\uc744 \uc758\ubbf8\ud569\ub2c8\ub2e4. \uc77c\ubc18\uc801\uc778 \uc544\ubca8 \uadf8\ub8f9\uc5d0\uc11c\ub294 \uc131\ub9bd\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.\n\nChoice C: G\uc758 \ubaa8\ub4e0 g,h\uc5d0 \ub300\ud574 (g o h)^2 = g^2 o h^2\n- \uc544\ubca8 \uadf8\ub8f9\uc5d0\uc11c\ub294 (g o h)^2 = (g o h) o (g o h) = g o h o g o h = g o g o h o h = g^2 o h^2\uac00 \uc131\ub9bd\ud569\ub2c8\ub2e4. \uc774\ub294 \uc544\ubca8 \uadf8\ub8f9\uc758 \uad50\ud658 \ubc95\uce59\uc5d0 \uc758\ud574 \uc131\ub9bd\ud569\ub2c8\ub2e4.\n\nChoice D: G\ub294 \uc720\ud55c \ucc28\uc218\uc774\ub2e4\n- \uc544\ubca8 \uadf8\ub8f9\uc774 \uc720\ud55c \ucc28\uc218\ub77c\ub294 \ubcf4\uc7a5\uc740 \uc5c6\uc2b5\ub2c8\ub2e4. \uc544\ubca8 \uadf8\ub8f9\uc740 \uc720\ud55c\uc77c \uc218\ub3c4 \uc788\uace0 \ubb34\ud55c\uc77c \uc218\ub3c4 \uc788\uc2b5\ub2c8\ub2e4.\n\n\ub530\ub77c\uc11c \uc815\ub2f5\uc740 C\uc785\ub2c8\ub2e4.",
+    "prediction": "D",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_34",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ub9cc\uc57d T: V -> W\uac00 \uc120\ud615 \ubcc0\ud658\uc774\uace0 dim(V) < dim(W) < 1\uc774\ub77c\uba74, T\ub294 \ubc18\ub4dc\uc2dc \ub2e8\uc0ac\uc5ec\uc57c \ud55c\ub2e4. \uc9c4\uc220 2 | dim(V) = n\uc774\ub77c\uace0 \uac00\uc815\ud558\uace0 T: V -> V\uac00 \uc120\ud615\uc774\ub77c\uace0 \uac00\uc815\ud558\uc790. \ub9cc\uc57d T\uac00 \ub2e8\uc0ac\ub77c\uba74, \uadf8\uac83\uc740 \uc804\uc0ac\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: \uac70\uc9d3, \ucc38",
+    "prediction": "D",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_35",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ud544\ub4dc \ud655\uc7a5 Q(\u221a2, \u221a3)\uc5d0\uc11c Q\uc5d0 \ub300\ud55c \ucc28\uc218\ub97c \ucc3e\uc73c\uc138\uc694.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the degree of the field extension \\( \\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) \\) over \\( \\mathbb{Q} \\), we can use the fact that the degree of the extension is the product of the degrees of the successive extensions:\n\n1. First, consider the extension \\( \\mathbb{Q}(\\sqrt{2}) \\) over \\( \\mathbb{Q} \\). The minimal polynomial of \\( \\sqrt{2} \\) over \\( \\mathbb{Q} \\) is \\( x^2 - 2 \\), which is irreducible over \\( \\mathbb{Q} \\). Therefore, the degree of the extension \\( \\mathbb{Q}(\\sqrt{2}) \\) over \\( \\mathbb{Q} \\) is 2.\n\n2. Next, consider the extension \\( \\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) \\) over \\( \\mathbb{Q}(\\sqrt{2}) \\). The minimal polynomial of \\( \\sqrt{3} \\) over \\( \\mathbb{Q}(\\sqrt{2}) \\) is \\( x^2 - 3 \\), which is also irreducible over \\( \\mathbb{Q}(\\sqrt{2}) \\) because \\( \\sqrt{3} \\) is not in \\( \\mathbb{Q}(\\sqrt{2}) \\). Therefore, the degree of the extension \\( \\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) \\) over \\( \\mathbb{Q}(\\sqrt{2}) \\) is 2.\n\n3. The degree of the entire extension \\( \\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) \\) over \\( \\mathbb{Q} \\) is the product of the degrees of these two extensions: \\( 2 \\times 2 = 4 \\).\n\nTherefore, the degree of the field extension \\( \\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) \\) over \\( \\mathbb{Q} \\) is 4.\n\nAnswer: B",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_36",
+    "lang": "ko",
+    "prompt": "Question: \uc8fc\uc5b4\uc9c4 \ub9c1\uc5d0\uc11c \uacf1\uc744 \uacc4\uc0b0\ud558\uc2dc\uc624. (20)(-8) in Z_26\nChoice A: 0\nChoice B: 1\nChoice C: 11\nChoice D: 22\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To solve the problem, we need to calculate the product of 20 and -8 in the ring \\( \\mathbb{Z}_{26} \\).\n\nFirst, calculate the product:\n\\[ 20 \\times (-8) = -160 \\]\n\nNext, find the equivalent value of \\(-160\\) in \\( \\mathbb{Z}_{26} \\) by finding the remainder when \\(-160\\) is divided by 26.\n\nCalculate \\(-160 \\mod 26\\):\n1. Find the positive equivalent of \\(-160\\) by adding a multiple of 26:\n   \\[ -160 + 6 \\times 26 = -160 + 156 = -4 \\]\n\n2. Since \\(-4\\) is still negative, add 26 to get a positive remainder:\n   \\[ -4 + 26 = 22 \\]\n\nThus, \\(-160 \\equiv 22 \\pmod{26}\\).\n\nTherefore, the product of 20 and -8 in \\( \\mathbb{Z}_{26} \\) is 22.\n\nThe correct answer is:\nD: 22",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_37",
+    "lang": "ko",
+    "prompt": "Question: Z[x]\uc5d0\uc11c \ub2e4\ud56d\uc2dd\uc774 Q\uc5d0 \ub300\ud55c \ubd88\uac00\ubd84\uc131\uc5d0 \ub300\ud55c \uc544\uc774\uc820\uc288\ud0c0\uc778 \uae30\uc900\uc744 \ub9cc\uc871\ud558\ub294\uc9c0 \ud655\uc778\ud558\uc2ed\uc2dc\uc624. x^2 - 12\nChoice A: \uc608, p=2\ub85c.\nChoice B: \uc608, p=3\ub85c.\nChoice C: \uc608, p=5\ub85c.\nChoice D: \uc544\ub2c8\uc694.\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To determine if the polynomial \\(x^2 - 12\\) satisfies Eisenstein's criterion for irreducibility over \\(\\mathbb{Q}\\), we need to check if there exists a prime \\(p\\) such that:\n\n1. \\(p\\) divides all the coefficients of the polynomial except the leading coefficient.\n2. \\(p^2\\) does not divide the constant term.\n\nThe polynomial is \\(x^2 - 12\\), which has coefficients 1 (leading coefficient) and -12 (constant term).\n\nLet's check the options:\n\n- **Choice A: \\(p = 2\\)**\n  - \\(2\\) does not divide the leading coefficient \\(1\\).\n  - \\(2\\) divides \\(-12\\).\n  - \\(2^2 = 4\\) divides \\(-12\\).\n  - This does not satisfy Eisenstein's criterion because \\(2^2\\) divides the constant term.\n\n- **Choice B: \\(p = 3\\)**\n  - \\(3\\) does not divide the leading coefficient \\(1\\).\n  - \\(3\\) divides \\(-12\\).\n  - \\(3^2 = 9\\) does not divide \\(-12\\).\n  - This satisfies Eisenstein's criterion.\n\n- **Choice C: \\(p = 5\\)**\n  - \\(5\\) does not divide the leading coefficient \\(1\\).\n  - \\(5\\) does not divide \\(-12\\).\n  - This does not satisfy Eisenstein's criterion because \\(5\\) does not divide the constant term.\n\n- **Choice D: No**\n  - This is incorrect because we found that \\(p = 3\\) satisfies Eisenstein's criterion.\n\nTherefore, the correct answer is:\n\nB",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_38",
+    "lang": "ko",
+    "prompt": "Question: \uc720\ud55c \ud544\ub4dc Z_7\uc758 \uc0dd\uc131\uc790\ub97c \ucc3e\uc73c\uc138\uc694.\nChoice A: 1\nChoice B: 2\nChoice C: 3\nChoice D: 4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Answer: B",
+    "prediction": "B",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_39",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ubaa8\ub4e0 \uc21c\uc5f4\uc740 \uc0ac\uc774\ud074\uc774\ub2e4. \uc9c4\uc220 2 | \ubaa8\ub4e0 \uc0ac\uc774\ud074\uc740 \uc21c\uc5f4\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: \uac70\uc9d3, \ucc38\n\n\uc9c4\uc220 1\uc740 \uac70\uc9d3\uc785\ub2c8\ub2e4. \ubaa8\ub4e0 \uc21c\uc5f4\uc774 \uc0ac\uc774\ud074\uc778 \uac83\uc740 \uc544\ub2d9\ub2c8\ub2e4. \uc608\ub97c \ub4e4\uc5b4, \ud56d\ub4f1 \uc21c\uc5f4\uc740 \uc0ac\uc774\ud074\uc774 \uc544\ub2d9\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub294 \ucc38\uc785\ub2c8\ub2e4. \ubaa8\ub4e0 \uc0ac\uc774\ud074\uc740 \uc21c\uc5f4\uc758 \ud2b9\ubcc4\ud55c \ud615\ud0dc\uc785\ub2c8\ub2e4. \uc0ac\uc774\ud074\uc740 \uc21c\uc5f4\uc758 \uc77c\uc885\uc73c\ub85c, \ud2b9\uc815\ud55c \uc21c\uc11c\ub85c \uc694\uc18c\ub4e4\uc744 \uc21c\ud658\uc2dc\ud0a4\ub294 \uac83\uc785\ub2c8\ub2e4.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_40",
+    "lang": "ko",
+    "prompt": "Question: \uc774\uc9c4 \uc5f0\uc0b0 \"*\"\uc774 a*b =a +b+ 1\ub85c \uc815\uc758\ub41c \uc815\uc218 \uc9d1\ud569 Z\ub294 \uadf8\ub8f9\uc785\ub2c8\ub2e4. \uc774 \uadf8\ub8f9\uc758 \ud56d\ub4f1\uc6d0\uc740 \ubb34\uc5c7\uc785\ub2c8\uae4c?\nChoice A: 0\nChoice B: 1\nChoice C: -1\nChoice D: 12\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To determine the identity element of the group with the binary operation \\( a * b = a + b + 1 \\), we need to find an element \\( e \\) such that for any integer \\( a \\), the equation \\( a * e = a \\) holds true.\n\nUsing the operation definition:\n\\[ a * e = a + e + 1 = a \\]\n\nSolving for \\( e \\):\n\\[ a + e + 1 = a \\]\n\\[ e + 1 = 0 \\]\n\\[ e = -1 \\]\n\nThus, the identity element \\( e \\) is \\(-1\\).\n\nTherefore, the correct answer is:\nChoice C: -1",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_41",
+    "lang": "ko",
+    "prompt": "Question: Z_3 x 3Z\uc758 \ud658\uc758 \ud2b9\uc131\uc744 \ucc3e\uc73c\uc138\uc694.\nChoice A: 0\nChoice B: 3\nChoice C: 12\nChoice D: 30\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the characteristic of the ring \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\), we need to determine the smallest positive integer \\( n \\) such that \\( n \\cdot (a, b) = (0, 0) \\) for all \\( (a, b) \\in \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\).\n\n1. **Characteristic of \\( \\mathbb{Z}_3 \\):** The characteristic of \\( \\mathbb{Z}_3 \\) is 3, because \\( 3 \\cdot a \\equiv 0 \\pmod{3} \\) for any \\( a \\in \\mathbb{Z}_3 \\).\n\n2. **Characteristic of \\( 3\\mathbb{Z} \\):** The characteristic of \\( 3\\mathbb{Z} \\) is 1, because \\( 1 \\cdot b = 0 \\) for any \\( b \\in 3\\mathbb{Z} \\).\n\nThe characteristic of the product ring \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\) is the least common multiple of the characteristics of the individual rings. Therefore, we need to find the least common multiple of 3 and 1, which is 3.\n\nThus, the characteristic of the ring \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\) is 3.\n\nThe correct answer is **B**.",
+    "prediction": "B",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_42",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ucc28\uc218\uac00 45\uc778 \uc5b4\ub5a4 \uc544\ubca8 \uad70\uc740 \ucc28\uc218\uac00 10\uc778 \ubd80\ubd84\uad70\uc744 \uac00\uc9c4\ub2e4. \uc9c4\uc220 2 | \uadf8\ub8f9 G\uc758 \ubd80\ubd84\uad70 H\ub294 H\uc758 \uc88c \ucf54\uc14b \uc218\uac00 H\uc758 \uc6b0 \ucf54\uc14b \uc218\uc640 \uac19\uc744 \ub54c \uadf8\ub9ac\uace0 \uadf8\ub54c\ub9cc \uc815\uc0c1 \ubd80\ubd84\uad70\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3\n\n\uc9c4\uc220 1\uc740 \ucc38\uc785\ub2c8\ub2e4. \ucc28\uc218\uac00 45\uc778 \uc544\ubca8 \uad70\uc740 \uc18c\uc218\uc758 \uac70\ub4ed\uc81c\uacf1\uc73c\ub85c \ubd84\ud574\ud560 \uc218 \uc788\uc73c\uba70, 45 = 3^2 * 5\uc785\ub2c8\ub2e4. \uc544\ubca8 \uad70\uc758 \uacbd\uc6b0, \uac01 \uc18c\uc218\uc758 \uac70\ub4ed\uc81c\uacf1\uc5d0 \ud574\ub2f9\ud558\ub294 \ucc28\uc218\ub97c \uac00\uc9c0\ub294 \ubd80\ubd84\uad70\uc774 \uc874\uc7ac\ud569\ub2c8\ub2e4. \ub530\ub77c\uc11c \ucc28\uc218\uac00 10\uc778 \ubd80\ubd84\uad70(2 * 5 = 10)\ub3c4 \uc874\uc7ac\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub294 \uac70\uc9d3\uc785\ub2c8\ub2e4. \uadf8\ub8f9 G\uc758 \ubd80\ubd84\uad70 H\uac00 H\uc758 \uc88c \ucf54\uc14b \uc218\uac00 H\uc758 \uc6b0 \ucf54\uc14b \uc218\uc640 \uac19\uc744 \ub54c, \uc774\ub294 H\uac00 G\uc758 \uc815\uaddc \ubd80\ubd84\uad70\uc784\uc744 \uc758\ubbf8\ud569\ub2c8\ub2e4. \uadf8\ub7ec\ub098 \uc815\uaddc \ubd80\ubd84\uad70\uc774 \ub418\uae30 \uc704\ud55c \ud544\uc694\ucda9\ubd84\uc870\uac74\uc740 \uc544\ub2d9\ub2c8\ub2e4. \ubaa8\ub4e0 \uc815\uaddc \ubd80\ubd84\uad70\uc740 \uc88c \ucf54\uc14b\uacfc \uc6b0 \ucf54\uc14b\uc758 \uc218\uac00 \uac19\uc9c0\ub9cc, \uadf8 \uc5ed\uc740 \uc77c\ubc18\uc801\uc73c\ub85c \uc131\ub9bd\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_43",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ud2b9\uc131\uc774 0\uc778 \ubaa8\ub4e0 \uc815\uc5ed\uc740 \ubb34\ud55c\ud558\ub2e4. \uc9c4\uc220 2 | \uc18c\uc218 \ud2b9\uc131\uc744 \uac00\uc9c4 \ubaa8\ub4e0 \uc815\uc5ed\uc740 \uc720\ud55c\ud558\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_44",
+    "lang": "ko",
+    "prompt": "Question: \uc9d1\ud569 A\uc640 B\uac00 \uc788\uace0, f: A -> B \ubc0f g: B -> A \ud568\uc218\uac00 \ubaa8\ub4e0 a \\in A\uc5d0 \ub300\ud574 g(f(a)) = a\ub97c \ub9cc\uc871\ud55c\ub2e4\uace0 \ud558\uc790. \uba85\uc81c 1 | \ud568\uc218 f\ub294 \ubc18\ub4dc\uc2dc \ub2e8\uc0ac\uc5ec\uc57c \ud55c\ub2e4. \uba85\uc81c 2 | \ud568\uc218 f\ub294 \ubc18\ub4dc\uc2dc \uc804\uc0ac\uc5ec\uc57c \ud55c\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice C: \ucc38, \uac70\uc9d3",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_45",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ub450 \uadf8\ub8f9 G\uc640 G'\uc5d0 \ub300\ud574, G\ub97c G'\ub85c\uc758 \ub3d9\ud615\uc0ac\uc0c1\uc774 \uc874\uc7ac\ud55c\ub2e4. \uc9c4\uc220 2 | \ubaa8\ub4e0 \ub3d9\ud615\uc0ac\uc0c1\uc740 \uc77c\ub300\uc77c \ub300\uc751\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice A: \ucc38, \ucc38\n\n\uc9c4\uc220 1\uc740 \ucc38\uc785\ub2c8\ub2e4. \ub450 \uadf8\ub8f9 G\uc640 G'\uc5d0 \ub300\ud574 G\ub97c G'\ub85c\uc758 \ub3d9\ud615\uc0ac\uc0c1\uc774 \uc874\uc7ac\ud55c\ub2e4\ub294 \uac83\uc740 \ub450 \uadf8\ub8f9\uc774 \uad6c\uc870\uc801\uc73c\ub85c \ub3d9\uc77c\ud558\ub2e4\ub294 \uac83\uc744 \uc758\ubbf8\ud569\ub2c8\ub2e4. \uc774\ub294 \ub3d9\ud615\uc0ac\uc0c1\uc774 \uc874\uc7ac\ud55c\ub2e4\ub294 \uc815\uc758\uc5d0 \ubd80\ud569\ud569\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub3c4 \ucc38\uc785\ub2c8\ub2e4. \ubaa8\ub4e0 \ub3d9\ud615\uc0ac\uc0c1\uc740 \uc77c\ub300\uc77c \ub300\uc751\uc785\ub2c8\ub2e4. \ub3d9\ud615\uc0ac\uc0c1\uc740 \uadf8\ub8f9\uc758 \uad6c\uc870\ub97c \ubcf4\uc874\ud558\ub294 \uc804\ub2e8\uc0ac \ud568\uc218\uc774\ubbc0\ub85c, \uc77c\ub300\uc77c \ub300\uc751\uc774\uc5b4\uc57c \ud569\ub2c8\ub2e4.",
+    "prediction": "A",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_46",
+    "lang": "ko",
+    "prompt": "Question: \uc9c4\uc220 1 | \ud638\ubaa8\ubaa8\ub974\ud53c\uc998\uc740 \ube48 \ucee4\ub110\uc744 \uac00\uc9c8 \uc218 \uc788\ub2e4. \uc9c4\uc220 2 | \uc5b4\ub5a4 \uc720\ud55c \uadf8\ub8f9\uc758 \ube44\uc790\uba85\ud55c \ud638\ubaa8\ubaa8\ub974\ud53c\uc998\uc744 \uc5b4\ub5a4 \ubb34\ud55c \uadf8\ub8f9\uc73c\ub85c \uac00\uc9c8 \uc218 \uc5c6\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3\n\n\uc9c4\uc220 1\uc740 \ucc38\uc785\ub2c8\ub2e4. \ud638\ubaa8\ubaa8\ub974\ud53c\uc998\uc774 \ub2e8\uc0ac\uc77c \uacbd\uc6b0, \ucee4\ub110\uc740 \ub2e8\uc704 \uc6d0\uc18c\ub9cc \ud3ec\ud568\ud558\ub294 \ube48 \ucee4\ub110\uc774 \ub429\ub2c8\ub2e4.\n\n\uc9c4\uc220 2\ub294 \uac70\uc9d3\uc785\ub2c8\ub2e4. \uc720\ud55c \uadf8\ub8f9\uc5d0\uc11c \ubb34\ud55c \uadf8\ub8f9\uc73c\ub85c\uc758 \ube44\uc790\uba85\ud55c \ud638\ubaa8\ubaa8\ub974\ud53c\uc998\uc774 \uc874\uc7ac\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc608\ub97c \ub4e4\uc5b4, \uc720\ud55c \uadf8\ub8f9\uc758 \uc6d0\uc18c\ub97c \ubb34\ud55c \uadf8\ub8f9\uc758 \ud2b9\uc815 \uc6d0\uc18c\ub85c \ub9e4\ud551\ud558\ub294 \ube44\uc790\uba85\ud55c \ud638\ubaa8\ubaa8\ub974\ud53c\uc998\uc774 \uac00\ub2a5\ud569\ub2c8\ub2e4.",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_47",
+    "lang": "ko",
+    "prompt": "Question: Z_3\uc5d0\uc11c Z_3[x]/(x^3 + x^2 + c)\uac00 \ud544\ub4dc\uac00 \ub418\ub3c4\ub85d \ud558\ub294 \ubaa8\ub4e0 c\ub97c \ucc3e\uc73c\uc2dc\uc624.\nChoice A: 0\nChoice B: 2\nChoice C: 1\nChoice D: 3\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To determine which values of \\( c \\) make \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + c) \\) a field, we need to ensure that the polynomial \\( x^3 + x^2 + c \\) is irreducible over \\( \\mathbb{Z}_3 \\).\n\nA polynomial is irreducible over a field if it cannot be factored into the product of two non-constant polynomials with coefficients in that field. For a cubic polynomial over a field, it is irreducible if it has no roots in that field.\n\nLet's check each value of \\( c \\) in \\( \\mathbb{Z}_3 \\) (which are 0, 1, and 2) to see if \\( x^3 + x^2 + c \\) has any roots in \\( \\mathbb{Z}_3 \\).\n\n1. **For \\( c = 0 \\):** The polynomial is \\( x^3 + x^2 \\).\n   - Check roots: \\( x = 0 \\) gives \\( 0^3 + 0^2 = 0 \\), so 0 is a root.\n   - Since it has a root, it is reducible.\n\n2. **For \\( c = 1 \\):** The polynomial is \\( x^3 + x^2 + 1 \\).\n   - Check roots: \n     - \\( x = 0 \\) gives \\( 0^3 + 0^2 + 1 = 1 \\neq 0 \\).\n     - \\( x = 1 \\) gives \\( 1^3 + 1^2 + 1 = 3 \\equiv 0 \\pmod{3} \\), so 1 is a root.\n   - Since it has a root, it is reducible.\n\n3. **For \\( c = 2 \\):** The polynomial is \\( x^3 + x^2 + 2 \\).\n   - Check roots:\n     - \\( x = 0 \\) gives \\( 0^3 + 0^2 + 2 = 2 \\neq 0 \\).\n     - \\( x = 1 \\) gives \\( 1^3 + 1^2 + 2 = 4 \\equiv 1 \\pmod{3} \\neq 0 \\).\n     - \\( x = 2 \\) gives \\( 2^3 + 2^2 + 2 = 8 + 4 + 2 = 14 \\equiv 2 \\pmod{3} \\neq 0 \\).\n   - It has no roots, so it is irreducible.\n\nSince \\( x^3 + x^2 + 2 \\) is irreducible over \\( \\mathbb{Z}_3 \\), the quotient ring \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + 2) \\) is a field.\n\nTherefore, the correct answer is **B: 2**.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_48",
+    "lang": "ko",
+    "prompt": "Question: \ubb38\uc7a5 1 | \ub9cc\uc57d R\uc774 \uc815\uc5ed\uc774\ub77c\uba74, R[x]\ub3c4 \uc815\uc5ed\uc774\ub2e4. \ubb38\uc7a5 2 | \ub9cc\uc57d R\uc774 \ud658\uc774\uace0 f(x)\uc640 g(x)\uac00 R[x]\uc5d0 \uc788\ub2e4\uba74, deg (f(x)g(x)) = deg f(x) + deg g(x)\uc774\ub2e4.\nChoice A: \ucc38, \ucc38\nChoice B: \uac70\uc9d3, \uac70\uc9d3\nChoice C: \ucc38, \uac70\uc9d3\nChoice D: \uac70\uc9d3, \ucc38\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \ucc38, \uac70\uc9d3\n\n\ubb38\uc7a5 1\uc740 \ucc38\uc785\ub2c8\ub2e4. \ub9cc\uc57d R\uc774 \uc815\uc5ed\uc774\ub77c\uba74, \ub2e4\ud56d\uc2dd \ud658 R[x]\ub3c4 \uc815\uc5ed\uc785\ub2c8\ub2e4. \uc774\ub294 \ub2e4\ud56d\uc2dd\uc758 \uacf1\uc148\uc5d0\uc11c \uc601\uc778\uc790\uac00 \uc874\uc7ac\ud558\uc9c0 \uc54a\uae30 \ub54c\ubb38\uc785\ub2c8\ub2e4.\n\n\ubb38\uc7a5 2\ub294 \uac70\uc9d3\uc785\ub2c8\ub2e4. R\uc774 \ud658\uc77c \ub54c, f(x)\uc640 g(x)\uac00 R[x]\uc5d0 \uc788\uc744 \ub54c, deg(f(x)g(x)) = deg f(x) + deg g(x)\ub77c\ub294 \ub4f1\uc2dd\uc740 R\uc774 \uc815\uc5ed\uc77c \ub54c\ub9cc \uc131\ub9bd\ud569\ub2c8\ub2e4. R\uc774 \uc77c\ubc18\uc801\uc778 \ud658\uc77c \uacbd\uc6b0, \uc601\uc778\uc790\uac00 \uc874\uc7ac\ud560 \uc218 \uc788\uc73c\ubbc0\ub85c \uc774 \ub4f1\uc2dd\uc774 \uc131\ub9bd\ud558\uc9c0 \uc54a\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_49",
+    "lang": "ko",
+    "prompt": "Question: Z_8 x Z_10 x Z_24\uc758 \uc5b4\ub5a4 \uc694\uc18c\uc5d0 \ub300\ud55c \ucd5c\ub300 \uac00\ub2a5\ud55c \uc21c\uc11c\ub97c \ucc3e\uc73c\uc2ed\uc2dc\uc624.\nChoice A: 8\nChoice B: 120\nChoice C: 240\nChoice D: 24\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "To find the maximum possible order of an element in the group \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\), we need to consider the orders of elements in each of the cyclic groups and then find the least common multiple (LCM) of these orders.\n\n1. The order of an element in \\( \\mathbb{Z}_8 \\) can be 1, 2, 4, or 8.\n2. The order of an element in \\( \\mathbb{Z}_{10} \\) can be 1, 2, 5, or 10.\n3. The order of an element in \\( \\mathbb{Z}_{24} \\) can be 1, 2, 3, 4, 6, 8, 12, or 24.\n\nThe order of an element \\((a, b, c)\\) in \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\) is the LCM of the orders of \\(a\\), \\(b\\), and \\(c\\).\n\nTo maximize the order, we should choose the maximum possible orders from each group:\n- Choose 8 from \\( \\mathbb{Z}_8 \\),\n- Choose 10 from \\( \\mathbb{Z}_{10} \\),\n- Choose 24 from \\( \\mathbb{Z}_{24} \\).\n\nNow, calculate the LCM of 8, 10, and 24:\n- The prime factorization of 8 is \\(2^3\\).\n- The prime factorization of 10 is \\(2^1 \\times 5^1\\).\n- The prime factorization of 24 is \\(2^3 \\times 3^1\\).\n\nThe LCM is found by taking the highest power of each prime that appears:\n- For 2, the highest power is \\(2^3\\).\n- For 3, the highest power is \\(3^1\\).\n- For 5, the highest power is \\(5^1\\).\n\nThus, the LCM is \\(2^3 \\times 3^1 \\times 5^1 = 8 \\times 3 \\times 5 = 120\\).\n\nTherefore, the maximum possible order of an element in \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\) is 120.\n\nThe correct answer is B: 120.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  }
+]

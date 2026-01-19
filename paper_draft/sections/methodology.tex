@@ -1,0 +1,35 @@
+\section{Methodology}
+
+To investigate the implicit translation hypothesis, we designed a comparative experiment that evaluates model consistency across languages on semantically identical tasks.
+
+\subsection{Dataset and Languages}
+We utilized the **MuBench** dataset \cite{han2025mubench}, specifically the Massive Multitask Language Understanding (MMLU) subset. MuBench provides aligned samples where Question $i$ in Language $L$ corresponds semantically to Question $i$ in English. This alignment is crucial for our ``Same Mistake'' analysis.
+
+We selected 12 languages to represent a spectrum of resource availability and linguistic diversity:
+\begin{itemize}
+    \item \textbf{High Resource}: English (en), Chinese (zh), Spanish (es), French (fr)
+    \item \textbf{Mid Resource}: Arabic (ar), Indonesian (id), Vietnamese (vi), Korean (ko)
+    \item \textbf{Low Resource}: Swahili (sw), Bengali (bn), Telugu (te), Tamil (ta)
+\end{itemize}
+We evaluated a sample of 50 aligned questions per language, resulting in 600 total inferences.
+
+\subsection{Model and Experimental Setup}
+We evaluated **GPT-4o**, a state-of-the-art multimodal model, accessed via API. The model was prompted to answer multiple-choice questions (A/B/C/D) directly. We used a temperature of 0 to maximize determinism and reproducibility.
+
+The experiment consisted of two conditions:
+\begin{enumerate}
+    \item \textbf{Native Inference}: The model is presented with the question and options in the target language $L$.
+    \item \textbf{English Inference}: The model is presented with the aligned question and options in English.
+\end{enumerate}
+
+\subsection{Evaluation Metrics}
+Standard accuracy is insufficient to detect implicit translation. We introduced two consistency metrics:
+
+\textbf{1. Agreement with English ($P(agree)$)}:
+The proportion of samples where the model's predicted label $\hat{y}_L$ in language $L$ is identical to its predicted label $\hat{y}_{E}$ in English, regardless of ground truth.
+$$ P(agree) = \frac{1}{N} \sum_{i=1}^{N} \mathbb{I}(\hat{y}_{L}^{(i)} = \hat{y}_{E}^{(i)}) $$
+
+\textbf{2. Same Mistake Ratio ($SMR$)}:
+The probability that the model makes the \textit{same} error in language $L$ as it does in English, conditioned on both predictions being incorrect.
+$$ SMR = P(\hat{y}_{L} = \hat{y}_{E} \mid \hat{y}_{L} \neq y_{true} \land \hat{y}_{E} \neq y_{true}) $$
+In a 4-choice MCQ task, if errors were random and independent, the $SMR$ would be approximately $1/3 \approx 0.33$ (choosing 1 of the 3 remaining wrong answers). An $SMR$ significantly higher than $0.33$ indicates shared reasoning pathways or ``shared hallucinations.''

@@ -1,811 +1,452 @@
-{
-  "model": "gpt-4o",
-  "language": "fr",
-  "resource_level": "high",
-  "total_questions": 100,
-  "correct": 82,
-  "accuracy": 0.82,
-  "responses": [
-    {
-      "question_id": "test_7972",
-      "prompt": "Question: Laquelle des parties suivantes du Soleil est facilement visible uniquement lors d'une \u00e9clipse solaire totale ?\nChoice A: Le noyau\nChoice B: La photosph\u00e8re\nChoice C: Les taches solaires\nChoic...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10112",
-      "prompt": "Question: Quelle est la preuve du commerce entre les villes de la vall\u00e9e de l'Indus et les cit\u00e9s-\u00e9tats de l'ancienne M\u00e9sopotamie ?\nChoice A: Des outils en obsidienne ont \u00e9t\u00e9 trouv\u00e9s sur des sites dans...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1622",
-      "prompt": "Question: Les neutrons dans un atome se trouvent normalement\nChoice A: \u00e0 l'int\u00e9rieur du noyau\nChoice B: \u00e0 l'ext\u00e9rieur du noyau\nChoice C: L'un ou l'autre\nChoice D: Aucun des deux\nAnswer with A, B, C or...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_840",
-      "prompt": "Question: Lequel des tissus suivants dans une plante en pleine photosynth\u00e8se aurait le taux de production d'oxyg\u00e8ne le plus \u00e9lev\u00e9 ?\nChoice A: Cortex\nChoice B: M\u00e9sophylle palissadique\nChoice C: \u00c9piderm...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12215",
-      "prompt": "Question: Un homme de 47 ans est admis \u00e0 l'h\u00f4pital par le service des urgences en raison de l'apparition soudaine de palpitations, de douleurs thoraciques du c\u00f4t\u00e9 gauche, de vertiges et de dyspn\u00e9e qui...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9945",
-      "prompt": "Question: Selon Sartre, il y a au moins un \u00eatre chez qui l'existence pr\u00e9c\u00e8de l'essence, et cet \u00eatre est _____.\nChoice A: Dieu\nChoice B: l'homme\nChoice C: l'homme primitif\nChoice D: l'homme futur\nAnswe...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_242",
-      "prompt": "Question: La plupart des roches \u00e0 la surface de la Lune sont plus anciennes que celles \u00e0 la surface de la Terre. La meilleure preuve de cela est :\nChoice A: Les roches lunaires sont compos\u00e9es de fragm...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1546",
-      "prompt": "Question: Quel scan Nmap n'ouvre pas compl\u00e8tement une connexion TCP ?\nChoice A: Scan furtif SYN\nChoice B: Connexion TCP\nChoice C: Scan XMAS tree\nChoice D: Scan ACK\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4140",
-      "prompt": "Question: Il y a relativement plus d'\u00e9viction en raison de la politique budg\u00e9taire expansionniste lorsque\nChoice A: la politique mon\u00e9taire expansionniste accompagne la politique budg\u00e9taire\nChoice B: l...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2775",
-      "prompt": "Question: Un \u00e9tudiant enthousiaste en biologie AP int\u00e9ress\u00e9 par l'\u00e9tude de l'osmose et du mouvement de l'eau dans les solutions a pris un sac de dialyse contenant une solution de 0,5 M et l'a plac\u00e9 da...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7249",
-      "prompt": "Question: Les organisations bas\u00e9es sur Internet con\u00e7ues pour fournir des informations aux membres du canal, y compris les utilisateurs finaux, sont appel\u00e9es :\nChoice A: Infom\u00e9diaires.\nChoice B: D\u00e9tail...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8856",
-      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement incorrect, selon les normes morales ordinaires aux \u00c9tats-Uni...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8755",
-      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement incorrect, selon les normes morales ordinaires aux \u00c9tats-Uni...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3601",
-      "prompt": "Question: Le processus de d\u00e9volution implique\nChoice A: le changement de gouvernement d'une d\u00e9mocratie \u00e0 une dictature communiste.\nChoice B: le transfert de pouvoir du gouvernement central aux gouvern...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7160",
-      "prompt": "Question: ____________ distribuent le produit. Ils offrent de la valeur gr\u00e2ce aux services associ\u00e9s \u00e0 la vente de l'inventaire, au cr\u00e9dit et au service apr\u00e8s-vente.\nChoice A: Distributeurs.\nChoice B: ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_972",
-      "prompt": "Question: Les chlorofluorocarbones (CFC) tels que F3CCCl3 sont impliqu\u00e9s dans la d\u00e9composition de l'ozone stratosph\u00e9rique. Quelle m\u00e9thode parmi les suivantes serait la mieux adapt\u00e9e \u00e0 la mesure de tra...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2748",
-      "prompt": "Question: Quand nous disons qu'un organisme individuel a une plus grande aptitude qu'un autre individu, nous voulons sp\u00e9cifiquement dire que l'organisme\nChoice A: vit plus longtemps que les autres de ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6793",
-      "prompt": "Question: Un autre nom pour le sophisme de la p\u00e9tition de principe est\nChoice A: Dito simpliciter\nChoice B: Bifurcation\nChoice C: Personnalit\u00e9 r\u00e9pr\u00e9hensible\nChoice D: Raisonnement circulaire\nAnswer wi...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_35",
-      "prompt": "Question: Trouvez le degr\u00e9 de l'extension de champ donn\u00e9e Q(sqrt(2), sqrt(3)) sur Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6983",
-      "prompt": "Question: Quel est le but d'un 'cercle de qualit\u00e9'?\nChoice A: Rassembler les managers et les travailleurs pour trouver des am\u00e9liorations.\nChoice B: Rassembler les managers et les travailleurs pour dis...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4636",
-      "prompt": "Question: Supposons que l'aluminium soit un \u00e9l\u00e9ment cl\u00e9 de la production de v\u00e9los. Si le prix de l'aluminium baisse, et que toutes les autres variables restent constantes, nous nous attendons \u00e0\nChoice...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8200",
-      "prompt": "Question: Thomson discute d'une version diff\u00e9rente du cas du violoniste o\u00f9 le violoniste n'a besoin d'utiliser vos reins que pendant une heure pour survivre. Son propre avis sur ce cas est que\nChoice ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4973",
-      "prompt": "Question: L'impuissance apprise est le plus probablement directement li\u00e9e \u00e0\nChoice A: l'effet Barnum.\nChoice B: le biais d'autocomplaisance.\nChoice C: un locus de contr\u00f4le externe.\nChoice D: la consid...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7556",
-      "prompt": "Question: Laquelle des affirmations suivantes est correcte \u00e0 propos d'une structure trophique dans laquelle une sauterelle mangeuse de feuilles est mang\u00e9e par une grenouille, qui \u00e0 son tour est mang\u00e9e...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_12998",
-      "prompt": "Question: \"Pour \"\"inoculer\"\" quelqu'un contre un message persuasif, vous devriez:\"\nChoice A: pr\u00e9venir la personne qu'elle est sur le point d'entendre un message con\u00e7u pour changer ses croyances.\nChoic...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13605",
-      "prompt": "Question: Quelle est la structure du Conseil de s\u00e9curit\u00e9 des Nations Unies ?\nChoice A: 5 membres permanents avec droit de veto, 10 membres rotatifs sans droit de veto\nChoice B: 5 membres permanents et...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10202",
-      "prompt": "Question: L'art et l'iconographie mayas pr\u00e9sentent en grande partie des repr\u00e9sentations de :\nChoice A: nourrissons et enfants.\nChoice B: \u00e9toiles et com\u00e8tes.\nChoice C: amour et sexe.\nChoice D: mutilati...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12383",
-      "prompt": "Question: Un homme de 54 ans vient chez le m\u00e9decin pour un examen de suivi 10 jours apr\u00e8s avoir subi une op\u00e9ration st\u00e9r\u00e9otaxique du cerveau pour enlever une petite tumeur. L'op\u00e9ration a \u00e9t\u00e9 r\u00e9ussie. P...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13373",
-      "prompt": "Question: Laquelle de ces affirmations d\u00e9finit le mieux les concepts d'identit\u00e9 corporative et sociale?\nChoice A: Un acteur ne peut avoir qu'une seule identit\u00e9 sociale, et cela forme la base pour d\u00e9ve...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8883",
-      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement r\u00e9pr\u00e9hensible, selon les normes morales ordinaires aux \u00c9tats...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2585",
-      "prompt": "Question: En 2019, environ quel pourcentage d'Allemands disent que la relation entre les \u00c9tats-Unis et l'Allemagne est bonne ?\nChoice A: 34%\nChoice B: 49%\nChoice C: 64%\nChoice D: 79%\nAnswer with A, B,...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3165",
-      "prompt": "Question: La constante sp\u00e9cifique de vitesse, k, pour une certaine r\u00e9action de premier ordre est de 86 h^-1. Quelle masse d'un \u00e9chantillon de 0,0500 g de mat\u00e9riau de d\u00e9part restera apr\u00e8s 58 s?\nChoice ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5167",
-      "prompt": "Question: Curtis fixe une image d'une \u00e9toile jaune pendant une minute enti\u00e8re. Lorsqu'il d\u00e9place son regard vers une feuille de papier blanc vierge, il est probable qu'il voie une image r\u00e9manente qui ...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_3746",
-      "prompt": "Question: Quel est le r\u00e9sultat le plus direct d'un syst\u00e8me \u00e9lectoral avec des circonscriptions uninominales ?\nChoice A: Prolif\u00e9ration de nombreux petits partis\nChoice B: Un \u00e9quilibre des pouvoirs qui ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_970",
-      "prompt": "Question: Toutes les prot\u00e9ines absorbent les radiations \u00e9lectromagn\u00e9tiques de longueur d'onde autour de 190 nm, ce qui correspond \u00e0 une excitation \u03c0 \u2192 \u03c0* dans la mol\u00e9cule de prot\u00e9ine. Dans quelle r\u00e9gi...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10630",
-      "prompt": "Question: La soci\u00e9t\u00e9 Bay Co. a engag\u00e9 des frais juridiques pour d\u00e9fendre ses droits de brevet. Ces frais juridiques doivent \u00eatre capitalis\u00e9s lorsque l'issue du litige est R\u00e9ussie \u00c9chou\u00e9e\nChoice A: Oui...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13708",
-      "prompt": "Question: Que se passe-t-il pendant la 'p\u00e9riode d'incubation'?\nChoice A: Le virus est \u00e9limin\u00e9 du corps par le syst\u00e8me immunitaire\nChoice B: La r\u00e9plication du virus se produit au niveau intracellulaire...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9972",
-      "prompt": "Question: Hare se r\u00e9f\u00e8re aux personnes qui soutiennent des id\u00e9aux sans se soucier de savoir si les int\u00e9r\u00eats des gens sont poursuivis par eux comme :\nChoice A: fanatiques.\nChoice B: amoralistes.\nChoice...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1010",
-      "prompt": "Question: Soient A et B deux ensembles de mots (cha\u00eenes) de \u03a3*, pour un certain alphabet de symboles \u03a3. Supposons que B soit un sous-ensemble de A. Laquelle des affirmations suivantes doit toujours \u00eat...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13933",
-      "prompt": "Question: \u00c0 qui les Yoga Sutras sont-ils attribu\u00e9s ?\nChoice A: Madhva\nChoice B: Patanjali\nChoice C: Ramanuja\nChoice D: Aryabhatta\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5459",
-      "prompt": "Question: Un cadre t\u00e9l\u00e9phonique demande \u00e0 un associ\u00e9 de contacter 104 clients utilisant leur service pour obtenir leurs avis concernant une id\u00e9e de nouveau forfait tarifaire. L'associ\u00e9 note le nombre ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_948",
-      "prompt": "Question: Un radical silyl\u00e9 portant un fragment Si-H\u00b7 a une valeur g de 2.0033 et une paire de lignes s\u00e9par\u00e9es par 15,5 MHz. Exprimez la s\u00e9paration en unit\u00e9s de mT, Gauss et cm-1.\nChoice A: 15,5 MHz =...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_833",
-      "prompt": "Question: Laquelle des techniques suivantes pourrait \u00eatre utilis\u00e9e pour d\u00e9montrer la liaison des prot\u00e9ines \u00e0 des s\u00e9quences d'ADN sp\u00e9cifiques ?\nChoice A: Hybridation par Western blot\nChoice B: Hybridat...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10743",
-      "prompt": "Question: Dans une juridiction utilisant les indices de donateur \u0080\u0094donataire, les \u00e9v\u00e9nements suivants se sont produits dans l'ordre indiqu\u00e9 ci-dessous : (1) En 1962, un donateur a c\u00e9d\u00e9 \u00e0 un homme une ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8642",
-      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement r\u00e9pr\u00e9hensible, selon les normes morales ordinaires aux \u00c9tats...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9275",
-      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement r\u00e9pr\u00e9hensible, selon les normes morales ordinaires aux \u00c9tats...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9786",
-      "prompt": "Question: \u00c9picure soutient que la philosophie est :\nChoice A: pas adapt\u00e9e aux jeunes.\nChoice B: pas adapt\u00e9e aux vieux.\nChoice C: importante, mais d\u00e9sagr\u00e9able.\nChoice D: aucune des r\u00e9ponses ci-dessus.\n...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2628",
-      "prompt": "Question: Les donn\u00e9es de la Banque mondiale montrent qu'en 1995, les 20% des m\u00e9nages les plus pauvres repr\u00e9sentaient 7,5% du revenu des m\u00e9nages au Niger, les 20% suivants repr\u00e9sentaient 11,8% du reven...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_943",
-      "prompt": "Question: Quelle est la force (B1) d'une impulsion 13C \u00e0 90\u00b0 d'une dur\u00e9e de 1 \u03bcs ?\nChoice A: 3,72 mT\nChoice B: 5,18 mT\nChoice C: 17,0 mT\nChoice D: 23,3 mT\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9398",
-      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement r\u00e9pr\u00e9hensible, selon les normes morales ordinaires aux \u00c9tats...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1327",
-      "prompt": "Question: Pour des contractions de force tr\u00e8s \u00e9lev\u00e9e durant 1-2 secondes, la source initiale d'\u00e9nergie provient de :\nChoice A: Glycolyse.\nChoice B: phosphorylation de la cr\u00e9atine.\nChoice C: r\u00e9serves d...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_3097",
-      "prompt": "Question: Le sulfate de c\u00e9rium(III), Ce2(SO4)2, est moins soluble dans l'eau chaude que dans l'eau froide. Laquelle des conclusions suivantes peut \u00eatre li\u00e9e \u00e0 cela?\nChoice A: La chaleur de dissolution...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1134",
-      "prompt": "Question: \u00c9nonc\u00e9 1 | Supposons que \u2211|a_i| diverge et \u2211 a_i = 2. Il existe une r\u00e9arrangement a_i_k des termes tel que \u2211 a_i_k = 4. \u00c9nonc\u00e9 2 | Il existe des espaces m\u00e9triques X et Y avec X ferm\u00e9 et born...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10986",
-      "prompt": "Question: Un homme propri\u00e9taire d'un terrain riverain a poursuivi une usine en amont devant un tribunal f\u00e9d\u00e9ral pour pollution de la rivi\u00e8re, demandant une injonction et 250 000 $ de dommages et int\u00e9r...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1125",
-      "prompt": "Question: Quel est le plus grand ordre d'un \u00e9l\u00e9ment dans le groupe des permutations de 5 objets ?\nChoice A: 5\nChoice B: 6\nChoice C: 12\nChoice D: 15\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_12615",
-      "prompt": "Question: Une analyse fonctionnelle est r\u00e9alis\u00e9e afin d'identifier les variables _______.\nChoice A: de contr\u00f4le\nChoice B: mod\u00e9ratrices\nChoice C: d\u00e9pendantes\nChoice D: organismiques\nAnswer with A, B, C...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_4117",
-      "prompt": "Question: Dans une \u00e9conomie priv\u00e9e ferm\u00e9e, laquelle des affirmations suivantes est vraie ?\nChoice A: L'\u00e9pargne des m\u00e9nages ne peut jamais \u00eatre n\u00e9gative.\nChoice B: L'investissement est toujours sup\u00e9rie...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7206",
-      "prompt": "Question: Internet a conduit au d\u00e9veloppement d'un interm\u00e9diaire d'information. Ici, le r\u00f4le cl\u00e9 est de g\u00e9rer l'information pour am\u00e9liorer l'efficacit\u00e9 et l'efficience du canal de distribution. Cela e...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1983",
-      "prompt": "Question: ________ est l'impuret\u00e9 la plus nuisible dans les mat\u00e9riaux magn\u00e9tiques\nChoice A: Carbone.\nChoice B: Soufre.\nChoice C: Oxyg\u00e8ne.\nChoice D: Azote.\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_10450",
-      "prompt": "Question: Lorsqu'un comptable compile des \u00e9tats financiers pr\u00e9visionnels, le rapport du comptable doit inclure un paragraphe distinct qui\nChoice A: D\u00e9cline toute forme d'assurance sur les \u00e9tats financ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4310",
-      "prompt": "Question: Trouvez le reste lorsque 25^1059 est divis\u00e9 par 23.\nChoice A: 11\nChoice B: 13\nChoice C: 8\nChoice D: 5\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "C",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_10624",
-      "prompt": "Question: Dawn Corp. utilise un syst\u00e8me de co\u00fbt standard. Au cours de l'ann\u00e9e, la variance du taux de main-d'\u0153uvre et la variance de l'efficacit\u00e9 de la main-d'\u0153uvre \u00e9taient d\u00e9favorables. Dawn a direct...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_10976",
-      "prompt": "Question: Un d\u00e9taillant a intent\u00e9 une action f\u00e9d\u00e9rale pour diversit\u00e9 contre un grossiste, all\u00e9guant une rupture de contrat et une repr\u00e9sentation frauduleuse. Apr\u00e8s que les parties ont pr\u00e9sent\u00e9 leurs p...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_663",
-      "prompt": "Question: Que devez-vous vous assurer avant d'utiliser une valve de parole?\nChoice A: Que le patient est capable d'avaler correctement.\nChoice B: Il s'est \u00e9coul\u00e9 sept jours depuis l'insertion du tube ...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11507",
-      "prompt": "Question: Un propri\u00e9taire a propos\u00e9 de payer un couvreur qu'il connaissait 2 000 $ pour l'accord du couvreur de r\u00e9parer le toit du propri\u00e9taire. Il a dit au couvreur : \"Nous aurons un accord lorsque v...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1359",
-      "prompt": "Question: Avec un nombre croissant de sprints, le :\nChoice A: contribution ana\u00e9robie augmente progressivement.\nChoice B: pH du muscle tombe en dessous de 6,0.\nChoice C: concentration de glucose dans l...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7471",
-      "prompt": "Question: Quelle culture alimentaire importante est cultiv\u00e9e dans des champs appel\u00e9s rizi\u00e8res?\nChoice A: bl\u00e9\nChoice B: seigle\nChoice C: ma\u00efs\nChoice D: riz\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12306",
-      "prompt": "Question: Un homme de 27 ans est admis \u00e0 l'h\u00f4pital 45 minutes apr\u00e8s avoir \u00e9t\u00e9 impliqu\u00e9 dans une collision de v\u00e9hicule \u00e0 moteur. L'examen physique montre une r\u00e9ponse lente aux stimuli. L'examen neurolo...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10730",
-      "prompt": "Question: Un homme a arrang\u00e9 l'installation de volets en bois sur mesure sur les fen\u00eatres de sa maison. L'entrepreneur qui a install\u00e9 les volets l'a fait en per\u00e7ant des vis et des supports dans les ca...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10364",
-      "prompt": "Question: Lequel des types de preuves d'audit suivants fournit le moins d'assurance de fiabilit\u00e9 ?\nChoice A: Confirmations des cr\u00e9ances re\u00e7ues des clients du client.\nChoice B: Rapports de r\u00e9ception pr...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9647",
-      "prompt": "Question: \u00c9valuer la croissance dans la pratique courante devrait \u00eatre :\nChoice A: Taille seulement\nChoice B: Poids seulement\nChoice C: Poids et taille\nChoice D: Circonf\u00e9rence de la t\u00eate\nAnswer with A...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5505",
-      "prompt": "Question: Lequel des \u00e9l\u00e9ments suivants n'est pas requis dans un cadre binomial ?\nChoice A: Chaque essai est consid\u00e9r\u00e9 soit comme un succ\u00e8s, soit comme un \u00e9chec.\nChoice B: Chaque essai est ind\u00e9pendant....",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4560",
-      "prompt": "Question: Lequel des \u00e9l\u00e9ments suivants n'est pas une caract\u00e9ristique d'une courbe de demande coud\u00e9e ?\nChoice A: Une gamme de co\u00fbts marginaux sur laquelle RM = CM.\nChoice B: P < CM.\nChoice C: Interd\u00e9pe...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3422",
-      "prompt": "Question: Cette question se r\u00e9f\u00e8re aux informations suivantes.\n\"Le Gouvernement du Reich allemand et Le Gouvernement de l'Union des R\u00e9publiques socialistes sovi\u00e9tiques d\u00e9sireux de renforcer la cause d...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12519",
-      "prompt": "Question: Quelle m\u00e9thode de traitement donne les meilleurs r\u00e9sultats pour traiter les sympt\u00f4mes de l'anxi\u00e9t\u00e9 ?\nChoice A: Th\u00e9rapie cognitivo-comportementale\nChoice B: Entra\u00eenement aux comp\u00e9tences socia...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_13337",
-      "prompt": "Question: Dans le contexte de la s\u00e9curit\u00e9 militaire, lequel des \u00e9l\u00e9ments suivants n'est pas un avantage \u00e9vident de l'adoption d'une approche th\u00e9orique 'critique'?\nChoice A: Une approche plus critique ...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5468",
-      "prompt": "Question: Une grande ville \u00e9tait int\u00e9ress\u00e9e par l'annexion d'une partie du comt\u00e9 environnant. Dans une enqu\u00eate men\u00e9e par le journal local, 58 pour cent des r\u00e9pondants ont d\u00e9clar\u00e9 qu'ils \u00e9taient contre...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4180",
-      "prompt": "Question: Selon l'analyse \u00e9conomique classique \u00e0 long terme, une augmentation de la masse mon\u00e9taire entra\u00eene\nChoice A: une augmentation proportionnelle de la quantit\u00e9 de production.\nChoice B: la stagf...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_4644",
-      "prompt": "Question: Laquelle des caract\u00e9ristiques suivantes est propre \u00e0 la concurrence monopolistique ?\nChoice A: Efficace \u00e9conomiquement \u00e0 long terme.\nChoice B: Prix au minimum du co\u00fbt total moyen \u00e0 long term...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_7072",
-      "prompt": "Question: Lequel des processus suivants n'est pas fondamental pour expliquer comment les consommateurs pensent et apprennent \u00e0 propos des produits et des marques ?\nChoice A: Cognition.\nChoice B: Perce...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_2172",
-      "prompt": "Question: Consid\u00e9rez le motif num\u00e9rique 5, 9, 13, 17, 21, 25, 29. Quelle r\u00e8gle pourrait avoir \u00e9t\u00e9 utilis\u00e9e pour cr\u00e9er le motif?\nChoice A: Commencez avec 0. Ajoutez 4 chaque fois pour obtenir le nombre...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12554",
-      "prompt": "Question: Le mod\u00e8le des \u00e9tapes de changement (transth\u00e9orique) de Prochaska et DiClemente (1982) pr\u00e9dit qu'une personne dans la phase ________ pr\u00e9voit de prendre des mesures dans les six prochains mois...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_12079",
-      "prompt": "Question: Un petit avion commercial s'est \u00e9cras\u00e9 dans l'\u00c9tat A. Les passagers et le pilote, tous citoyens de l'\u00c9tat B, ont \u00e9t\u00e9 tu\u00e9s dans l'accident. La compagnie a\u00e9rienne qui poss\u00e9dait et exploitait l...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5224",
-      "prompt": "Question: Une personne souffrant d'une \u00e9ruption cutan\u00e9e trouve que sa douleur est temporairement soulag\u00e9e par des d\u00e9mangeaisons vigoureuses. Elle ne per\u00e7oit pas la douleur de l'\u00e9ruption pendant qu'ell...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8242",
-      "prompt": "Question: Quelles informations sont disponibles pour les occupants dans la position originelle de Rawls ?\nChoice A: connaissance de ses talents par rapport aux autres\nChoice B: connaissance de son sta...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_5502",
-      "prompt": "Question: Lequel des \u00e9l\u00e9ments suivants n'est pas important dans la conception des exp\u00e9riences ?\nChoice A: Contr\u00f4le des variables de confusion\nChoice B: Randomisation dans l'attribution des sujets \u00e0 di...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_14014",
-      "prompt": "Question: Avec quelle branche de l'Islam les Isma'ilis sont-ils associ\u00e9s ?\nChoice A: Les Sunnites\nChoice B: Les Chiites\nChoice C: Les Soufis\nChoice D: Les Ahmadis\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1200",
-      "prompt": "Question: Une voiture de course tentant de sauter une s\u00e9rie de 8 bus est plac\u00e9e sur une piste plate avec une rampe \u00e0 la fin. Les ing\u00e9nieurs assign\u00e9s au projet ont d\u00e9termin\u00e9 que, pour sauter les bus, l...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_153",
-      "prompt": "Question: La localisation anatomique du canal rachidien est\nChoice A: caudal\nChoice B: dorsal\nChoice C: frontal\nChoice D: transverse\nAnswer with A, B, C or D:\nAnswer:",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_8261",
-      "prompt": "Question: Velleman croit que l'option de l'euthanasie peut nuire \u00e0 certains patients. Quelle est, selon lui, la mani\u00e8re la plus significative dont cela pourrait se produire ?\nChoice A: en imposant \u00e0 u...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_11550",
-      "prompt": "Question: Un t\u00e9moin est pr\u00e9vu pour t\u00e9moigner dans une affaire criminelle. Pour prouver qu'il \u00e9tait mineur \u00e0 une date donn\u00e9e, des preuves sont pr\u00e9sent\u00e9es qu'\u00e0 cette date, il \u00e9tait d\u00e9tenu dans un centre...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "C",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_10324",
-      "prompt": "Question: Quelle culture \u00e9tait centr\u00e9e dans la vall\u00e9e de la rivi\u00e8re Ohio il y a environ 2 800 ans ?\nChoice A: les Kwakiutl\nChoice B: les Mogollon\nChoice C: les Sinagua\nChoice D: les Adena\nAnswer with ...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1656",
-      "prompt": "Question: Le vol d'un dirigeable illustre le mieux\nChoice A: le principe d'Archim\u00e8de\nChoice B: le principe de Pascal\nChoice C: le principe de Bernoulli\nChoice D: la loi de Boyle\nAnswer with A, B, C or...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_1213",
-      "prompt": "Question: Un nouvel enzyme est trouv\u00e9 chez une souris transg\u00e9nique qui participe \u00e0 la synth\u00e8se d'un produit inconnu en utilisant deux r\u00e9actifs. Lors de l'utilisation de compos\u00e9s radiomarqu\u00e9s pour \u00e9tud...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "B",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_9897",
-      "prompt": "Question: Mill dit que le but ultime de l'utilitarisme est une existence aussi libre de douleur que possible et aussi riche que possible en _____.\nChoice A: plaisirs inf\u00e9rieurs\nChoice B: accomplisseme...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_3590",
-      "prompt": "Question: Lequel des facteurs suivants ne joue PAS un r\u00f4le dans les relations de genre dans une culture ou une soci\u00e9t\u00e9 ?\nChoice A: Biologie\nChoice B: Progr\u00e8s dans le d\u00e9veloppement technologique\nChoice...",
-      "raw_response": "B",
-      "parsed_answer": "B",
-      "correct_answer": "A",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_9348",
-      "prompt": "Question: Pour lequel de ces deux sc\u00e9narios le personnage principal (qui utilise je/moi/mon) fait-il quelque chose de clairement moralement incorrect, selon les normes morales ordinaires aux \u00c9tats-Uni...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "D",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_2202",
-      "prompt": "Question: Une entreprise fabrique 5 voitures bleues pour chaque 3 voitures blanches qu'elle fabrique. Si l'entreprise fabrique 15 voitures blanches en une journ\u00e9e, combien de voitures bleues fabriquer...",
-      "raw_response": "D",
-      "parsed_answer": "D",
-      "correct_answer": "D",
-      "is_correct": true
-    },
-    {
-      "question_id": "test_6240",
-      "prompt": "Question: M\u00eame une petite quantit\u00e9 de privation de sommeil semble\nChoice A: Augmenter le poids\nChoice B: Am\u00e9liorer la qualit\u00e9 du sommeil\nChoice C: Perturber l'attention le lendemain\nChoice D: Augmente...",
-      "raw_response": "C",
-      "parsed_answer": "C",
-      "correct_answer": "B",
-      "is_correct": false
-    },
-    {
-      "question_id": "test_1139",
-      "prompt": "Question: Supposons que A et B sont des matrices n \u00d7 n avec des entr\u00e9es r\u00e9elles. Lesquelles des propositions suivantes sont VRAIES ?\nI. La trace de A^2 est non n\u00e9gative.\nII. Si A^2 = A, alors la trace...",
-      "raw_response": "A",
-      "parsed_answer": "A",
-      "correct_answer": "A",
-      "is_correct": true
-    }
-  ],
-  "timestamp": "2026-01-18T22:09:09.283697"
-}
+[
+  {
+    "id": "test_0",
+    "lang": "fr",
+    "prompt": "Question: Trouvez le degr\u00e9 de l'extension de champ donn\u00e9e Q(sqrt(2), sqrt(3), sqrt(18)) sur Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour d\u00e9terminer le degr\u00e9 de l'extension de champ \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) sur \\(\\mathbb{Q}\\), nous devons d'abord simplifier l'expression \\(\\sqrt{18}\\). On a \\(\\sqrt{18} = \\sqrt{2 \\times 9} = 3\\sqrt{2}\\). Ainsi, \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18}) = \\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, 3\\sqrt{2})\\).\n\nCependant, \\(\\sqrt{18} = 3\\sqrt{2}\\) n'ajoute pas de nouvelle extension par rapport \u00e0 \\(\\sqrt{2}\\), donc nous pouvons nous concentrer sur \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\).\n\nL'extension \\(\\mathbb{Q}(\\sqrt{2})\\) sur \\(\\mathbb{Q}\\) a un degr\u00e9 de 2, car \\(\\sqrt{2}\\) est une racine du polyn\u00f4me irr\u00e9ductible \\(x^2 - 2\\) sur \\(\\mathbb{Q}\\).\n\nDe m\u00eame, l'extension \\(\\mathbb{Q}(\\sqrt{3})\\) sur \\(\\mathbb{Q}\\) a un degr\u00e9 de 2, car \\(\\sqrt{3}\\) est une racine du polyn\u00f4me irr\u00e9ductible \\(x^2 - 3\\) sur \\(\\mathbb{Q}\\).\n\nPour \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\), nous consid\u00e9rons l'extension \\(\\mathbb{Q}(\\sqrt{2})(\\sqrt{3})\\). Le polyn\u00f4me minimal de \\(\\sqrt{3}\\) sur \\(\\mathbb{Q}(\\sqrt{2})\\) est \u00e9galement \\(x^2 - 3\\), qui reste irr\u00e9ductible sur \\(\\mathbb{Q}(\\sqrt{2})\\) car 3 n'est pas un carr\u00e9 dans \\(\\mathbb{Q}(\\sqrt{2})\\).\n\nAinsi, le degr\u00e9 de l'extension \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sur \\(\\mathbb{Q}\\) est le produit des degr\u00e9s des extensions individuelles : \\(2 \\times 2 = 4\\).\n\nDonc, le degr\u00e9 de l'extension \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}, \\sqrt{18})\\) sur \\(\\mathbb{Q}\\) est 4.\n\nLa r\u00e9ponse est donc B: 4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_1",
+    "lang": "fr",
+    "prompt": "Question: Soit p = (1, 2, 5, 4)(2, 3) dans S_5. Trouvez l'indice de  dans S_5.\nChoice A: 8\nChoice B: 2\nChoice C: 24\nChoice D: 120\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour trouver l'indice d'un \u00e9l\u00e9ment \\( p \\) dans le groupe sym\u00e9trique \\( S_5 \\), nous devons d'abord d\u00e9terminer l'ordre de l'\u00e9l\u00e9ment \\( p \\). L'\u00e9l\u00e9ment \\( p \\) est donn\u00e9 par la composition de deux cycles : \\( (1, 2, 5, 4) \\) et \\( (2, 3) \\).\n\n1. Le cycle \\( (1, 2, 5, 4) \\) est un cycle de longueur 4.\n2. Le cycle \\( (2, 3) \\) est un cycle de longueur 2.\n\nL'ordre d'un \u00e9l\u00e9ment dans un groupe sym\u00e9trique est donn\u00e9 par le plus petit commun multiple (PPCM) des longueurs de ses cycles disjoints. Cependant, dans ce cas, les cycles ne sont pas disjoints car ils partagent l'\u00e9l\u00e9ment 2. Nous devons donc d'abord r\u00e9\u00e9crire \\( p \\) en un produit de cycles disjoints.\n\nEn appliquant les cycles successivement, nous avons :\n- \\( (1, 2, 5, 4) \\) envoie 1 \u00e0 2, 2 \u00e0 5, 5 \u00e0 4, et 4 \u00e0 1.\n- \\( (2, 3) \\) envoie 2 \u00e0 3 et 3 \u00e0 2.\n\nPour trouver la composition, nous appliquons d'abord \\( (2, 3) \\), puis \\( (1, 2, 5, 4) \\) :\n- 1 est envoy\u00e9 \u00e0 2 par \\( (1, 2, 5, 4) \\).\n- 2 est envoy\u00e9 \u00e0 3 par \\( (2, 3) \\), puis 3 est envoy\u00e9 \u00e0 3 par \\( (1, 2, 5, 4) \\).\n- 3 est envoy\u00e9 \u00e0 2 par \\( (2, 3) \\), puis 2 est envoy\u00e9 \u00e0 5 par \\( (1, 2, 5, 4) \\).\n- 5 est envoy\u00e9 \u00e0 4 par \\( (1, 2, 5, 4) \\).\n- 4 est envoy\u00e9 \u00e0 1 par \\( (1, 2, 5, 4) \\).\n\nAinsi, la composition \\( p = (1, 2, 5, 4)(2, 3) \\) est \u00e9quivalente \u00e0 \\( (1, 3, 5, 4) \\).\n\nL'ordre de \\( p \\) est donc la longueur du cycle \\( (1, 3, 5, 4) \\), qui est 4.\n\nL'indice d'un \u00e9l\u00e9ment dans un groupe est donn\u00e9 par la taille du groupe divis\u00e9e par l'ordre de l'\u00e9l\u00e9ment. Dans \\( S_5 \\), la taille du groupe est \\( 5! = 120 \\).\n\nAinsi, l'indice de \\( p \\) dans \\( S_5 \\) est :\n\\[\n\\frac{120}{4} = 30\n\\]\n\nCependant, il semble que les choix de r\u00e9ponse ne correspondent pas \u00e0 cette valeur. Il est possible qu'il y ait une erreur dans les choix de r\u00e9ponse ou dans l'\u00e9nonc\u00e9. Si nous devons choisir parmi les options donn\u00e9es, aucune ne correspond \u00e0 30. Mais en v\u00e9rifiant les options, il semble que l'indice n'est pas correctement list\u00e9. \n\nEn conclusion, l'indice correct est 30, mais parmi les choix donn\u00e9s, il n'y a pas de r\u00e9ponse correcte.",
+    "prediction": "Unknown",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_2",
+    "lang": "fr",
+    "prompt": "Question: Trouvez tous les z\u00e9ros dans le corps fini indiqu\u00e9 du polyn\u00f4me donn\u00e9 avec des coefficients dans ce corps. x^5 + 3x^3 + x^2 + 2x dans Z_5\nChoice A: 0\nChoice B: 1\nChoice C: 0,1\nChoice D: 0,4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour trouver les z\u00e9ros du polyn\u00f4me \\( f(x) = x^5 + 3x^3 + x^2 + 2x \\) dans le corps fini \\( \\mathbb{Z}_5 \\), nous devons \u00e9valuer le polyn\u00f4me pour chaque \u00e9l\u00e9ment de \\( \\mathbb{Z}_5 \\) et voir pour quels \u00e9l\u00e9ments le polyn\u00f4me est \u00e9gal \u00e0 z\u00e9ro.\n\nLes \u00e9l\u00e9ments de \\( \\mathbb{Z}_5 \\) sont \\( 0, 1, 2, 3, \\) et \\( 4 \\).\n\n1. \\( f(0) = 0^5 + 3 \\cdot 0^3 + 0^2 + 2 \\cdot 0 = 0 \\)\n2. \\( f(1) = 1^5 + 3 \\cdot 1^3 + 1^2 + 2 \\cdot 1 = 1 + 3 + 1 + 2 = 7 \\equiv 2 \\pmod{5} \\)\n3. \\( f(2) = 2^5 + 3 \\cdot 2^3 + 2^2 + 2 \\cdot 2 = 32 + 24 + 4 + 4 = 64 \\equiv 4 \\pmod{5} \\)\n4. \\( f(3) = 3^5 + 3 \\cdot 3^3 + 3^2 + 2 \\cdot 3 = 243 + 81 + 9 + 6 = 339 \\equiv 4 \\pmod{5} \\)\n5. \\( f(4) = 4^5 + 3 \\cdot 4^3 + 4^2 + 2 \\cdot 4 = 1024 + 192 + 16 + 8 = 1240 \\equiv 0 \\pmod{5} \\)\n\nLes z\u00e9ros du polyn\u00f4me dans \\( \\mathbb{Z}_5 \\) sont donc \\( 0 \\) et \\( 4 \\).\n\nLa r\u00e9ponse correcte est donc D: 0,4.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_3",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Un groupe quotient d'un groupe non-Ab\u00e9lien est non-Ab\u00e9lien. \u00c9nonc\u00e9 2 | Si K est un sous-groupe normal de H et H est un sous-groupe normal de G, alors K est un sous-groupe normal de G.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Faux, Vrai\n\n\u00c9nonc\u00e9 1 est faux. Un groupe quotient d'un groupe non-Ab\u00e9lien peut \u00eatre Ab\u00e9lien. Par exemple, le groupe sym\u00e9trique \\( S_3 \\) est non-Ab\u00e9lien, mais son quotient par le sous-groupe normal \\( A_3 \\) (le groupe altern\u00e9) est isomorphe \u00e0 \\( \\mathbb{Z}_2 \\), qui est Ab\u00e9lien.\n\n\u00c9nonc\u00e9 2 est vrai. Si \\( K \\) est un sous-groupe normal de \\( H \\) et \\( H \\) est un sous-groupe normal de \\( G \\), alors \\( K \\) est un sous-groupe normal de \\( G \\). Cela d\u00e9coule de la transitivit\u00e9 de la normalit\u00e9 dans les groupes.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_4",
+    "lang": "fr",
+    "prompt": "Question: Trouvez le produit des polyn\u00f4mes donn\u00e9s dans l'anneau de polyn\u00f4mes donn\u00e9. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 dans Z_8[x].\nChoice A: 2x^2 + 5\nChoice B: 6x^2 + 4x + 6\nChoice C: 0\nChoice D: x^2 + 1\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour trouver le produit des polyn\u00f4mes \\( f(x) = 4x - 5 \\) et \\( g(x) = 2x^2 - 4x + 2 \\) dans l'anneau \\( \\mathbb{Z}_8[x] \\), nous devons effectuer la multiplication des polyn\u00f4mes et r\u00e9duire chaque coefficient modulo 8.\n\nCalculons le produit \\( f(x) \\cdot g(x) \\):\n\n\\[\nf(x) \\cdot g(x) = (4x - 5)(2x^2 - 4x + 2)\n\\]\n\nEn distribuant, nous avons :\n\n\\[\n= 4x \\cdot (2x^2 - 4x + 2) - 5 \\cdot (2x^2 - 4x + 2)\n\\]\n\nCalculons chaque terme :\n\n1. \\( 4x \\cdot 2x^2 = 8x^3 \\equiv 0x^3 \\pmod{8} \\)\n2. \\( 4x \\cdot (-4x) = -16x^2 \\equiv 0x^2 \\pmod{8} \\)\n3. \\( 4x \\cdot 2 = 8x \\equiv 0x \\pmod{8} \\)\n\n4. \\( -5 \\cdot 2x^2 = -10x^2 \\equiv 6x^2 \\pmod{8} \\)\n5. \\( -5 \\cdot (-4x) = 20x \\equiv 4x \\pmod{8} \\)\n6. \\( -5 \\cdot 2 = -10 \\equiv 6 \\pmod{8} \\)\n\nEn combinant tous les termes, nous obtenons :\n\n\\[\n0x^3 + 0x^2 + 0x + 6x^2 + 4x + 6 = 6x^2 + 4x + 6\n\\]\n\nDonc, le produit des polyn\u00f4mes dans \\( \\mathbb{Z}_8[x] \\) est \\( 6x^2 + 4x + 6 \\).\n\nLa r\u00e9ponse correcte est donc le choix B: \\( 6x^2 + 4x + 6 \\).",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_5",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Si un groupe a un \u00e9l\u00e9ment d'ordre 15, il doit avoir au moins 8 \u00e9l\u00e9ments d'ordre 15. \u00c9nonc\u00e9 2 | Si un groupe a plus de 8 \u00e9l\u00e9ments d'ordre 15, il doit avoir au moins 16 \u00e9l\u00e9ments d'ordre 15.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice A: Vrai, Vrai\n\nExplication :\n\n\u00c9nonc\u00e9 1 : Si un groupe a un \u00e9l\u00e9ment d'ordre 15, alors par le th\u00e9or\u00e8me de Cauchy et les propri\u00e9t\u00e9s des groupes cycliques, les \u00e9l\u00e9ments d'ordre 15 forment des cycles. Le nombre d'\u00e9l\u00e9ments d'ordre 15 est un multiple de \u03c6(15), o\u00f9 \u03c6 est la fonction indicatrice d'Euler. Puisque \u03c6(15) = 8, il doit y avoir au moins 8 \u00e9l\u00e9ments d'ordre 15.\n\n\u00c9nonc\u00e9 2 : Si un groupe a plus de 8 \u00e9l\u00e9ments d'ordre 15, alors il doit avoir au moins 16 \u00e9l\u00e9ments d'ordre 15, car le nombre d'\u00e9l\u00e9ments d'ordre 15 doit \u00eatre un multiple de 8. Donc, s'il y en a plus de 8, le prochain multiple est 16.\n\nAinsi, les deux \u00e9nonc\u00e9s sont vrais.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_6",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Chaque image homomorphe d'un groupe G est isomorphe \u00e0 un groupe quotient de G. \u00c9nonc\u00e9 2 | Les images homomorphes d'un groupe G sont les m\u00eames (\u00e0 isomorphisme pr\u00e8s) que les groupes quotients de G.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice C: Vrai, Faux\n\nExplication : \n\n\u00c9nonc\u00e9 1 est vrai. Par d\u00e9finition, une image homomorphe d'un groupe \\( G \\) par un homomorphisme \\( f: G \\to H \\) est isomorphe au groupe quotient \\( G/\\ker(f) \\), o\u00f9 \\( \\ker(f) \\) est le noyau de l'homomorphisme \\( f \\).\n\n\u00c9nonc\u00e9 2 est faux. Bien que chaque image homomorphe d'un groupe \\( G \\) soit isomorphe \u00e0 un groupe quotient de \\( G \\), l'inverse n'est pas n\u00e9cessairement vrai. Tous les groupes quotients de \\( G \\) ne sont pas n\u00e9cessairement des images homomorphes distinctes de \\( G \\). Par exemple, diff\u00e9rents sous-groupes normaux peuvent donner des groupes quotients isomorphes.",
+    "prediction": "C",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_7",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Un homomorphisme d'anneaux est injectif si et seulement si le noyau est {0}. \u00c9nonc\u00e9 2 | Q est un id\u00e9al dans R.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Vrai, Faux\n\nExplication : \n\n\u00c9nonc\u00e9 1 : Un homomorphisme d'anneaux est injectif si et seulement si son noyau est {0}. Cela est vrai car, par d\u00e9finition, un homomorphisme est injectif si l'application envoie des \u00e9l\u00e9ments distincts sur des \u00e9l\u00e9ments distincts, ce qui est \u00e9quivalent \u00e0 dire que le seul \u00e9l\u00e9ment qui est envoy\u00e9 sur l'\u00e9l\u00e9ment neutre (0 dans le cas des anneaux) est l'\u00e9l\u00e9ment neutre lui-m\u00eame.\n\n\u00c9nonc\u00e9 2 : Q (l'ensemble des nombres rationnels) n'est pas un id\u00e9al dans R (l'ensemble des nombres r\u00e9els) car un id\u00e9al dans un anneau doit \u00eatre un sous-ensemble qui est ferm\u00e9 sous l'addition et la multiplication par n'importe quel \u00e9l\u00e9ment de l'anneau. Cependant, Q n'est pas ferm\u00e9 sous la multiplication par des \u00e9l\u00e9ments irrationnels de R.",
+    "prediction": "C",
+    "ground_truth": "D",
+    "correct": false
+  },
+  {
+    "id": "test_8",
+    "lang": "fr",
+    "prompt": "Question: Trouvez le degr\u00e9 de l'extension de champ donn\u00e9e Q(sqrt(2) + sqrt(3)) sur Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour d\u00e9terminer le degr\u00e9 de l'extension de champ \\(\\mathbb{Q}(\\sqrt{2} + \\sqrt{3})\\) sur \\(\\mathbb{Q}\\), nous devons d'abord trouver le polyn\u00f4me minimal de \\(\\sqrt{2} + \\sqrt{3}\\) sur \\(\\mathbb{Q}\\).\n\nSoit \\(x = \\sqrt{2} + \\sqrt{3}\\). Alors, nous avons :\n\\[ x - \\sqrt{2} = \\sqrt{3} \\]\n\nEn \u00e9levant au carr\u00e9, nous obtenons :\n\\[ (x - \\sqrt{2})^2 = 3 \\]\n\\[ x^2 - 2x\\sqrt{2} + 2 = 3 \\]\n\\[ x^2 + 2 = 2x\\sqrt{2} + 3 \\]\n\\[ x^2 - 1 = 2x\\sqrt{2} \\]\n\nEn isolant \\(\\sqrt{2}\\), nous avons :\n\\[ \\sqrt{2} = \\frac{x^2 - 1}{2x} \\]\n\nEn substituant \\(\\sqrt{2}\\) dans l'expression de \\(x\\), nous avons :\n\\[ x = \\frac{x^2 - 1}{2x} + \\sqrt{3} \\]\n\nEn \u00e9levant au carr\u00e9 \u00e0 nouveau, nous avons :\n\\[ x^2 = \\left(\\frac{x^2 - 1}{2x} + \\sqrt{3}\\right)^2 \\]\n\nD\u00e9veloppons cette expression :\n\\[ x^2 = \\left(\\frac{x^2 - 1}{2x}\\right)^2 + 2\\left(\\frac{x^2 - 1}{2x}\\right)\\sqrt{3} + 3 \\]\n\nPour simplifier, nous devons \u00e9liminer les racines. En multipliant par un d\u00e9nominateur commun et en simplifiant, nous trouvons que le polyn\u00f4me minimal est de degr\u00e9 4.\n\nAinsi, le degr\u00e9 de l'extension \\(\\mathbb{Q}(\\sqrt{2} + \\sqrt{3})\\) sur \\(\\mathbb{Q}\\) est 4.\n\nLa r\u00e9ponse est donc B: 4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_9",
+    "lang": "fr",
+    "prompt": "Question: Trouvez tous les z\u00e9ros dans le champ fini indiqu\u00e9 du polyn\u00f4me donn\u00e9 avec des coefficients dans ce champ. x^3 + 2x + 2 dans Z_7\nChoice A: 1\nChoice B: 2\nChoice C: 2,3\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour trouver les z\u00e9ros du polyn\u00f4me \\(x^3 + 2x + 2\\) dans le champ fini \\(\\mathbb{Z}_7\\), nous devons \u00e9valuer le polyn\u00f4me pour chaque \u00e9l\u00e9ment de \\(\\mathbb{Z}_7\\) (c'est-\u00e0-dire pour \\(x = 0, 1, 2, 3, 4, 5, 6\\)) et voir pour quelles valeurs le polyn\u00f4me est \u00e9gal \u00e0 z\u00e9ro.\n\nCalculons :\n\n1. Pour \\(x = 0\\):\n   \\[\n   0^3 + 2 \\cdot 0 + 2 = 2 \\quad (\\text{mod } 7)\n   \\]\n\n2. Pour \\(x = 1\\):\n   \\[\n   1^3 + 2 \\cdot 1 + 2 = 1 + 2 + 2 = 5 \\quad (\\text{mod } 7)\n   \\]\n\n3. Pour \\(x = 2\\):\n   \\[\n   2^3 + 2 \\cdot 2 + 2 = 8 + 4 + 2 = 14 \\equiv 0 \\quad (\\text{mod } 7)\n   \\]\n\n4. Pour \\(x = 3\\):\n   \\[\n   3^3 + 2 \\cdot 3 + 2 = 27 + 6 + 2 = 35 \\equiv 0 \\quad (\\text{mod } 7)\n   \\]\n\n5. Pour \\(x = 4\\):\n   \\[\n   4^3 + 2 \\cdot 4 + 2 = 64 + 8 + 2 = 74 \\equiv 4 \\quad (\\text{mod } 7)\n   \\]\n\n6. Pour \\(x = 5\\):\n   \\[\n   5^3 + 2 \\cdot 5 + 2 = 125 + 10 + 2 = 137 \\equiv 4 \\quad (\\text{mod } 7)\n   \\]\n\n7. Pour \\(x = 6\\):\n   \\[\n   6^3 + 2 \\cdot 6 + 2 = 216 + 12 + 2 = 230 \\equiv 6 \\quad (\\text{mod } 7)\n   \\]\n\nLes valeurs de \\(x\\) pour lesquelles le polyn\u00f4me est \u00e9gal \u00e0 z\u00e9ro sont \\(x = 2\\) et \\(x = 3\\).\n\nDonc, la r\u00e9ponse est le choix C: 2,3.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_10",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Si H est un sous-groupe de G et a appartient \u00e0 G alors |aH| = |Ha|. \u00c9nonc\u00e9 2 | Si H est un sous-groupe de G et a et b appartiennent \u00e0 G, alors aH et Hb sont identiques ou disjoints.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La r\u00e9ponse correcte est A: Vrai, Vrai.\n\nExplication :\n\n\u00c9nonc\u00e9 1 : Si H est un sous-groupe de G et a appartient \u00e0 G alors |aH| = |Ha|. Cela est vrai car les ensembles aH et Ha ont le m\u00eame nombre d'\u00e9l\u00e9ments, bien qu'ils ne soient pas n\u00e9cessairement \u00e9gaux en tant qu'ensembles. Les ensembles aH et Ha sont des classes lat\u00e9rales \u00e0 gauche et \u00e0 droite respectivement, et ont la m\u00eame cardinalit\u00e9.\n\n\u00c9nonc\u00e9 2 : Si H est un sous-groupe de G et a et b appartiennent \u00e0 G, alors aH et Hb sont identiques ou disjoints. Cela est \u00e9galement vrai. Deux classes lat\u00e9rales \u00e0 gauche (ou \u00e0 droite) d'un sous-groupe H dans un groupe G sont soit identiques, soit disjointes.",
+    "prediction": "A",
+    "ground_truth": "C",
+    "correct": false
+  },
+  {
+    "id": "test_11",
+    "lang": "fr",
+    "prompt": "Question: Si A = {1, 2, 3} alors la relation S = {(1, 1), (2, 2)} est\nChoice A: seulement sym\u00e9trique\nChoice B: seulement anti-sym\u00e9trique\nChoice C: \u00e0 la fois sym\u00e9trique et anti-sym\u00e9trique\nChoice D: une relation d'\u00e9quivalence\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: \u00e0 la fois sym\u00e9trique et anti-sym\u00e9trique",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_12",
+    "lang": "fr",
+    "prompt": "Question: Trouvez l'ordre du groupe quotient (Z_11 x Z_15)/(<1, 1>)\nChoice A: 1\nChoice B: 2\nChoice C: 5\nChoice D: 11\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour r\u00e9soudre ce probl\u00e8me, nous devons d'abord comprendre la structure du groupe \\( \\mathbb{Z}_{11} \\times \\mathbb{Z}_{15} \\) et le sous-groupe engendr\u00e9 par \\( \\langle (1, 1) \\rangle \\).\n\n1. **Structure du groupe**: \n   - \\( \\mathbb{Z}_{11} \\) est un groupe cyclique d'ordre 11.\n   - \\( \\mathbb{Z}_{15} \\) est un groupe cyclique d'ordre 15.\n   - Le produit direct \\( \\mathbb{Z}_{11} \\times \\mathbb{Z}_{15} \\) a donc un ordre de \\( 11 \\times 15 = 165 \\).\n\n2. **Sous-groupe engendr\u00e9 par \\( \\langle (1, 1) \\rangle \\)**:\n   - Le sous-groupe \\( \\langle (1, 1) \\rangle \\) est engendr\u00e9 par l'\u00e9l\u00e9ment \\( (1, 1) \\).\n   - La p\u00e9riode de \\( (1, 1) \\) dans \\( \\mathbb{Z}_{11} \\times \\mathbb{Z}_{15} \\) est le plus petit commun multiple des ordres de 1 dans \\( \\mathbb{Z}_{11} \\) et \\( \\mathbb{Z}_{15} \\).\n   - Dans \\( \\mathbb{Z}_{11} \\), l'ordre de 1 est 11.\n   - Dans \\( \\mathbb{Z}_{15} \\), l'ordre de 1 est 15.\n   - Donc, l'ordre de \\( (1, 1) \\) est \\( \\text{lcm}(11, 15) = 165 \\).\n\n3. **Ordre du groupe quotient**:\n   - Le groupe quotient \\( (\\mathbb{Z}_{11} \\times \\mathbb{Z}_{15}) / \\langle (1, 1) \\rangle \\) a un ordre \u00e9gal \u00e0 l'ordre de \\( \\mathbb{Z}_{11} \\times \\mathbb{Z}_{15} \\) divis\u00e9 par l'ordre de \\( \\langle (1, 1) \\rangle \\).\n   - Puisque l'ordre de \\( \\mathbb{Z}_{11} \\times \\mathbb{Z}_{15} \\) est 165 et l'ordre de \\( \\langle (1, 1) \\rangle \\) est \u00e9galement 165, l'ordre du groupe quotient est \\( 165 / 165 = 1 \\).\n\nDonc, l'ordre du groupe quotient est 1.\n\nLa r\u00e9ponse correcte est **A**.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_13",
+    "lang": "fr",
+    "prompt": "Question: Le polyn\u00f4me x^3 + 2x^2 + 2x + 1 peut \u00eatre factoris\u00e9 en facteurs lin\u00e9aires dans Z_7[x]. Trouvez cette factorisation.\nChoice A: (x \u2212 2)(x + 2)(x \u2212 1)\nChoice B: (x + 1)(x + 4)(x \u2212 2)\nChoice C: (x + 1)(x \u2212 4)(x \u2212 2)\nChoice D: (x - 1)(x \u2212 4)(x \u2212 2)\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour factoriser le polyn\u00f4me \\(x^3 + 2x^2 + 2x + 1\\) dans \\(\\mathbb{Z}_7[x]\\), nous devons d'abord trouver ses racines dans \\(\\mathbb{Z}_7\\). Cela signifie que nous devons trouver les valeurs de \\(x\\) telles que le polyn\u00f4me s'annule.\n\nNous allons tester les valeurs de \\(x\\) de 0 \u00e0 6 (car ce sont les \u00e9l\u00e9ments de \\(\\mathbb{Z}_7\\)) :\n\n1. \\(x = 0\\): \\(0^3 + 2 \\cdot 0^2 + 2 \\cdot 0 + 1 = 1 \\neq 0\\)\n2. \\(x = 1\\): \\(1^3 + 2 \\cdot 1^2 + 2 \\cdot 1 + 1 = 1 + 2 + 2 + 1 = 6 \\equiv -1 \\pmod{7} \\neq 0\\)\n3. \\(x = 2\\): \\(2^3 + 2 \\cdot 2^2 + 2 \\cdot 2 + 1 = 8 + 8 + 4 + 1 = 21 \\equiv 0 \\pmod{7}\\)\n4. \\(x = 3\\): \\(3^3 + 2 \\cdot 3^2 + 2 \\cdot 3 + 1 = 27 + 18 + 6 + 1 = 52 \\equiv 3 \\pmod{7} \\neq 0\\)\n5. \\(x = 4\\): \\(4^3 + 2 \\cdot 4^2 + 2 \\cdot 4 + 1 = 64 + 32 + 8 + 1 = 105 \\equiv 0 \\pmod{7}\\)\n6. \\(x = 5\\): \\(5^3 + 2 \\cdot 5^2 + 2 \\cdot 5 + 1 = 125 + 50 + 10 + 1 = 186 \\equiv 6 \\pmod{7} \\neq 0\\)\n7. \\(x = 6\\): \\(6^3 + 2 \\cdot 6^2 + 2 \\cdot 6 + 1 = 216 + 72 + 12 + 1 = 301 \\equiv 0 \\pmod{7}\\)\n\nLes racines du polyn\u00f4me dans \\(\\mathbb{Z}_7\\) sont donc \\(x = 2\\), \\(x = 4\\), et \\(x = 6\\). En \\(\\mathbb{Z}_7\\), \\(x = 6\\) est \u00e9quivalent \u00e0 \\(x = -1\\).\n\nAinsi, le polyn\u00f4me se factorise en \\((x - 2)(x - 4)(x - 6)\\) dans \\(\\mathbb{Z}_7[x]\\). En rempla\u00e7ant \\(x - 6\\) par \\(x + 1\\) (car \\(6 \\equiv -1 \\pmod{7}\\)), nous obtenons la factorisation \\((x - 2)(x - 4)(x + 1)\\).\n\nLa r\u00e9ponse correcte est donc le choix C: \\((x + 1)(x - 4)(x - 2)\\).",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_14",
+    "lang": "fr",
+    "prompt": "Question: Trouvez l'ordre maximum possible pour un \u00e9l\u00e9ment de S_n pour n = 10.\nChoice A: 6\nChoice B: 12\nChoice C: 30\nChoice D: 105\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour trouver l'ordre maximum possible pour un \u00e9l\u00e9ment de \\( S_{10} \\), nous devons d\u00e9terminer le plus petit commun multiple (PPCM) des longueurs des cycles dans une d\u00e9composition en cycles disjoints d'une permutation de 10 \u00e9l\u00e9ments. La somme des longueurs des cycles doit \u00eatre \u00e9gale \u00e0 10.\n\nPour maximiser l'ordre, nous devons maximiser le PPCM des longueurs des cycles. Une bonne strat\u00e9gie est de choisir des longueurs de cycles qui sont des nombres premiers ou des produits de nombres premiers qui s'additionnent \u00e0 10.\n\nUne telle d\u00e9composition est : \\( (2, 3, 5) \\). Le PPCM de 2, 3 et 5 est :\n\n\\[\n\\text{PPCM}(2, 3, 5) = 2 \\times 3 \\times 5 = 30\n\\]\n\nAinsi, l'ordre maximum possible pour un \u00e9l\u00e9ment de \\( S_{10} \\) est 30.\n\nLa r\u00e9ponse correcte est donc : C.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_15",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | R est un corps de d\u00e9composition d'un certain polyn\u00f4me sur Q. \u00c9nonc\u00e9 2 | Il existe un corps avec 60 \u00e9l\u00e9ments.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice C: Vrai, Faux\n\n\u00c9nonc\u00e9 1 est vrai. Un corps de d\u00e9composition d'un polyn\u00f4me sur \\(\\mathbb{Q}\\) est un corps dans lequel le polyn\u00f4me se scinde en produit de polyn\u00f4mes de degr\u00e9 1. Un tel corps existe toujours pour tout polyn\u00f4me \u00e0 coefficients dans \\(\\mathbb{Q}\\).\n\n\u00c9nonc\u00e9 2 est faux. Il n'existe pas de corps avec 60 \u00e9l\u00e9ments. Le nombre d'\u00e9l\u00e9ments d'un corps fini est toujours une puissance d'un nombre premier, c'est-\u00e0-dire \\(p^n\\) o\u00f9 \\(p\\) est un nombre premier et \\(n\\) est un entier positif. 60 n'est pas une puissance d'un nombre premier.",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_16",
+    "lang": "fr",
+    "prompt": "Question: L'inverse de -i dans le groupe multiplicatif, {1, -1, i , -i} est\nChoice A: 1\nChoice B: -1\nChoice C: i\nChoice D: -i\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: i",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_17",
+    "lang": "fr",
+    "prompt": "Question: Calculez le produit dans l'anneau donn\u00e9. (2,3)(3,5) dans Z_5 x Z_9\nChoice A: (1,1)\nChoice B: (3,1)\nChoice C: (1,6)\nChoice D: (3,6)\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour calculer le produit dans l'anneau \\( \\mathbb{Z}_5 \\times \\mathbb{Z}_9 \\), nous devons multiplier les \u00e9l\u00e9ments composante par composante dans leurs anneaux respectifs.\n\nLes \u00e9l\u00e9ments donn\u00e9s sont \\( (2,3) \\) et \\( (3,5) \\).\n\n1. Calculons la premi\u00e8re composante dans \\( \\mathbb{Z}_5 \\):\n   \\[\n   2 \\times 3 = 6 \\equiv 1 \\pmod{5}\n   \\]\n\n2. Calculons la deuxi\u00e8me composante dans \\( \\mathbb{Z}_9 \\):\n   \\[\n   3 \\times 5 = 15 \\equiv 6 \\pmod{9}\n   \\]\n\nAinsi, le produit dans \\( \\mathbb{Z}_5 \\times \\mathbb{Z}_9 \\) est \\( (1, 6) \\).\n\nLa r\u00e9ponse correcte est donc le choix C: (1,6).",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_18",
+    "lang": "fr",
+    "prompt": "Question: L'ensemble de tous les nombres r\u00e9els sous l'op\u00e9ration de multiplication habituelle n'est pas un groupe car\nChoice A: la multiplication n'est pas une op\u00e9ration binaire\nChoice B: la multiplication n'est pas associative\nChoice C: l'\u00e9l\u00e9ment neutre n'existe pas\nChoice D: z\u00e9ro n'a pas d'inverse\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: z\u00e9ro n'a pas d'inverse",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_19",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1| Tout groupe d'ordre p^2 o\u00f9 p est premier est ab\u00e9lien. \u00c9nonc\u00e9 2 | Pour un premier p fix\u00e9, un sous-groupe de Sylow p d'un groupe G est un sous-groupe normal de G si et seulement si c'est le seul sous-groupe de Sylow p de G.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice A: Vrai, Vrai\n\n\u00c9nonc\u00e9 1 est vrai : Tout groupe d'ordre \\( p^2 \\) (o\u00f9 \\( p \\) est un nombre premier) est ab\u00e9lien. Cela d\u00e9coule du th\u00e9or\u00e8me de classification des groupes ab\u00e9liens finis et du fait que les groupes d'ordre \\( p^2 \\) ont une structure tr\u00e8s restreinte.\n\n\u00c9nonc\u00e9 2 est vrai : Pour un premier \\( p \\) fix\u00e9, un sous-groupe de Sylow \\( p \\) d'un groupe \\( G \\) est un sous-groupe normal de \\( G \\) si et seulement si c'est le seul sous-groupe de Sylow \\( p \\) de \\( G \\). Cela d\u00e9coule du th\u00e9or\u00e8me de Sylow, qui stipule que le nombre de sous-groupes de Sylow \\( p \\) est congru \u00e0 1 modulo \\( p \\) et divise l'ordre du groupe. Si ce nombre est 1, alors le sous-groupe de Sylow est unique et donc normal.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_20",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Pour les groupes finis G et H, |G + H| = |G||H|. (G + H est le produit direct interne.) \u00c9nonc\u00e9 2 | Si r divise m et s divise n alors Z_m + Z_n a un sous-groupe isomorphe \u00e0 Z_r + Z_s.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La r\u00e9ponse correcte est B: Faux, Faux.\n\n\u00c9nonc\u00e9 1 : Pour les groupes finis \\( G \\) et \\( H \\), le cardinal du produit direct \\( G \\times H \\) est donn\u00e9 par \\(|G \\times H| = |G||H|\\). Cependant, l'\u00e9nonc\u00e9 mentionne \\( G + H \\), ce qui n'est pas une notation standard pour le produit direct. Si l'on suppose que \\( G + H \\) signifie \\( G \\times H \\), alors l'\u00e9nonc\u00e9 serait vrai, mais la notation est incorrecte. Donc, en l'\u00e9tat, l'\u00e9nonc\u00e9 est faux.\n\n\u00c9nonc\u00e9 2 : Si \\( r \\) divise \\( m \\) et \\( s \\) divise \\( n \\), cela ne garantit pas que \\( \\mathbb{Z}_m \\times \\mathbb{Z}_n \\) a un sous-groupe isomorphe \u00e0 \\( \\mathbb{Z}_r \\times \\mathbb{Z}_s \\). En g\u00e9n\u00e9ral, pour qu'un tel sous-groupe existe, il faut des conditions suppl\u00e9mentaires sur les diviseurs et la structure des groupes. Par cons\u00e9quent, cet \u00e9nonc\u00e9 est \u00e9galement faux.",
+    "prediction": "B",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_21",
+    "lang": "fr",
+    "prompt": "Question: Trouvez la somme des polyn\u00f4mes donn\u00e9s dans l'anneau de polyn\u00f4mes donn\u00e9. f(x) = 4x - 5, g(x) = 2x^2 - 4x + 2 dans Z_8[x].\nChoice A: 2x^2 + 5\nChoice B: 6x^2 + 4x + 6\nChoice C: 0\nChoice D: x^2 + 1\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour trouver la somme des polyn\u00f4mes \\( f(x) = 4x - 5 \\) et \\( g(x) = 2x^2 - 4x + 2 \\) dans l'anneau \\( \\mathbb{Z}_8[x] \\), nous devons additionner les coefficients correspondants des deux polyn\u00f4mes et r\u00e9duire chaque coefficient modulo 8.\n\nCalculons la somme :\n\n1. Terme en \\( x^2 \\) : \\( 0 + 2x^2 = 2x^2 \\).\n2. Terme en \\( x \\) : \\( 4x - 4x = 0 \\).\n3. Terme constant : \\(-5 + 2 = -3\\).\n\nEnsuite, nous r\u00e9duisons chaque coefficient modulo 8 :\n\n- Pour le terme en \\( x^2 \\), \\( 2 \\equiv 2 \\pmod{8} \\).\n- Pour le terme en \\( x \\), \\( 0 \\equiv 0 \\pmod{8} \\).\n- Pour le terme constant, \\(-3 \\equiv 5 \\pmod{8}\\) (car \\(-3 + 8 = 5\\)).\n\nAinsi, la somme des polyn\u00f4mes est \\( 2x^2 + 5 \\).\n\nLa r\u00e9ponse correcte est donc le choix A : \\( 2x^2 + 5 \\).",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_22",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Tout ensemble de deux vecteurs dans R^2 est lin\u00e9airement ind\u00e9pendant. \u00c9nonc\u00e9 2 | Si V = span(v1, ... , vk) et {v1, ... , vk} sont lin\u00e9airement ind\u00e9pendants, alors dim(V) = k.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La r\u00e9ponse correcte est D: Faux, Vrai.\n\n\u00c9nonc\u00e9 1 : Faux. Dans \\(\\mathbb{R}^2\\), un ensemble de deux vecteurs est lin\u00e9airement ind\u00e9pendant si et seulement si les vecteurs ne sont pas colin\u00e9aires. Cependant, il est possible d'avoir deux vecteurs colin\u00e9aires dans \\(\\mathbb{R}^2\\), ce qui rendrait l'ensemble lin\u00e9airement d\u00e9pendant.\n\n\u00c9nonc\u00e9 2 : Vrai. Si \\(V = \\text{span}(v_1, \\ldots, v_k)\\) et que \\(\\{v_1, \\ldots, v_k\\}\\) sont lin\u00e9airement ind\u00e9pendants, alors ces vecteurs forment une base de \\(V\\). Par d\u00e9finition, la dimension de \\(V\\) est le nombre de vecteurs dans une base de \\(V\\), donc \\(\\dim(V) = k\\).",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_23",
+    "lang": "fr",
+    "prompt": "Question: L'ensemble de toutes les racines n-i\u00e8mes de l'unit\u00e9 sous la multiplication des nombres complexes forme un/une\nChoice A: semi-groupe avec identit\u00e9\nChoice B: semi-groupes commutatifs avec identit\u00e9\nChoice C: groupe\nChoice D: groupe ab\u00e9lien\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: groupe ab\u00e9lien",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_24",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Tout id\u00e9al maximal est un id\u00e9al premier. \u00c9nonc\u00e9 2 | Si I est un id\u00e9al maximal d'un anneau commutatif R, alors R/I est un corps.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice A: Vrai, Vrai\n\nLes deux \u00e9nonc\u00e9s sont vrais. Un id\u00e9al maximal dans un anneau commutatif est toujours un id\u00e9al premier. De plus, si \\( I \\) est un id\u00e9al maximal d'un anneau commutatif \\( R \\), alors le quotient \\( R/I \\) est un corps.",
+    "prediction": "A",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_25",
+    "lang": "fr",
+    "prompt": "Question: Soit G l'ensemble de toutes les matrices non singuli\u00e8res n x n avec des nombres rationnels comme entr\u00e9es. Alors sous la multiplication G est un/une\nChoice A: sous-groupe\nChoice B: groupe ab\u00e9lien fini\nChoice C: groupe infini, non ab\u00e9lien\nChoice D: infini, ab\u00e9lien\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: groupe infini, non ab\u00e9lien",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_26",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Tout groupe d'ordre 42 a un sous-groupe normal d'ordre 7. \u00c9nonc\u00e9 2 | Tout groupe d'ordre 42 a un sous-groupe normal d'ordre 8.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Vrai, Faux\n\nExplication : \n\n\u00c9nonc\u00e9 1 : Vrai. Par le th\u00e9or\u00e8me de Sylow, un groupe d'ordre 42 a des sous-groupes de Sylow d'ordres 2, 3 et 7. Le nombre de sous-groupes de Sylow d'ordre 7 doit diviser 42 et \u00eatre congru \u00e0 1 modulo 7. Les seules possibilit\u00e9s sont 1 ou 6. S'il y a un seul sous-groupe de Sylow d'ordre 7, il est normal.\n\n\u00c9nonc\u00e9 2 : Faux. Un groupe d'ordre 42 ne peut pas avoir de sous-groupe d'ordre 8, car 8 ne divise pas 42.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_27",
+    "lang": "fr",
+    "prompt": "Question: D\u00e9terminez si le polyn\u00f4me dans Z[x] satisfait un crit\u00e8re d'Eisenstein pour l'irr\u00e9ductibilit\u00e9 sur Q. 8x^3 + 6x^2 - 9x + 24\nChoice A: Oui, avec p=2.\nChoice B: Oui, avec p=3.\nChoice C: Oui, avec p=5.\nChoice D: Non.\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour appliquer le crit\u00e8re d'Eisenstein, nous devons trouver un nombre premier \\( p \\) tel que :\n\n1. \\( p \\) divise tous les coefficients sauf celui du terme de plus haut degr\u00e9.\n2. \\( p \\) ne divise pas le coefficient du terme de plus haut degr\u00e9.\n3. \\( p^2 \\) ne divise pas le terme constant.\n\nConsid\u00e9rons le polyn\u00f4me \\( 8x^3 + 6x^2 - 9x + 24 \\).\n\n- Le coefficient du terme de plus haut degr\u00e9 est 8.\n- Les autres coefficients sont 6, -9, et 24.\n\nExaminons chaque choix :\n\n**Choix A : \\( p = 2 \\)**\n\n- \\( 2 \\) ne divise pas 8 (le coefficient du terme de plus haut degr\u00e9), donc le crit\u00e8re d'Eisenstein n'est pas satisfait avec \\( p = 2 \\).\n\n**Choix B : \\( p = 3 \\)**\n\n- \\( 3 \\) ne divise pas 8 (le coefficient du terme de plus haut degr\u00e9), donc le crit\u00e8re d'Eisenstein n'est pas satisfait avec \\( p = 3 \\).\n\n**Choix C : \\( p = 5 \\)**\n\n- \\( 5 \\) ne divise pas 6, -9, ou 24, donc le crit\u00e8re d'Eisenstein n'est pas satisfait avec \\( p = 5 \\).\n\n**Choix D : Non**\n\nAucun des choix de \\( p \\) ne satisfait le crit\u00e8re d'Eisenstein pour ce polyn\u00f4me.\n\nLa r\u00e9ponse correcte est donc **D**.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_28",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | L'image d'un groupe de 6 \u00e9l\u00e9ments sous un homomorphisme peut avoir 12 \u00e9l\u00e9ments. \u00c9nonc\u00e9 2 | Il existe un homomorphisme d'un groupe de 6 \u00e9l\u00e9ments dans un groupe de 12 \u00e9l\u00e9ments.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Faux, Vrai\n\n\u00c9nonc\u00e9 1 est faux car l'image d'un homomorphisme d'un groupe de 6 \u00e9l\u00e9ments ne peut pas avoir 12 \u00e9l\u00e9ments. L'image d'un homomorphisme est un sous-groupe du groupe cible, et par le th\u00e9or\u00e8me de Lagrange, l'ordre de l'image doit diviser l'ordre du groupe de d\u00e9part (6) et l'ordre du groupe cible (12). Ainsi, l'image ne peut pas avoir plus de 6 \u00e9l\u00e9ments.\n\n\u00c9nonc\u00e9 2 est vrai car il est toujours possible de d\u00e9finir un homomorphisme trivial (qui envoie tous les \u00e9l\u00e9ments du groupe de d\u00e9part sur l'\u00e9l\u00e9ment neutre du groupe cible) d'un groupe de 6 \u00e9l\u00e9ments dans un groupe de 12 \u00e9l\u00e9ments.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_29",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | L'image homomorphe d'un groupe cyclique est cyclique. \u00c9nonc\u00e9 2 | L'image homomorphe d'un groupe ab\u00e9lien est ab\u00e9lien.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: Vrai, Vrai\n\nL'image homomorphe d'un groupe cyclique est cyclique, et l'image homomorphe d'un groupe ab\u00e9lien est ab\u00e9lien.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_30",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Si H est un sous-groupe d'un groupe G et a appartient \u00e0 G, alors aH = Ha. \u00c9nonc\u00e9 2 | Si H est normal de G et a appartient \u00e0 G, alors ah = ha pour tout h dans H.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Faux, Vrai\n\nExplication :\n- \u00c9nonc\u00e9 1 est faux. En g\u00e9n\u00e9ral, pour un sous-groupe \\( H \\) d'un groupe \\( G \\), les ensembles \\( aH \\) et \\( Ha \\) ne sont pas n\u00e9cessairement \u00e9gaux. Ils sont \u00e9gaux si et seulement si \\( H \\) est un sous-groupe normal de \\( G \\).\n- \u00c9nonc\u00e9 2 est vrai. Si \\( H \\) est un sous-groupe normal de \\( G \\), alors pour tout \\( a \\in G \\) et pour tout \\( h \\in H \\), on a \\( ah = ha' \\) pour un certain \\( a' \\in H \\), ce qui signifie que \\( ah \\) et \\( ha \\) sont dans le m\u00eame ensemble \\( aH = Ha \\). Cependant, cela ne signifie pas n\u00e9cessairement que \\( ah = ha \\) pour chaque \\( h \\), mais l'\u00e9nonc\u00e9 est souvent interpr\u00e9t\u00e9 dans le contexte o\u00f9 les \u00e9l\u00e9ments se \"commutent\" modulo \\( H \\).",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_31",
+    "lang": "fr",
+    "prompt": "Question: Si (G, .) est un groupe tel que (ab)^-1 = a^-1b^-1, pour tous a, b dans G, alors G est un/une\nChoice A: semi-groupe commutatif\nChoice B: groupe ab\u00e9lien\nChoice C: groupe non-ab\u00e9lien\nChoice D: Aucun de ceux-ci\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "B: groupe ab\u00e9lien",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_32",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Dans un espace vectoriel de dimension finie, tout ensemble de vecteurs lin\u00e9airement ind\u00e9pendants est contenu dans une base. \u00c9nonc\u00e9 2 | Si B_1 et B_2 sont des bases pour le m\u00eame espace vectoriel, alors |B_1| = |B_2|.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "A: Vrai, Vrai\n\nLes deux \u00e9nonc\u00e9s sont vrais. \n\n\u00c9nonc\u00e9 1 est vrai car dans un espace vectoriel de dimension finie, tout ensemble de vecteurs lin\u00e9airement ind\u00e9pendants peut \u00eatre \u00e9tendu pour former une base de cet espace vectoriel.\n\n\u00c9nonc\u00e9 2 est vrai car toutes les bases d'un espace vectoriel de dimension finie ont le m\u00eame nombre d'\u00e9l\u00e9ments, c'est-\u00e0-dire la m\u00eame cardinalit\u00e9, qui est \u00e9gale \u00e0 la dimension de l'espace vectoriel.",
+    "prediction": "A",
+    "ground_truth": "A",
+    "correct": true
+  },
+  {
+    "id": "test_33",
+    "lang": "fr",
+    "prompt": "Question: On sait qu'un groupe (G, 0) est ab\u00e9lien. Alors, laquelle des propositions suivantes est VRAIE pour G ?\nChoice A: g = g^-1 pour chaque g dans G\nChoice B: g = g^2 pour chaque g dans G\nChoice C: (g o h)^2 = g^2 o h^2 pour chaque g,h dans G\nChoice D: G est d'ordre fini\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: (g o h)^2 = g^2 o h^2 pour chaque g,h dans G\n\nExplication : Dans un groupe ab\u00e9lien, l'op\u00e9ration est commutative, c'est-\u00e0-dire que g o h = h o g pour tous g, h dans G. Ainsi, (g o h)^2 = (g o h) o (g o h) = g o h o g o h. En utilisant la commutativit\u00e9, cela devient g o g o h o h = g^2 o h^2. Donc, la proposition C est vraie pour un groupe ab\u00e9lien.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_34",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Si T: V -> W est une transformation lin\u00e9aire et dim(V) < dim(W) < 1, alors T doit \u00eatre injective. \u00c9nonc\u00e9 2 | Soit dim(V) = n et supposons que T: V -> V est lin\u00e9aire. Si T est injective, alors c'est une bijection.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Faux, Vrai\n\n\u00c9nonc\u00e9 1 est faux. Si \\(\\dim(V) < \\dim(W)\\), alors T ne peut pas \u00eatre injective car il n'y a pas assez de dimensions dans V pour remplir W. En fait, selon le th\u00e9or\u00e8me du rang, une transformation lin\u00e9aire d'un espace de dimension inf\u00e9rieure \u00e0 un espace de dimension sup\u00e9rieure ne peut pas \u00eatre injective.\n\n\u00c9nonc\u00e9 2 est vrai. Si T: V -> V est une transformation lin\u00e9aire et \\(\\dim(V) = n\\), alors si T est injective, elle est \u00e9galement surjective, et donc bijective. Cela d\u00e9coule du fait que pour les transformations lin\u00e9aires entre espaces de m\u00eame dimension, injectivit\u00e9 et surjectivit\u00e9 sont \u00e9quivalentes.",
+    "prediction": "D",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_35",
+    "lang": "fr",
+    "prompt": "Question: Trouvez le degr\u00e9 de l'extension de champ donn\u00e9e Q(sqrt(2), sqrt(3)) sur Q.\nChoice A: 0\nChoice B: 4\nChoice C: 2\nChoice D: 6\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour d\u00e9terminer le degr\u00e9 de l'extension de champ \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sur \\(\\mathbb{Q}\\), nous devons d'abord examiner les extensions interm\u00e9diaires.\n\n1. Consid\u00e9rons d'abord l'extension \\(\\mathbb{Q}(\\sqrt{2})\\) sur \\(\\mathbb{Q}\\). Le degr\u00e9 de cette extension est 2, car \\(\\sqrt{2}\\) est une racine du polyn\u00f4me irr\u00e9ductible \\(x^2 - 2\\) sur \\(\\mathbb{Q}\\).\n\n2. Ensuite, consid\u00e9rons l'extension \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sur \\(\\mathbb{Q}(\\sqrt{2})\\). Le degr\u00e9 de cette extension est \u00e9galement 2, car \\(\\sqrt{3}\\) est une racine du polyn\u00f4me irr\u00e9ductible \\(x^2 - 3\\) sur \\(\\mathbb{Q}(\\sqrt{2})\\).\n\nPuisque les deux extensions sont de degr\u00e9 2, le degr\u00e9 de l'extension totale \\(\\mathbb{Q}(\\sqrt{2}, \\sqrt{3})\\) sur \\(\\mathbb{Q}\\) est le produit des degr\u00e9s des extensions interm\u00e9diaires :\n\n\\[ [\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) : \\mathbb{Q}] = [\\mathbb{Q}(\\sqrt{2}, \\sqrt{3}) : \\mathbb{Q}(\\sqrt{2})] \\times [\\mathbb{Q}(\\sqrt{2}) : \\mathbb{Q}] = 2 \\times 2 = 4. \\]\n\nDonc, le degr\u00e9 de l'extension est 4.\n\nLa r\u00e9ponse correcte est donc B: 4.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_36",
+    "lang": "fr",
+    "prompt": "Question: Calculez le produit dans l'anneau donn\u00e9. (20)(-8) dans Z_26\nChoice A: 0\nChoice B: 1\nChoice C: 11\nChoice D: 22\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour calculer le produit \\((20)(-8)\\) dans l'anneau \\(\\mathbb{Z}_{26}\\), nous devons d'abord effectuer la multiplication normale, puis r\u00e9duire le r\u00e9sultat modulo 26.\n\n1. Multiplions 20 par -8:\n   \\[\n   20 \\times (-8) = -160\n   \\]\n\n2. R\u00e9duisons -160 modulo 26:\n   \\[\n   -160 \\div 26 \\approx -6.1538\n   \\]\n   Le quotient entier est -6, donc nous calculons:\n   \\[\n   -160 = 26 \\times (-6) + r\n   \\]\n   o\u00f9 \\(r\\) est le reste. Calculons:\n   \\[\n   -160 = -156 + r \\implies r = -160 + 156 = -4\n   \\]\n\n3. Puisque nous voulons un reste positif, ajoutons 26 \u00e0 -4:\n   \\[\n   -4 + 26 = 22\n   \\]\n\nDonc, le produit \\((20)(-8)\\) dans \\(\\mathbb{Z}_{26}\\) est 22.\n\nLa r\u00e9ponse est donc \\(\\boxed{D}\\).",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_37",
+    "lang": "fr",
+    "prompt": "Question: D\u00e9terminez si le polyn\u00f4me dans Z[x] satisfait un crit\u00e8re d'Eisenstein pour l'irr\u00e9ductibilit\u00e9 sur Q. x^2 - 12\nChoice A: Oui, avec p=2.\nChoice B: Oui, avec p=3.\nChoice C: Oui, avec p=5.\nChoice D: Non.\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Non.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_38",
+    "lang": "fr",
+    "prompt": "Question: Trouvez le g\u00e9n\u00e9rateur pour le corps fini Z_7.\nChoice A: 1\nChoice B: 2\nChoice C: 3\nChoice D: 4\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour d\u00e9terminer le g\u00e9n\u00e9rateur du corps fini \\( \\mathbb{Z}_7 \\), nous devons trouver un \u00e9l\u00e9ment dont les puissances g\u00e9n\u00e8rent tous les \u00e9l\u00e9ments non nuls de \\( \\mathbb{Z}_7 \\). Autrement dit, nous cherchons un \u00e9l\u00e9ment \\( g \\) tel que \\( g^1, g^2, \\ldots, g^6 \\) soient tous distincts et couvrent l'ensemble \\(\\{1, 2, 3, 4, 5, 6\\}\\).\n\nV\u00e9rifions chaque option :\n\n- **Option A: 1**\n  - Les puissances de 1 sont toujours 1, donc 1 n'est pas un g\u00e9n\u00e9rateur.\n\n- **Option B: 2**\n  - Calculons les puissances de 2 modulo 7 :\n    - \\( 2^1 \\equiv 2 \\mod 7 \\)\n    - \\( 2^2 \\equiv 4 \\mod 7 \\)\n    - \\( 2^3 \\equiv 8 \\equiv 1 \\mod 7 \\)\n    - \\( 2^4 \\equiv 16 \\equiv 2 \\mod 7 \\)\n    - \\( 2^5 \\equiv 32 \\equiv 4 \\mod 7 \\)\n    - \\( 2^6 \\equiv 64 \\equiv 1 \\mod 7 \\)\n  - Les puissances de 2 ne couvrent pas tous les \u00e9l\u00e9ments non nuls, donc 2 n'est pas un g\u00e9n\u00e9rateur.\n\n- **Option C: 3**\n  - Calculons les puissances de 3 modulo 7 :\n    - \\( 3^1 \\equiv 3 \\mod 7 \\)\n    - \\( 3^2 \\equiv 9 \\equiv 2 \\mod 7 \\)\n    - \\( 3^3 \\equiv 27 \\equiv 6 \\mod 7 \\)\n    - \\( 3^4 \\equiv 81 \\equiv 4 \\mod 7 \\)\n    - \\( 3^5 \\equiv 243 \\equiv 5 \\mod 7 \\)\n    - \\( 3^6 \\equiv 729 \\equiv 1 \\mod 7 \\)\n  - Les puissances de 3 couvrent tous les \u00e9l\u00e9ments non nuls, donc 3 est un g\u00e9n\u00e9rateur.\n\n- **Option D: 4**\n  - Calculons les puissances de 4 modulo 7 :\n    - \\( 4^1 \\equiv 4 \\mod 7 \\)\n    - \\( 4^2 \\equiv 16 \\equiv 2 \\mod 7 \\)\n    - \\( 4^3 \\equiv 64 \\equiv 1 \\mod 7 \\)\n    - \\( 4^4 \\equiv 256 \\equiv 4 \\mod 7 \\)\n    - \\( 4^5 \\equiv 1024 \\equiv 2 \\mod 7 \\)\n    - \\( 4^6 \\equiv 4096 \\equiv 1 \\mod 7 \\)\n  - Les puissances de 4 ne couvrent pas tous les \u00e9l\u00e9ments non nuls, donc 4 n'est pas un g\u00e9n\u00e9rateur.\n\nLa bonne r\u00e9ponse est donc l'option C : 3.\n\nR\u00e9ponse : C",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_39",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Toute permutation est un cycle. \u00c9nonc\u00e9 2 | Tout cycle est une permutation.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "D: Faux, Vrai\n\n\u00c9nonc\u00e9 1 est faux car toute permutation n'est pas un cycle. Une permutation peut \u00eatre d\u00e9compos\u00e9e en plusieurs cycles disjoints, mais elle n'est pas n\u00e9cessairement un cycle unique. Par exemple, la permutation (1 2)(3 4) n'est pas un cycle unique.\n\n\u00c9nonc\u00e9 2 est vrai car tout cycle est une permutation. Un cycle est une permutation particuli\u00e8re o\u00f9 un ensemble d'\u00e9l\u00e9ments est r\u00e9arrang\u00e9 de mani\u00e8re circulaire.",
+    "prediction": "D",
+    "ground_truth": "D",
+    "correct": true
+  },
+  {
+    "id": "test_40",
+    "lang": "fr",
+    "prompt": "Question: L'ensemble des entiers Z avec l'op\u00e9ration binaire \"*\" d\u00e9finie comme a*b =a +b+ 1 pour a, b dans Z, est un groupe. L'\u00e9l\u00e9ment neutre de ce groupe est\nChoice A: 0\nChoice B: 1\nChoice C: -1\nChoice D: 12\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour d\u00e9terminer l'\u00e9l\u00e9ment neutre de ce groupe, nous devons trouver un entier \\( e \\) tel que pour tout entier \\( a \\), l'\u00e9galit\u00e9 \\( a * e = a \\) soit v\u00e9rifi\u00e9e. Selon la d\u00e9finition de l'op\u00e9ration \\( * \\), nous avons :\n\n\\[ a * e = a + e + 1 \\]\n\nPour que \\( a * e = a \\), il faut que :\n\n\\[ a + e + 1 = a \\]\n\nEn simplifiant, nous obtenons :\n\n\\[ e + 1 = 0 \\]\n\n\\[ e = -1 \\]\n\nAinsi, l'\u00e9l\u00e9ment neutre de ce groupe est \\(-1\\). Donc, la r\u00e9ponse correcte est :\n\nC: -1",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_41",
+    "lang": "fr",
+    "prompt": "Question: Trouvez la caract\u00e9ristique de l'anneau Z_3 x 3Z.\nChoice A: 0\nChoice B: 3\nChoice C: 12\nChoice D: 30\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour d\u00e9terminer la caract\u00e9ristique de l'anneau \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\), nous devons trouver le plus petit entier positif \\( n \\) tel que \\( n \\cdot (a, b) = (0, 0) \\) pour tout \\( (a, b) \\in \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\).\n\n1. **Caract\u00e9ristique de \\( \\mathbb{Z}_3 \\):** L'anneau \\( \\mathbb{Z}_3 \\) a une caract\u00e9ristique de 3, car \\( 3 \\cdot a \\equiv 0 \\pmod{3} \\) pour tout \\( a \\in \\mathbb{Z}_3 \\).\n\n2. **Caract\u00e9ristique de \\( 3\\mathbb{Z} \\):** L'anneau \\( 3\\mathbb{Z} \\) a une caract\u00e9ristique de 3, car \\( 3 \\cdot b \\in 3\\mathbb{Z} \\) pour tout \\( b \\in 3\\mathbb{Z} \\).\n\nPour l'anneau produit \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\), la caract\u00e9ristique est le plus petit commun multiple des caract\u00e9ristiques de \\( \\mathbb{Z}_3 \\) et \\( 3\\mathbb{Z} \\), qui est \\(\\text{ppcm}(3, 3) = 3\\).\n\nDonc, la caract\u00e9ristique de l'anneau \\( \\mathbb{Z}_3 \\times 3\\mathbb{Z} \\) est 3.\n\nLa r\u00e9ponse est donc **B**.",
+    "prediction": "B",
+    "ground_truth": "A",
+    "correct": false
+  },
+  {
+    "id": "test_42",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Un groupe ab\u00e9lien d'ordre 45 a un sous-groupe d'ordre 10. \u00c9nonc\u00e9 2 | Un sous-groupe H d'un groupe G est un sous-groupe normal si et seulement si le nombre de classes \u00e0 gauche de H est \u00e9gal au nombre de classes \u00e0 droite de H.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Vrai, Faux\n\n\u00c9nonc\u00e9 1 : Vrai. Un groupe ab\u00e9lien d'ordre 45 a un sous-groupe d'ordre 10. En effet, un groupe ab\u00e9lien d'ordre 45 peut \u00eatre d\u00e9compos\u00e9 en un produit de groupes cycliques d'ordres 5 et 9 (puisque 45 = 5 * 9). Par le th\u00e9or\u00e8me de Cauchy, il existe des \u00e9l\u00e9ments d'ordre 5 et d'ordre 9, et donc un sous-groupe d'ordre 10 (produit direct des sous-groupes d'ordre 5 et 2).\n\n\u00c9nonc\u00e9 2 : Faux. Un sous-groupe \\( H \\) d'un groupe \\( G \\) est un sous-groupe normal si et seulement si pour tout \\( g \\in G \\), \\( gH = Hg \\). Le fait que le nombre de classes \u00e0 gauche de \\( H \\) soit \u00e9gal au nombre de classes \u00e0 droite de \\( H \\) est toujours vrai, car les deux nombres sont \u00e9gaux \u00e0 l'indice de \\( H \\) dans \\( G \\). Cela ne caract\u00e9rise pas la normalit\u00e9.",
+    "prediction": "C",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_43",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Tout anneau int\u00e8gre de caract\u00e9ristique 0 est infini. \u00c9nonc\u00e9 2 | Tout anneau int\u00e8gre de caract\u00e9ristique premi\u00e8re est fini.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Vrai, Faux\n\nExplication : \n\n\u00c9nonc\u00e9 1 : Tout anneau int\u00e8gre de caract\u00e9ristique 0 est infini. C'est vrai. En effet, si un anneau int\u00e8gre a une caract\u00e9ristique 0, cela signifie que l'addition r\u00e9p\u00e9t\u00e9e de l'\u00e9l\u00e9ment unit\u00e9 ne donne jamais z\u00e9ro, ce qui implique qu'il contient une copie de l'ensemble des entiers, qui est infini.\n\n\u00c9nonc\u00e9 2 : Tout anneau int\u00e8gre de caract\u00e9ristique premi\u00e8re est fini. C'est faux. Un exemple d'anneau int\u00e8gre de caract\u00e9ristique premi\u00e8re qui est infini est le corps des polyn\u00f4mes \u00e0 coefficients dans un corps fini, comme \\(\\mathbb{F}_p[x]\\), o\u00f9 \\(\\mathbb{F}_p\\) est un corps fini de caract\u00e9ristique \\(p\\).",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_44",
+    "lang": "fr",
+    "prompt": "Question: Soient A et B des ensembles, f: A -> B et g: B -> A des fonctions telles que pour tout a \\in A, g(f(a)) = a. \u00c9nonc\u00e9 1 | La fonction f doit n\u00e9cessairement \u00eatre injective. \u00c9nonc\u00e9 2 | La fonction f doit n\u00e9cessairement \u00eatre surjective.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "La fonction \\( g \\circ f \\) est l'identit\u00e9 sur \\( A \\), ce qui signifie que pour tout \\( a \\in A \\), \\( g(f(a)) = a \\). Cela implique que \\( f \\) est injective, car si \\( f(a_1) = f(a_2) \\) pour \\( a_1, a_2 \\in A \\), alors \\( g(f(a_1)) = g(f(a_2)) \\) donc \\( a_1 = a_2 \\). Ainsi, l'\u00e9nonc\u00e9 1 est vrai.\n\nCependant, \\( f \\) n'a pas besoin d'\u00eatre surjective. Il n'y a aucune condition qui garantit que chaque \u00e9l\u00e9ment de \\( B \\) est l'image d'un \u00e9l\u00e9ment de \\( A \\) par \\( f \\). Par cons\u00e9quent, l'\u00e9nonc\u00e9 2 est faux.\n\nLa r\u00e9ponse correcte est donc C: Vrai, Faux.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_45",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Pour deux groupes G et G', il existe un homomorphisme de G dans G'. \u00c9nonc\u00e9 2 | Tout homomorphisme est une application injective.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "C: Vrai, Faux\n\n\u00c9nonc\u00e9 1 est vrai car pour deux groupes \\( G \\) et \\( G' \\), il existe toujours au moins l'homomorphisme trivial qui envoie tout \u00e9l\u00e9ment de \\( G \\) sur l'\u00e9l\u00e9ment neutre de \\( G' \\).\n\n\u00c9nonc\u00e9 2 est faux car un homomorphisme n'est pas n\u00e9cessairement injectif. Par exemple, l'homomorphisme trivial mentionn\u00e9 ci-dessus n'est injectif que si \\( G \\) est le groupe trivial.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_46",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Un homomorphisme peut avoir un noyau vide. \u00c9nonc\u00e9 2 | Il n'est pas possible d'avoir un homomorphisme non trivial d'un groupe fini dans un groupe infini.\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice D: Faux, Vrai\n\nExplication :\n\u00c9nonc\u00e9 1 : Un homomorphisme de groupes a toujours un noyau qui contient au moins l'\u00e9l\u00e9ment neutre du groupe de d\u00e9part. Donc, le noyau ne peut jamais \u00eatre vide. Cet \u00e9nonc\u00e9 est donc faux.\n\n\u00c9nonc\u00e9 2 : Un homomorphisme non trivial d'un groupe fini dans un groupe infini n'est pas possible car l'image d'un groupe fini par un homomorphisme est un sous-groupe du groupe d'arriv\u00e9e et doit donc aussi \u00eatre finie. Cet \u00e9nonc\u00e9 est donc vrai.",
+    "prediction": "D",
+    "ground_truth": "B",
+    "correct": false
+  },
+  {
+    "id": "test_47",
+    "lang": "fr",
+    "prompt": "Question: Trouvez tous les c dans Z_3 tels que Z_3[x]/(x^3 + x^2 + c) soit un corps.\nChoice A: 0\nChoice B: 2\nChoice C: 1\nChoice D: 3\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour que \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + c) \\) soit un corps, le polyn\u00f4me \\( x^3 + x^2 + c \\) doit \u00eatre irr\u00e9ductible sur \\( \\mathbb{Z}_3 \\). Cela signifie qu'il ne doit pas avoir de racines dans \\( \\mathbb{Z}_3 \\) et ne doit pas pouvoir \u00eatre factoris\u00e9 en polyn\u00f4mes de degr\u00e9 inf\u00e9rieur.\n\nV\u00e9rifions pour chaque valeur de \\( c \\) dans \\( \\mathbb{Z}_3 \\):\n\n1. **Pour \\( c = 0 \\):**\n   \\[\n   x^3 + x^2 = x^2(x + 1)\n   \\]\n   Ce polyn\u00f4me est r\u00e9ductible car il se factorise en \\( x^2(x + 1) \\).\n\n2. **Pour \\( c = 1 \\):**\n   \\[\n   x^3 + x^2 + 1\n   \\]\n   V\u00e9rifions s'il a des racines dans \\( \\mathbb{Z}_3 \\):\n   - Pour \\( x = 0 \\): \\( 0^3 + 0^2 + 1 = 1 \\neq 0 \\)\n   - Pour \\( x = 1 \\): \\( 1^3 + 1^2 + 1 = 3 \\equiv 0 \\pmod{3} \\)\n   - Pour \\( x = 2 \\): \\( 2^3 + 2^2 + 1 = 8 + 4 + 1 = 13 \\equiv 1 \\pmod{3} \\neq 0 \\)\n\n   Le polyn\u00f4me a une racine \\( x = 1 \\), donc il est r\u00e9ductible.\n\n3. **Pour \\( c = 2 \\):**\n   \\[\n   x^3 + x^2 + 2\n   \\]\n   V\u00e9rifions s'il a des racines dans \\( \\mathbb{Z}_3 \\):\n   - Pour \\( x = 0 \\): \\( 0^3 + 0^2 + 2 = 2 \\neq 0 \\)\n   - Pour \\( x = 1 \\): \\( 1^3 + 1^2 + 2 = 4 \\equiv 1 \\pmod{3} \\neq 0 \\)\n   - Pour \\( x = 2 \\): \\( 2^3 + 2^2 + 2 = 8 + 4 + 2 = 14 \\equiv 2 \\pmod{3} \\neq 0 \\)\n\n   Le polyn\u00f4me n'a pas de racines dans \\( \\mathbb{Z}_3 \\). V\u00e9rifions s'il est irr\u00e9ductible:\n   - Il ne peut pas \u00eatre factoris\u00e9 en polyn\u00f4mes de degr\u00e9 1 car il n'a pas de racines.\n   - Il ne peut pas \u00eatre factoris\u00e9 en deux polyn\u00f4mes de degr\u00e9 2 car il n'y a pas de tels polyn\u00f4mes sur \\( \\mathbb{Z}_3 \\) qui se multiplient pour donner un polyn\u00f4me de degr\u00e9 3.\n\n   Donc, \\( x^3 + x^2 + 2 \\) est irr\u00e9ductible.\n\n4. **Pour \\( c = 3 \\):**\n   Notez que \\( c = 3 \\equiv 0 \\pmod{3} \\), donc cela revient au cas \\( c = 0 \\), qui est r\u00e9ductible.\n\nLa seule valeur de \\( c \\) pour laquelle \\( \\mathbb{Z}_3[x]/(x^3 + x^2 + c) \\) est un corps est \\( c = 2 \\).\n\nLa r\u00e9ponse est donc **B**.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  },
+  {
+    "id": "test_48",
+    "lang": "fr",
+    "prompt": "Question: \u00c9nonc\u00e9 1 | Si un R est un domaine int\u00e9gral, alors R[x] est un domaine int\u00e9gral. \u00c9nonc\u00e9 2 | Si R est un anneau et f(x) et g(x) sont dans R[x], alors deg (f(x)g(x)) = deg f(x) + deg g(x).\nChoice A: Vrai, Vrai\nChoice B: Faux, Faux\nChoice C: Vrai, Faux\nChoice D: Faux, Vrai\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Choice C: Vrai, Faux\n\n\u00c9nonc\u00e9 1 est vrai. Si R est un domaine int\u00e9gral, alors R[x], l'anneau des polyn\u00f4mes \u00e0 coefficients dans R, est \u00e9galement un domaine int\u00e9gral.\n\n\u00c9nonc\u00e9 2 est faux. La formule deg(f(x)g(x)) = deg f(x) + deg g(x) est vraie seulement si les polyn\u00f4mes f(x) et g(x) sont non nuls et que le coefficient dominant de chacun des polyn\u00f4mes est non nul dans R. Si l'un des polyn\u00f4mes est le polyn\u00f4me nul, alors le degr\u00e9 du produit est ind\u00e9fini ou consid\u00e9r\u00e9 comme n\u00e9gatif, ce qui ne correspond pas \u00e0 la somme des degr\u00e9s.",
+    "prediction": "C",
+    "ground_truth": "C",
+    "correct": true
+  },
+  {
+    "id": "test_49",
+    "lang": "fr",
+    "prompt": "Question: Trouvez l'ordre maximum possible pour un \u00e9l\u00e9ment de Z_8 x Z_10 x Z_24.\nChoice A: 8\nChoice B: 120\nChoice C: 240\nChoice D: 24\nAnswer with A, B, C or D:\nAnswer:",
+    "response": "Pour trouver l'ordre maximum possible d'un \u00e9l\u00e9ment dans le groupe \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\), nous devons d\u00e9terminer le plus petit commun multiple (PPCM) des ordres possibles des \u00e9l\u00e9ments dans chaque composante.\n\n1. **Ordre des \u00e9l\u00e9ments dans \\( \\mathbb{Z}_8 \\):** Les ordres possibles sont les diviseurs de 8, c'est-\u00e0-dire 1, 2, 4, et 8.\n\n2. **Ordre des \u00e9l\u00e9ments dans \\( \\mathbb{Z}_{10} \\):** Les ordres possibles sont les diviseurs de 10, c'est-\u00e0-dire 1, 2, 5, et 10.\n\n3. **Ordre des \u00e9l\u00e9ments dans \\( \\mathbb{Z}_{24} \\):** Les ordres possibles sont les diviseurs de 24, c'est-\u00e0-dire 1, 2, 3, 4, 6, 8, 12, et 24.\n\nPour maximiser l'ordre d'un \u00e9l\u00e9ment \\((a, b, c)\\) dans \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\), nous devons maximiser le PPCM des ordres de \\(a\\), \\(b\\), et \\(c\\).\n\n- Choisissons l'ordre maximum pour chaque composante:\n  - Pour \\(a\\), l'ordre maximum est 8.\n  - Pour \\(b\\), l'ordre maximum est 10.\n  - Pour \\(c\\), l'ordre maximum est 24.\n\nCalculons le PPCM de 8, 10, et 24:\n\n- \\(8 = 2^3\\)\n- \\(10 = 2 \\times 5\\)\n- \\(24 = 2^3 \\times 3\\)\n\nLe PPCM est obtenu en prenant le maximum des puissances de chaque facteur premier:\n- Pour 2, le maximum est \\(2^3\\).\n- Pour 3, le maximum est \\(3^1\\).\n- Pour 5, le maximum est \\(5^1\\).\n\nAinsi, le PPCM est \\(2^3 \\times 3^1 \\times 5^1 = 8 \\times 3 \\times 5 = 120\\).\n\nDonc, l'ordre maximum possible pour un \u00e9l\u00e9ment de \\( \\mathbb{Z}_8 \\times \\mathbb{Z}_{10} \\times \\mathbb{Z}_{24} \\) est 120.\n\nLa r\u00e9ponse est donc **B: 120**.",
+    "prediction": "B",
+    "ground_truth": "B",
+    "correct": true
+  }
+]

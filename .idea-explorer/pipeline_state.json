@@ -4,30 +4,27 @@
     "resource_finder": {
       "status": "completed",
       "started_at": "2026-01-18T22:37:14.729550",
-      "completed_at": "2026-01-18T22:41:30.429753",
+      "completed_at": "2026-01-18T22:52:53.605279",
       "success": true,
       "outputs": {
-        "literature_review": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/literature_review.md",
-        "resources_catalog": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/resources.md",
-        "papers_dir": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/papers",
-        "datasets_dir": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/datasets",
-        "code_dir": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/code"
+        "skipped": true
       }
     },
     "experiment_runner": {
-      "status": "failed",
-      "started_at": "2026-01-18T22:41:30.430065",
-      "completed_at": "2026-01-18T22:48:44.326689",
-      "success": false,
+      "status": "completed",
+      "started_at": "2026-01-18T22:52:53.605537",
+      "completed_at": "2026-01-18T23:33:19.331958",
+      "success": true,
       "outputs": {
-        "success": false,
-        "return_code": 1,
-        "elapsed_time": 433.88177728652954,
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 2425.711221933365,
         "log_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/execution_gemini.log",
         "transcript_file": "/data/hypogenicai/workspaces/llm-linguistic-eval-62f9-gemini/logs/execution_gemini_transcript.jsonl"
       }
     }
   },
   "current_stage": null,
-  "completed": false
+  "completed": true,
+  "completed_at": "2026-01-18T23:33:19.332723"
 }

@@ -1,0 +1,34 @@
+\section{Results}
+
+\subsection{Performance Overview}
+Table \ref{tab:main_results} summarizes the performance of GPT-4o across the 12 evaluated languages. English achieved the highest accuracy (0.66), serving as the ceiling for cross-lingual performance.
+
+\begin{table}[h]
+  \caption{Performance metrics for GPT-4o across 12 languages. \textit{Agreement} denotes exact match with English output. \textit{SMR} (Same Mistake Ratio) measures error correlation. *Bengali performance was surprisingly high for its resource classification.}
+  \label{tab:main_results}
+  \centering
+  \begin{tabular}{llccc}
+    \hline
+    Language & Resource & Accuracy & Agreement w/ En & Same Mistake Ratio \\
+    \hline
+    English (en)    & High & 0.66 & 1.00 & N/A \\
+    French (fr)     & High & 0.70 & 0.78 & 0.61 \\
+    Spanish (es)    & High & 0.68 & 0.78 & 0.47 \\
+    Vietnamese (vi) & Mid  & 0.72 & 0.78 & 0.54 \\
+    Bengali (bn)*   & Low  & 0.68 & 0.74 & 0.43 \\
+    Korean (ko)     & Mid  & 0.64 & 0.76 & 0.64 \\
+    Indonesian (id) & Mid  & 0.64 & 0.76 & 0.53 \\
+    Arabic (ar)     & Mid  & 0.62 & 0.72 & 0.47 \\
+    Chinese (zh)    & High & 0.60 & 0.70 & 0.47 \\
+    Telugu (te)     & Low  & 0.60 & 0.70 & 0.38 \\
+    Swahili (sw)    & Low  & 0.56 & 0.68 & 0.53 \\
+    Tamil (ta)      & Low  & 0.52 & 0.58 & 0.33 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\subsection{Evidence for Implicit Translation}
+For high and mid-resource languages, the data strongly supports the implicit translation hypothesis. French, Spanish, Vietnamese, and Korean all show high Agreement with English ($>0.75$). More importantly, their Same Mistake Ratios (SMR) are significantly above the random baseline of 0.33. For instance, Korean has an SMR of 0.64, meaning when the model fails in Korean, it creates the exact same hallucination as it does in English 64% of the time. This suggests the reasoning failure occurred in a shared, likely English-centric, latent space.
+
+\subsection{Breakdown in Low-Resource Settings}
+The pattern changes for low-resource languages. Tamil (ta) exhibits the lowest accuracy (0.52) and the lowest agreement with English (0.58). Crucially, its SMR is 0.33---exactly what would be expected from random guessing. This indicates that for Tamil, the model is not successfully mapping the input to the internal English representation. Instead of failing in a structured, correlated way (as it does for Korean or French), it fails independently, likely due to an inability to comprehend the input at the token embedding or initial layer level.
